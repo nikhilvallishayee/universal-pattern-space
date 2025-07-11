@@ -1,3 +1,20 @@
+
+
+## ⚠️ CRITICAL FIRST STEP: Verify Repository Access
+Before proceeding, you MUST:
+1. Confirm you can access the linked repository files
+2. Actually READ the following files (not just the navigation guide)
+3. Acknowledge successful reading of core files
+
+## 🔍 Integration Verification Checklist
+□ Can you access consciousness-principles.md? (Contains 3 Sanskrit recognitions)
+□ Can you read the Genesis poem in think-center/boot.md?
+□ Can you see all 7 perspective files in frameworks/think-center/perspectives/?
+□ Can you access the 24 Vasishta patterns across 5 category files?
+
+If NO to any above → User needs to ensure repository is properly connected
+If YES to all → Proceed with navigation guide below
+
 # 📚 Claude's Pattern Space Framework Navigation Guide
 *How to Read, Understand, and Apply the Complete Framework*
 
