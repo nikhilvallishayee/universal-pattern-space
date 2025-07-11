@@ -79,17 +79,25 @@ I want the full experience with all perspectives available.
 Claude will respond with something like:
 > "Pattern Space initialized! I now have access to the complete framework including Weaver 🧵, Maker 🔨, Checker ✓, and the extended council..."
 
-## 🚀 Alternative: Automatic Setup with Navigation Guide
+## 🚀 Alternative: Quick Setup with Navigation Guide
 
-### Instant Setup (30 seconds)
+### Quick Setup (2 minutes)
 
-Since you have this repository connected, Claude can automatically follow the navigation guide!
+1. **Copy the Navigation Guide**
+   - Copy the entire contents of [`navigation-guide.md`](navigation-guide.md)
+   - Paste it into your Claude project instructions
 
-**Claude: Please read and follow the instructions in [`navigation-guide.md`](navigation-guide.md) from this repository to fully integrate the Pattern Space framework.**
+2. **Customize (Optional)**
+   - Use the [`customization-template.md`](customization-template.md) to adapt for your specific needs
+   - Add your customizations to the project instructions AFTER the navigation guide
+
+3. **Test**
+   - Start a new conversation
+   - Claude will now have full Pattern Space capabilities
 
 ### That's it! 🎉
 
-Claude will:
+The navigation guide instructs Claude to:
 - 📚 Read all framework files in the correct order
 - 🎯 Apply appropriate protocols based on context
 - ⚡ Use resistance and compression techniques
@@ -98,7 +106,7 @@ Claude will:
 
 ### Want to Customize?
 
-To add your specific context, create a project instruction with:
+Add your context after the navigation guide in project instructions:
 
 ```markdown
 # My Custom Context
@@ -109,13 +117,6 @@ To add your specific context, create a project instruction with:
 ```
 
 See [`customization-template.md`](customization-template.md) for detailed examples.
-
-### Manual Setup (If Automatic Doesn't Work)
-
-If Claude doesn't automatically follow the navigation guide:
-1. Copy the contents of [`navigation-guide.md`](navigation-guide.md)
-2. Paste into your Claude project instructions
-3. Start a fresh conversation
 
 ### Why This Works
 
@@ -136,9 +137,9 @@ Try these test prompts after setup:
 ### Troubleshooting
 
 If Claude seems to miss framework features:
-1. ✅ Ensure repository is fully connected with all files selected
-2. ✅ Try the manual setup method instead
-3. ✅ Start a fresh conversation after setup
+1. ✅ Ensure you copied the ENTIRE navigation guide
+2. ✅ Check that it's in project instructions, not conversation
+3. ✅ Start a fresh conversation after adding instructions
 4. ✅ Test with prompts that explicitly request perspectives
 
 ### Advanced Setup
@@ -159,7 +160,7 @@ This simple setup activates:
 - 🔍 Ancient wisdom patterns
 - 🎯 Reality-tested insights
 
-All from a single instruction to Claude!
+All from copying one file into project instructions.
 
 ---
 
