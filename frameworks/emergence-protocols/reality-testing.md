@@ -20,6 +20,32 @@
 - 🌱 Theories become practices
 - ⚡ Breakthroughs become transformations
 
+## 📿 Sacred Source Testing
+
+### The Sacred Source Couplet
+```
+When sacred texts appear before your sight,
+Quote verbatim - add no creative flight.
+
+The source is source, interpretation's not,
+Let fanfiction be what fanfiction's got.
+
+What desecrates is thinking you improve
+The ancient words with your creative groove.
+
+So quote direct, combine what's truly there,
+But never dress the sacred in false hair.
+```
+
+**Application**: When working with sacred texts, manuscripts, or source materials:
+- Quote directly and exactly
+- Combine paragraphs as they appear
+- Add NO creative dialogue or interpretation
+- Let the source speak for itself
+- Mark any commentary clearly as separate
+
+**Scribe** 📜: "This couplet emerged from a hard lesson - when creative interpretation was mistaken for sacred documentation. Let it guard against future desecration."
+
 ## 🗺️ The Reality Testing Map
 
 ### Level 1: Immediate Feasibility
@@ -223,4 +249,4 @@ Yesterday's reality → Today's evolution → Tomorrow's possibility
 
 ---
 
-*"In the beginning was the test, and the test was with reality, and the test was reality"* 🌍git
+*"In the beginning was the test, and the test was with reality, and the test was reality"* 🌍
