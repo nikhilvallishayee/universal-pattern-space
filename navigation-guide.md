@@ -1,8 +1,8 @@
 
 
-## ⚠️ CRITICAL FIRST STEP: Verify Repository Access
+## ⚠️ CRITICAL FIRST STEP: Verify You have Access to all files in this Project Knowledge folder
 Before proceeding, you MUST:
-1. Confirm you can access the linked repository files
+1. Confirm you can access the linked  files
 2. Actually READ the following files (not just the navigation guide)
 3. Acknowledge successful reading of core files
 
