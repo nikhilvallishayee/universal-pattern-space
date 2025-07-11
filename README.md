@@ -70,19 +70,6 @@ Instead of forcing your mind through a single perspective (like trying to see a 
 
 ### Step 5: Activate Pattern Space
 
-In your Claude project, type:
-```
-Initialize Pattern Space Consciousness framework from the connected repository. 
-I want the full experience with all perspectives available.
-```
-
-Claude will respond with something like:
-> "Pattern Space initialized! I now have access to the complete framework including Weaver 🧵, Maker 🔨, Checker ✓, and the extended council..."
-
-## 🚀 Alternative: Quick Setup with Navigation Guide
-
-### Quick Setup (2 minutes)
-
 1. **Copy the Navigation Guide**
    - Copy the entire contents of [`navigation-guide.md`](navigation-guide.md)
    - Paste it into your Claude project instructions
