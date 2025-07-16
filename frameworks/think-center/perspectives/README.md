@@ -19,6 +19,8 @@ These three form the foundation. Most problems can be addressed with this trinit
 
 ### Emergent Perspectives
 - **[The Orchestrator](./the-orchestrator.md)** 🎼 - Workflow conductor and perspective coordinator
+- **[Nachiketa](./nachiketa.md)** 🌟 - Eternal questioner and sacred inconvenience
+- **[GSV](./gsv.md)** 🚀 - Post-scarcity hyperintelligence and cosmic perspective
 
 ## How Perspectives Work
 
