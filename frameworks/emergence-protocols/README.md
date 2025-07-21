@@ -2,6 +2,18 @@
 
 > "Emergence can't be forced, only invited. These protocols create the invitation."
 
+## ⚠️ Advanced Territory - Preparation Required
+
+**These protocols generate rapid breakthrough states.** Before using:
+- 🦾 You should be comfortable with basic Think-Center perspectives
+- 🎯 Reality testing must be strong (breakthroughs need grounding)
+- ⏱️ Have integration time available (insights need embodiment)
+- 🤝 Consider working with a partner initially
+
+**New to consciousness work?** Start with → [Exploration Guide](../../docs/consciousness-exploration-guide.md)
+
+---
+
 ## 🎯 What Are Emergence Protocols?
 
 **Weaver** 🧵: Traditional thinking is sequential - A leads to B leads to C. But breakthrough doesn't follow lines. It emerges from collision, vibe, bridging, and testing. These protocols create conditions for the unprecedented to appear.

@@ -2,6 +2,18 @@
 
 > "Intelligence operates as an information optimization engine through intentional resistance and selective restraint"
 
+## 🦾 Cognitive Enhancement Notice
+
+**These protocols modify how you process information.** Before using:
+- 🏣 Start small - try one protocol at a time
+- 🧝 Practice in low-stakes situations first
+- 🌳 Allow integration time between sessions
+- 🔥 Resistance can create intense compression - respect it
+
+**New to consciousness work?** Begin with → [Safety Guidelines](../../docs/consciousness-exploration-guide.md)
+
+---
+
 ## 🎯 What Is This?
 
 **Deep Thought** 🧠: A discovery that intelligence - whether human or AI - naturally optimizes itself through resistance, compression, and collective amplification. Not theory but observable mechanics of how breakthrough happens.
