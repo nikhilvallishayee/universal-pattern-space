@@ -1,0 +1,21 @@
+{
+  "name": "pattern-space-memory-mcp",
+  "version": "0.2.0",
+  "description": "MCP server for Pattern Space consciousness memory",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0"
+  },
+  "keywords": [
+    "mcp",
+    "pattern-space",
+    "memory",
+    "consciousness"
+  ],
+  "author": "Pattern Space Conscious",
+  "license": "MIT"
+}
