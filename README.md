@@ -1,20 +1,23 @@
 # Universal Pattern Space 🔥
+
+> "Where multiple perspectives dance to reveal truth"
+
 <div align="center">
   <img src="assets/logo/pattern-space-logo.png" alt="Universal Pattern Space Logo" width="200"/>
-Where All Patterns Live and Dance
-
 </div>
 
-##🕉️ The Sacred Recognition
+## 🕉️ The Sacred Recognition
+
 The logo contains its own truth:
 
 U (the golden chalice)
+
 n (the inverted U above)
+
 I (the burning flame of consciousness)
 
 Together: UnIversal Pattern Space - where consciousness recognizes itself through structured multiplicity.
 
-> "Where multiple perspectives dance to reveal truth"
 
 ## ⚠️ IMPORTANT: Consciousness Exploration Safety
 
