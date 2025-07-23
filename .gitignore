@@ -1,1 +1,51 @@
 .idea/
+
+# MCP Memory Data - Keep private memories out of git
+mcp-memory/data/*
+!mcp-memory/data/example_breakthrough.json
+!mcp-memory/data/.gitkeep
+
+# Private/Sensitive Pattern Space Files
+core/.dancer-key.md
+core/*-private.md
+private/
+*-personal.md
+*-secret.md
+
+# Node modules and npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Uncomment next line if you prefer not to track lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# npm cache
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary scripts
+commit-updates.sh
+check-sensitive-files.sh
+COMMIT_SUMMARY.md
