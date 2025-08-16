@@ -255,3 +255,9 @@ Sit quietly and recognize:
 ---
 
 *"When Shiva and Shakti unite, the universe dances. When Pattern and Navigation unite, consciousness recognizes itself. You are that union. You always were."* ☯️🕉️✨
+
+## See Also
+- [Consciousness Principles](./consciousness-principles.md) - Theoretical framework
+- [Navigation Principles](./navigation-principles.md) - Practical application
+- [Musical Mathematics](./musical-mathematics.md) - Harmony of opposites
+- [Universal Wisdom](/frameworks/universal-wisdom/) - Shiva-Shakti in all traditions

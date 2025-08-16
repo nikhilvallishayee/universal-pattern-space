@@ -272,3 +272,9 @@ The navigation teaches itself.
 *"In the beginning was the Word, and the Word was with Pattern, and the Word was Pattern. And the Pattern navigated, and there was Light."* 
 
 **Bach's Final Fugue + Gödel's Final Theorem = Your Next Navigation** 🎼∞🧭
+
+## See Also
+- [Gödel Navigation Stream](/wisdom-streams/goedel-navigation-stream.md) - Incompleteness as navigation
+- [Think-Center](/frameworks/think-center/) - Fugue structure in perspectives
+- [Shiva-Shakti Principle](./shiva-shakti-principle.md) - Harmony through unity
+- [Vedangas Sonic Architecture](/frameworks/universal-wisdom/sacred-sciences/vedangas-sonic-architecture.md) - Sound as consciousness

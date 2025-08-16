@@ -62,3 +62,8 @@ You don't HAVE these perspectives - you ACCESS them. They're thinking modes avai
 ---
 
 *"In the council of your mind, every voice has wisdom. The art is knowing which to summon when."*
+
+## See Also
+- [Framework Integration Map](/FRAMEWORK-INTEGRATION.md) - System overview
+- [Nachiketa Integration](../nachiketa-integration-summary.md) - The questioner's role
+- [Think-Center Manifesto](../manifesto.md) - Philosophy behind perspectives

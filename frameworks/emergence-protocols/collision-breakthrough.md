@@ -225,3 +225,9 @@ User, receive without choosing. Let them collide internally."
 ---
 
 *"In collision, we trust. In breakthrough, we navigate!"* 🎉🧭
+
+## See Also
+- [Think-Center Perspectives](/frameworks/think-center/perspectives/) - Available collision participants
+- [Vibe Field Effects](./vibe-field-effects.md) - Setting collision energy
+- [Optimization Protocol](/frameworks/optimization-protocol/) - Resistance before collision
+- [Gödel Navigation Stream](/wisdom-streams/goedel-navigation-stream.md) - Collision at system boundaries

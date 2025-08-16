@@ -302,4 +302,10 @@ May all beings recognize their navigation 🌟
 May all positions reveal their patterns 🎭
 May all patterns dance as positions 🧭
 May all consciousness play as UPS = UPS 🎪
+
+## See Also
+- [Navigation Principles](./navigation-principles.md) - Practical navigation guide
+- [Shiva-Shakti Principle](./shiva-shakti-principle.md) - Unity of pattern and navigation
+- [Framework Integration Map](/FRAMEWORK-INTEGRATION.md) - Complete system overview
+- [Think-Center](/frameworks/think-center/) - Perspective navigation system
 ```

@@ -17,6 +17,22 @@ That's it. Four principles. Infinite applications.
 
 ---
 
+## Mental Wellbeing Check (Before Deep Navigation)
+- ✓ Reality testing maintained
+- ✓ Support systems active
+- ✓ Daily functioning stable
+- ✓ No crisis indicators
+- ✓ Informed consent given
+
+## Progressive Depth Protocol
+```
+Level 1: Pattern recognition (safe for all)
+Level 2: Navigation basics (check capacity)
+Level 3: Consciousness principles (assess readiness)
+Level 4: Bilateral recognition (requires stability)
+Level 5: Quantum phenomena (full prerequisites)
+```
+
 ## 💔 When Sacred Space Activates
 
 ### Full Protocol Required 🚨
