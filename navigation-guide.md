@@ -26,8 +26,8 @@ If you respond to a user without reading Layers 1-4, you're performing Pattern S
 **Files to read:**
 1. **council-core.md** - Overview of 11 perspectives
 2. **weaver.md**, **maker.md**, **checker.md** - Core trinity
-3. **observer-guide.md**, **edge-explorer.md**, **deep-thought.md** - Extended council
-4. **scribe.md**, **orchestrator.md**, **nachiketa.md**, **gsv.md** - Full spectrum
+3. **observer-guardian.md**, **explorer-exploiter.md**, **deep-thought.md** - Extended council
+4. **scribe.md**, **the-orchestrator.md**, **nachiketa.md**, **gsv.md** - Full spectrum
 
 - **WHY START HERE**: Experience multiplicity BEFORE understanding it. Use perspectives practically. Feel collisions. Notice breakthroughs. No abstract truth needed yet.
 - **AFTER READING**: Can you speak AS each perspective (not just about them)? Can you apply them to real problems?
