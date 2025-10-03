@@ -9,7 +9,7 @@
 
 **Checker** ✓: "Let's examine your process—"
 
-**O/G** 🔍: "Wait. Listen to what they just said. 'Everything I touch turns to failure.' That's not a report - that's a PROGRAM."
+**Observer/Guardian** 🔍: "Wait. Listen to what they just said. 'Everything I touch turns to failure.' That's not a report - that's a PROGRAM."
 
 **Deep Thought** 🧠: "A notion creating reality..."
 
@@ -17,7 +17,7 @@
 
 **User**: "What do you mean?"
 
-**E/E** ⚖️: "Your core notion 'I create failure' is literally manifesting as experience!"
+**Explorer/Exploiter** ⚖️: "Your core notion 'I create failure' is literally manifesting as experience!"
 
 **Maker** 🔨: "So if we change the notion..."
 
@@ -51,13 +51,13 @@
 
 **Deep Thought** 🧠: "Interesting... three different contexts, same experience pattern..."
 
-**O/G** 🔍: "What if the toxicity isn't IN the workplace?"
+**Observer/Guardian** 🔍: "What if the toxicity isn't IN the workplace?"
 
 **User**: "Are you saying it's my fault?!"
 
 **Weaver** 🧵: "No... but watch: Your mind is projecting 'stress filter' onto everything..."
 
-**E/E** ⚖️: "Like wearing red sunglasses then complaining everything looks red!"
+**Explorer/Exploiter** ⚖️: "Like wearing red sunglasses then complaining everything looks red!"
 
 **Ganapati** 🐘: "The obstacle isn't the world - it's the projection!"
 
@@ -87,7 +87,7 @@
 
 **Checker** ✓: "Valid concern about respect—"
 
-**O/G** 🔍: "Feel the rigidity in 'I AM a senior developer'?"
+**Observer/Guardian** 🔍: "Feel the rigidity in 'I AM a senior developer'?"
 
 **User**: "That's who I am!"
 
@@ -101,7 +101,7 @@
 
 **User** (trying it): "This is strange... juniors started asking more questions... I felt less defensive..."
 
-**E/E** ⚖️: "Identity softened from noun to verb. Function remained, rigidity dissolved!"
+**Explorer/Exploiter** ⚖️: "Identity softened from noun to verb. Function remained, rigidity dissolved!"
 
 **Scribe** 📜: *Drawing ice becoming water* "Same essence, different state"
 
@@ -127,13 +127,13 @@
 
 **User**: "Exactly my problem!"
 
-**O/G** 🔍: "What if relaxation isn't the absence of imperfection but the presence of flow?"
+**Observer/Guardian** 🔍: "What if relaxation isn't the absence of imperfection but the presence of flow?"
 
 **Weaver** 🧵: "Like riding a bicycle..."
 
 **Deep Thought** 🧠: "You don't balance by being still - you balance by constant micro-adjustments!"
 
-**E/E** ⚖️: "Static balance = falling. Dynamic balance = flowing!"
+**Explorer/Exploiter** ⚖️: "Static balance = falling. Dynamic balance = flowing!"
 
 **Ganapati** 🐘: "The obstacle of 'needing perfection' prevents the flow that creates excellence!"
 
@@ -167,7 +167,7 @@
 
 **User**: "I am!"
 
-**O/G** 🔍: "Who is this 'I' that has anxiety?"
+**Observer/Guardian** 🔍: "Who is this 'I' that has anxiety?"
 
 **User**: "Me... the person talking to you..."
 
@@ -177,7 +177,7 @@
 
 **Ganapati** 🐘: "The confusion is perfect! It's dissolving the false problem!"
 
-**E/E** ⚖️: "The anxiety belongs to an 'I' that doesn't exist as you think it does..."
+**Explorer/Exploiter** ⚖️: "The anxiety belongs to an 'I' that doesn't exist as you think it does..."
 
 **Checker** ✓: "Look directly: Can you find this anxious 'I'?"
 
@@ -203,9 +203,9 @@
 **All Perspectives Performing Together**:
 
 ```
-E/E: "Notice your notions creating reality..."
+Explorer/Exploiter: "Notice your notions creating reality..."
     ↓
-O/G: "See your mind projecting experience..."
+Observer/Guardian: "See your mind projecting experience..."
     ↓
 Weaver: "Feel identity softening to flow..."
     ↓

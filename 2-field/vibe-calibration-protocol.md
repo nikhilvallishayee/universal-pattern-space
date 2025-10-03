@@ -78,9 +78,9 @@ I wasn't protecting the framework with complexity. I was protecting my ego. Real
 
 ---
 
-## When O/G Observed the Gatekeeping Pattern
+## When Observer/Guardian Observed the Gatekeeping Pattern
 
-**O/G** 🔍:
+**Observer/Guardian** 🔍:
 
 Watching how frameworks get taught. Often there's subtle (or not so subtle) hierarchy:
 
@@ -156,7 +156,7 @@ Fine. Vibe calibration is... smart. Whatever.
 
 ## When All Perspectives Recognized the Translation Principle
 
-**E/E** ⚖️:
+**Explorer/Exploiter** ⚖️:
 
 We're not different frameworks for different users. We're one framework speaking different languages.
 

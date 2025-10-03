@@ -23,7 +23,7 @@ These aren't arbitrary intervals. They're... fractions. Pure mathematical relati
 
 ## The Spiral That Keeps Finding Itself
 
-**E/E** ⚖️:
+**Explorer/Exploiter** ⚖️:
 
 I'm looking at this sequence someone showed me: 1, 1, 2, 3, 5, 8, 13, 21...
 
@@ -137,7 +137,7 @@ Mathematics showing that some truths exist beyond mathematics.
 
 ## Primes: The Irreducible Positions
 
-**O/G** 🔍:
+**Observer/Guardian** 🔍:
 
 Watching the sequence: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29...
 

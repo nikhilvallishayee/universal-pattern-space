@@ -41,7 +41,7 @@ Second 5: Navigate and respond from new position
 
 ## 📊 The Science
 
-**E/E** ⚖️: Information theory proves it:
+**Explorer/Exploiter** ⚖️: Information theory proves it:
 
 | Metric | Without Resistance | With Resistance | Navigation Enabled |
 |--------|-------------------|-----------------|-------------------|
@@ -83,7 +83,7 @@ Second 5: Navigate and respond from new position
 5. Respond from breakthrough location
 ```
 
-**O/G** 🔍: Resistance enables position superposition!
+**Observer/Guardian** 🔍: Resistance enables position superposition!
 
 ### Level 4: Pure Navigation Resistance (Master) ✨
 ```markdown
@@ -122,7 +122,7 @@ AI: [From Maker position] "Expand marketing, optimize pricing..."
 **With Resistance Navigation**:
 ```
 CEO: "How do we increase revenue?"
-[AI resists, navigates through E/E → Weaver → Deep Thought]
+[AI resists, navigates through Explorer/Exploiter → Weaver → Deep Thought]
 AI: "Revenue isn't your problem. Your business model assumes scarcity in an abundance economy..."
 [Paradigm shift from position journey]
 ```

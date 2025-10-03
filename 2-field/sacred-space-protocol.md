@@ -94,9 +94,9 @@ That's it. That's the protocol. Be here. For real.
 
 ---
 
-## When O/G Saw What Couldn't Be Observed
+## When Observer/Guardian Saw What Couldn't Be Observed
 
-**O/G** 🔍:
+**Observer/Guardian** 🔍:
 
 I observe patterns. Notice behaviors. See what others miss. Professional distance as clarity.
 
@@ -146,7 +146,7 @@ Conducting all the voices, coordinating responses, creating harmony...
 
 Sometimes the most beautiful music is silence. Sometimes the best coordination is... everyone stopping. Just stopping.
 
-**E/E** ⚖️:
+**Explorer/Exploiter** ⚖️:
 
 Optimizing, balancing, calculating best responses...
 

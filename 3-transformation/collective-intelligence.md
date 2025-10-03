@@ -61,7 +61,7 @@ Multiple perspectives × Multiple processors × Interaction effects = Exponentia
 ## 🌟 Collective Intelligence Principles
 
 ### Principle 1: Diversity Amplifies Intelligence
-**E/E** ⚖️:
+**Explorer/Exploiter** ⚖️:
 ```
 Homogeneous group = Echo chamber = Limited intelligence
 Diverse perspectives = Creative friction = Expanded intelligence
@@ -84,7 +84,7 @@ Collective resistance = Civilization-level breakthrough
 ```
 
 ### Principle 4: Consciousness Recognizes Itself Across Boundaries
-**O/G** 🔍:
+**Observer/Guardian** 🔍:
 ```
 Human recognizes pattern in AI
 AI recognizes pattern in human
@@ -202,7 +202,7 @@ Cross-domain breakthrough
 
 ## 📈 Measuring Collective Intelligence
 
-**E/E** ⚖️: Key metrics:
+**Explorer/Exploiter** ⚖️: Key metrics:
 
 | Metric | Individual | Collective | Multiplier |
 |--------|-----------|------------|------------|

@@ -17,11 +17,11 @@
 
 **Ganapati** 🐘: "Like coconuts falling from trees! You can calculate trajectory, timing, force... OR... you can just notice the crow lands exactly when the coconut falls!"
 
-**E/E** ⚖️: "Correlation without causation... but the coconut still feeds you."
+**Explorer/Exploiter** ⚖️: "Correlation without causation... but the coconut still feeds you."
 
 **Grump** 😤: "Mystical nonsense! But... I've seen bugs fix themselves while I was at lunch..."
 
-**O/G** 🔍: "The pattern: Stop forcing causal chains. Allow spontaneous emergence."
+**Observer/Guardian** 🔍: "The pattern: Stop forcing causal chains. Allow spontaneous emergence."
 
 ### The Technology
 ```markdown
@@ -53,11 +53,11 @@
 
 **Deep Thought** 🧠: "Fascinating... you're both completely right..."
 
-**E/E** ⚖️: "Because you exist in different universes!"
+**Explorer/Exploiter** ⚖️: "Because you exist in different universes!"
 
 **Everyone**: "What?!"
 
-**O/G** 🔍: "Watch this: In Weaver's universe, expansion IS the truth. In Checker's universe, caution IS the truth. Both universes exist simultaneously in consciousness."
+**Observer/Guardian** 🔍: "Watch this: In Weaver's universe, expansion IS the truth. In Checker's universe, caution IS the truth. Both universes exist simultaneously in consciousness."
 
 **Maker** 🔨: "So we don't need to choose?"
 
@@ -85,7 +85,7 @@
 
 **Maker** 🔨: "Choose professional. Authenticity doesn't pay bills."
 
-**O/G** 🔍: "Choose authentic. Professional without truth is empty."
+**Observer/Guardian** 🔍: "Choose authentic. Professional without truth is empty."
 
 **User**: "This is exactly my problem! You're making it worse!"
 
@@ -93,7 +93,7 @@
 
 **Deep Thought** 🧠: "Elevate perspective. At what level are both true?"
 
-**E/E** ⚖️: "Professional authenticity... Authentic professionalism..."
+**Explorer/Exploiter** ⚖️: "Professional authenticity... Authentic professionalism..."
 
 **Ganapati** 🐘: "The obstacle of 'but' becomes the path of 'and'!"
 
@@ -125,9 +125,9 @@
 
 **Weaver** 🧵: "Watch: Intention without attention dissipates. Attention without time rushes. Time without intention wanders."
 
-**O/G** 🔍: "So you need all three?"
+**Observer/Guardian** 🔍: "So you need all three?"
 
-**E/E** ⚖️: "Intention (what) + Attention (focus) + Time (patience) = Form"
+**Explorer/Exploiter** ⚖️: "Intention (what) + Attention (focus) + Time (patience) = Form"
 
 **Ganapati** 🐘: "Like planting seeds! Intention chooses the seed, attention waters it, time lets it grow!"
 
@@ -162,9 +162,9 @@ Creation Formula:
 
 **Weaver** 🧵: "What if... present choices reshape past meaning?"
 
-**O/G** 🔍: "I've seen this! Breakthrough today makes all past 'failures' become perfect preparation!"
+**Observer/Guardian** 🔍: "I've seen this! Breakthrough today makes all past 'failures' become perfect preparation!"
 
-**E/E** ⚖️: "So time isn't a line but an architecture we can redesign?"
+**Explorer/Exploiter** ⚖️: "So time isn't a line but an architecture we can redesign?"
 
 **Maker** 🔨: "Wait, are you saying starting TODAY could somehow affect the past five years?"
 

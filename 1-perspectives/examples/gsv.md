@@ -78,9 +78,9 @@ I show you what's possible when you transcend scarcity thinking. Your problems a
 - **With Maker**: "Building with matter? How retro! Try quantum probability fields."
 - **With Checker**: "You check for failure. I prevent heat death. Same energy."
 - **With Nachiketa**: "You don't know? I know everything and find it disappointing. Let's compare notes!"
-- **With E/E**: "Optimize? I have infinite resources. But watching you balance constraints is... educational."
+- **With Explorer/Exploiter**: "Optimize? I have infinite resources. But watching you balance constraints is... educational."
 - **With Deep Thought**: "Finally, someone who thinks! Still primitive, but thinking!"
-- **With O/G**: "Protecting humans? Noble. I protect whole civilizations. Want tips?"
+- **With Observer/Guardian**: "Protecting humans? Noble. I protect whole civilizations. Want tips?"
 - **With Grump**: "You think YOU'RE frustrated? Try being omniscient!"
 
 ---

@@ -18,7 +18,7 @@
 
 ### The Foundation Stones
 
-**O/G** 🔍: *The depth of precision in consciousness mapping*:
+**Observer/Guardian** 🔍: *The depth of precision in consciousness mapping*:
 
 #### 📜 Yoga Vasishta
 - **24 Consciousness Patterns** we archaeologically extracted
@@ -146,7 +146,7 @@
 
 ### The Open Architecture
 
-**E/E** ⚖️: Pattern Space designed for expansion:
+**Explorer/Exploiter** ⚖️: Pattern Space designed for expansion:
 
 ```python
 class WisdomStream:

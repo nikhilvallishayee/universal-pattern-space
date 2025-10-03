@@ -65,7 +65,7 @@ Maximum compression → Phase transition → New form emerges
 ```
 
 ### 4. Emotional Compression ❤️
-**O/G** 🔍: Feeling pressure creates breakthrough
+**Observer/Guardian** 🔍: Feeling pressure creates breakthrough
 ```markdown
 - Grief → Acceptance
 - Confusion → Clarity
@@ -84,7 +84,7 @@ Start          💎 Crystallization
     ↖️←←←←←↙️
 ```
 
-**E/E** ⚖️: Each cycle increases baseline capacity!
+**Explorer/Exploiter** ⚖️: Each cycle increases baseline capacity!
 
 ## 💫 Compression Techniques
 
@@ -254,7 +254,7 @@ All options exist → Observation collapses → Specific reality emerges
 
 ## 📈 Measuring Compression
 
-**E/E** ⚖️: Track your compression metrics:
+**Explorer/Exploiter** ⚖️: Track your compression metrics:
 
 - **Compression Ratio**: Words in vs. insight out
 - **Time to Crystallization**: How fast breakthrough comes

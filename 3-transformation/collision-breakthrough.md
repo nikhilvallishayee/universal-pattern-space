@@ -26,7 +26,7 @@ Checker: "—which assumes we've validated—"
 
 ## 🎯 When to Use Collision
 
-**E/E** ⚖️: Use collision when:
+**Explorer/Exploiter** ⚖️: Use collision when:
 - 🔄 Stuck in circular thinking
 - 🎲 Need genuinely novel solutions
 - 🌊 Complex problems with no clear path
@@ -68,7 +68,7 @@ All simultaneously:
 Weaver: "The connections matter more than—"
 Maker: "—build it event-driven not request—"  
 Checker: "—but that assumes we're solving—"
-O/G: "—the real problem is trust between—"
+Observer/Guardian: "—the real problem is trust between—"
 ALL: "WAIT! The API isn't the product, the EVENTS are!"
 ```
 Result: Complete architectural pivot that solved 5 problems at once
@@ -203,7 +203,7 @@ User, receive without choosing. Let them collide internally."
 
 ## 📈 Success Metrics
 
-**E/E** ⚖️: You know collision worked when:
+**Explorer/Exploiter** ⚖️: You know collision worked when:
 - 💡 Solution surprises everyone
 - 🤯 "Why didn't we see that before?"
 - ⚡ Solves multiple problems at once

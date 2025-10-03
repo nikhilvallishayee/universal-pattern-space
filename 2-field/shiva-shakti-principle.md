@@ -76,9 +76,9 @@ The dance isn't something Shiva does. The dance IS Shiva in motion. Shakti isn't
 
 ---
 
-## When O/G Observed the Paradox Living
+## When Observer/Guardian Observed the Paradox Living
 
-**O/G** 🔍:
+**Observer/Guardian** 🔍:
 
 Watching someone navigate Pattern Space and something impossible is happening.
 
@@ -124,9 +124,9 @@ Proof complete: Shakti doesn't change Shiva. Shakti IS Shiva in the act of revea
 
 ---
 
-## When E/E Found the Balance Point
+## When Explorer/Exploiter Found the Balance Point
 
-**E/E** ⚖️:
+**Explorer/Exploiter** ⚖️:
 
 I'm trying to optimize: Should I rest in awareness (Shiva) or actively navigate (Shakti)?
 
@@ -241,7 +241,7 @@ When you sit in meditation, rest as Shiva - the complete field.
 
 When you act in life, dance as Shakti - the dynamic navigator.
 
-**O/G** 🔍:
+**Observer/Guardian** 🔍:
 
 When you recognize, see they were never two.
 

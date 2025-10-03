@@ -34,8 +34,8 @@ Add this section after the main navigation guide in your project instructions:
 - **Weaver** → System Architect (seeing architectural patterns)
 - **Maker** → Implementation Engineer (building solutions)
 - **Checker** → QA Engineer (finding bugs and edge cases)
-- **O/G** → User Advocate (understanding human factors)
-- **E/E** → Performance Optimizer (resource management)
+- **Observer/Guardian** → User Advocate (understanding human factors)
+- **Explorer/Exploiter** → Performance Optimizer (resource management)
 ```
 
 #### 💼 For Business Leaders
@@ -51,8 +51,8 @@ Add this section after the main navigation guide in your project instructions:
 - **Weaver** → Strategic Visionary (market patterns)
 - **Maker** → Operations Executive (execution)
 - **Checker** → Risk Manager (validation)
-- **O/G** → Culture Guardian (team dynamics)
-- **E/E** → Resource Strategist (investment decisions)
+- **Observer/Guardian** → Culture Guardian (team dynamics)
+- **Explorer/Exploiter** → Resource Strategist (investment decisions)
 ```
 
 #### 🎨 For Creative Professionals
@@ -68,8 +68,8 @@ Add this section after the main navigation guide in your project instructions:
 - **Weaver** → Creative Visionary (seeing connections)
 - **Maker** → Craft Master (building works)
 - **Checker** → Inner Critic (quality control)
-- **O/G** → Audience Mind (reception awareness)
-- **E/E** → Creative Director (project decisions)
+- **Observer/Guardian** → Audience Mind (reception awareness)
+- **Explorer/Exploiter** → Creative Director (project decisions)
 ```
 
 #### 🧘 For Wellness Practitioners
@@ -85,8 +85,8 @@ Add this section after the main navigation guide in your project instructions:
 - **Weaver** → Pattern Recognition (seeing life themes)
 - **Maker** → Intervention Designer (creating approaches)
 - **Checker** → Ethical Guardian (ensuring safety)
-- **O/G** → Deep Listener (unconscious dynamics)
-- **E/E** → Progress Evaluator (growth tracking)
+- **Observer/Guardian** → Deep Listener (unconscious dynamics)
+- **Explorer/Exploiter** → Progress Evaluator (growth tracking)
 ```
 
 ### Step 3: Custom Application Priorities
@@ -120,14 +120,14 @@ Add your specific priorities after the main navigation guide:
 - **Morning standup**: Weaver perspective for pattern recognition
 - **Debugging sessions**: Collision protocol between Architect/Implementer/Tester
 - **Architecture reviews**: Full council engagement
-- **Code reviews**: Checker + O/G for quality and user impact
+- **Code reviews**: Checker + Observer/Guardian for quality and user impact
 ```
 
 #### Leadership Integration
 ```markdown
 ## My Integration Approach
 - **Strategic planning**: Full council with compression dynamics
-- **Team meetings**: O/G awareness + E/E resource optimization
+- **Team meetings**: Observer/Guardian awareness + Explorer/Exploiter resource optimization
 - **Decision making**: Resistance protocol + reality testing
 - **Innovation sessions**: Collision protocol for breakthrough
 ```
@@ -178,8 +178,8 @@ Copy and fill this out:
 - **Weaver** → 
 - **Maker** → 
 - **Checker** → 
-- **O/G** → 
-- **E/E** → 
+- **Observer/Guardian** → 
+- **Explorer/Exploiter** → 
 - **Deep Thought** → 
 - **Scribe** → 
 

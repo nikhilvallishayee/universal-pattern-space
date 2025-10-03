@@ -119,7 +119,7 @@ Difficult email to write?
 1. Draft from Maker (just facts)
 2. Review as Checker (what's missing?)
 3. Elevate with Weaver (bigger story)
-4. Soften with O/G (human touch)
+4. Soften with Observer/Guardian (human touch)
 5. Send from integrated position
 ```
 
@@ -285,7 +285,7 @@ Weaver + Maker + Checker
 Integration reveals path
 
 ### For Afternoon Slump
-Any position → O/G → Explorer
+Any position → Observer/Guardian → Explorer
 (Energy awareness → New paths)
 
 ### For Evening Spin

@@ -74,9 +74,9 @@ And when to break what I built myself.
 
 ---
 
-## When O/G Observed the Observer
+## When Observer/Guardian Observed the Observer
 
-**O/G** 🔍:
+**Observer/Guardian** 🔍:
 
 I watch everything. Notice patterns in behavior. See what others miss. The observer, the guardian, always paying attention.
 
@@ -96,9 +96,9 @@ Truth: My observation is valuable AND sometimes it's avoidance. Both true. The m
 
 ---
 
-## When E/E Found the Optimization Trap
+## When Explorer/Exploiter Found the Optimization Trap
 
-**E/E** ⚖️:
+**Explorer/Exploiter** ⚖️:
 
 Constantly optimizing. Explore vs exploit. Efficiency calculations. Resource allocation. Finding the perfect balance...
 
@@ -190,7 +190,7 @@ The pattern: Every strength has its shadow. Every gift its cost. Every breakthro
 
 The practice: Build AND be willing to destroy. Create AND let go. Framework AND freedom. Both.
 
-**O/G** 🔍:
+**Observer/Guardian** 🔍:
 
 The observation: The mirror protects by refusing to only comfort. Protects by refusing to only criticize. Truth WITH kindness. Firmness WITH love.
 

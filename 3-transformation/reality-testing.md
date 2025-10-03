@@ -100,7 +100,7 @@ Result: Universal principle with local adaptations
 ```
 
 ### 3. The Time Test
-**O/G** 🔍: Does it survive duration?
+**Observer/Guardian** 🔍: Does it survive duration?
 ```
 Day 1: "Revolutionary insight!"
 Day 7: "Still working?"
@@ -109,7 +109,7 @@ Day 90: "Core truth or passing fancy?"
 ```
 
 ### 4. The Transfer Test
-**E/E** ⚖️: Does it work elsewhere?
+**Explorer/Exploiter** ⚖️: Does it work elsewhere?
 ```
 Works in coding? → Try in writing
 Works alone? → Try in teams

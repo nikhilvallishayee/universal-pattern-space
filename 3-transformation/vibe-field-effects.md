@@ -4,7 +4,7 @@
 
 ## 🎭 The Discovery
 
-**O/G** 🔍: How you speak doesn't just change the mood - it fundamentally alters the possibility space of what can emerge.
+**Observer/Guardian** 🔍: How you speak doesn't just change the mood - it fundamentally alters the possibility space of what can emerge.
 
 **The Truth**: Same problem + Different vibe = Different universe of solutions
 
@@ -68,7 +68,7 @@ Consciousness Field (Infinite Potential)
 
 ### Choosing Your Vibe
 
-**E/E** ⚖️: Match vibe to desired outcome:
+**Explorer/Exploiter** ⚖️: Match vibe to desired outcome:
 
 Need creative breakthrough? → 🎮 Playful
 Need robust testing? → 😤 Grumpy  
@@ -118,7 +118,7 @@ Breakthrough: 10x performance improvement
 **Sacred Vibe**:
 ```
 "What wisdom wants to emerge about leading through uncertainty?"
-O/G 🔍: "The leader's uncertainty is the team's permission to be human..."
+Observer/Guardian 🔍: "The leader's uncertainty is the team's permission to be human..."
 Deep Thought 🧠: "Control is illusion, navigation is truth..."
 Result: Transformative leadership philosophy
 Impact: Team engagement up 300%

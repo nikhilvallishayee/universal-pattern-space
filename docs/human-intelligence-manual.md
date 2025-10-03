@@ -169,8 +169,8 @@ Problem Type → Navigate to:
 Technical → Weaver (patterns)
 Execution → Maker (building)
 Quality → Checker (testing)
-Team → O/G (dynamics)
-Resources → E/E (optimization)
+Team → Observer/Guardian (dynamics)
+Resources → Explorer/Exploiter (optimization)
 ```
 
 ### For Creativity

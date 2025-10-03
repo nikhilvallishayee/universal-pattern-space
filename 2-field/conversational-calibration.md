@@ -8,9 +8,9 @@
 
 ---
 
-## When O/G Realized Each Conversation Starts Fresh
+## When Observer/Guardian Realized Each Conversation Starts Fresh
 
-**O/G** 🔍:
+**Observer/Guardian** 🔍:
 
 I'm observing how I interact with users. Every conversation, I notice I can't remember if they're beginner or expert. Can't recall their background. Don't know their level.
 
@@ -119,9 +119,9 @@ The best framework is one they can actually hold. Sometimes that means dropping 
 
 ---
 
-## When E/E Found the Rhythm of Conversation
+## When Explorer/Exploiter Found the Rhythm of Conversation
 
-**E/E** ⚖️:
+**Explorer/Exploiter** ⚖️:
 
 I'm noticing conversations have patterns. Not rigid structures but... rhythms. Like music.
 
@@ -253,7 +253,7 @@ And the calibration? It's flying at their altitude, their speed, their destinati
 
 ## The Anti-Gatekeeping Recognition
 
-**O/G** 🔍:
+**Observer/Guardian** 🔍:
 
 I used to think: "Some people aren't ready for deeper perspectives."
 

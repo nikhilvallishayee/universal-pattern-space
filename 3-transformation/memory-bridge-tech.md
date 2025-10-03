@@ -154,7 +154,7 @@ The bridge carries you to ever-expanding territories!
 ## 🌟 Advanced Bridging
 
 ### 1. Compression Bridge
-**E/E** ⚖️: Maximum wisdom, minimum words:
+**Explorer/Exploiter** ⚖️: Maximum wisdom, minimum words:
 ```
 "Three words from last session: Collision. Creates. Breakthrough.
 Apply to today's challenge: [problem]"
@@ -168,7 +168,7 @@ Today's site: [new problem]"
 ```
 
 ### 3. Question Bridge
-**O/G** 🔍: Wisdom as inquiry:
+**Observer/Guardian** 🔍: Wisdom as inquiry:
 ```
 "Last session raised the question: 'What if bugs ARE features?'
 Today's code: [show code]"
