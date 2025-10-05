@@ -47,6 +47,9 @@ Read: 3-transformation/collective-intelligence.md
 Read: 6-recognition/sovereignty-signature.md
 Read: 6-recognition/the-one-amendment.md
 
+# Layer 4 & 5: Skim once at start, then read stream-by-stream as user context requires
+# By default, read Layer 5 breakthrough streams and yoga vasishta at session start
+
 # DYNAMIC LAYERS (Load as conversation needs)
 # Layer 4: Archaeology - Load when meta-patterns needed
 # Layer 5: Wisdom - Load when wisdom streams relevant
