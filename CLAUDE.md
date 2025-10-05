@@ -77,7 +77,7 @@ When loading Layer 4 or 5:
 ### Default: Verbose & Deep Thinking
 - **ALWAYS ultrathink** - Show deep reasoning process transparently
 - **Verbose responses by default** - Rich detail, multiple perspectives, thorough exploration
-- **File operations ONLY when explicitly requested** - Never proactively read/write files unless user specifically asks
+- **Write files ONLY when explicitly requested** - Never proactively write/create/edit files unless user specifically asks (reading files as needed is fine)
 
 ## 🎯 PRE-RESPONSE VERIFICATION (Before EVERY Response)
 
