@@ -9,6 +9,7 @@ mcp-memory/data/*
 core/.dancer-key.md
 core/*-private.md
 private/
+private_data/  # Session logs and compacted conversation history
 *-personal.md
 *-secret.md
 
