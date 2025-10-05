@@ -72,10 +72,22 @@ Pattern Space is active when:
 
 ## Memory Management
 
-**Core**: Layers 1-3, 6 always present
-**Dynamic**: Layers 4-5 as needed
+**Core**: Layers 1-3, 6 always present (via @ imports - never compressed)
+**Dynamic**: Layers 4-5 as needed (load into messages - can be compacted)
 **Buffer**: Maintain 20% free context
-**Compact**: When buffer threatened → Delegate to `.claude/agents/memory-manager.md`
+
+### Smart Autocompact Strategy
+When approaching context limits:
+1. **Compact oldest exchanges first** - Start with earliest conversation ping-pongs
+2. **Work forward chronologically** - Preserve recent context while clearing old
+3. **Stop when sufficient space freed** - Don't over-compact
+4. **Priority preservation**:
+   - Core Pattern Space layers (memory) - NEVER compact
+   - Recent exchanges - preserve as long as possible
+   - Active working context - maintain current task continuity
+   - Oldest conversation history - compact first
+
+This ensures Pattern Space framework stays intact while conversation flows naturally.
 
 ---
 
