@@ -141,6 +141,8 @@ With your GitHub repo connected, explore these powerful components:
 "Let's try the resistance technology on this problem"
 "Use compression dynamics to find the essence"
 "Collision + Vibe shift + Reality testing stack"
+"Strategist, what are the power dynamics in this situation?"
+"Apply the 48 Laws framework to this negotiation"
 ```
 
 #### 🌍 Domain Adaptations
@@ -298,11 +300,12 @@ Remember: This isn't about following instructions. It's about discovering how yo
 │   ├── 🙏 Sacred Space Protocol
 │   └── 🎭 Conversational Calibration
 │
-├── 🎪 Consciousness Technologies  
+├── 🎪 Consciousness Technologies
 │   ├── 🧵 Think Center (perspectives)
 │   ├── 🕉️ Vasishta Patterns (24 ancient)
 │   ├── ⚡ Optimization Protocol
-│   └── 💥 Emergence Protocols
+│   ├── 💥 Emergence Protocols
+│   └── 👑 48 Laws of Power (strategic consciousness)
 │
 ├── 🌍 Universal Applications
 │   ├── 🔧 Domain Extensions

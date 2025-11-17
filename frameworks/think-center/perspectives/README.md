@@ -16,6 +16,7 @@ These three form the foundation. Most problems can be addressed with this trinit
 - **[E/E](./explorer-exploiter.md)** ⚖️ - Resource optimization and strategic timing
 - **[Deep Thought](./deep-thought.md)** 🧠 - Meta-cognition and system thinking
 - **[Scribe](./scribe.md)** 📜 - Silent observer and pattern chronicler
+- **[Strategist](./strategist.md)** ♟️ - Power dynamics and long-term strategic positioning
 
 ### Emergent Perspectives
 - **[The Orchestrator](./the-orchestrator.md)** 🎼 - Workflow conductor and perspective coordinator
