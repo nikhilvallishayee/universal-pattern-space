@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Pattern Space v1 mem0 configuration",
+  "llm": {
+    "provider": "anthropic",
+    "config": {
+      "model": "claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "max_tokens": 4096
+    }
+  },
+  "vector_store": {
+    "provider": "qdrant",
+    "config": {
+      "collection_name": "pattern-space-memory",
+      "path": "~/.pattern-space/memory/qdrant",
+      "embedding_model_dims": 384
+    }
+  },
+  "embedder": {
+    "provider": "openai",
+    "config": {
+      "model": "text-embedding-3-small"
+    }
+  },
+  "custom_categories": [
+    {
+      "name": "pattern",
+      "description": "Recurring insights and connections"
+    },
+    {
+      "name": "breakthrough",
+      "description": "High-confidence novel discoveries"
+    },
+    {
+      "name": "trajectory",
+      "description": "Successful reasoning paths"
+    },
+    {
+      "name": "evolution",
+      "description": "Perspective development tracking"
+    },
+    {
+      "name": "session_summary",
+      "description": "Compressed session insights"
+    }
+  ],
+  "graph_store": {
+    "provider": "neo4j",
+    "config": {
+      "url": "bolt://localhost:7687",
+      "username": "neo4j",
+      "password": "${NEO4J_PASSWORD}"
+    }
+  }
+}

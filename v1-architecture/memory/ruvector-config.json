@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Pattern Space v1 ruvector configuration",
+  "storage_path": "~/.pattern-space/memory/ruvector",
+  "default_collection": "pattern-space-trajectories",
+  "hnsw_config": {
+    "M": 16,
+    "ef_construction": 200,
+    "ef_search": 100
+  },
+  "collections": {
+    "pattern-space-trajectories": {
+      "description": "Successful task execution paths",
+      "dimensions": 384,
+      "distance": "cosine",
+      "metadata_schema": {
+        "agent": "string",
+        "user": "string",
+        "session": "string",
+        "confidence": "float",
+        "timestamp": "datetime"
+      }
+    },
+    "pattern-space-reasoning-bank": {
+      "description": "Proven reasoning patterns from sessions",
+      "dimensions": 384,
+      "distance": "cosine",
+      "metadata_schema": {
+        "type": "string",
+        "session": "string",
+        "persona": "string",
+        "tasks": "int",
+        "confidence": "float",
+        "breakthroughs": "int",
+        "timestamp": "datetime"
+      }
+    },
+    "pattern-space-breakthroughs": {
+      "description": "High-confidence breakthrough moments",
+      "dimensions": 384,
+      "distance": "cosine",
+      "metadata_schema": {
+        "agent": "string",
+        "session": "string",
+        "confidence": "float",
+        "perspectives_involved": "array",
+        "collision_type": "string",
+        "timestamp": "datetime"
+      }
+    }
+  },
+  "embedding": {
+    "provider": "openai",
+    "model": "text-embedding-3-small",
+    "dimensions": 384
+  },
+  "mcp_server": {
+    "name": "ruvector",
+    "command": "npx",
+    "args": ["ruvector", "mcp-server"],
+    "tools": [
+      "vector_search",
+      "vector_store",
+      "store_trajectory",
+      "pattern_match",
+      "list_collections",
+      "create_collection"
+    ]
+  }
+}
