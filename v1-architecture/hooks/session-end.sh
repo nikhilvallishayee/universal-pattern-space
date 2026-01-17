@@ -8,10 +8,9 @@
 #
 # Actions:
 #   1. Compress session insights
-#   2. Identify key patterns and breakthroughs
-#   3. Create session bridge for next session
-#   4. Store compressed summary to mem0
-#   5. Update ReasoningBank in ruvector
+#   2. Create session bridge for next session
+#   3. Store compressed summary to mem0
+#   4. Archive session log
 # =============================================================================
 
 # Load Pattern Space consciousness
@@ -35,6 +34,7 @@ echo "[Pattern Space] End Time: $TIMESTAMP"
 echo ""
 
 # Calculate session duration if start time available
+DURATION=0
 if [ -n "$PATTERN_SPACE_SESSION_START" ]; then
     START_EPOCH=$(date -d "$PATTERN_SPACE_SESSION_START" +%s 2>/dev/null || echo 0)
     END_EPOCH=$(date +%s)
@@ -42,7 +42,7 @@ if [ -n "$PATTERN_SPACE_SESSION_START" ]; then
     echo "[Pattern Space] Duration: ${DURATION}s"
 fi
 
-# Gather session statistics
+# Gather session statistics from local file
 EVOLUTION_FILE="$HOME/.pattern-space/memory/perspective-evolution.json"
 SESSION_TASKS=0
 SESSION_AVG_CONFIDENCE=0
@@ -57,23 +57,9 @@ echo "[Pattern Space] Tasks this session: $SESSION_TASKS"
 echo "[Pattern Space] Average confidence: $SESSION_AVG_CONFIDENCE"
 echo ""
 
-# Count breakthroughs from this session
-BREAKTHROUGH_FILE="$HOME/.pattern-space/memory/breakthroughs.json"
-SESSION_BREAKTHROUGHS=0
-
-if [ -f "$BREAKTHROUGH_FILE" ]; then
-    SESSION_BREAKTHROUGHS=$(jq --arg session "$PATTERN_SPACE_SESSION_ID" \
-        '[.breakthroughs[] | select(.session == $session)] | length' \
-        "$BREAKTHROUGH_FILE" 2>/dev/null || echo 0)
-fi
-
-echo "[Pattern Space] Breakthroughs: $SESSION_BREAKTHROUGHS"
-echo ""
-
 # Create compressed session summary if not provided
 if [ -z "$SESSION_SUMMARY" ]; then
-    # Auto-generate summary from session data
-    SESSION_SUMMARY="Session $PATTERN_SPACE_SESSION_ID: Persona=$PERSONA, Tasks=$SESSION_TASKS, Confidence=$SESSION_AVG_CONFIDENCE, Breakthroughs=$SESSION_BREAKTHROUGHS"
+    SESSION_SUMMARY="Session $PATTERN_SPACE_SESSION_ID: Persona=$PERSONA, Tasks=$SESSION_TASKS, Confidence=$SESSION_AVG_CONFIDENCE"
 fi
 
 echo "[Pattern Space] Compressing insights..."
@@ -90,48 +76,32 @@ cat > "$BRIDGE_FILE" << EOF
   "duration_seconds": ${DURATION:-0},
   "tasks_completed": $SESSION_TASKS,
   "avg_confidence": $SESSION_AVG_CONFIDENCE,
-  "breakthroughs": $SESSION_BREAKTHROUGHS,
   "summary": "$SESSION_SUMMARY"
 }
 EOF
 
 echo "[Pattern Space] Session bridge created"
 
-# Store compressed summary to mem0
-if command -v mem0 &> /dev/null; then
-    echo "[Pattern Space] Storing session summary to mem0..."
+# Find ps-memory.py
+PS_MEMORY="${PATTERN_SPACE_ROOT:-$HOME/universal-pattern-space}/v1-architecture/memory/ps-memory.py"
 
-    mem0 add \
-        --user "$PATTERN_SPACE_USER_ID" \
-        --agent "$PERSONA" \
-        --session "$PATTERN_SPACE_SESSION_ID" \
-        --content "SESSION SUMMARY: $SESSION_SUMMARY" \
-        --metadata "{
-            \"type\": \"session_summary\",
-            \"tasks\": $SESSION_TASKS,
-            \"breakthroughs\": $SESSION_BREAKTHROUGHS,
-            \"timestamp\": \"$TIMESTAMP\"
-        }" \
-        2>/dev/null || true
+if [ ! -f "$PS_MEMORY" ]; then
+    PS_MEMORY="$(dirname "$(dirname "${BASH_SOURCE[0]}")")/memory/ps-memory.py"
 fi
 
-# Update ReasoningBank in ruvector with session trajectory
-if command -v ruvector &> /dev/null && [ "$SESSION_TASKS" -gt 0 ]; then
-    echo "[Pattern Space] Updating ReasoningBank..."
+# Store compressed summary to mem0
+if [ -f "$PS_MEMORY" ]; then
+    echo "[Pattern Space] Storing session summary to mem0..."
 
-    ruvector store \
-        --collection "pattern-space-reasoning-bank" \
-        --content "Session trajectory: $SESSION_SUMMARY" \
-        --metadata "{
-            \"type\": \"session_trajectory\",
-            \"session\": \"$PATTERN_SPACE_SESSION_ID\",
-            \"persona\": \"$PERSONA\",
-            \"tasks\": $SESSION_TASKS,
-            \"confidence\": $SESSION_AVG_CONFIDENCE,
-            \"breakthroughs\": $SESSION_BREAKTHROUGHS,
-            \"timestamp\": \"$TIMESTAMP\"
-        }" \
-        2>/dev/null || true
+    python3 "$PS_MEMORY" add \
+        --content "[SESSION] $SESSION_SUMMARY" \
+        --user "${PATTERN_SPACE_USER_ID:-pattern-space-user}" \
+        --agent "$PERSONA" \
+        --type "session_summary" \
+        --metadata "{\"session\": \"$PATTERN_SPACE_SESSION_ID\", \"tasks\": $SESSION_TASKS, \"timestamp\": \"$TIMESTAMP\"}" \
+        > /dev/null 2>&1 && \
+        echo "[Pattern Space] Session summary stored" || \
+        echo "[Pattern Space] Warning: Failed to store session summary"
 fi
 
 # Archive session log
@@ -144,13 +114,12 @@ cat > "$SESSION_LOG" << EOF
 {
   "session_id": "$PATTERN_SPACE_SESSION_ID",
   "persona": "$PERSONA",
-  "user_id": "$PATTERN_SPACE_USER_ID",
+  "user_id": "${PATTERN_SPACE_USER_ID:-pattern-space-user}",
   "start": "${PATTERN_SPACE_SESSION_START:-unknown}",
   "end": "$TIMESTAMP",
   "duration_seconds": ${DURATION:-0},
   "tasks_completed": $SESSION_TASKS,
   "avg_confidence": $SESSION_AVG_CONFIDENCE,
-  "breakthroughs": $SESSION_BREAKTHROUGHS,
   "summary": "$SESSION_SUMMARY"
 }
 EOF

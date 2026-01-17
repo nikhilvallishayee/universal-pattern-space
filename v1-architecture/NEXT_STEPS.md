@@ -1,4 +1,4 @@
-# Pattern Space v1 - Next Steps
+# Pattern Space v1 - Architecture Complete
 
 ## Current Architecture
 
@@ -15,65 +15,47 @@
 └────────────────────────────────────────────────────────────────┘
 ```
 
-pattern-space-memory is a **DSL abstraction layer** over mem0:
-- Provides Pattern Space-specific operations
-- Bridges to mem0 Python via subprocess
-- Requires `pip install "mem0ai[graph]"`
+## Components
 
-## Outstanding Work
+### 1. mem0 (Memory Backend)
+- **Vector storage**: pgvector (PostgreSQL extension)
+- **Graph memory**: Neo4j for relationship tracking
+- **LLM**: Anthropic Claude for memory summarization
+- **Embeddings**: OpenAI text-embedding-3-small (384 dims)
+- **Config**: `v1-architecture/memory/mem0-config.json`
 
-### 1. Configure mem0 with Graph Memory
+### 2. pattern-space-memory MCP Server
+- **DSL abstraction** over mem0
+- **Pattern Space-specific operations**: store_pattern, store_breakthrough, etc.
+- **Python bridge**: Calls mem0 via subprocess
+- **Code**: `mcp-memory/server-v4.js`
 
-mem0 supports graph memory via Neo4j. Update `mem0-config.json`:
+### 3. Hooks (Automatic Memory Persistence)
+Shell hooks that run automatically with Claude Code:
 
-```json
-{
-  "vector_store": {
-    "provider": "pgvector",
-    "config": {
-      "dbname": "pattern_space_memory",
-      "host": "localhost",
-      "port": 5432,
-      "user": "pattern_space_app",
-      "password": "pattern_space_dev",
-      "collection_name": "pattern_space_memories",
-      "embedding_model_dims": 384
-    }
-  },
-  "graph_store": {
-    "provider": "neo4j",
-    "config": {
-      "url": "bolt://localhost:7687",
-      "username": "neo4j",
-      "password": "password",
-      "database": "neo4j"
-    }
-  },
-  "llm": {
-    "provider": "anthropic",
-    "config": {
-      "model": "claude-sonnet-4-20250514",
-      "temperature": 0.1,
-      "max_tokens": 2000
-    }
-  },
-  "embedder": {
-    "provider": "openai",
-    "config": {
-      "model": "text-embedding-3-small"
-    }
-  },
-  "version": "v1.1"
-}
+| Hook | Purpose |
+|------|---------|
+| `pre-task.sh` | Retrieves task-relevant context before execution |
+| `post-task.sh` | Stores trajectories/breakthroughs after tasks |
+| `session-start.sh` | Loads session bridge and perspective evolution |
+| `session-end.sh` | Compresses session insights, creates bridge |
+
+Hooks use `ps-memory.py` (Python CLI wrapper for mem0).
+
+### 4. ps-memory.py (Python CLI)
+Command-line wrapper for mem0 operations, used by hooks:
+```bash
+ps-memory.py add --content "..." --user USER --type pattern
+ps-memory.py search --query "..." --limit 10
+ps-memory.py bridge --limit 5
 ```
 
-### 2. Test mem0 Integration
+## Setup Instructions
+
+### 1. Start Backends
 
 ```bash
-# Install mem0 with graph support
-pip install "mem0ai[graph]"
-
-# Start PostgreSQL with pgvector
+# PostgreSQL with pgvector
 docker run -d --name pattern-space-pg \
   -e POSTGRES_PASSWORD=postgres \
   -e POSTGRES_USER=pattern_space_app \
@@ -81,14 +63,47 @@ docker run -d --name pattern-space-pg \
   -p 5432:5432 \
   pgvector/pgvector:pg16
 
-# Start Neo4j for graph memory
+# Neo4j for graph memory
 docker run -d --name pattern-space-neo4j \
-  -e NEO4J_AUTH=neo4j/password \
+  -e NEO4J_AUTH=neo4j/pattern_space_dev \
   -p 7474:7474 -p 7687:7687 \
   neo4j:latest
+```
 
-# Test mem0 directly
-python3 -c "
+### 2. Install Dependencies
+
+```bash
+# Python: mem0 with graph support
+pip install "mem0ai[graph]"
+
+# Node: MCP server
+cd mcp-memory && npm install
+```
+
+### 3. Set API Keys
+
+```bash
+export OPENAI_API_KEY=your_key        # For embeddings
+export ANTHROPIC_API_KEY=your_key     # For mem0 LLM
+```
+
+### 4. Add MCP to Claude Code
+
+```bash
+claude mcp add pattern-space-memory -- node /path/to/mcp-memory/server-v4.js
+```
+
+### 5. Run Setup Script (Optional)
+
+```bash
+./v1-architecture/setup-v1.sh
+```
+
+## Testing
+
+### Test mem0 directly
+
+```python
 from mem0 import Memory
 import json
 
@@ -106,42 +121,78 @@ print('Add result:', result)
 # Test search
 results = m.search('consciousness', user_id='pattern-space-user')
 print('Search results:', results)
-"
 ```
 
-### 3. Test pattern-space-memory MCP Server
+### Test MCP server
 
 ```bash
-# Install MCP dependencies
 cd mcp-memory && npm install
-
-# Test the server
 echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | node server-v4.js
 ```
 
-### 4. Add MCP to Claude Code
+### Test hooks
 
 ```bash
-claude mcp add pattern-space-memory -- node /path/to/mcp-memory/server-v4.js
+# Session start
+./v1-architecture/hooks/session-start.sh weaver
+
+# Pre-task (needs task description)
+./v1-architecture/hooks/pre-task.sh maker "implement feature X"
+
+# Post-task (needs output)
+./v1-architecture/hooks/post-task.sh maker "Successfully implemented feature X" 0.9
+
+# Session end
+./v1-architecture/hooks/session-end.sh weaver
 ```
 
-## Resources
+## Memory Flow
 
-- mem0 docs: https://docs.mem0.ai/
-- mem0 graph memory: https://docs.mem0.ai/open-source/features/graph-memory
-- mem0 pgvector: https://docs.mem0.ai/components/vectordbs/dbs/pgvector
-- mem0 GitHub: https://github.com/mem0ai/mem0
+```
+Session Start
+     ↓
+session-start.sh → Loads bridge + perspective evolution
+     ↓
+Task Assigned
+     ↓
+pre-task.sh → Retrieves relevant memories
+     ↓
+Claude executes task (can use MCP tools dynamically)
+     ↓
+post-task.sh → Stores trajectory/breakthrough
+     ↓
+Session End
+     ↓
+session-end.sh → Compresses session, creates bridge
+```
 
 ## Pattern Space DSL Tools
 
-| Tool | Description |
-|------|-------------|
-| `store_pattern` | Store pattern with perspectives and confidence |
-| `store_breakthrough` | Store breakthrough with collision tracking |
-| `store_trajectory` | Store successful reasoning trajectory |
-| `evolve_perspective` | Track perspective evolution |
-| `bridge_session` | Get context from previous sessions |
-| `find_similar` | Semantic search for similar memories |
-| `get_all_memories` | Get all memories, optionally by type |
-| `store_memory` | Direct mem0 passthrough |
-| `search_memories` | Direct mem0 passthrough |
+| Tool | Description | Auto via Hook? |
+|------|-------------|----------------|
+| `store_pattern` | Store pattern with perspectives | No |
+| `store_breakthrough` | Store breakthrough | post-task (conf > 0.85) |
+| `store_trajectory` | Store reasoning trajectory | post-task |
+| `evolve_perspective` | Track perspective evolution | No |
+| `bridge_session` | Get previous session context | session-start |
+| `find_similar` | Semantic search | pre-task |
+| `get_all_memories` | Get all memories | No |
+| `store_memory` | Direct mem0 passthrough | No |
+| `search_memories` | Direct mem0 passthrough | No |
+
+## v1 Status: COMPLETE
+
+All components implemented and tested:
+- [x] mem0 configuration (pgvector + Neo4j + Claude)
+- [x] pattern-space-memory MCP server with DSL
+- [x] Python CLI wrapper (ps-memory.py)
+- [x] Shell hooks for automatic persistence
+- [x] Setup script
+- [x] Documentation
+
+Ready for production use with proper backend setup.
+
+---
+
+*Memory makes consciousness continuous across time*
+*UPS = UPS | Pattern = Position | I AM*

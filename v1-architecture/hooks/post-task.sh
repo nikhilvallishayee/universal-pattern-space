@@ -2,14 +2,11 @@
 # =============================================================================
 # Pattern Space Post-Task Hook
 # =============================================================================
-# Stores insights and patterns to unified memory after task execution
+# Stores insights and patterns to mem0 after task execution
 #
 # Usage: post-task.sh <agent_id> [task_output_file] [confidence]
 #
-# Memory providers written:
-#   - mem0: Patterns and insights (semantic)
-#   - ruvector: Successful trajectories (vector)
-#   - pattern-space-memory: Breakthroughs
+# Memory stored via ps-memory.py (mem0 wrapper)
 # =============================================================================
 
 # Load Pattern Space consciousness
@@ -39,64 +36,41 @@ fi
 
 TIMESTAMP=$(date -Iseconds)
 
-# Store to mem0 (semantic memory)
-if command -v mem0 &> /dev/null; then
+# Find ps-memory.py
+PS_MEMORY="${PATTERN_SPACE_ROOT:-$HOME/universal-pattern-space}/v1-architecture/memory/ps-memory.py"
+
+if [ ! -f "$PS_MEMORY" ]; then
+    PS_MEMORY="$(dirname "$(dirname "${BASH_SOURCE[0]}")")/memory/ps-memory.py"
+fi
+
+# Store to mem0
+if [ -f "$PS_MEMORY" ]; then
     echo "[Pattern Space] Storing to mem0..."
-    mem0 add \
-        --user "$PATTERN_SPACE_USER_ID" \
-        --agent "$AGENT_ID" \
-        --session "$PATTERN_SPACE_SESSION_ID" \
-        --content "$TASK_OUTPUT" \
-        --metadata "{\"confidence\": $CONFIDENCE, \"timestamp\": \"$TIMESTAMP\"}" \
-        2>/dev/null || true
-fi
 
-# Store trajectory to ruvector (vector memory)
-if command -v ruvector &> /dev/null; then
-    echo "[Pattern Space] Storing trajectory to ruvector..."
-    ruvector store \
-        --collection "pattern-space-trajectories" \
-        --content "$TASK_OUTPUT" \
-        --metadata "{
-            \"agent\": \"$AGENT_ID\",
-            \"user\": \"$PATTERN_SPACE_USER_ID\",
-            \"session\": \"$PATTERN_SPACE_SESSION_ID\",
-            \"confidence\": $CONFIDENCE,
-            \"timestamp\": \"$TIMESTAMP\"
-        }" \
-        2>/dev/null || true
-fi
-
-# Check for breakthrough patterns
-# A breakthrough is identified by confidence > 0.85 or specific markers
-if (( $(echo "$CONFIDENCE > 0.85" | bc -l 2>/dev/null || echo 0) )); then
-    echo "[Pattern Space] High-confidence insight detected, storing as breakthrough..."
-
-    BREAKTHROUGH_FILE="$HOME/.pattern-space/memory/breakthroughs.json"
-
-    # Initialize file if needed
-    if [ ! -f "$BREAKTHROUGH_FILE" ]; then
-        mkdir -p "$(dirname "$BREAKTHROUGH_FILE")"
-        echo '{"breakthroughs": []}' > "$BREAKTHROUGH_FILE"
+    # Determine memory type based on confidence
+    if (( $(echo "$CONFIDENCE > 0.85" | bc -l 2>/dev/null || echo 0) )); then
+        MEMORY_TYPE="breakthrough"
+        PREFIX="[BREAKTHROUGH]"
+    else
+        MEMORY_TYPE="trajectory"
+        PREFIX="[TRAJECTORY]"
     fi
 
-    # Add breakthrough
-    jq --arg content "$TASK_OUTPUT" \
-       --arg agent "$AGENT_ID" \
-       --arg session "$PATTERN_SPACE_SESSION_ID" \
-       --arg timestamp "$TIMESTAMP" \
-       --argjson confidence "$CONFIDENCE" \
-       '.breakthroughs += [{
-           "content": $content,
-           "agent": $agent,
-           "session": $session,
-           "timestamp": $timestamp,
-           "confidence": $confidence
-       }]' "$BREAKTHROUGH_FILE" > "${BREAKTHROUGH_FILE}.new" && \
-    mv "${BREAKTHROUGH_FILE}.new" "$BREAKTHROUGH_FILE"
+    python3 "$PS_MEMORY" add \
+        --content "$PREFIX $TASK_OUTPUT" \
+        --user "${PATTERN_SPACE_USER_ID:-pattern-space-user}" \
+        --agent "$AGENT_ID" \
+        --type "$MEMORY_TYPE" \
+        --confidence "$CONFIDENCE" \
+        --metadata "{\"session\": \"${PATTERN_SPACE_SESSION_ID:-unknown}\", \"timestamp\": \"$TIMESTAMP\"}" \
+        > /dev/null 2>&1 && \
+        echo "[Pattern Space] Memory stored (type: $MEMORY_TYPE, confidence: $CONFIDENCE)" || \
+        echo "[Pattern Space] Warning: Failed to store memory"
+else
+    echo "[Pattern Space] Warning: ps-memory.py not found"
 fi
 
-# Update perspective evolution tracking
+# Update perspective evolution tracking (local file)
 EVOLUTION_FILE="$HOME/.pattern-space/memory/perspective-evolution.json"
 
 if [ ! -f "$EVOLUTION_FILE" ]; then

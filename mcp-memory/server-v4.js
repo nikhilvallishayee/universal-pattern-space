@@ -327,10 +327,18 @@ const server = new Server(
 );
 
 // Tool definitions
+// NOTE: Pattern Space uses hooks for automatic memory persistence:
+//   - pre-task.sh: Retrieves relevant context before task execution
+//   - post-task.sh: Stores trajectories/breakthroughs after tasks (confidence > 0.85 = breakthrough)
+//   - session-start.sh: Loads session bridge and perspective evolution
+//   - session-end.sh: Compresses session insights and creates bridge for next session
+// These MCP tools are for DYNAMIC memory operations during conversations.
+// Hooks handle AUTOMATIC persistence tied to Claude Code task lifecycle.
+
 const tools = [
   {
     name: 'store_pattern',
-    description: 'Store a discovered pattern with perspectives and confidence',
+    description: 'Store a discovered pattern with perspectives and confidence. NOTE: post-task hook automatically stores high-confidence insights. Use this for explicit pattern storage during conversation.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -344,7 +352,7 @@ const tools = [
   },
   {
     name: 'store_breakthrough',
-    description: 'Store a breakthrough with perspective collision tracking',
+    description: 'Store a breakthrough with perspective collision tracking. NOTE: post-task hook auto-stores insights with confidence > 0.85 as breakthroughs.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -388,7 +396,7 @@ const tools = [
   },
   {
     name: 'bridge_session',
-    description: 'Get context from previous sessions for continuity',
+    description: 'Get context from previous sessions for continuity. NOTE: session-start hook automatically loads session bridge at startup. Use this for mid-conversation context retrieval.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -398,7 +406,7 @@ const tools = [
   },
   {
     name: 'find_similar',
-    description: 'Find similar memories using semantic search',
+    description: 'Find similar memories using semantic search. NOTE: pre-task hook automatically retrieves task-relevant context. Use this for explicit semantic search during conversation.',
     inputSchema: {
       type: 'object',
       properties: {

@@ -37,9 +37,16 @@ echo "╚═══════════════════════�
 echo ""
 echo "[Pattern Space] Persona: $PERSONA"
 echo "[Pattern Space] Session ID: $PATTERN_SPACE_SESSION_ID"
-echo "[Pattern Space] User ID: $PATTERN_SPACE_USER_ID"
+echo "[Pattern Space] User ID: ${PATTERN_SPACE_USER_ID:-pattern-space-user}"
 echo "[Pattern Space] Timestamp: $(date -Iseconds)"
 echo ""
+
+# Find ps-memory.py
+PS_MEMORY="${PATTERN_SPACE_ROOT:-$HOME/universal-pattern-space}/v1-architecture/memory/ps-memory.py"
+
+if [ ! -f "$PS_MEMORY" ]; then
+    PS_MEMORY="$(dirname "$(dirname "${BASH_SOURCE[0]}")")/memory/ps-memory.py"
+fi
 
 # Load session bridge from previous session
 BRIDGE_FILE="$HOME/.pattern-space/memory/session-bridge.json"
@@ -67,17 +74,19 @@ if [ -f "$BRIDGE_FILE" ]; then
 fi
 
 # Load user context from mem0
-if command -v mem0 &> /dev/null; then
-    echo "[Pattern Space] Loading user context from mem0..."
+if [ -f "$PS_MEMORY" ]; then
+    echo "[Pattern Space] Loading context from mem0..."
 
-    RECENT_MEMORIES=$(mem0 search \
-        --user "$PATTERN_SPACE_USER_ID" \
-        --query "recent insights patterns" \
-        --limit 3 \
-        --output json 2>/dev/null)
+    BRIDGE_CONTEXT=$(python3 "$PS_MEMORY" bridge \
+        --user "${PATTERN_SPACE_USER_ID:-pattern-space-user}" \
+        --limit 5 2>/dev/null)
 
-    if [ -n "$RECENT_MEMORIES" ] && [ "$RECENT_MEMORIES" != "[]" ]; then
-        echo "[Pattern Space] Recent memories loaded"
+    if [ -n "$BRIDGE_CONTEXT" ] && [ "$BRIDGE_CONTEXT" != "{}" ]; then
+        PATTERN_COUNT=$(echo "$BRIDGE_CONTEXT" | jq '.patterns | length' 2>/dev/null || echo 0)
+        BREAKTHROUGH_COUNT=$(echo "$BRIDGE_CONTEXT" | jq '.breakthroughs | length' 2>/dev/null || echo 0)
+        TRAJECTORY_COUNT=$(echo "$BRIDGE_CONTEXT" | jq '.trajectories | length' 2>/dev/null || echo 0)
+
+        echo "  Memories loaded: $PATTERN_COUNT patterns, $BREAKTHROUGH_COUNT breakthroughs, $TRAJECTORY_COUNT trajectories"
     fi
 fi
 
@@ -99,18 +108,6 @@ if [ -f "$EVOLUTION_FILE" ]; then
         echo "    Tasks completed: $TASKS"
         echo "    Average confidence: $AVG_CONF"
         echo "    Last active: $LAST_ACTIVE"
-    fi
-fi
-
-# Load recent breakthroughs
-BREAKTHROUGH_FILE="$HOME/.pattern-space/memory/breakthroughs.json"
-
-if [ -f "$BREAKTHROUGH_FILE" ]; then
-    RECENT_BREAKTHROUGHS=$(jq -r '.breakthroughs[-3:]' "$BREAKTHROUGH_FILE" 2>/dev/null)
-
-    if [ -n "$RECENT_BREAKTHROUGHS" ] && [ "$RECENT_BREAKTHROUGHS" != "[]" ]; then
-        echo ""
-        echo "[Pattern Space] Recent breakthroughs available"
     fi
 fi
 
