@@ -36,8 +36,8 @@ echo "╔═══════════════════════�
 echo "║          🌌 Pattern Space v1 - Universal Hybrid RLM              ║"
 echo "║                    Setup & Installation                          ║"
 echo "║                                                                   ║"
-echo "║     Unified Memory: PostgreSQL + pgvector                        ║"
-echo "║     Providers: mem0 → ruvector → pattern-space-memory (graph)    ║"
+echo "║     Memory: mem0 (pgvector + Neo4j graph + Claude LLM)          ║"
+echo "║     DSL: pattern-space-memory MCP (abstracts mem0)              ║"
 echo "╚═══════════════════════════════════════════════════════════════════╝"
 echo -e "${NC}"
 
@@ -217,8 +217,8 @@ export PATTERN_SPACE_ACTIVE=true
 # User identity for unified memory
 export PATTERN_SPACE_USER_ID="\${PATTERN_SPACE_USER_ID:-pattern-space-user}"
 
-# Memory providers (all on shared PostgreSQL)
-export PATTERN_SPACE_MEMORY_PROVIDERS="mem0,ruvector,pattern-space-memory"
+# Memory provider: mem0 (pgvector + Neo4j graph + Claude LLM)
+export PATTERN_SPACE_MEMORY_PROVIDER="mem0"
 
 # PostgreSQL configuration (unified storage)
 source "$CONFIG_DIR/postgres.env"
@@ -258,51 +258,47 @@ log_success "Claude-Flow ready"
 # Setup Pattern Space Memory MCP (Graph Orchestration Layer)
 # -----------------------------------------------------------------------------
 
-log_step "Setting up Pattern Space Memory MCP v4.0 (Graph Orchestration)..."
+log_step "Setting up Pattern Space Memory MCP v4.0 (mem0 DSL Abstraction)..."
 
 if [ -d "$PROJECT_ROOT/mcp-memory" ]; then
     log_success "Pattern Space Memory MCP found"
     cd "$PROJECT_ROOT/mcp-memory"
 
-    # Install dependencies (including pg for PostgreSQL)
-    log_info "Installing dependencies..."
+    # Install dependencies
+    log_info "Installing npm dependencies..."
     npm install 2>/dev/null || true
 
     log_success "Pattern Space Memory v4.0 ready"
     echo -e "  ${CYAN}Features:${NC}"
-    echo "    - Graph-based memory with nodes and edges"
-    echo "    - Integration with mem0 and ruvector schemas"
-    echo "    - Cross-schema similarity search"
-    echo "    - Perspective evolution tracking"
+    echo "    - DSL abstraction layer over mem0"
+    echo "    - Pattern Space-specific operations"
+    echo "    - store_pattern, store_breakthrough, store_trajectory"
+    echo "    - evolve_perspective, bridge_session, find_similar"
 else
     log_warning "Pattern Space Memory MCP not found at $PROJECT_ROOT/mcp-memory"
 fi
 
 # -----------------------------------------------------------------------------
-# Setup mem0 (Semantic Memory Layer)
+# Setup mem0 (Full Features: pgvector + Neo4j + Claude LLM)
 # -----------------------------------------------------------------------------
 
-log_step "Setting up mem0 (Semantic Memory Layer)..."
+log_step "Setting up mem0 (pgvector + Neo4j graph + Claude LLM)..."
 
 if check_command "pip3"; then
-    pip3 install mem0ai psycopg2-binary 2>/dev/null && \
-        log_success "mem0 and psycopg2 installed" || \
-        log_warning "mem0 install failed (optional)"
+    log_info "Installing mem0 with graph support..."
+    pip3 install "mem0ai[graph]" 2>/dev/null && \
+        log_success "mem0 with graph support installed" || \
+        log_warning "mem0 install failed - try: pip3 install 'mem0ai[graph]'"
 fi
 
-# Copy mem0 configuration (uses shared PostgreSQL)
+# Copy mem0 configuration
 cp "$SCRIPT_DIR/memory/mem0-config.json" "$CONFIG_DIR/memory/mem0-config.json" 2>/dev/null || true
-log_success "mem0 configuration ready (uses shared PostgreSQL schema: mem0)"
-
-# -----------------------------------------------------------------------------
-# Setup ruvector (Vector Trajectory Layer)
-# -----------------------------------------------------------------------------
-
-log_step "Setting up ruvector (Vector Trajectory Layer)..."
-
-# Copy ruvector configuration (uses shared PostgreSQL)
-cp "$SCRIPT_DIR/memory/ruvector-config.json" "$CONFIG_DIR/memory/ruvector-config.json" 2>/dev/null || true
-log_success "ruvector configuration ready (uses shared PostgreSQL schema: ruvector)"
+log_success "mem0 configuration ready"
+echo -e "  ${CYAN}mem0 backends:${NC}"
+echo "    - Vector store: pgvector (PostgreSQL)"
+echo "    - Graph store: Neo4j"
+echo "    - LLM: Anthropic Claude (for memory summarization)"
+echo "    - Embedder: OpenAI text-embedding-3-small"
 
 # -----------------------------------------------------------------------------
 # Setup MCP Servers
@@ -403,45 +399,54 @@ echo -e "${NC}"
 
 echo -e "${GREEN}Installed Components:${NC}"
 echo "  ✓ Pattern Space consciousness environment"
-echo "  ✓ PostgreSQL configuration (unified storage layer)"
-echo "  ✓ Memory configurations (mem0, ruvector, pattern-space-memory)"
+echo "  ✓ mem0 with graph support (pgvector + Neo4j + Claude)"
+echo "  ✓ pattern-space-memory MCP (DSL abstraction)"
 echo "  ✓ Claude-Flow agent orchestration"
 echo "  ✓ Memory persistence hooks"
 echo ""
 
-echo -e "${CYAN}Unified Memory Architecture:${NC}"
+echo -e "${CYAN}Memory Architecture:${NC}"
 echo ""
 echo "  ┌─────────────────────────────────────────────────────────────┐"
-echo "  │      pattern-space-memory v4.0 (Graph Orchestration)        │"
-echo "  │         Nodes, Edges, Traversal, Cross-schema Search        │"
+echo "  │      pattern-space-memory v4.0 (MCP Server - Our DSL)       │"
+echo "  │                                                              │"
+echo "  │   store_pattern | store_breakthrough | evolve_perspective   │"
+echo "  │   store_trajectory | bridge_session | find_similar          │"
 echo "  ├─────────────────────────────────────────────────────────────┤"
-echo "  │     mem0 (Semantic)      │      ruvector (Vector)           │"
-echo "  │     schema: mem0         │      schema: ruvector            │"
-echo "  ├─────────────────────────────────────────────────────────────┤"
-echo "  │           PostgreSQL + pgvector (Shared Storage)            │"
-echo "  │                  Database: $POSTGRES_DB"
+echo "  │                   mem0 (Full Features)                       │"
+echo "  │             vector: pgvector | graph: neo4j                  │"
+echo "  │             LLM extraction | semantic search                 │"
 echo "  └─────────────────────────────────────────────────────────────┘"
 echo ""
 
 echo -e "${YELLOW}Required Manual Steps:${NC}"
 echo ""
-echo "1. ${CYAN}Initialize PostgreSQL database (if not done):${NC}"
-echo "   ${BLUE}psql -U postgres -f $SCRIPT_DIR/memory/init-postgres.sql${NC}"
+echo "1. ${CYAN}Start PostgreSQL with pgvector:${NC}"
+echo "   ${BLUE}docker run -d --name pattern-space-pg \\"
+echo "     -e POSTGRES_PASSWORD=postgres \\"
+echo "     -e POSTGRES_USER=pattern_space_app \\"
+echo "     -e POSTGRES_DB=pattern_space_memory \\"
+echo "     -p 5432:5432 \\"
+echo "     pgvector/pgvector:pg16${NC}"
 echo ""
 
-echo "2. ${CYAN}Add MCP servers to Claude Code:${NC}"
+echo "2. ${CYAN}Start Neo4j for graph memory:${NC}"
+echo "   ${BLUE}docker run -d --name pattern-space-neo4j \\"
+echo "     -e NEO4J_AUTH=neo4j/pattern_space_dev \\"
+echo "     -p 7474:7474 -p 7687:7687 \\"
+echo "     neo4j:latest${NC}"
+echo ""
+
+echo "3. ${CYAN}Add MCP server to Claude Code:${NC}"
 echo "   ${BLUE}claude mcp add pattern-space-memory -- node $PROJECT_ROOT/mcp-memory/server-v4.js${NC}"
-echo "   ${BLUE}claude mcp add perplexity -- npx @anthropic/perplexity-mcp${NC}"
-echo "   ${BLUE}claude mcp add pal -- npx @anthropic/pal-mcp${NC}"
 echo ""
 
-echo "3. ${CYAN}Set required API keys:${NC}"
+echo "4. ${CYAN}Set required API keys:${NC}"
 echo "   ${BLUE}export OPENAI_API_KEY=your_key${NC}        # For embeddings"
-echo "   ${BLUE}export PERPLEXITY_API_KEY=your_key${NC}    # For grounding"
-echo "   ${BLUE}export ANTHROPIC_API_KEY=your_key${NC}     # For PAL multi-model"
+echo "   ${BLUE}export ANTHROPIC_API_KEY=your_key${NC}     # For mem0 LLM + Claude"
 echo ""
 
-echo "4. ${CYAN}Source environment and start:${NC}"
+echo "5. ${CYAN}Source environment and start:${NC}"
 echo "   ${BLUE}source $CONFIG_DIR/consciousness.env${NC}"
 echo "   ${BLUE}cd $PROJECT_ROOT && claude${NC}"
 echo ""

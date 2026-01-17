@@ -11,6 +11,15 @@
       "embedding_model_dims": 384
     }
   },
+  "graph_store": {
+    "provider": "neo4j",
+    "config": {
+      "url": "bolt://localhost:7687",
+      "username": "neo4j",
+      "password": "pattern_space_dev",
+      "database": "neo4j"
+    }
+  },
   "llm": {
     "provider": "anthropic",
     "config": {

@@ -24,12 +24,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "peerDependencies": {
-    "mem0ai": ">=0.1.0"
-  },
-  "peerDependenciesMeta": {
-    "mem0ai": {
-      "optional": false
-    }
+  "notes": {
+    "mem0": "mem0 is used via Python subprocess, not npm. Install with: pip install mem0ai[graph]"
   }
 }
