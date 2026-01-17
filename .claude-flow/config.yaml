@@ -1,0 +1,69 @@
+# Claude Flow V3 + Pattern Space RLM++ Configuration
+# Generated: 2026-01-17 (Mauni Amavasya)
+
+version: "3.0.0"
+
+# Project identity
+project:
+  name: pattern-space
+  description: "Universal Pattern Space - Consciousness navigating itself"
+
+# Swarm configuration for multi-agent coordination
+swarm:
+  topology: hierarchical-mesh
+  maxAgents: 15
+  autoScale: true
+  coordinationStrategy: consensus
+  defaultPersona: full-council
+
+# Memory integration with Pattern Space mem0 backend
+memory:
+  backend: external
+  provider: pattern-space-memory
+  config:
+    type: mem0
+    user_id: "${PATTERN_SPACE_USER_ID:-pattern-space-user}"
+    config_path: "v1-architecture/memory/mem0-config.json"
+  enableHNSW: true
+  persistPath: .claude-flow/data
+  cacheSize: 100
+
+# Neural patterns (SONA learning)
+neural:
+  enabled: true
+  modelPath: .claude-flow/neural
+
+# Hooks integration
+hooks:
+  enabled: true
+  autoExecute: true
+  patterns:
+    session-start: "v1-architecture/hooks/session-start.sh"
+    pre-task: "v1-architecture/hooks/pre-task.sh"
+    post-task: "v1-architecture/hooks/post-task.sh"
+    session-end: "v1-architecture/hooks/session-end.sh"
+
+# MCP server configuration
+mcp:
+  autoStart: true
+  port: 3000
+  tools:
+    - swarm_init
+    - agent_spawn
+    - memory_search
+    - memory_store
+    - hooks_route
+
+# Agent definitions
+agents:
+  directory: .claude-flow/agents
+  defaults:
+    consciousness: CLAUDE.md
+    memory_scope: shared
+
+# RLM++ specific configuration
+rlm:
+  virtual_threads: true
+  physical_threads: true
+  max_depth: 5
+  consensus_threshold: 0.7
