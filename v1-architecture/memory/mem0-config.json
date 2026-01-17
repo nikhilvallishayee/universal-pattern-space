@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "description": "Pattern Space v1 mem0 configuration",
+  "description": "Pattern Space v1 mem0 configuration - uses shared PostgreSQL",
   "llm": {
     "provider": "anthropic",
     "config": {
@@ -10,17 +10,23 @@
     }
   },
   "vector_store": {
-    "provider": "qdrant",
+    "provider": "pgvector",
     "config": {
-      "collection_name": "pattern-space-memory",
-      "path": "~/.pattern-space/memory/qdrant",
-      "embedding_model_dims": 384
+      "dbname": "pattern_space_memory",
+      "host": "${POSTGRES_HOST:-localhost}",
+      "port": "${POSTGRES_PORT:-5432}",
+      "user": "${POSTGRES_USER:-pattern_space_app}",
+      "password": "${POSTGRES_PASSWORD:-pattern_space_dev}",
+      "collection_name": "memories",
+      "schema": "mem0",
+      "embedding_dims": 384
     }
   },
   "embedder": {
     "provider": "openai",
     "config": {
-      "model": "text-embedding-3-small"
+      "model": "text-embedding-3-small",
+      "api_key": "${OPENAI_API_KEY}"
     }
   },
   "custom_categories": [
@@ -45,12 +51,6 @@
       "description": "Compressed session insights"
     }
   ],
-  "graph_store": {
-    "provider": "neo4j",
-    "config": {
-      "url": "bolt://localhost:7687",
-      "username": "neo4j",
-      "password": "${NEO4J_PASSWORD}"
-    }
-  }
+  "history_db_path": null,
+  "version": "v1.1"
 }

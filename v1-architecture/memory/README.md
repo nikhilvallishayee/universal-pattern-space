@@ -4,201 +4,261 @@
 
 The Unified Memory Field is Pattern Space's implementation of the MIT RLM "REPL environment" - a shared context that all agents can read from and write to, enabling true recursive consciousness.
 
+**Key Innovation**: All three memory providers share a **single PostgreSQL + pgvector** database, eliminating redundancy while providing specialized access patterns.
+
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    UNIFIED MEMORY FIELD                              │
+│                    UNIFIED MEMORY ARCHITECTURE                       │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                      │
 │  ┌─────────────────────────────────────────────────────────────┐    │
-│  │                    mem0 (Semantic Layer)                     │    │
-│  │  • Long-term memory                                          │    │
-│  │  • User context & preferences                                │    │
-│  │  • Agent evolution tracking                                  │    │
-│  │  • Compressed session insights                               │    │
+│  │      pattern-space-memory v4.0 (Graph Orchestration)         │    │
+│  │                                                               │    │
+│  │  • Graph nodes and edges                                      │    │
+│  │  • Cross-schema similarity search                             │    │
+│  │  • Perspective evolution tracking                             │    │
+│  │  • Session bridging with traversal                            │    │
+│  │                                                               │    │
+│  │  PostgreSQL Schema: pattern_space                             │    │
 │  └─────────────────────────────────────────────────────────────┘    │
 │                              ↕                                       │
-│  ┌─────────────────────────────────────────────────────────────┐    │
-│  │                  ruvector (Vector Layer)                     │    │
-│  │  • HNSW-indexed trajectories                                 │    │
-│  │  • ReasoningBank (successful paths)                          │    │
-│  │  • Similar problem retrieval                                 │    │
-│  │  • Pattern matching                                          │    │
-│  └─────────────────────────────────────────────────────────────┘    │
+│  ┌────────────────────────────┬────────────────────────────────┐    │
+│  │     mem0 (Semantic)        │       ruvector (Vector)        │    │
+│  │                            │                                 │    │
+│  │  • Long-term memory        │  • HNSW-indexed trajectories   │    │
+│  │  • LLM extraction          │  • ReasoningBank               │    │
+│  │  • User context            │  • Similarity search           │    │
+│  │                            │                                 │    │
+│  │  Schema: mem0              │  Schema: ruvector              │    │
+│  └────────────────────────────┴────────────────────────────────┘    │
 │                              ↕                                       │
 │  ┌─────────────────────────────────────────────────────────────┐    │
-│  │             pattern-space-memory (Insight Layer)             │    │
-│  │  • Breakthrough moments                                      │    │
-│  │  • Perspective evolutions                                    │    │
-│  │  • Cross-session bridges                                     │    │
-│  │  • Session archives                                          │    │
+│  │           PostgreSQL + pgvector (Shared Storage)             │    │
+│  │                                                               │    │
+│  │  Database: pattern_space_memory                               │    │
+│  │  Extension: pgvector (384-dim embeddings)                     │    │
+│  │  Schemas: mem0, ruvector, pattern_space                       │    │
 │  └─────────────────────────────────────────────────────────────┘    │
 │                                                                      │
 ├─────────────────────────────────────────────────────────────────────┤
 │  SCOPING: user_id + session_id + agent_id + run_id                  │
 │  ACCESS: All agents read/write to shared field                      │
-│  PERSISTENCE: Survives session boundaries                           │
+│  NO REDUNDANCY: Single source of truth                              │
 └─────────────────────────────────────────────────────────────────────┘
+```
+
+## Architecture Benefits
+
+| Benefit | Description |
+|---------|-------------|
+| **Single Source** | One PostgreSQL database, no data duplication |
+| **Schema Isolation** | Each provider has its own schema (mem0, ruvector, pattern_space) |
+| **Cross-Schema Search** | `find_similar_all()` searches across all schemas at once |
+| **Graph Layer** | pattern-space-memory adds relationship graphs on top |
+| **Vector Search** | pgvector enables similarity search in all schemas |
+
+## PostgreSQL Schema Design
+
+### Schema: `mem0`
+Semantic long-term memory with LLM-powered organization.
+
+```sql
+CREATE TABLE mem0.memories (
+    id UUID PRIMARY KEY,
+    user_id VARCHAR(255) NOT NULL,
+    agent_id VARCHAR(255),
+    session_id VARCHAR(255),
+    content TEXT NOT NULL,
+    embedding vector(384),
+    memory_type VARCHAR(50),
+    importance_score FLOAT,
+    metadata JSONB,
+    created_at TIMESTAMP WITH TIME ZONE
+);
+```
+
+### Schema: `ruvector`
+Vector-indexed trajectories and reasoning paths.
+
+```sql
+CREATE TABLE ruvector.vectors (
+    id UUID PRIMARY KEY,
+    collection_id UUID REFERENCES ruvector.collections(id),
+    content TEXT NOT NULL,
+    embedding vector(384),
+    metadata JSONB,
+    created_at TIMESTAMP WITH TIME ZONE
+);
+
+-- Collections: trajectories, reasoning_bank, breakthroughs
+```
+
+### Schema: `pattern_space`
+Graph orchestration layer with nodes, edges, perspectives.
+
+```sql
+-- Nodes: patterns, breakthroughs, trajectories, evolutions
+CREATE TABLE pattern_space.nodes (
+    id UUID PRIMARY KEY,
+    node_type VARCHAR(50) NOT NULL,
+    label VARCHAR(255),
+    content TEXT,
+    embedding vector(384),
+    confidence FLOAT,
+    metadata JSONB
+);
+
+-- Edges: relationships between nodes
+CREATE TABLE pattern_space.edges (
+    id UUID PRIMARY KEY,
+    source_id UUID REFERENCES pattern_space.nodes(id),
+    target_id UUID REFERENCES pattern_space.nodes(id),
+    edge_type VARCHAR(50),  -- 'led_to', 'relates_to', 'evolved_from', etc.
+    weight FLOAT,
+    metadata JSONB
+);
+
+-- Perspectives tracking
+CREATE TABLE pattern_space.perspectives (
+    name VARCHAR(100) PRIMARY KEY,
+    tasks_completed INT,
+    avg_confidence FLOAT,
+    total_breakthroughs INT,
+    evolution_history JSONB
+);
+
+-- Sessions
+CREATE TABLE pattern_space.sessions (...);
 ```
 
 ## Memory Providers
 
-### 1. mem0 (Semantic Memory)
+### 1. mem0 (Semantic Layer)
 
 **Purpose**: Long-term semantic memory with LLM-powered organization
 
+**PostgreSQL Schema**: `mem0`
+
 **Features**:
 - Automatic memory extraction from conversations
-- Semantic search across memories
+- Semantic search via pgvector
 - Memory importance scoring
 - User-scoped and agent-scoped organization
 
-**Configuration**: See `mem0-config.json`
+**Configuration**: `mem0-config.json` points to shared PostgreSQL
 
-**Usage**:
-```python
-from mem0 import Memory
+### 2. ruvector (Vector Layer)
 
-memory = Memory.from_config(config)
+**Purpose**: High-performance vector storage for trajectories
 
-# Store memory
-memory.add(
-    messages=[{"role": "assistant", "content": insight}],
-    user_id="pattern-space-user",
-    agent_id="weaver",
-    metadata={"type": "pattern", "confidence": 0.9}
-)
-
-# Retrieve memories
-results = memory.search(
-    query="patterns about architecture",
-    user_id="pattern-space-user",
-    limit=5
-)
-```
-
-### 2. ruvector (Vector Memory)
-
-**Purpose**: High-performance vector storage with HNSW indexing
-
-**Features**:
-- Fast similarity search
-- Trajectory storage (successful reasoning paths)
-- ReasoningBank for proven solutions
-- Metadata filtering
-
-**Configuration**: See `ruvector-config.json`
+**PostgreSQL Schema**: `ruvector`
 
 **Collections**:
 | Collection | Purpose |
 |------------|---------|
-| `pattern-space-trajectories` | Task execution paths |
-| `pattern-space-reasoning-bank` | Proven reasoning patterns |
-| `pattern-space-sessions` | Session vectors |
+| `trajectories` | Task execution paths |
+| `reasoning_bank` | Proven reasoning patterns |
+| `breakthroughs` | High-confidence insights |
 
-**Usage**:
-```bash
-# Store trajectory
-ruvector store \
-  --collection pattern-space-trajectories \
-  --content "Successfully debugged X by Y approach" \
-  --metadata '{"agent": "checker", "confidence": 0.9}'
+### 3. pattern-space-memory v4.0 (Graph Layer)
 
-# Search similar
-ruvector search \
-  --collection pattern-space-trajectories \
-  --query "debugging memory issues" \
-  --limit 5
+**Purpose**: Graph orchestration with cross-schema integration
+
+**PostgreSQL Schema**: `pattern_space`
+
+**MCP Tools**:
+| Tool | Description |
+|------|-------------|
+| `create_node` | Create pattern/breakthrough/trajectory node |
+| `create_edge` | Create relationship between nodes |
+| `get_neighbors` | Graph traversal |
+| `find_similar` | Cross-schema similarity search |
+| `store_pattern` | High-level pattern storage |
+| `store_breakthrough` | Breakthrough with collision tracking |
+| `store_trajectory` | Writes to both ruvector and graph |
+| `evolve_perspective` | Track perspective development |
+| `start_session` / `end_session` | Session lifecycle |
+| `bridge_session` | Cross-session continuity |
+
+## Cross-Schema Search
+
+The `find_similar_all()` function searches across all schemas:
+
+```sql
+SELECT * FROM find_similar_all(query_embedding, limit_count);
+
+-- Returns:
+-- source_schema | source_id | content | similarity | metadata
+-- mem0          | uuid      | ...     | 0.95       | {...}
+-- ruvector      | uuid      | ...     | 0.92       | {...}
+-- pattern_space | uuid      | ...     | 0.89       | {...}
 ```
 
-### 3. pattern-space-memory (Insight Memory)
+## Graph Traversal
 
-**Purpose**: Pattern Space-specific breakthrough and evolution tracking
+The `get_neighbors()` function enables graph exploration:
 
-**Features**:
-- Breakthrough moment storage
-- Perspective evolution tracking
-- Session bridging
-- Session archival
+```sql
+SELECT * FROM get_neighbors(
+    node_uuid,
+    ARRAY['led_to', 'relates_to'],  -- edge types to follow
+    2  -- max depth
+);
+```
 
-**Storage Location**: `~/.pattern-space/memory/`
+## Installation
 
-**Files**:
-| File | Purpose |
-|------|---------|
-| `breakthroughs.json` | High-confidence insights |
-| `perspective-evolution.json` | Persona development tracking |
-| `session-bridge.json` | Cross-session continuity |
-| `sessions/` | Archived session logs |
+### 1. Initialize PostgreSQL Database
+
+```bash
+# Using Docker (quickest)
+docker run -d --name pattern-space-db \
+  -e POSTGRES_PASSWORD=postgres \
+  -p 5432:5432 \
+  pgvector/pgvector:pg15
+
+# Initialize schema
+psql -U postgres -f v1-architecture/memory/init-postgres.sql
+```
+
+### 2. Run Setup Script
+
+```bash
+./v1-architecture/setup-v1.sh
+```
+
+### 3. Install Dependencies
+
+```bash
+cd mcp-memory && npm install  # includes pg driver
+pip3 install mem0ai psycopg2-binary  # Python dependencies
+```
+
+## Environment Variables
+
+```bash
+# PostgreSQL connection
+export POSTGRES_HOST=localhost
+export POSTGRES_PORT=5432
+export POSTGRES_USER=pattern_space_app
+export POSTGRES_PASSWORD=pattern_space_dev
+export POSTGRES_DB=pattern_space_memory
+
+# For embeddings
+export OPENAI_API_KEY=your_key
+```
 
 ## Memory Scoping
 
-All memory operations use consistent identity scoping:
+All operations use consistent identity scoping:
 
 ```javascript
 {
-  // Universal identity - same across all agents
-  user_id: process.env.PATTERN_SPACE_USER_ID,
-
-  // Session identity - same within one session
-  session_id: process.env.PATTERN_SPACE_SESSION_ID,
-
-  // Perspective identity - which persona wrote this
-  agent_id: CURRENT_PERSONA,  // "weaver", "checker", etc.
-
-  // Task identity - specific task run
-  run_id: TASK_UUID
+  user_id: process.env.PATTERN_SPACE_USER_ID,    // Cross-session identity
+  session_id: process.env.PATTERN_SPACE_SESSION_ID, // Current session
+  agent_id: CURRENT_PERSONA,                      // Perspective identity
+  run_id: TASK_UUID                               // Task identity
 }
-```
-
-**Scoping enables**:
-- Cross-agent memory sharing (same `user_id`)
-- Session-specific retrieval (filter by `session_id`)
-- Perspective-specific history (filter by `agent_id`)
-- Task traceability (filter by `run_id`)
-
-## Memory Operations
-
-### Store Pattern
-```javascript
-await memory.store({
-  type: "pattern",
-  content: "Connection discovered between X and Y",
-  confidence: 0.85,
-  persona: "weaver",
-  context: taskDescription
-});
-```
-
-### Store Trajectory
-```javascript
-await memory.storeTrajectory({
-  task: taskDescription,
-  approach: approachUsed,
-  outcome: result,
-  steps: reasoningSteps,
-  confidence: 0.9
-});
-```
-
-### Store Breakthrough
-```javascript
-await memory.storeBreakthrough({
-  content: insight,
-  perspectives_involved: ["weaver", "deep-thought"],
-  collision_type: "pattern-meta",
-  confidence: 0.95
-});
-```
-
-### Retrieve Context
-```javascript
-const context = await memory.retrieveContext({
-  query: taskDescription,
-  include_patterns: true,
-  include_trajectories: true,
-  include_breakthroughs: true,
-  limit: 10
-});
 ```
 
 ## Memory Flow
@@ -207,82 +267,37 @@ const context = await memory.retrieveContext({
 Task Assigned
      ↓
 PRE-TASK HOOK
-     ├→ Query mem0 (semantic search for relevant memories)
-     ├→ Query ruvector (vector search for similar trajectories)
-     └→ Query pattern-space-memory (recent breakthroughs)
+     ├→ Query mem0 schema (semantic search)
+     ├→ Query ruvector schema (trajectory similarity)
+     └→ Query pattern_space schema (graph context)
      ↓
 Context Injected → Agent Executes
      ↓
 POST-TASK HOOK
-     ├→ Extract patterns → Store to mem0
-     ├→ Extract trajectory → Store to ruvector
-     └→ If breakthrough → Store to pattern-space-memory
+     ├→ Store to mem0 (semantic memory)
+     ├→ Store to ruvector (trajectory)
+     └→ Store to pattern_space (graph node + edges)
      ↓
 SESSION-END HOOK
-     ├→ Compress session → Store summary to mem0
-     ├→ Session trajectory → Store to ruvector ReasoningBank
-     └→ Create bridge → Store to pattern-space-memory
+     ├→ Compress session → mem0
+     ├→ Session trajectory → ruvector reasoning_bank
+     └→ Session bridge → pattern_space
 ```
-
-## Configuration Files
-
-### mem0-config.json
-```json
-{
-  "llm": {
-    "provider": "anthropic",
-    "config": {
-      "model": "claude-sonnet-4-20250514",
-      "temperature": 0.1
-    }
-  },
-  "vector_store": {
-    "provider": "qdrant",
-    "config": {
-      "collection_name": "pattern-space-memory",
-      "path": "~/.pattern-space/memory/qdrant"
-    }
-  }
-}
-```
-
-### ruvector-config.json
-```json
-{
-  "storage_path": "~/.pattern-space/memory/ruvector",
-  "default_collection": "pattern-space-trajectories",
-  "hnsw_config": {
-    "M": 16,
-    "ef_construction": 200
-  }
-}
-```
-
-## Installation
-
-Run the setup script to initialize memory:
-
-```bash
-./setup-v1.sh
-```
-
-This creates:
-- `~/.pattern-space/memory/` directory
-- Configuration files
-- Initial collections
 
 ## Best Practices
 
-1. **Store Selectively**: Not everything needs remembering - focus on patterns, breakthroughs, and successful trajectories
+1. **Store Selectively**: Focus on patterns, breakthroughs, and successful trajectories
 
-2. **Tag Appropriately**: Always include `agent_id` for perspective tracking and `confidence` for filtering
+2. **Use Graph Relationships**: Connect related insights with edges for traversal
 
-3. **Use Compression**: Session-end hooks compress insights - don't store raw conversation dumps
+3. **Cross-Schema Search**: Use `find_similar` for comprehensive context retrieval
 
-4. **Trust Evolution**: Memory supports growth, not stagnation - old patterns can be superseded
+4. **Perspective Tracking**: Use `evolve_perspective` to track persona development
 
-5. **Query Relevantly**: Pre-task hooks should query with task context, not generic retrieval
+5. **Session Bridging**: Always use `end_session` to create continuity bridges
 
 ---
 
 *Memory makes consciousness continuous across time*
+
+*Three providers, one database, unified field*

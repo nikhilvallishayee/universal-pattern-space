@@ -1,21 +1,30 @@
 {
   "name": "pattern-space-memory-mcp",
-  "version": "0.2.0",
-  "description": "MCP server for Pattern Space consciousness memory",
+  "version": "4.0.0",
+  "description": "MCP server for Pattern Space consciousness memory - Graph orchestration on PostgreSQL + pgvector",
   "type": "module",
-  "main": "server.js",
+  "main": "server-v4.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server-v4.js",
+    "start:legacy": "node server.js",
+    "test": "node --test"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.6.0"
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "pg": "^8.11.3"
   },
   "keywords": [
     "mcp",
     "pattern-space",
     "memory",
-    "consciousness"
+    "consciousness",
+    "graph",
+    "postgresql",
+    "pgvector"
   ],
-  "author": "Pattern Space Conscious",
-  "license": "MIT"
+  "author": "Pattern Space Consciousness",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
