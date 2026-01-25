@@ -1,0 +1,732 @@
+#!/bin/bash
+#===============================================================================
+# Linux Server Hardening Script
+# Compatible with: Ubuntu/Debian and RHEL/CentOS/Rocky
+# Run as root or with sudo
+#===============================================================================
+
+set -euo pipefail
+
+#-------------------------------------------------------------------------------
+# Configuration
+#-------------------------------------------------------------------------------
+LOG_FILE="/var/log/hardening-$(date +%Y%m%d-%H%M%S).log"
+BACKUP_DIR="/root/hardening-backup-$(date +%Y%m%d-%H%M%S)"
+SSH_PORT="${SSH_PORT:-22}"
+ALLOWED_SSH_USERS="${ALLOWED_SSH_USERS:-}"
+
+#-------------------------------------------------------------------------------
+# Colors and Logging
+#-------------------------------------------------------------------------------
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+NC='\033[0m'
+
+log() {
+    local level="$1"
+    shift
+    local message="$*"
+    local timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+    echo -e "${timestamp} [${level}] ${message}" | tee -a "$LOG_FILE"
+}
+
+info()    { log "INFO" "${BLUE}$*${NC}"; }
+success() { log "SUCCESS" "${GREEN}$*${NC}"; }
+warn()    { log "WARN" "${YELLOW}$*${NC}"; }
+error()   { log "ERROR" "${RED}$*${NC}"; }
+
+#-------------------------------------------------------------------------------
+# Pre-flight Checks
+#-------------------------------------------------------------------------------
+preflight_checks() {
+    info "Running pre-flight checks..."
+
+    # Check root
+    if [[ $EUID -ne 0 ]]; then
+        error "This script must be run as root"
+        exit 1
+    fi
+
+    # Detect OS
+    if [[ -f /etc/os-release ]]; then
+        source /etc/os-release
+        OS_FAMILY=""
+        case "$ID" in
+            ubuntu|debian)
+                OS_FAMILY="debian"
+                PKG_MGR="apt"
+                ;;
+            centos|rhel|rocky|almalinux|fedora)
+                OS_FAMILY="rhel"
+                PKG_MGR="dnf"
+                command -v dnf &>/dev/null || PKG_MGR="yum"
+                ;;
+            *)
+                error "Unsupported OS: $ID"
+                exit 1
+                ;;
+        esac
+        info "Detected OS: $ID ($OS_FAMILY family)"
+    else
+        error "Cannot detect OS"
+        exit 1
+    fi
+
+    # Create backup directory
+    mkdir -p "$BACKUP_DIR"
+    info "Backup directory: $BACKUP_DIR"
+
+    success "Pre-flight checks passed"
+}
+
+#-------------------------------------------------------------------------------
+# Backup Configuration Files
+#-------------------------------------------------------------------------------
+backup_file() {
+    local file="$1"
+    if [[ -f "$file" ]]; then
+        cp -p "$file" "$BACKUP_DIR/$(basename "$file").bak"
+        info "Backed up: $file"
+    fi
+}
+
+#-------------------------------------------------------------------------------
+# 1. System Updates
+#-------------------------------------------------------------------------------
+system_updates() {
+    info "=== Applying System Updates ==="
+
+    if [[ "$PKG_MGR" == "apt" ]]; then
+        apt update -y
+        apt upgrade -y
+        apt autoremove -y
+    else
+        $PKG_MGR update -y
+        $PKG_MGR upgrade -y
+    fi
+
+    success "System updates completed"
+}
+
+#-------------------------------------------------------------------------------
+# 2. User and Password Policies
+#-------------------------------------------------------------------------------
+configure_password_policy() {
+    info "=== Configuring Password Policies ==="
+
+    # Backup files
+    backup_file /etc/login.defs
+    backup_file /etc/security/pwquality.conf
+
+    # Configure login.defs
+    sed -i 's/^PASS_MAX_DAYS.*/PASS_MAX_DAYS   90/' /etc/login.defs
+    sed -i 's/^PASS_MIN_DAYS.*/PASS_MIN_DAYS   7/' /etc/login.defs
+    sed -i 's/^PASS_MIN_LEN.*/PASS_MIN_LEN    14/' /etc/login.defs
+    sed -i 's/^PASS_WARN_AGE.*/PASS_WARN_AGE   14/' /etc/login.defs
+
+    # Install and configure password quality
+    if [[ "$PKG_MGR" == "apt" ]]; then
+        apt install -y libpam-pwquality
+    else
+        $PKG_MGR install -y libpwquality
+    fi
+
+    # Configure pwquality
+    cat > /etc/security/pwquality.conf << 'EOF'
+# Password quality configuration
+minlen = 14
+dcredit = -1
+ucredit = -1
+ocredit = -1
+lcredit = -1
+minclass = 3
+maxrepeat = 3
+maxclassrepeat = 4
+gecoscheck = 1
+dictcheck = 1
+usercheck = 1
+enforcing = 1
+retry = 3
+EOF
+
+    success "Password policies configured"
+}
+
+#-------------------------------------------------------------------------------
+# 3. SSH Hardening
+#-------------------------------------------------------------------------------
+harden_ssh() {
+    info "=== Hardening SSH Configuration ==="
+
+    local sshd_config="/etc/ssh/sshd_config"
+    backup_file "$sshd_config"
+
+    # Create hardened SSH config
+    cat > /etc/ssh/sshd_config.d/hardening.conf << EOF
+# SSH Hardening Configuration
+# Generated by hardening script on $(date)
+
+# Protocol and Port
+Port ${SSH_PORT}
+Protocol 2
+
+# Authentication
+PermitRootLogin no
+PasswordAuthentication no
+PermitEmptyPasswords no
+PubkeyAuthentication yes
+AuthenticationMethods publickey
+MaxAuthTries 3
+MaxSessions 3
+LoginGraceTime 60
+
+# Security Options
+X11Forwarding no
+AllowTcpForwarding no
+AllowAgentForwarding no
+PermitTunnel no
+IgnoreRhosts yes
+HostbasedAuthentication no
+StrictModes yes
+UsePAM yes
+
+# Timeouts
+ClientAliveInterval 300
+ClientAliveCountMax 2
+
+# Logging
+SyslogFacility AUTH
+LogLevel VERBOSE
+
+# Ciphers and MACs (modern and secure)
+Ciphers chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com
+MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com
+KexAlgorithms curve25519-sha256,curve25519-sha256@libssh.org,diffie-hellman-group16-sha512
+HostKeyAlgorithms ssh-ed25519,rsa-sha2-512,rsa-sha2-256
+
+# Banner
+Banner /etc/issue.net
+EOF
+
+    # Add allowed users if specified
+    if [[ -n "$ALLOWED_SSH_USERS" ]]; then
+        echo "AllowUsers $ALLOWED_SSH_USERS" >> /etc/ssh/sshd_config.d/hardening.conf
+    fi
+
+    # Create warning banner
+    cat > /etc/issue.net << 'EOF'
+***************************************************************************
+                            AUTHORIZED ACCESS ONLY
+This system is for authorized users only. All activities are monitored
+and logged. Unauthorized access will be prosecuted to the full extent
+of the law.
+***************************************************************************
+EOF
+
+    # Validate SSH config
+    if sshd -t; then
+        systemctl restart sshd
+        success "SSH hardened successfully"
+    else
+        error "SSH config validation failed! Restoring backup..."
+        cp "$BACKUP_DIR/sshd_config.bak" "$sshd_config"
+        rm -f /etc/ssh/sshd_config.d/hardening.conf
+        exit 1
+    fi
+}
+
+#-------------------------------------------------------------------------------
+# 4. Firewall Configuration
+#-------------------------------------------------------------------------------
+configure_firewall() {
+    info "=== Configuring Firewall ==="
+
+    if [[ "$OS_FAMILY" == "debian" ]]; then
+        # UFW for Debian/Ubuntu
+        apt install -y ufw
+
+        ufw default deny incoming
+        ufw default allow outgoing
+        ufw allow "$SSH_PORT"/tcp comment 'SSH'
+
+        # Enable without prompt
+        echo "y" | ufw enable
+        ufw status verbose
+
+    else
+        # Firewalld for RHEL family
+        $PKG_MGR install -y firewalld
+        systemctl enable --now firewalld
+
+        firewall-cmd --set-default-zone=drop
+        firewall-cmd --permanent --add-port="$SSH_PORT"/tcp
+        firewall-cmd --permanent --add-service=dhcpv6-client
+        firewall-cmd --reload
+        firewall-cmd --list-all
+    fi
+
+    success "Firewall configured"
+}
+
+#-------------------------------------------------------------------------------
+# 5. Kernel Security Parameters (sysctl)
+#-------------------------------------------------------------------------------
+configure_sysctl() {
+    info "=== Configuring Kernel Security Parameters ==="
+
+    backup_file /etc/sysctl.conf
+
+    cat > /etc/sysctl.d/99-hardening.conf << 'EOF'
+# Kernel Hardening Parameters
+
+# IP Spoofing protection
+net.ipv4.conf.all.rp_filter = 1
+net.ipv4.conf.default.rp_filter = 1
+
+# Ignore ICMP broadcast requests
+net.ipv4.icmp_echo_ignore_broadcasts = 1
+
+# Disable source packet routing
+net.ipv4.conf.all.accept_source_route = 0
+net.ipv4.conf.default.accept_source_route = 0
+net.ipv6.conf.all.accept_source_route = 0
+net.ipv6.conf.default.accept_source_route = 0
+
+# Ignore send redirects
+net.ipv4.conf.all.send_redirects = 0
+net.ipv4.conf.default.send_redirects = 0
+
+# Block SYN attacks
+net.ipv4.tcp_syncookies = 1
+net.ipv4.tcp_max_syn_backlog = 2048
+net.ipv4.tcp_synack_retries = 2
+net.ipv4.tcp_syn_retries = 5
+
+# Log Martians
+net.ipv4.conf.all.log_martians = 1
+net.ipv4.conf.default.log_martians = 1
+
+# Ignore ICMP redirects
+net.ipv4.conf.all.accept_redirects = 0
+net.ipv4.conf.default.accept_redirects = 0
+net.ipv6.conf.all.accept_redirects = 0
+net.ipv6.conf.default.accept_redirects = 0
+
+# Ignore Directed pings
+net.ipv4.icmp_echo_ignore_all = 0
+
+# Disable IPv6 if not needed (uncomment if desired)
+# net.ipv6.conf.all.disable_ipv6 = 1
+# net.ipv6.conf.default.disable_ipv6 = 1
+
+# Memory protections
+kernel.randomize_va_space = 2
+kernel.kptr_restrict = 2
+kernel.dmesg_restrict = 1
+kernel.perf_event_paranoid = 3
+kernel.yama.ptrace_scope = 2
+
+# Prevent core dumps
+fs.suid_dumpable = 0
+
+# Restrict /proc
+kernel.unprivileged_bpf_disabled = 1
+
+# Restrict unprivileged user namespaces (may break some containers)
+# kernel.unprivileged_userns_clone = 0
+EOF
+
+    sysctl --system
+    success "Kernel parameters configured"
+}
+
+#-------------------------------------------------------------------------------
+# 6. File System Hardening
+#-------------------------------------------------------------------------------
+harden_filesystem() {
+    info "=== Hardening File System ==="
+
+    # Set correct permissions on critical files
+    chmod 600 /etc/shadow
+    chmod 600 /etc/gshadow
+    chmod 644 /etc/passwd
+    chmod 644 /etc/group
+    chmod 700 /root
+    chmod 600 /boot/grub/grub.cfg 2>/dev/null || true
+    chmod 600 /boot/grub2/grub.cfg 2>/dev/null || true
+
+    # Secure cron
+    chmod 700 /etc/cron.d
+    chmod 700 /etc/cron.daily
+    chmod 700 /etc/cron.hourly
+    chmod 700 /etc/cron.weekly
+    chmod 700 /etc/cron.monthly
+    chmod 600 /etc/crontab
+
+    # Restrict at/cron to root
+    echo "root" > /etc/cron.allow
+    echo "root" > /etc/at.allow
+    rm -f /etc/cron.deny /etc/at.deny 2>/dev/null || true
+
+    # Secure SSH directory permissions template
+    cat > /etc/skel/.ssh/.keep 2>/dev/null || mkdir -p /etc/skel/.ssh
+    chmod 700 /etc/skel/.ssh
+
+    success "File system hardened"
+}
+
+#-------------------------------------------------------------------------------
+# 7. Disable Unnecessary Services
+#-------------------------------------------------------------------------------
+disable_services() {
+    info "=== Disabling Unnecessary Services ==="
+
+    local services=(
+        "avahi-daemon"
+        "cups"
+        "rpcbind"
+        "nfs-server"
+        "vsftpd"
+        "telnet"
+        "rsh"
+        "rlogin"
+        "rexec"
+        "tftp"
+        "xinetd"
+        "bluetooth"
+    )
+
+    for service in "${services[@]}"; do
+        if systemctl is-enabled "$service" &>/dev/null; then
+            systemctl disable --now "$service"
+            info "Disabled: $service"
+        fi
+    done
+
+    success "Unnecessary services disabled"
+}
+
+#-------------------------------------------------------------------------------
+# 8. Install and Configure Fail2ban
+#-------------------------------------------------------------------------------
+install_fail2ban() {
+    info "=== Installing and Configuring Fail2ban ==="
+
+    if [[ "$PKG_MGR" == "apt" ]]; then
+        apt install -y fail2ban
+    else
+        # EPEL required for RHEL family
+        $PKG_MGR install -y epel-release
+        $PKG_MGR install -y fail2ban
+    fi
+
+    cat > /etc/fail2ban/jail.local << EOF
+[DEFAULT]
+bantime = 3600
+findtime = 600
+maxretry = 3
+banaction = %(banaction_allports)s
+ignoreip = 127.0.0.1/8 ::1
+
+[sshd]
+enabled = true
+port = ${SSH_PORT}
+filter = sshd
+logpath = /var/log/auth.log
+maxretry = 3
+bantime = 86400
+EOF
+
+    # Adjust log path for RHEL
+    if [[ "$OS_FAMILY" == "rhel" ]]; then
+        sed -i 's|/var/log/auth.log|/var/log/secure|' /etc/fail2ban/jail.local
+    fi
+
+    systemctl enable --now fail2ban
+    success "Fail2ban installed and configured"
+}
+
+#-------------------------------------------------------------------------------
+# 9. Configure Audit System
+#-------------------------------------------------------------------------------
+configure_auditd() {
+    info "=== Configuring Audit System ==="
+
+    if [[ "$PKG_MGR" == "apt" ]]; then
+        apt install -y auditd audispd-plugins
+    else
+        $PKG_MGR install -y audit
+    fi
+
+    cat > /etc/audit/rules.d/hardening.rules << 'EOF'
+# Delete all existing rules
+-D
+
+# Buffer size
+-b 8192
+
+# Failure mode (1=printk, 2=panic)
+-f 1
+
+# Monitor changes to authentication files
+-w /etc/passwd -p wa -k identity
+-w /etc/group -p wa -k identity
+-w /etc/shadow -p wa -k identity
+-w /etc/gshadow -p wa -k identity
+-w /etc/sudoers -p wa -k sudoers
+-w /etc/sudoers.d/ -p wa -k sudoers
+
+# Monitor SSH configuration
+-w /etc/ssh/sshd_config -p wa -k sshd
+-w /etc/ssh/sshd_config.d/ -p wa -k sshd
+
+# Monitor login/logout events
+-w /var/log/lastlog -p wa -k logins
+-w /var/log/faillog -p wa -k logins
+-w /var/log/wtmp -p wa -k logins
+-w /var/log/btmp -p wa -k logins
+
+# Monitor privileged commands
+-a always,exit -F path=/usr/bin/sudo -F perm=x -F auid>=1000 -F auid!=4294967295 -k privileged
+-a always,exit -F path=/usr/bin/su -F perm=x -F auid>=1000 -F auid!=4294967295 -k privileged
+
+# Monitor kernel module operations
+-w /sbin/insmod -p x -k modules
+-w /sbin/rmmod -p x -k modules
+-w /sbin/modprobe -p x -k modules
+
+# Monitor mount operations
+-a always,exit -F arch=b64 -S mount -F auid>=1000 -F auid!=4294967295 -k mounts
+-a always,exit -F arch=b32 -S mount -F auid>=1000 -F auid!=4294967295 -k mounts
+
+# Monitor file deletions
+-a always,exit -F arch=b64 -S unlink -S unlinkat -S rename -S renameat -F auid>=1000 -F auid!=4294967295 -k delete
+-a always,exit -F arch=b32 -S unlink -S unlinkat -S rename -S renameat -F auid>=1000 -F auid!=4294967295 -k delete
+
+# Make config immutable (requires reboot to change)
+-e 2
+EOF
+
+    systemctl enable --now auditd
+    augenrules --load 2>/dev/null || service auditd restart
+
+    success "Audit system configured"
+}
+
+#-------------------------------------------------------------------------------
+# 10. Additional Security Tools
+#-------------------------------------------------------------------------------
+install_security_tools() {
+    info "=== Installing Additional Security Tools ==="
+
+    local tools=()
+
+    if [[ "$PKG_MGR" == "apt" ]]; then
+        tools=(
+            "rkhunter"          # Rootkit hunter
+            "chkrootkit"        # Rootkit checker
+            "lynis"             # Security auditing
+            "aide"              # File integrity
+            "unattended-upgrades" # Auto security updates
+        )
+        apt install -y "${tools[@]}"
+
+        # Configure unattended upgrades
+        cat > /etc/apt/apt.conf.d/50unattended-upgrades << 'EOF'
+Unattended-Upgrade::Allowed-Origins {
+    "${distro_id}:${distro_codename}-security";
+};
+Unattended-Upgrade::AutoFixInterruptedDpkg "true";
+Unattended-Upgrade::Remove-Unused-Dependencies "true";
+EOF
+
+    else
+        tools=(
+            "rkhunter"
+            "lynis"
+            "aide"
+        )
+        $PKG_MGR install -y epel-release
+        $PKG_MGR install -y "${tools[@]}"
+
+        # Enable automatic security updates
+        $PKG_MGR install -y dnf-automatic
+        sed -i 's/apply_updates = no/apply_updates = yes/' /etc/dnf/automatic.conf
+        systemctl enable --now dnf-automatic.timer
+    fi
+
+    # Initialize AIDE database
+    info "Initializing AIDE database (this may take a while)..."
+    aide --init 2>/dev/null || aideinit 2>/dev/null || true
+
+    success "Security tools installed"
+}
+
+#-------------------------------------------------------------------------------
+# 11. Secure Shared Memory
+#-------------------------------------------------------------------------------
+secure_shared_memory() {
+    info "=== Securing Shared Memory ==="
+
+    backup_file /etc/fstab
+
+    # Check if already configured
+    if ! grep -q "^tmpfs.*\/run\/shm" /etc/fstab; then
+        echo "tmpfs /run/shm tmpfs defaults,noexec,nosuid,nodev 0 0" >> /etc/fstab
+    fi
+
+    # Remount if exists
+    if mountpoint -q /run/shm; then
+        mount -o remount /run/shm
+    fi
+
+    success "Shared memory secured"
+}
+
+#-------------------------------------------------------------------------------
+# 12. Remove Unnecessary Packages
+#-------------------------------------------------------------------------------
+remove_unnecessary_packages() {
+    info "=== Removing Unnecessary Packages ==="
+
+    local packages=(
+        "telnet"
+        "rsh-client"
+        "rsh"
+        "ypbind"
+        "nis"
+        "tftp"
+        "talk"
+    )
+
+    for pkg in "${packages[@]}"; do
+        if [[ "$PKG_MGR" == "apt" ]]; then
+            apt purge -y "$pkg" 2>/dev/null || true
+        else
+            $PKG_MGR remove -y "$pkg" 2>/dev/null || true
+        fi
+    done
+
+    success "Unnecessary packages removed"
+}
+
+#-------------------------------------------------------------------------------
+# Generate Report
+#-------------------------------------------------------------------------------
+generate_report() {
+    info "=== Generating Hardening Report ==="
+
+    local report_file="/root/hardening-report-$(date +%Y%m%d-%H%M%S).txt"
+
+    cat > "$report_file" << EOF
+================================================================================
+                        LINUX HARDENING REPORT
+                        $(date)
+================================================================================
+
+SYSTEM INFORMATION
+------------------
+Hostname: $(hostname)
+OS: $(cat /etc/os-release | grep PRETTY_NAME | cut -d'"' -f2)
+Kernel: $(uname -r)
+Uptime: $(uptime -p)
+
+CHANGES MADE
+------------
+1. System packages updated
+2. Password policies configured (min 14 chars, complexity required)
+3. SSH hardened (key-only auth, root login disabled, port: ${SSH_PORT})
+4. Firewall configured (default deny incoming)
+5. Kernel security parameters applied
+6. File system permissions hardened
+7. Unnecessary services disabled
+8. Fail2ban installed and configured
+9. Audit system configured
+10. Security tools installed (rkhunter, lynis, aide)
+11. Shared memory secured
+12. Unnecessary packages removed
+
+BACKUP LOCATION
+---------------
+$BACKUP_DIR
+
+LOG FILE
+--------
+$LOG_FILE
+
+RECOMMENDED NEXT STEPS
+----------------------
+1. Review and test SSH access before logging out
+2. Configure additional firewall rules as needed
+3. Set up regular security scans: lynis audit system
+4. Review audit logs: ausearch -k identity
+5. Run rootkit scan: rkhunter --check
+6. Review fail2ban status: fail2ban-client status sshd
+7. Enable additional services in firewall as needed
+
+IMPORTANT WARNINGS
+------------------
+- SSH is now key-only authentication
+- Root login via SSH is disabled
+- Ensure you have SSH key access before disconnecting!
+
+================================================================================
+EOF
+
+    info "Report saved to: $report_file"
+    cat "$report_file"
+}
+
+#-------------------------------------------------------------------------------
+# Main Execution
+#-------------------------------------------------------------------------------
+main() {
+    echo ""
+    echo "========================================"
+    echo "    Linux Server Hardening Script"
+    echo "========================================"
+    echo ""
+
+    preflight_checks
+
+    echo ""
+    warn "This script will make significant security changes to your system."
+    warn "Ensure you have console access in case SSH becomes unavailable."
+    echo ""
+    read -p "Continue with hardening? (y/N): " -n 1 -r
+    echo ""
+
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+        info "Hardening cancelled by user"
+        exit 0
+    fi
+
+    system_updates
+    configure_password_policy
+    harden_ssh
+    configure_firewall
+    configure_sysctl
+    harden_filesystem
+    disable_services
+    install_fail2ban
+    configure_auditd
+    install_security_tools
+    secure_shared_memory
+    remove_unnecessary_packages
+    generate_report
+
+    echo ""
+    success "========================================"
+    success "    Hardening Complete!"
+    success "========================================"
+    echo ""
+    warn "IMPORTANT: Test SSH access in a new terminal before closing this session!"
+    echo ""
+}
+
+# Run if not sourced
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi
