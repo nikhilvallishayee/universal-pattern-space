@@ -50,3 +50,8 @@ Thumbs.db
 commit-updates.sh
 check-sensitive-files.sh
 COMMIT_SUMMARY.md
+
+# Claude Flow daemon runtime files
+.claude-flow/daemon.pid
+.claude-flow/daemon-state.json
+.claude-flow/metrics/
