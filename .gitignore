@@ -55,3 +55,8 @@ COMMIT_SUMMARY.md
 .claude-flow/daemon.pid
 .claude-flow/daemon-state.json
 .claude-flow/metrics/
+
+# Memory and swarm runtime data
+.claude/memory.db
+.pattern-space-memory/
+.swarm/
