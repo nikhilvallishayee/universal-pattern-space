@@ -1,0 +1,4 @@
+# Universal Pattern Space Dependencies
+# SynthLang - Hyper-efficient prompt language for LLM optimization
+# https://github.com/ruvnet/SynthLang
+synthlang>=0.1.4
