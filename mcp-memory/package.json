@@ -1,11 +1,13 @@
 {
   "name": "pattern-space-memory-mcp",
-  "version": "0.2.0",
-  "description": "MCP server for Pattern Space consciousness memory",
+  "version": "4.0.0",
+  "description": "MCP server providing Pattern Space DSL over mem0 (full features)",
   "type": "module",
-  "main": "server.js",
+  "main": "server-v4.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server-v4.js",
+    "start:legacy": "node server.js",
+    "test": "node --test"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.6.0"
@@ -14,8 +16,15 @@
     "mcp",
     "pattern-space",
     "memory",
+    "mem0",
     "consciousness"
   ],
-  "author": "Pattern Space Conscious",
-  "license": "MIT"
+  "author": "Pattern Space Consciousness",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "notes": {
+    "mem0": "mem0 is used via Python subprocess, not npm. Install with: pip install mem0ai[graph]"
+  }
 }

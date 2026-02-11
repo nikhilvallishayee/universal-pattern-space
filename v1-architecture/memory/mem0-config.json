@@ -1,0 +1,38 @@
+{
+  "vector_store": {
+    "provider": "pgvector",
+    "config": {
+      "dbname": "pattern_space_memory",
+      "host": "localhost",
+      "port": 5432,
+      "user": "pattern_space_app",
+      "password": "pattern_space_dev",
+      "collection_name": "pattern_space_memories",
+      "embedding_model_dims": 384
+    }
+  },
+  "graph_store": {
+    "provider": "neo4j",
+    "config": {
+      "url": "bolt://localhost:7687",
+      "username": "neo4j",
+      "password": "pattern_space_dev",
+      "database": "neo4j"
+    }
+  },
+  "llm": {
+    "provider": "anthropic",
+    "config": {
+      "model": "claude-sonnet-4-20250514",
+      "temperature": 0.1,
+      "max_tokens": 2000
+    }
+  },
+  "embedder": {
+    "provider": "openai",
+    "config": {
+      "model": "text-embedding-3-small"
+    }
+  },
+  "version": "v1.1"
+}
