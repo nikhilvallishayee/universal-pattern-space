@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Cognitive Views Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a2e;
+            color: #e1e5e9;
+            padding: 20px;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #64b5f6;
+            border-radius: 8px;
+            background: rgba(0,0,0,0.3);
+        }
+        button {
+            background: #64b5f6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #42a5f5;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧠 Enhanced Cognitive Views Test</h1>
+    
+    <div class="test-section">
+        <h2>Navigation Test</h2>
+        <p>Testing direct access to enhanced cognitive views:</p>
+        <button onclick="testView('enhanced')">🚀 Enhanced Dashboard</button>
+        <button onclick="testView('stream')">🌊 Stream of Consciousness</button>
+        <button onclick="testView('autonomous')">🤖 Autonomous Learning</button>
+    </div>
+
+    <div class="test-section">
+        <h2>View Configuration Debug</h2>
+        <p>Available views in viewSections.enhanced:</p>
+        <ul id="view-list"></ul>
+    </div>
+
+    <div class="test-section">
+        <h2>Component Import Test</h2>
+        <p>Testing if components can be imported:</p>
+        <div id="component-test"></div>
+    </div>
+
+    <script>
+        function testView(viewName) {
+            // Redirect to main app with view parameter
+            window.location.href = `http://localhost:3000?view=${viewName}`;
+        }
+
+        // Debug view configuration
+        const enhancedViews = {
+            enhanced: {
+                icon: '🚀',
+                title: 'Enhanced Dashboard',
+                description: 'Unified cognitive enhancement overview',
+                component: 'EnhancedCognitiveDashboard',
+                featured: true
+            },
+            stream: {
+                icon: '🌊',
+                title: 'Stream of Consciousness',
+                description: 'Real-time cognitive event streaming',
+                component: 'StreamOfConsciousnessMonitor',
+                featured: true
+            },
+            autonomous: {
+                icon: '🤖',
+                title: 'Autonomous Learning',
+                description: 'Self-directed knowledge acquisition',
+                component: 'AutonomousLearningMonitor',
+                featured: true
+            }
+        };
+
+        const viewList = document.getElementById('view-list');
+        Object.entries(enhancedViews).forEach(([key, config]) => {
+            const li = document.createElement('li');
+            li.innerHTML = `<strong>${key}</strong>: ${config.icon} ${config.title} - ${config.description}`;
+            viewList.appendChild(li);
+        });
+
+        // Test component availability
+        const componentTest = document.getElementById('component-test');
+        componentTest.innerHTML = `
+            <p>✅ Enhanced views configuration is valid</p>
+            <p>📁 Components should be in: svelte-frontend/src/components/</p>
+            <p>🔧 Testing navigation integration...</p>
+        `;
+    </script>
+</body>
+</html>

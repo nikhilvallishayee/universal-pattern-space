@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Enhanced mobile viewport configuration -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <!-- PWA manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <!-- Mobile web app capabilities -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="GödelOS" />
+    <!-- Theme colors for mobile browsers -->
+    <meta name="theme-color" content="#64b5f6" />
+    <meta name="msapplication-navbutton-color" content="#64b5f6" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#64b5f6" />
+    <!-- Preconnect to backend for faster loading -->
+    <link rel="preconnect" href="http://localhost:8000" />
+    <!-- Prevent zoom on iOS double-tap -->
+    <meta name="format-detection" content="telephone=no" />
+    <title>GödelOS - Cognitive Transparency Interface</title>
+    <!-- Load GödelOS configuration -->
+    <script src="/config.js"></script>
+    <!-- Enhanced mobile CSS optimizations -->
+    <style>
+      /* Prevent iOS bounce scrolling and zoom */
+      html, body {
+        height: 100%;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+        touch-action: manipulation;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      
+      /* Safe area support for modern mobile devices */
+      #app {
+        height: 100vh;
+        height: 100dvh; /* Dynamic viewport height */
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+      }
+      
+      /* Optimize font rendering on mobile */
+      * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <!-- Service Worker registration for PWA -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+# Enhanced Metacognition Configuration
+# Configuration for autonomous knowledge acquisition and cognitive streaming
+
+# Cognitive Streaming Configuration
+cognitive_streaming:
+  enabled: true
+  default_granularity: "standard"  # minimal, standard, detailed, debug
+  max_event_rate: 100  # events per second
+  buffer_size: 1000    # circular buffer size for event history
+  websocket_ping_interval: 30  # seconds
+  max_connections: 50  # maximum concurrent WebSocket connections
+  
+  # Event filtering and processing
+  event_types:
+    - "reasoning"
+    - "knowledge_gap"
+    - "acquisition"
+    - "reflection"
+    - "learning"
+    - "synthesis"
+  
+  granularity_levels:
+    minimal:
+      - "critical_reasoning"
+      - "major_knowledge_gaps"
+      - "acquisition_completion"
+    standard:
+      - "reasoning"
+      - "knowledge_gap"
+      - "acquisition"
+      - "reflection"
+    detailed:
+      - "reasoning"
+      - "knowledge_gap"
+      - "acquisition"
+      - "reflection"
+      - "learning"
+      - "synthesis"
+      - "minor_insights"
+    debug:
+      - "all"  # includes all event types and internal diagnostics
+
+# Autonomous Learning Configuration
+autonomous_learning:
+  enabled: true
+  gap_detection_interval: 300  # seconds between autonomous gap detection
+  confidence_threshold: 0.7    # minimum confidence to trigger gap detection
+  auto_approval_threshold: 0.8 # confidence threshold for automatic approval
+  max_concurrent_acquisitions: 3  # maximum simultaneous learning processes
+  learning_rate: 1.0           # multiplier for learning speed (0.1-2.0)
+  gap_detection_sensitivity: "medium"  # low, medium, high
+  
+  # Resource limits
+  max_acquisition_time: 300    # seconds per acquisition attempt
+  max_memory_usage: 512        # MB maximum memory for learning processes
+  
+  # Strategies configuration
+  strategies:
+    concept_expansion:
+      enabled: true
+      priority: 1
+      timeout: 30
+      max_concepts_per_expansion: 10
+    
+    relationship_discovery:
+      enabled: true
+      priority: 2
+      timeout: 45
+      max_relationships_per_discovery: 20
+    
+    external_search:
+      enabled: false  # disabled by default for security
+      priority: 3
+      timeout: 60
+      sources:
+        - "wikipedia"
+        - "academic_papers"
+    
+    analogical_inference:
+      enabled: true
+      priority: 2
+      timeout: 20
+      similarity_threshold: 0.6
+
+# Knowledge Acquisition Configuration
+knowledge_acquisition:
+  # Planning and execution
+  plan_expiry_time: 3600       # seconds before plans are reconsidered
+  max_retries: 3               # maximum retry attempts for failed acquisitions
+  backoff_multiplier: 2.0      # exponential backoff for retries
+  
+  # Quality control
+  confidence_validation: true   # validate acquired knowledge confidence
+  source_verification: true    # verify knowledge sources when possible
+  consistency_checking: true   # check for consistency with existing knowledge
+  
+  # Performance optimization
+  batch_processing: true       # batch similar acquisition requests
+  caching_enabled: true        # cache acquisition results
+  cache_expiry: 86400         # seconds (24 hours)
+
+# Gap Detection Configuration
+gap_detection:
+  # Detection methods
+  query_analysis:
+    enabled: true
+    low_confidence_threshold: 0.6
+    missing_entity_detection: true
+    incomplete_relationship_detection: true
+  
+  knowledge_graph_analysis:
+    enabled: true
+    isolated_concept_detection: true
+    sparse_connection_detection: true
+    relationship_completeness_analysis: true
+  
+  periodic_analysis:
+    enabled: true
+    analysis_interval: 1800  # seconds (30 minutes)
+    full_graph_scan_interval: 86400  # seconds (24 hours)
+
+# Health Monitoring Configuration
+health_monitoring:
+  enabled: true
+  check_interval: 60          # seconds between health checks
+  component_timeouts:
+    inference_engine: 10      # seconds
+    knowledge_store: 5        # seconds
+    autonomous_learning: 15   # seconds
+    cognitive_streaming: 5    # seconds
+  
+  # Alert thresholds
+  response_time_threshold: 1000  # milliseconds
+  error_rate_threshold: 0.05     # 5% error rate
+  memory_usage_threshold: 0.8    # 80% memory usage
+  
+  # Metrics retention
+  metrics_retention_period: 604800  # seconds (7 days)
+
+# Security Configuration
+security:
+  # Authentication for enhanced features
+  require_authentication: false  # set to true in production
+  api_rate_limiting:
+    enabled: true
+    requests_per_minute: 60
+    burst_limit: 10
+  
+  # Data privacy
+  log_sensitive_data: false
+  anonymize_user_queries: true
+  data_retention_period: 2592000  # seconds (30 days)
+
+# Integration Configuration
+integration:
+  # Existing system compatibility
+  backward_compatibility: true
+  legacy_api_support: true
+  graceful_degradation: true
+  
+  # Feature flags
+  features:
+    enhanced_metacognition: true
+    autonomous_learning: true
+    cognitive_streaming: true
+    real_time_gap_detection: true
+    advanced_reasoning: false  # future LLM integration
+    multi_agent_coordination: false  # future enhancement
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  log_cognitive_events: true
+  log_acquisition_details: true
+  log_performance_metrics: true
+  
+  # Log rotation
+  max_log_size: 10485760  # 10MB
+  backup_count: 5
+  
+  # Enhanced logging for specific components
+  component_log_levels:
+    metacognition: "INFO"
+    knowledge_acquisition: "INFO"
+    cognitive_streaming: "WARNING"
+    gap_detection: "INFO"
+
+# Development and Testing Configuration
+development:
+  debug_mode: false
+  mock_external_apis: false
+  test_data_generation: false
+  performance_profiling: false
+  
+  # Testing overrides
+  test_mode_overrides:
+    autonomous_learning:
+      gap_detection_interval: 10  # faster for testing
+      max_concurrent_acquisitions: 1
+    cognitive_streaming:
+      buffer_size: 50
+      max_event_rate: 10

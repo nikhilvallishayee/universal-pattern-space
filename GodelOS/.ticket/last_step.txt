@@ -1,0 +1,17 @@
+Comprehensive project overview and audit complete.
+
+The key elements constituting the basis of the framework have been extracted to a markdown document with explanations and mermaid charts.
+
+**Document Location:** `docs/FRAMEWORK_OVERVIEW.md`
+
+**Key Elements Covered:**
+1.  **Unified Consciousness Engine:** Recursive self-awareness, IIT, GWT, and Phenomenal Experience.
+2.  **Cognitive Manager:** Orchestration of reasoning, context, and self-reflection.
+3.  **Symbolic Core:** Formal logic, KR, and NLU/NLG.
+4.  **Knowledge Graph Evolution:** Dynamic memory and learning.
+5.  **Metacognitive Monitor:** Self-correction and performance tracking.
+6.  **The Cognitive Loop:** A continuous cycle of perception, reasoning, feeling, and action.
+
+**Visuals:**
+*   **High-Level Architecture Diagram:** Shows the interaction between Neural/Cognitive and Symbolic layers.
+*   **Cognitive Loop Sequence Diagram:** Illustrates the flow of information and subjective experience.

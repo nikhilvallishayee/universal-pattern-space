@@ -1,0 +1,60 @@
+#!/usr/bin/env sh
+# Activate GödelOS virtualenv.
+#
+# Usage:
+#  - To activate in current shell:   source ./venv
+#  - To spawn a new shell with venv: ./venv
+
+# Resolve this script's directory for bash/zsh/posix sh
+_script_path="$0"
+if [ -n "$ZSH_EVAL_CONTEXT" ]; then
+	# zsh: path of the sourced/exec'd file
+	# shellcheck disable=SC2296
+	_script_path="${(%):-%N}"
+elif [ -n "$BASH_SOURCE" ]; then
+	_script_path="${BASH_SOURCE[0]}"
+fi
+_script_dir=$(cd "$(dirname "$_script_path" 2>/dev/null)" 2>/dev/null && pwd || pwd)
+_project_root="$_script_dir"
+_activate="$_project_root/godelos_venv/bin/activate"
+
+if [ ! -f "$_activate" ]; then
+	echo "Virtualenv not found at $_activate" >&2
+	echo "Run ./setup_venv.sh first, then retry." >&2
+	exit 1
+fi
+
+# Detect if this file is being sourced
+_is_sourced() {
+	# zsh: when sourced, context includes ":file:"
+	if [ -n "$ZSH_EVAL_CONTEXT" ]; then
+		case $ZSH_EVAL_CONTEXT in *:file:*) return 0;; esac
+	fi
+	# bash: BASH_SOURCE differs from $0 when sourced
+	if [ -n "$BASH" ] && [ -n "$BASH_SOURCE" ] && [ "${BASH_SOURCE[0]}" != "$0" ]; then
+		return 0
+	fi
+	# Generic heuristic: when sourced, $0 is the shell binary name, not this script
+	case "$0" in
+		sh|-sh|bash|-bash|zsh|-zsh) return 0 ;;
+	esac
+	return 1
+}
+
+if _is_sourced; then
+	# Activate into current shell
+	# shellcheck disable=SC1090
+	. "$_activate"
+	printf "Activated godelos_venv in current shell.\n"
+else
+	# Start a new interactive shell with venv active
+	if command -v zsh >/dev/null 2>&1; then
+	printf "Launching zsh with godelos_venv active...\n"
+	export CONDA_AUTO_ACTIVATE_BASE=false
+	exec zsh -i -c ". \"$_activate\"; echo VIRTUAL_ENV=\"$VIRTUAL_ENV\"; command -v python; exec zsh -i"
+	else
+	printf "Launching sh with godelos_venv active...\n"
+	export CONDA_AUTO_ACTIVATE_BASE=false
+	exec sh -i -c ". \"$_activate\"; echo VIRTUAL_ENV=\"$VIRTUAL_ENV\"; command -v python; exec sh -i"
+	fi
+fi

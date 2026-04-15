@@ -1,0 +1,597 @@
+{
+  "config": {
+    "configFile": "/home/runner/work/GodelOS/GodelOS/playwright.config.js",
+    "rootDir": "/home/runner/work/GodelOS/GodelOS/tests",
+    "forbidOnly": true,
+    "fullyParallel": false,
+    "globalSetup": "/home/runner/work/GodelOS/GodelOS/scripts/preflight.js",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "ci": {
+        "commitHref": "https://github.com/Steake/GodelOS/commit/188c3e49330c2b53e68259647a1261746a2ff417",
+        "commitHash": "188c3e49330c2b53e68259647a1261746a2ff417",
+        "buildHref": "https://github.com/Steake/GodelOS/actions/runs/17501573007"
+      },
+      "gitCommit": {
+        "shortHash": "188c3e4",
+        "hash": "188c3e49330c2b53e68259647a1261746a2ff417",
+        "subject": "Fetch and display transparency statistics from local API",
+        "body": "Fetch and display transparency statistics from local API\n",
+        "author": {
+          "name": "Steake",
+          "email": "ollie@olliehirst.com",
+          "time": 1757097107000
+        },
+        "committer": {
+          "name": "Steake",
+          "email": "ollie@olliehirst.com",
+          "time": 1757097107000
+        },
+        "branch": "copilot/fix-22"
+      },
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "./test-results/playwright-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./test-results/test-results.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/runner/work/GodelOS/GodelOS/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "ci": {
+            "commitHref": "https://github.com/Steake/GodelOS/commit/188c3e49330c2b53e68259647a1261746a2ff417",
+            "commitHash": "188c3e49330c2b53e68259647a1261746a2ff417",
+            "buildHref": "https://github.com/Steake/GodelOS/actions/runs/17501573007"
+          },
+          "gitCommit": {
+            "shortHash": "188c3e4",
+            "hash": "188c3e49330c2b53e68259647a1261746a2ff417",
+            "subject": "Fetch and display transparency statistics from local API",
+            "body": "Fetch and display transparency statistics from local API\n",
+            "author": {
+              "name": "Steake",
+              "email": "ollie@olliehirst.com",
+              "time": 1757097107000
+            },
+            "committer": {
+              "name": "Steake",
+              "email": "ollie@olliehirst.com",
+              "time": 1757097107000
+            },
+            "branch": "copilot/fix-22"
+          },
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/runner/work/GodelOS/GodelOS/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/.*\\.spec\\.js/"
+        ],
+        "timeout": 15000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 1,
+    "webServer": {
+      "command": "echo \"Using existing servers\"",
+      "port": 3001,
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "critical-system-test.spec.js",
+      "file": "critical-system-test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Critical System Issues Validation",
+          "file": "critical-system-test.spec.js",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Backend API connectivity and data validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 15000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 446,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔗 Testing Backend API connectivity...\n"
+                        },
+                        {
+                          "text": "Knowledge Graph: 10 nodes, 14 edges\n"
+                        },
+                        {
+                          "text": "Data Source: dynamic_processing\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T18:53:57.641Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "69d9dbf80824c5051623-ef9cd08d599c45d6033c",
+              "file": "critical-system-test.spec.js",
+              "line": 7,
+              "column": 9
+            },
+            {
+              "title": "Reasoning sessions progress beyond 0%",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 15000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3309,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🧠 Testing reasoning session progress...\n"
+                        },
+                        {
+                          "text": "Created session: session_5\n"
+                        },
+                        {
+                          "text": "Progress: 20% - Status: active\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T18:53:58.167Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "69d9dbf80824c5051623-937fadbd2e3c99cd93a4",
+              "file": "critical-system-test.spec.js",
+              "line": 22,
+              "column": 9
+            },
+            {
+              "title": "Stream of consciousness has actual events",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 15000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 111,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🌊 Testing stream of consciousness...\n"
+                        },
+                        {
+                          "text": "Events: 50, Content length: 1246\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T18:54:01.492Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "69d9dbf80824c5051623-6246c9e36c474119046c",
+              "file": "critical-system-test.spec.js",
+              "line": 45,
+              "column": 9
+            },
+            {
+              "title": "Frontend loads and displays valid data",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 15000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 25052,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js",
+                            "column": 99,
+                            "line": 65
+                          },
+                          "message": "Error: locator.count: Test timeout of 15000ms exceeded.\n\n  63 |         \n  64 |         // Check for GödelOS content\n> 65 |         const hasGodelosContent = await page.locator('text=/GödelOS|Gödel|cognitive|knowledge/i').count() > 0;\n     |                                                                                                   ^\n  66 |         console.log(`Has GödelOS content: ${hasGodelosContent}`);\n  67 |         \n  68 |         // Check for invalid data\n    at /home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js:65:99"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "🖥️  Testing frontend functionality...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T18:54:01.618Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/runner/work/GodelOS/GodelOS/test-results/critical-system-test-Criti-dc9ed-ads-and-displays-valid-data-chromium/video.webm"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 25819,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js",
+                            "column": 20,
+                            "line": 62
+                          },
+                          "message": "Error: page.waitForTimeout: Test timeout of 15000ms exceeded.\n\n  60 |         \n  61 |         await page.goto('http://localhost:3001');\n> 62 |         await page.waitForTimeout(3000);\n     |                    ^\n  63 |         \n  64 |         // Check for GödelOS content\n  65 |         const hasGodelosContent = await page.locator('text=/GödelOS|Gödel|cognitive|knowledge/i').count() > 0;\n    at /home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js:62:20"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "🖥️  Testing frontend functionality...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2025-09-05T18:54:27.354Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/runner/work/GodelOS/GodelOS/test-results/critical-system-test-Criti-dc9ed-ads-and-displays-valid-data-chromium-retry1/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/GodelOS/GodelOS/test-results/critical-system-test-Criti-dc9ed-ads-and-displays-valid-data-chromium-retry1/trace.zip"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 25036,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js",
+                            "column": 99,
+                            "line": 65
+                          },
+                          "message": "Error: locator.count: Test timeout of 15000ms exceeded.\n\n  63 |         \n  64 |         // Check for GödelOS content\n> 65 |         const hasGodelosContent = await page.locator('text=/GödelOS|Gödel|cognitive|knowledge/i').count() > 0;\n     |                                                                                                   ^\n  66 |         console.log(`Has GödelOS content: ${hasGodelosContent}`);\n  67 |         \n  68 |         // Check for invalid data\n    at /home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js:65:99"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "🖥️  Testing frontend functionality...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2025-09-05T18:54:54.291Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/runner/work/GodelOS/GodelOS/test-results/critical-system-test-Criti-dc9ed-ads-and-displays-valid-data-chromium-retry2/video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "69d9dbf80824c5051623-372101f713762f98f0e0",
+              "file": "critical-system-test.spec.js",
+              "line": 58,
+              "column": 9
+            },
+            {
+              "title": "WebSocket connectivity",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 15000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10430,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "🔌 Testing WebSocket connectivity...\n"
+                        },
+                        {
+                          "text": "WebSocket: Connected=true, Messages=1\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T18:55:20.090Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "69d9dbf80824c5051623-aa204b77845e8f415053",
+              "file": "critical-system-test.spec.js",
+              "line": 90,
+              "column": 9
+            },
+            {
+              "title": "Comprehensive system summary",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 15000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 25044,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js",
+                            "column": 31,
+                            "line": 128
+                          },
+                          "message": "Error: page.title: Test timeout of 15000ms exceeded.\n\n  126 |         \n  127 |         const pageMetrics = {\n> 128 |             title: await page.title(),\n      |                               ^\n  129 |             elements: await page.locator('*').count(),\n  130 |             buttons: await page.locator('button').count(),\n  131 |             inputs: await page.locator('input, textarea').count()\n    at /home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js:128:31"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "📋 Generating comprehensive system summary...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-05T18:55:30.603Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/runner/work/GodelOS/GodelOS/test-results/critical-system-test-Criti-c88a7-omprehensive-system-summary-chromium/video.webm"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 25498,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js",
+                            "column": 20,
+                            "line": 125
+                          },
+                          "message": "Error: page.waitForTimeout: Test timeout of 15000ms exceeded.\n\n  123 |         // Frontend test\n  124 |         await page.goto('http://localhost:3001');\n> 125 |         await page.waitForTimeout(2000);\n      |                    ^\n  126 |         \n  127 |         const pageMetrics = {\n  128 |             title: await page.title(),\n    at /home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js:125:20"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "📋 Generating comprehensive system summary...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 1,
+                      "startTime": "2025-09-05T18:55:56.339Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/runner/work/GodelOS/GodelOS/test-results/critical-system-test-Criti-c88a7-omprehensive-system-summary-chromium-retry1/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/runner/work/GodelOS/GodelOS/test-results/critical-system-test-Criti-c88a7-omprehensive-system-summary-chromium-retry1/trace.zip"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 25038,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 15000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js",
+                            "column": 31,
+                            "line": 128
+                          },
+                          "message": "Error: page.title: Test timeout of 15000ms exceeded.\n\n  126 |         \n  127 |         const pageMetrics = {\n> 128 |             title: await page.title(),\n      |                               ^\n  129 |             elements: await page.locator('*').count(),\n  130 |             buttons: await page.locator('button').count(),\n  131 |             inputs: await page.locator('input, textarea').count()\n    at /home/runner/work/GodelOS/GodelOS/tests/critical-system-test.spec.js:128:31"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "📋 Generating comprehensive system summary...\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 2,
+                      "startTime": "2025-09-05T18:56:22.941Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/home/runner/work/GodelOS/GodelOS/test-results/critical-system-test-Criti-c88a7-omprehensive-system-summary-chromium-retry2/video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "69d9dbf80824c5051623-31d6b347c1d4f6548852",
+              "file": "critical-system-test.spec.js",
+              "line": 110,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-09-05T18:53:56.970Z",
+    "duration": 171246.054,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

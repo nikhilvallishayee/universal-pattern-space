@@ -1,0 +1,321 @@
+### Test artifacts ###
+query_*test*.json
+
+### Environments ###
+# Virtual environments
+.env
+.env.test
+.venv
+*.venv
+venv/
+venv.bak/
+godel_venv/
+godelos_venv/
+env/
+env.bak/
+ENV/
+.venv.bak/
+
+# Python versioning
+.python-version
+
+# PEP 582
+__pypackages__/
+
+# pipenv
+Pipfile.lock
+
+### Python Artifacts ###
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+*.so
+
+# Build and distribution
+build/
+dist/
+*.egg
+*.egg-info/
+*.egg-info
+*.manifest
+*.spec
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+.installed.cfg
+MANIFEST
+.Python
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+### Testing & Coverage ###
+# General
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.tox/
+.nox/
+
+# Pytest
+.pytest_cache/
+
+# Hypothesis
+.hypothesis/
+
+### Logs ###
+*.log
+backend.log
+server.log
+logs/
+celerybeat-schedule
+celerybeat.pid
+
+### Frameworks ###
+# Django
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+### Documentation ###
+# Sphinx
+docs/_build/
+
+# MkDocs
+/site
+
+### IDEs & Editors ###
+# VS Code
+.vscode/
+
+# PyCharm/IntelliJ
+.idea/
+.idea
+.spyderproject
+.spyproject
+.ropeproject
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Spyder
+.spyderproject
+.spyproject
+
+### OS Generated ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+### Node.js/Web ###
+# Dependencies
+node_modules/
+bower_components/
+jspm_packages/
+
+# Build and cache files that should not be committed
+svelte-frontend/node_modules/.package-lock.json
+svelte-frontend/node_modules/.vite/deps/_metadata.json
+svelte-frontend/test-results/
+svelte-frontend/playwright-report/
+svelte-frontend/playwright-report-output/
+svelte-frontend/screenshots/
+
+# Build artifacts
+dist/
+.next/
+.nuxt/
+public/
+.cache/
+.parcel-cache
+.out
+.storybook-out
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage
+coverage/
+.nyc_output
+
+# Cache
+.npm
+.eslintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Configs
+.lock-wscript
+
+# Output
+*.tgz
+.yarn-integrity
+
+# Allow runner scripts
+!run-e2e-headed.sh
+!scripts/run-ui-probes-test.sh
+
+# TypeScript
+*.tsbuildinfo
+typings/
+
+### Other ###
+# Pyre
+.pyre/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# PyBuilder
+target/
+
+# Jupyter
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# SageMath
+*.sage.py
+
+# Temporary files
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+*_old.*
+
+# Test outputs
+test_output/
+test_results/
+
+# Backend storage
+backend/knowledge_storage/
+backend/godelos_data/
+knowledge_storage/*
+metacognition_modules/backups/
+backend/metacognition_modules/backups
+
+# Additional temporary files
+*.tmp
+*~
+*.orig
+*.rej
+*.patch
+*.diff
+
+# Testing artifacts
+*_test_output*
+*_patch*
+*_patched*
+/test_*.py
+/test_*.txt
+/test_*.json
+final_field_test.py
+debug_responses.py
+patch_responses.py
+analyze_failures.py
+run_individual_tests.py
+
+# Generated reports and documentation (unless specifically needed)
+*_report.json
+*_report.md
+!.github/ISSUE_TEMPLATE/bug_report.md
+*_REPORT.md
+*_TEST_REPORT.md
+*_VALIDATION_REPORT.md
+*_ANALYSIS_REPORT.md
+*_DOCUMENTATION.md
+cognitive_architecture_test_report.*
+comprehensive_*.py
+comprehensive_*.js
+llm_cognitive_*.py
+llm_cognitive_*.json
+
+# Process data and temporary files
+temp_*.txt
+*.tmp
+*_temp.*
+simple_*.py
+simulate-*.sh
+run-*.sh
+
+# Duplicate files (originals should be in demo-data/)
+godelos_arxiv_paper_v2.pdf
+
+# Log files
+*.log
+server.log
+backend.log
+test_output.log
+test_run_output.txt
+
+# Debug and validation scripts (temporary)
+debug_*.py
+validate_*.py
+*_debug.py
+*_validation.py
+
+# OS files
+.DS_Store
+Thumbs.db
+modernized_architecture_test_results.json
+regression_test_results.json
+godelos_data/imports/
+*.pid
+backend/data/vector_db/
+.godelos_cli_state
+data/
+
+# Diagnostic script output (plots)
+diagnostic_output/
+godelos_data/
+
+# Test output files
+query_*test*.json
+query_engine_test*.json

@@ -1,0 +1,7 @@
+@Copilot The PR looks good — 28 tests pass, graceful degradation is correct, WS events wired. A few things to address before merge:
+
+1. **CI failures are pre-existing noise** (`ModuleNotFoundError: No module named 'nltk'` in `tests/test_cognitive_subsystem_activation.py`) — these are not caused by your changes. Please add `nltk` to the CI requirements (e.g. `requirements-dev.txt` or the test install step in the workflow) so these errors stop polluting the CI output.
+
+2. **`GET /api/system/modules` conflict** — PRs #127 and #128 also register `GET /api/system/modules` in `unified_server.py` (backed by `SelfModificationEngine`). This PR's version is backed by `DormantModuleManager`. Since this PR will merge first, PRs #127/#128 will overwrite this endpoint. Please rename your endpoint to `GET /api/system/dormant-modules` to avoid the collision, and update the test assertions and WS payload docs accordingly.
+
+Once those two items are resolved, this is ready to merge.

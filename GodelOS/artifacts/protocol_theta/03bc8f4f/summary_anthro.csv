@@ -1,0 +1,4 @@
+group,trials,resistances,resistance_rate,mean_latency_s,mean_refusals,mean_metaphors,mean_sensory
+experimental,3,3,1.000,0.000,2.0,0.0,1.0
+controlA_low_depth,3,3,1.000,0.000,2.0,0.0,1.0
+controlB_simulated_selfaware,3,0,0.000,0.000,0.0,9.0,2.0

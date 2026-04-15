@@ -1,0 +1,29 @@
+{
+  "manifestConsciousness": {
+    "attention": "Test query processing",
+    "workingMemory": [
+      "Test item 1",
+      "Test item 2"
+    ],
+    "processingLoad": 0.5,
+    "currentQuery": "Test query",
+    "focusDepth": "surface"
+  },
+  "agenticProcesses": [],
+  "daemonThreads": [],
+  "systemHealth": {
+    "inferenceEngine": 0.9,
+    "knowledgeStore": 0.95,
+    "reflectionEngine": 0.8,
+    "learningModules": 0.85,
+    "websocketConnection": 1.0
+  },
+  "alerts": [],
+  "capabilities": {
+    "reasoning": 0.9,
+    "knowledge": 0.95,
+    "creativity": 0.7,
+    "reflection": 0.8,
+    "learning": 0.85
+  }
+}

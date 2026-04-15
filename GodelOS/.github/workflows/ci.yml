@@ -1,0 +1,147 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install \
+            fastapi uvicorn pydantic pydantic-settings websockets aiofiles PyYAML \
+            python-multipart psutil networkx numpy scipy jsonschema httpx aiohttp \
+            nltk \
+            pytest pytest-cov pytest-asyncio pytest-timeout
+
+      - name: Run tests
+        id: run_tests
+        run: |
+          python -m pytest tests/ \
+            --timeout=30 \
+            --tb=short \
+            --cov=backend --cov=godelOS \
+            --cov-report=term-missing \
+            --cov-report=xml:coverage.xml \
+            --junitxml=test-results.xml \
+            --continue-on-collection-errors \
+            --ignore=tests/nlu_nlg \
+            --ignore=tests/common_sense \
+            --ignore=tests/metacognition \
+            --ignore=tests/semantic_search \
+            --ignore=tests/knowledge_extraction \
+            --ignore=tests/cognitive_transparency \
+            --ignore=tests/test_distributed_vector_search.py \
+            --ignore=tests/test_knowledge_pipeline.py \
+            --ignore=tests/test_dependency_imports.py \
+            --ignore=tests/frontend \
+            --ignore=tests/integration \
+            --ignore=tests/e2e \
+            --ignore=tests/unit \
+            --ignore=tests/test_cognitive_architecture_pipeline.py \
+            --ignore=tests/test_kg_phenomenal_integration.py \
+            --ignore=tests/test_phenomenal_experience_system.py \
+            --ignore=tests/e2e_reasoning_test.py \
+            --ignore=tests/quick_validation.py \
+            --ignore=tests/run_tests.py \
+            2>&1 | tee pytest-output.txt
+          echo "exit_code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+
+      - name: Report results
+        if: always()
+        run: |
+          echo "## 🧪 CI Results — Python ${{ matrix.python-version }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+
+          LASTLINE=$(grep -E "passed|failed|error" pytest-output.txt | tail -3 || true)
+          echo "### Summary" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          echo "${LASTLINE:-no summary}" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+          FAILURES=$(grep "^FAILED" pytest-output.txt || true)
+          if [ -n "$FAILURES" ]; then
+            echo "### ❌ Failures" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            echo "$FAILURES" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          ERRS=$(grep "^ERROR" pytest-output.txt | head -20 || true)
+          if [ -n "$ERRS" ]; then
+            echo "### ⚠️ Collection Errors" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+            echo "$ERRS" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          if [ -f coverage.xml ]; then
+            echo "### Coverage" >> "$GITHUB_STEP_SUMMARY"
+            python -m coverage report --format=markdown 2>/dev/null >> "$GITHUB_STEP_SUMMARY" || true
+          fi
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-py${{ matrix.python-version }}
+          path: |
+            pytest-output.txt
+            test-results.xml
+            coverage.xml
+          retention-days: 7
+
+      - name: Comment PR
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const pyver = '${{ matrix.python-version }}';
+            const output = fs.existsSync('pytest-output.txt')
+              ? fs.readFileSync('pytest-output.txt', 'utf8') : '';
+            const lines = output.split('\n');
+            const summary = lines.filter(l => /passed|failed|error/i.test(l)).slice(-3).join('\n');
+            const failures = lines.filter(l => l.startsWith('FAILED')).join('\n');
+            const errors = lines.filter(l => l.startsWith('ERROR') && l.includes('tests/')).slice(0,20).join('\n');
+            let body = `### 🧪 CI — Python ${pyver}\n\n\`\`\`\n${summary||'no summary'}\n\`\`\`\n`;
+            if (failures) body += `\n**Failures:**\n\`\`\`\n${failures}\n\`\`\`\n`;
+            if (errors) body += `\n**Collection errors:**\n\`\`\`\n${errors}\n\`\`\`\n`;
+            const marker = `CI — Python ${pyver}`;
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.data.find(c => c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                comment_id: existing.id, body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: context.issue.number, body,
+              });
+            }

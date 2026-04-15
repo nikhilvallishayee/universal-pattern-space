@@ -1,0 +1,81 @@
+# GitHub Copilot Configuration for GodelOS
+# This configuration provides permissive firewall rules for Copilot operations
+
+firewall:
+  # Allow essential package management and development tools
+  allow_list:
+    # Ubuntu package repositories
+    - "*.ubuntu.com"
+    - "archive.ubuntu.com"
+    - "security.ubuntu.com"
+    - "esm.ubuntu.com"
+    
+    # Node.js and npm registries
+    - "registry.npmjs.org"
+    - "*.npmjs.org"
+    - "nodejs.org"
+    - "*.nodejs.org"
+    
+    # Python package index
+    - "pypi.org"
+    - "*.pypi.org"
+    - "pythonhosted.org"
+    - "*.pythonhosted.org"
+    
+    # CDN and static content
+    - "cdn.jsdelivr.net"
+    - "unpkg.com"
+    - "*.unpkg.com"
+    - "cdnjs.cloudflare.com"
+    
+    # Version control and CI/CD
+    - "github.com"
+    - "*.github.com"
+    - "api.github.com"
+    - "raw.githubusercontent.com"
+    
+    # Development tools
+    - "playwright.dev"
+    - "*.playwright.dev"
+    - "vitejs.dev"
+    - "*.vitejs.dev"
+    
+    # Essential services
+    - "*.google.com"
+    - "*.mozilla.org"
+    - "*.w3.org"
+    
+    # Machine Learning and AI services
+    - "huggingface.co"
+    - "*.huggingface.co"
+    - "hf.co"
+    - "*.hf.co"
+    - "hf-mirror.com"
+    - "*.hf-mirror.com"
+    - "cdn-lfs.huggingface.co"
+    - "s3.amazonaws.com"
+    - "*.s3.amazonaws.com"
+
+# Copilot-specific settings
+copilot:
+  # Enable enhanced code suggestions
+  enhanced_suggestions: true
+  
+  # Allow code generation for mobile and testing
+  allowed_domains:
+    - mobile_development
+    - web_testing
+    - frontend_optimization
+    - backend_integration
+    
+  # Project-specific settings
+  project_type: "cognitive_interface"
+  
+  # Enable comprehensive testing support
+  testing:
+    enabled: true
+    frameworks:
+      - playwright
+      - bdd
+      - e2e
+      - mobile_testing

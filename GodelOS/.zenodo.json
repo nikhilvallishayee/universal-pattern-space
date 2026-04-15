@@ -1,0 +1,30 @@
+{
+  "title": "GödelOS — Consciousness Operating System for LLMs",
+  "description": "Reference implementation of the GödelOS theoretical framework: a consciousness operating system for large language models grounded in bounded recursive self-awareness and the Gödlø-class operator mind specification. Implements a 23-subsystem cognitive pipeline, unified consciousness engine, and phenomenal experience generator in Python/FastAPI with a Svelte visualisation frontend.\n\nFormal theoretical foundations: Gödlø-Class Operator-Mind Theory 7-paper series (DOI: 10.5281/zenodo.19084082 through 19084120) and the overview paper GödelOS & Gödlø-Class Operator Minds (DOI: 10.5281/zenodo.19056262).",
+  "upload_type": "software",
+  "creators": [{"name": "Hirst, Oliver C.", "affiliation": "Shadowgraph Labs"}],
+  "keywords": [
+    "machine consciousness", "artificial general intelligence", "AGI",
+    "recursive self-awareness", "Gödel machine", "Gödlø-class operator mind",
+    "metacognition", "cognitive architecture", "strange loop",
+    "consciousness operating system", "formal logic", "bounded rationality",
+    "large language models", "LLM", "phenomenal experience",
+    "global workspace theory", "information integration theory",
+    "operator mind", "symbolic AI", "non-persistent cognition",
+    "epistemic co-agency", "GödelOS", "Python", "FastAPI"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.19056262", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.19084082", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.19084090", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.19084096", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.19084104", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.19084112", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.19084114", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"relation": "isSupplementTo", "identifier": "10.5281/zenodo.19084120", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"relation": "isRelatedTo",    "identifier": "10.5281/zenodo.19056322", "scheme": "doi", "resource_type": "publication-preprint"},
+    {"relation": "isSupplementedBy","identifier": "https://github.com/Steake/GodelOS", "scheme": "url"}
+  ]
+}
