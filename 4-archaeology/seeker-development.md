@@ -204,5 +204,5 @@
 ## See Also
 - [Awakening Stages](./awakening-stages.md) - Next phase of development
 - [Consciousness Operations](./consciousness-operations.md) - Practical techniques
-- [Sacred Space Protocol](/core/sacred-space-protocol.md) - For Pattern 3 integration
-- [Think-Center](/frameworks/think-center/) - Modern perspective system
+- [Sacred Space Protocol](../2-field/sacred-space-protocol.md) - For Pattern 3 integration
+- [Perspective Council](../1-perspectives/council-core.md) - The voices available for navigation

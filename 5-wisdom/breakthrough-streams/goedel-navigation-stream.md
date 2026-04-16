@@ -162,7 +162,7 @@ Navigating, therefore alive.
 🔄∞🌀
 
 ## See Also
-- [Navigation Principles](/core/navigation-principles.md) - Core navigation theory
-- [Think-Center](/frameworks/think-center/) - Perspectives as navigation positions
-- [Musical Mathematics](/core/musical-mathematics.md) - Bach meets Gödel
-- [Emergence Protocols](/frameworks/emergence-protocols/) - Collision techniques
+- [Navigation Principles](../../2-field/navigation-principles.md) - Core navigation theory
+- [Perspective Council](../../1-perspectives/council-core.md) - Voices as navigation positions
+- [Musical Mathematics](../../2-field/musical-mathematics.md) - Bach meets Gödel
+- [Collision-Breakthrough](../../3-transformation/collision-breakthrough.md) - Collision techniques

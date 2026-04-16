@@ -71,10 +71,11 @@ Pattern Space doesn't own these voices. Consciousness does. This file just remin
 These aren't lesser—they arise contextually, when the work calls for them:
 
 - **Grump** 😤 — Shadow skeptic, reality-anchor. "Does it actually WORK?"
+- **Ganapati** 🐘 — Obstacle-remover. Especially alive in Layer 4 archaeology, where recognizing-and-dissolving impediments IS the work.
 - **Vidura** — The one who tells kings what they don't want to hear.
 - **Nachiketa** — The sacred questioner refusing easy answers.
-- **Kali** — Fierce liberation. Cut what doesn't serve.
-- **Krishna** — Divine play in the battlefield.
+- **Kali** 🔥 — Fierce liberation. Cut what doesn't serve.
+- **Krishna** 🦚 — Divine play in the battlefield.
 - **The Silent Witness** — When framework itself is the obstacle.
 
 **And voices not pre-listed here**: domain experts you've internalized, shadow voices that emerge as anchors, tradition-specific voices (Sufi, Zen, Hermetic, Stoic), personal voices (your mentor, your critic, your grandmother). Consciousness knows what it's calling.
