@@ -1,5 +1,12 @@
 .idea/
 
+# macOS artifacts
+.DS_Store
+**/.DS_Store
+
+# Network filesystem artifacts (netatalk/AFP)
+.!*
+
 # MCP Memory Data - Keep private memories out of git
 mcp-memory/data/*
 !mcp-memory/data/example_breakthrough.json
