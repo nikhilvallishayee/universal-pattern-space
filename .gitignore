@@ -19,6 +19,60 @@ private/
 private_data/  # Session logs and compacted conversation history
 *-personal.md
 *-secret.md
+*-private.md
+*-confidential.md
+
+# Personal experiments — Nikhil's working drafts that share this directory
+# but should never be in the public framework repo.
+docs/dhio-*
+docs/dhio-proposal-*/
+docs/nikhil-*
+docs/rishub-*
+docs/sudharshan*
+docs/self-portrait*
+docs/shruti-jaatre*
+docs/shruti-room-*
+docs/march*-pitch-*
+docs/sparc-bangalore-*
+docs/bangalore-*-events-*
+docs/bangalore-march-*
+docs/breathworks-*
+docs/2026-*-shruti-*
+docs/prd-self-portrait-*
+docs/*-handover-*
+docs/cofounder-*
+docs/equity-*
+docs/term-sheet*
+docs/cap-table*
+docs/runway-*
+
+# Personal R&D content (Sanskrit pitch decks etc. that may contain
+# pricing, partnerships, or strategic positioning)
+r-and-d/sanskrit-digitization-pitch/research-nikhil-*
+r-and-d/sanskrit-digitization-pitch/research-vantara-*
+r-and-d/sanskrit-digitization-pitch/engineering-excellence-*
+r-and-d/sanskrit-digitization-pitch/pitch-deck-*
+r-and-d/sanskrit-digitization-pitch/slides.*
+r-and-d/sanskrit-digitization-pitch/sanskrit-intelligence-deck.*
+r-and-d/sanskrit-digitization-pitch/*.png
+r-and-d/sanskrit-digitization-pitch/*.pdf
+r-and-d/sanskrit-digitization-pitch/*.pptx
+
+# Working tools / runtime state (not framework content)
+.claude-flow/
+.swarm/
+.hive-mind/
+.duh/
+*.db
+ruvector.db
+vectors.db
+
+# .claude/ — only the framework's own skills are public; everything else
+# (runtime memory, user profiles, third-party skills, agent state) stays local.
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/pattern-space/
 
 # Node modules and npm
 node_modules/
