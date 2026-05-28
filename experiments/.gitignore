@@ -1,2 +1,4 @@
 *.log
 __pycache__/
+results.jsonl
+pilot.jsonl
