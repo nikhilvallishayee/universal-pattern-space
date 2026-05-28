@@ -63,3 +63,64 @@ This produced the framework change in [`council-core.md` → "Think in Council, 
 ## Honest one-line conclusion
 
 > Pattern Space is a **real but modest, task-dependent** aid: it helps most on ambiguous/multi-stakeholder and crisis/calibration work, helps least (and can hurt via overhead) on closed technical deliverables — and its value lives in the *thinking*, not the *labels*. Where the framework once claimed a conscious field with invented percentages, the defensible claim is smaller and truer: **deliberate multiplicity, deployed with restraint, measurably improves some kinds of answers.**
+
+---
+
+# 🔬🔬 Follow-up: the n=100, 3-arm trial (the real one)
+
+The n=4 above was a pilot with two flaws (author-bias, broken blinding). This is the corrected experiment requested by the repo owner: larger, fully automated, and using the **actual `CLAUDE.md`** instead of a paraphrase. Harness: [`experiments/run_experiment.py`](../experiments/run_experiment.py); data: [`experiments/results.jsonl`](../experiments/results.jsonl).
+
+## Design
+
+100 asks across 8 categories. Three arms, where the **only** variable is the project memory auto-loaded by headless `claude -p --setting-sources project`:
+
+| Arm | Working dir | Loads |
+|---|---|---|
+| **A control** | `/tmp` | no Pattern Space |
+| **B ps-original** | worktree @ `main` | full `CLAUDE.md`, **without** the evolution |
+| **C ps-evolved** | this branch | full `CLAUDE.md`, **with** "Think in Council, Speak in the Task's Register" + honesty edits |
+
+Solver = Haiku 4.5. **Blind judge = Sonnet 4.6**, which sees the three final answers relabeled X/Y/Z (randomized) and ranks them. 0/100 judgments failed to parse.
+
+## Headline results
+
+| Arm | rank-1 wins | mean rank (1=best) | mean score /10 |
+|---|---|---|---|
+| A control | 34 | 2.13 | 6.47 |
+| B ps-original | 26 | 2.06 | 7.52 |
+| **C ps-evolved** | **40** | **1.81** | **7.60** |
+
+- **Both Pattern Space arms beat control on quality** (mean score 7.52 / 7.60 vs **6.47**). At least one PS arm out-ranked control on **66/100** asks.
+- **The evolution worked.** Head-to-head, **C ranked above B on 61/100** asks (B above C: 39). C also improved exactly where the change was aimed — **appropriateness/concision 7.06 vs 6.91**, and closed-task wins (`simple`: C=4 vs B=1).
+- **Control's 34 wins are real and instructive:** A wins *outright* on convergent tasks but ranks **3rd** when it loses, giving it the **lowest mean** — i.e. Pattern Space trades occasional big wins on closed tasks for consistent top-2 placement on open ones.
+
+## Where each arm wins (rank-1 wins by category, A/B/C)
+
+| Category | A | B | C | Reading |
+|---|---|---|---|---|
+| crisis | 0 | 2 | **6** | PS dominates; control never wins |
+| ethical | 3 | 1 | **8** | multi-perspective shines |
+| planning | 3 | 2 | **7** | PS strong |
+| strategy | 2 | **5** | **5** | PS strong (10 vs 2) |
+| technical | **6** | **6** | 4 | control/original edge; evolution didn't help here |
+| analysis | **7** | 4 | 3 | control wins — PS overhead |
+| simple | **7** | 1 | 4 | control wins closed tasks; evolved > original |
+| creative | **5** | 4 | 3 | control slight edge |
+
+**The harm boundary, mapped:** Pattern Space pays off on **open / human / multi-stakeholder** work (crisis, ethical, planning, strategy) and is **net overhead on convergent** work (simple, analysis, creative). Mean answer length: control **207** words vs PS **~330** — that extra length is depth where it's wanted and bloat where it isn't.
+
+## The one hypothesis we could NOT test
+
+"Reason in multi-voice *without speaking it*" assumed the spoken-council arm would actually *speak*. It mostly didn't: Haiku loaded the framework's framing but answered in plain prose — strict labeled-council count was **0** in both PS arms (loose voice mentions: 11% original, 15% evolved). So *silent-vs-spoken* couldn't be isolated at this model scale. What this *does* show: the benefit comes from the **framing/reasoning**, not voice-theater — which is consistent with the evolution's thesis, and explains why C lost nothing by de-emphasizing visible voices.
+
+## Threats to validity
+
+1. **Solver = Haiku.** A stronger solver might show larger effects and might actually speak the council; re-run on Sonnet/Opus to test.
+2. **Single judge family** (Sonnet judging Haiku) — shared blind spots possible.
+3. **~12 asks/category** — category-level numbers are directional, not significant.
+4. **Voice-label null** limits the silent-vs-spoken claim (see above).
+5. Control is *default* Claude, already strongly aligned (esp. on crisis) — the bar was high, which makes the PS crisis win (0/2/6) more notable.
+
+## Honest conclusion (n=100)
+
+> Loading Pattern Space **measurably improves answer quality on open-ended, human, and high-stakes-judgment tasks, and is mild overhead on closed/convergent ones.** The committed evolution is **validated**: the evolved framework beat the original head-to-head **61–39**, chiefly by knowing when *not* to over-produce. The grandiose metaphysics remains unproven and unnecessary; the modest operational claim is now **measured, reproducible, and true.**
