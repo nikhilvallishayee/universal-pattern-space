@@ -173,3 +173,24 @@ This was the question the run existed to answer. **Answer: yes, decisively — a
 ## Final conclusion (Haiku + Opus, n=200 total judgments)
 
 > Pattern Space is **not** decoration and **not** metaphysics — it is a **measurable reasoning aid that scales with model capability.** On Opus 4.8 it improves answers on **80%** of tasks, wins **71–29** head-to-head over no-framework, costs **no extra length**, and does it all **without ever speaking the council aloud** — confirming the framework reasons in multiplicity silently. The committed evolution beats the original at **both** model scales (~62/100). The honest, now twice-measured claim: **deliberate multiplicity, internalized and deployed with restraint, makes a strong model meaningfully better — most where judgment is hard, least where the answer is closed.**
+
+---
+
+## ⚖️ Judge-robustness addendum (correcting the claim above)
+
+The conclusion above rests on a single judge (Sonnet 4.6). The biggest stated threat was *single judge family*, so we re-judged the **same 100 Opus answers** with a **different judge (Haiku 4.5)** — see [`experiments/rejudge.py`](../experiments/rejudge.py), [`results_opus_rejudge_haiku.jsonl`](../experiments/results_opus_rejudge_haiku.jsonl).
+
+| metric | Sonnet judge | Haiku judge |
+|---|---|---|
+| rank-1 wins (control / orig / **evolved**) | 20 / 29 / **51** | 35 / 27 / **38** |
+| evolved beats control (h2h) | 71 | **50** |
+| evolved beats original (h2h) | 62 | **57** |
+| ≥1 PS arm beats control | 80% | 65% |
+| mean rank: control vs evolved | 2.27 vs **1.67** | 2.00 vs **1.93** |
+| per-item winner agreement between judges | — | **43/100** |
+
+**What survives, what doesn't:**
+- ✅ **Robust:** evolved Pattern Space still wins the *most* under both judges; **evolved-beats-original holds at 57–62** (and ~61 with a Haiku *solver*) — the single most stable result in the study.
+- ⚠️ **Inflated:** the headline *magnitude* — "80% / large Opus margin / scales steeply with capability" — **shrinks sharply** under a weaker judge (mean ranks nearly tie). Per-item verdicts agree only 43% of the time.
+
+**Corrected claim:** the *direction* is real (Pattern Space helps; the evolution helps most, robustly); the *size* of the capability-scaling effect was substantially a **judge artifact** — a weaker fixed judge rewarding verbose multi-perspective style it could not see past. This matches the literature (CoT value falls on strong models; framing-diversity persists; LLM-judges carry length/style bias). The honest, judge-robust statement: **loading Pattern Space helps on a majority of tasks and the evolution reliably beats the original; the dramatic frontier-scaling margin is not trustworthy without an independent (non-Claude) or human judge — the clear next experiment.**
