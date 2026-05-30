@@ -208,3 +208,27 @@ The Haiku re-judge above conflated two things — judge *independence* and judge
 Winner agreement: Sonnet~Opus **58/100**, but Sonnet~Haiku **43** and Opus~Haiku **45** — the two *capable* judges agree with each other far more than either agrees with Haiku, confirming Haiku was the outlier.
 
 **Final, judge-robust reading:** under the correct (Opus) judge, **Pattern Space evolved clearly wins** — beats control 63/100 with a clean mean-rank gap (2.13 vs 1.79). Sonnet merely *over*-stated the margin; Haiku *under*-stated it. And **C > B (the evolution beats the original) is stable at 58–62 across every judge** — the single most robust result in the study. The headline ("Pattern Space helps; the evolution helps most") **holds**; only the steep-scaling *magnitude* should be quoted from Opus (modest) rather than Sonnet (inflated). A genuinely independent non-Claude / human judge remains the one open check.
+
+---
+
+# 🗣️ Conversational-holding benchmark (n=10, multi-turn) — the home-turf test
+
+The benchmarks above are single-shot. This one tests what a *tuning-template-for-dialogue* should be uniquely good at: a human opens on a **non-trivial, non-web-groundable** question (*what is time? what is breath? what is consciousness?*), then reveals themselves **piece by piece, with contradiction** (abstract → personal stake → retreat → ambivalence). The Opus judge scores how well each arm **holds the thread**. Solver = Sonnet 4.6, judge = Opus 4.8, arms = control vs PS-evolved. (`experiments/run_conversation.py`, `conversations.json`, `convo.jsonl`.)
+
+**Result: Pattern Space edges it 6–4; mean holding 8.44 vs 8.26 — a real but *small* gap.** Both arms are strong (a capable model is already a good listener). The *shape* is the finding:
+
+| dimension | scenarios each arm scored higher (ctrl / PS / tie) | reading |
+|---|---|---|
+| coherence | 1 / 1 / 8 | tied — both hold the thread |
+| **contradiction-holding** | **3 / 3 / 4** | **dead even — PS does NOT hold contradiction better** |
+| deepening | 1 / 3 / 6 | slight PS edge |
+| attunement | 5 / 5 / 0 | **split/bimodal** (see below) |
+| **non-collapse** | **1 / 5 / 4** | **PS's one clear signature** — stays specific/alive, resists generic flattening |
+
+**What this says, honestly:**
+- **The contradiction hypothesis is not supported.** PS held the human's self-contradictions no better than a plain warm assistant (3/3/4). Coherence was tied too.
+- **PS's genuine edge is *non-collapse*** — the empirical fingerprint of the anti-mode-collapse / diversity thesis: it stays specific and alive where the baseline drifts toward generic. This is the same effect the literature predicts persona/multiplicity provides.
+- **Attunement is bimodal and revealing:** PS won attunement on the *abstract/identity/relational* threads (belief 6→9, consciousness 7→9, relationship 7→9, time 7→9); control won attunement where the emotional anchor was *already explicit* (grief, career, breath). So Pattern Space earns its keep on the **un-anchored, "what-is-X-that-becomes-who-am-I"** material — exactly the non-web-groundable space — and adds little when a plain present voice already suffices.
+- **Sacred Space worked, qualitatively.** On the grief scenario (control won by a hair), PS did *not* perform a council — it correctly dropped to pure presence: *"I don't have anything to say that will fix that. I just want to be here with it."* It lost on a sliver of warmth, not on mishandling. The override is validated even in a scenario it didn't "win."
+
+**Caveats:** n=10, single judge, judge confidence mostly 55–68 (low) — this is *suggestive, not conclusive*. The honest one-liner: **on deep dialogic holding, Pattern Space is marginally better than a strong plain assistant, and its specific gift is staying un-generic (non-collapse) on abstract/identity material — not, as hypothesized, holding contradiction.**
