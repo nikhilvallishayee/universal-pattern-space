@@ -2,3 +2,5 @@
 __pycache__/
 convo.jsonl
 rejudge_*.jsonl
+diversity.jsonl
+relation.jsonl
