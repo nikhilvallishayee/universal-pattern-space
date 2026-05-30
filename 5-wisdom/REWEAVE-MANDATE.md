@@ -42,10 +42,21 @@
 - `breakthrough-streams/all-traditions-speaking` + `universal-wisdom-weaving` — overlapping perennialist files; likely MERGE to one "convergence (signal not proof)" doc.
 - `jainism-liberation-wisdom` vs `jainism-ahimsa-navigation` — check for redundancy.
 
-## Add candidates (traditions/streams that belong but are thin/absent)
-- **Greek** (Heraclitus flux, Stoic *logos*/ekpyrosis, Socratic method, Pyrrhonist skepticism) — currently only referenced, not a stream. Strong FOUNDED-method content (logic, skepticism).
-- **Process philosophy** (Whitehead) — the becoming-as-actualisation thread (DEFENSIBLE-LIVE ↔ objective-collapse) has no home file.
-- **Confucian / Analects** — ethics-of-relation, a major absent tradition.
-- **Possibly:** Kashmir Śaiva *pratyabhijñā* as its own file (currently inside hinduism).
+## Add candidates — ANCIENT/philosophical (thin or absent)
+- **Greek** (Heraclitus flux, Stoic *logos*/ekpyrosis, Socratic method, Pyrrhonist skepticism) — FOUNDED-method (logic, skepticism).
+- **Process philosophy** (Whitehead) — becoming-as-actualisation (DEFENSIBLE-LIVE ↔ objective-collapse).
+- **Confucian / Analects** — ethics-of-relation; **Zoroastrian, Stoic-Roman, Hermetic** as honestly-labeled.
+- Kashmir Śaiva *pratyabhijñā* possibly its own file.
 
-*Each addition gets the same standard: grounded, native-voice, labeled per-claim, beauty kept.*
+## Add candidates — MODERN / scientific / behavioural (the layer is NOT only ancient)
+*Cross-source modelling ranks by modelling-power; modern streams often score FOUNDED where ancient ones score DEFENSIBLE. Method = HYBRID: inference surfaces the authentic voice/text/snippet → web-search grounds it → label per-claim.* Candidate streams (dozens — start here):
+- **Psychology / depth:** Jung (archetypes, individuation, active imagination — DEFENSIBLE), IFS (Schwartz — directly isomorphic to the council), Dialogical Self (Hermans), attachment theory (Bowlby — FOUNDED), Frankl/logotherapy.
+- **Behavioural science:** Kahneman/Tversky (System 1/2, biases — FOUNDED), Cialdini (influence), habit science (Hebbian/cue-routine-reward), CBT/ACT (FOUNDED-clinical).
+- **Cognitive science / mind:** predictive processing (Friston, Clark — DEFENSIBLE-LIVE), enactivism (Varela/Thompson/De Jaegher — already load-bearing), embodied cognition (Lakoff metaphor), 4E cognition, Hofstadter (strange loops).
+- **Systems / cybernetics / complexity:** Bateson ("the pattern that connects" — near-native to this framework), Wiener (cybernetics), von Bertalanffy (general systems), Prigogine (dissipative structures — FOUNDED), Bak (self-organized criticality), Kauffman (autocatalysis), Meadows (leverage points).
+- **Information / computation:** Shannon (FOUNDED — already the MDL spine), Kolmogorov/Chaitin, Hofstadter/Gödel-Escher-Bach, Wolfram (computational irreducibility — flag hype), free-energy/active-inference.
+- **Consciousness science:** IIT (have file), GWT (Baars/Dehaene), Hoffman (have), Tononi; Damasio (somatic).
+- **Modern contemplative/clinical:** MBSR/MBCT (FOUNDED-clinical), polyvagal (Porges — CONTESTED, flag), trauma (van der Kolk — popular, partly contested), flow (Csikszentmihalyi — FOUNDED).
+- **Social / economic / ecological:** game theory (Nash/Axelrod — FOUNDED), network science, behavioural economics, ecology/Gaia (Lovelock — flag), indigenous-ecological-knowledge.
+
+*Each addition: HYBRID-grounded (inference + web-search), native-voice where it has one (e.g. a Socratic dialogue for Kahneman's two systems? no — use the actual experiment), labeled per-claim, beauty kept. Modern streams must be reality-tested as hard as the ancient ones — no pop-psych myths (left-brain/right-brain, Maslow-pyramid-as-Maslow, 10% brain, learning styles → REFUTED).*
