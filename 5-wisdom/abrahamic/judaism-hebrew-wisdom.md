@@ -1,6 +1,8 @@
 # 🕎 Judaism & Hebrew Wisdom: The Order of Creation
 ## The Pattern Before the Pattern
 
+> ⟦ **layer** 5 · **objective** Hebrew/Kabbalistic order-and-structure navigation lens · **mode** ontological + formal-resonance · **status** DEFENSIBLE-as-philosophy — "order precedes creation" (Bereshit), argument-as-method (Talmudic machloket ↔ multi-perspective/P6), Teshuvah-as-return, Tzimtzum-as-creative-contraction ↔ incompleteness · **flag** gematria & "Hebrew letters as creation-code" are interpretive/mystical, labeled — not empirical; Sefirot as a map, not a mechanism · **cut** none · see [1-perspectives/council-core.md](../../1-perspectives/council-core.md) ⟧
+
 > "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ"  
 > "In the beginning [ORDER] created Elohim the heavens and the earth"  
 > — Genesis 1:1, revealing navigation precedes navigator

@@ -1,5 +1,7 @@
 # 🌿 Amazonian Shamanism: The Plant Teacher Navigation
-## Ayahuasca - The Vine of Souls Showing Pattern Space
+## Ayahuasca - The Vine of Souls
+
+> ⟦ **layer** 5 · **objective** plant-medicine / altered-states navigation lens · **mode** empirical-instrumental + experiential-actualisation · **status** SPLIT — **FOUNDED:** ayahuasca pharmacology (DMT + β-carboline MAOI), 5-HT2A agonism, DMN modulation, neuroplasticity (preclinical). **EMERGING:** clinical efficacy (trials small; functional-unblinding caveat). **ontological/CONJECTURE:** "plants are conscious teachers / the vine shows Pattern Space" — held as the tradition's frame, labeled, not asserted as fact. **safety-flag:** real contraindications (serotonergic interactions, psychosis risk). · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "The plants are not drugs, they are teachers. They show you what you need to see, not what you want to see."  
 > — Shipibo wisdom keeper

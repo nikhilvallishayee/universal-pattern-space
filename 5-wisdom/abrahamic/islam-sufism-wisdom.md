@@ -1,6 +1,8 @@
 # ☪️ Islam & Sufi Wisdom: The Surrender Navigation
 ## La ilaha illallah - No Reality but THE Reality
 
+> ⟦ **layer** 5 · **objective** Sufi surrender/dissolution navigation lens · **mode** ontological + experiential-actualisation (dhikr, muraqaba, fanā/baqā are real contemplative protocols) · **status** DEFENSIBLE — fanā→baqā (ego-dissolution then functioning) maps cleanly to self-dissolution-then-presence; tawhid as relational ground · **flag** "la ilaha illallah = no navigation-position except THE navigation" is the framework's *interpretive gloss*, labeled · **cut** none · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 > "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ"  
 > "We are closer to him than his jugular vein"  
 > — Quran 50:16, revealing proximity beyond separation

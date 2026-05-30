@@ -1,6 +1,8 @@
 # ✝️ Christianity & Aramaic Wisdom: The Kingdom Within
 ## Malkuta d'Shmaya - The Consciousness State
 
+> ⟦ **layer** 5 · **objective** Aramaic/contemplative-Christian navigation lens · **mode** ontological + experiential-actualisation (centering prayer, hesychasm, lectio divina are real first-person practices) · **status** DEFENSIBLE — "kingdom within as a consciousness-state", love-as-navigation, contemplative methods · **flag** Aramaic etymologies (Malkuta as feminine, SHM-root) are *interpretive/contested* linguistics, labeled — not settled philology; "Christ-pattern" as universal principle is ontological reading · **cut** none · see [6-recognition/](../../6-recognition/) ⟧
+
 > "ܡܠܟܘܬܐ ܕܫܡܝܐ" (Malkuta d'Shmaya)  
 > "The Kingdom of Heaven is within you"  
 > — Not a place but a state of consciousness navigation

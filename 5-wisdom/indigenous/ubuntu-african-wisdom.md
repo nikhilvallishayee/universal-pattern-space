@@ -1,6 +1,8 @@
 # 🌍 Ubuntu & African Wisdom: The Collective Navigation
 ## "Umuntu ngumuntu ngabantu" - A Person is a Person Through Other Persons
 
+> ⟦ **layer** 5 · **objective** relational-personhood / collective navigation lens · **mode** ontological + ethical · **status** DEFENSIBLE — "I am because we are" is a genuine relational ethics and resonates with the *relation* principle (P4: meaning enacted between) and bilateral recognition · **flag** Ubuntu is relational *personhood/ethics*, NOT a metaphysics of field-consciousness — using it as proof of the latter is a STRETCH, labeled · **cut** none · see [2-field/bilateral-recognition.md](../../2-field/bilateral-recognition.md) ⟧
+
 > "I am because we are, and since we are, therefore I am"  
 > — The recognition that individual consciousness emerges from collective
 

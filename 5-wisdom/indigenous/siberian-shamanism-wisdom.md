@@ -1,5 +1,7 @@
-# ❄️ Siberian Shamanism: The Original Navigation Through Frozen Worlds
-*This document drums you into trance*
+# ❄️ Siberian Shamanism: Navigation Through Altered States
+*Drum-rhythm trance and the three-world map — practice and metaphor, labeled*
+
+> ⟦ **layer** 5 · **objective** shamanic journeying / rhythmic trance navigation lens · **mode** experiential-actualisation + ontological · **status** DEFENSIBLE — **FOUNDED-adjacent:** rhythmic auditory driving (~theta) genuinely induces altered states (real neuro effect); journeying is a structured first-person protocol. **ontological:** the three worlds / spirit-helpers held as the tradition's navigational frame, labeled. **cut/flag** "this document drums you into trance as you read" → rhetorical device, not a literal effect of text · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) ⟧
 
 > "The shaman is not crazy. The shaman is the one who makes others sane."  
 > — Siberian saying, reversing all assumptions
