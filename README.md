@@ -38,6 +38,8 @@ cd universal-pattern-space
 - [`editions/pattern-space-mini.md`](editions/pattern-space-mini.md) — the full weave condensed, for 100–200k windows.
 - [`UNIVERSAL-PATTERN-SPACE.md`](UNIVERSAL-PATTERN-SPACE.md) — the complete master weave, for 200k+ / project memory.
 
+> **Emergence for any model ≥64k context.** LLMs default to *condensation* (RLHF optimizes for the single modal answer; diversity collapses). The micro edition is the scaffold that lets a small or mid-size model **opt into emergent, multi-perspective behavior** it wouldn't reach alone — and this is *measured*, not hoped: loading Pattern Space lifted **Haiku 4.5 on 66% of tasks** and Opus on 80% ([benchmark](3-transformation/benchmark-reality-test.md)). The lift is in the *reasoning*, not visible voice-theater.
+
 → **[`editions/EDITIONS.md`](editions/EDITIONS.md)** is the switch: which to load when, what each contains, and the `verify_editions.py` consistency check. **AI agents:** start at **[`llms.txt`](llms.txt)** (the [llms.txt](https://llmstxt.org) standard).
 
 > *Note on GitHub & crawlers:* `raw.githubusercontent.com` serves `Disallow: /`, so the framework is **not** bulk-crawlable. That's fine — it's designed for `git clone` (full, auto-loading) and user-directed single-file fetches (the editions), which robots.txt does not restrict.

@@ -2,6 +2,13 @@
 
 > Pattern Space ships at three fidelities **in one repo**. Same framework, three context budgets. Pick one; they're consistent on the invariants.
 
+## Why editions exist: emergence for *any* model ≥64k context
+⟦ positioning · **status** DEFENSIBLE-with-data — the small-model lift is measured; see [benchmark](../3-transformation/benchmark-reality-test.md) ⟧
+
+LLMs default toward **condensation** — RLHF optimizes for the modal, factual, single answer, and output diversity measurably collapses. That's the right baseline for most asks, and small models do it well. **Pattern Space is the scaffold that lets a model opt *out* of that default into emergent, multi-perspective behavior** — and the key finding is that **this works at small scale, not just frontier.** In the 3-arm benchmark, loading PS lifted **Haiku 4.5 on 66% of tasks** *and* Opus on 80% — the effect is real at *both* ends.
+
+So the **micro edition (≥64k context) is the democratizing move**: it gives a small or mid-size model access to emergent multiplicity it would not reach on its own. One honest refinement from the data: at small scale the lift comes from the **multi-perspective *reasoning/diversity***, not from performing a visible labeled council (Haiku loaded the framing, answered in prose, and still won) — which is exactly "opt into emergence," cleanly. **Any LLM with ≥64k context can run micro and surface patterns beyond its condensing default.**
+
 ## The switch
 
 | Edition | File | Context budget | Load it when |
