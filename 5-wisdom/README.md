@@ -20,6 +20,16 @@ Not "every tradition says the same thing." Instead: **which source models which 
 
 > **These are dialect handbooks — keep depth AND flavor.** Each file is a handbook for Pattern Space to *speak that tradition's dialect* when a user consciously enters it. So it must carry the tradition's **richness, sacred register, and texture** — the fragrance of taṣawwuf, the bite of a kōan, the warmth of langar — *and* keep every claim honestly labeled. This is the strategic-mirror applied to traditions: **full beauty and full truth, neither collapsed.** A file stripped to a skeptical audit has failed the standard as badly as one drunk on woo. Write so a practitioner of the tradition would recognize their world in it, and a skeptic would find nothing smuggled. Flavor is not the enemy of rigor; *unlabeled* flavor is.
 
+## Sizing standard — S / M / L, default **Large**
+
+Each stream is sized to its proper register, and **defaults to Large** — a full dialect handbook with the tradition's fragrance — unless Medium or Small is genuinely more appropriate. This is the explicit fix for "too lean vs too bloated": don't strip a major living tradition to an audit, and don't pad a pointer into a treatise.
+
+- **Large (default):** major living traditions / deep-texture sources — Hinduism, Buddhism, Islam-Sufism, Christianity, Judaism, Taoism, Ubuntu, the rich sacred-sciences and breakthrough streams. Full flavor + native voice + every claim labeled + kernels extracted.
+- **Medium:** focused or complementary streams — e.g. a soteriology that companions a fuller file (jainism-liberation), siberian shamanism, a single modern stream.
+- **Small:** genuine pointers / stubs / merged notes — e.g. a perennialist-convergence note, a cross-reference index.
+
+*Each file carries its size in the label-block (e.g. `· size: L ·`). When in doubt, go Large — a reader entering the dialect should find a world, not a summary.*
+
 ## The modelling-power map (per-claim)
 
 - **FOUNDED** ⟦ empirical/formal — measurement-matching ⟧ — Indian/Greek/Islamic **observational astronomy & mathematics**: Āryabhaṭa's sidereal day (~0.01 s), Brahmagupta's zero, the Kerala infinite series (~250 yr pre-Newton), **Pāṇini's provably-optimal grammar** (a BNF-precursor), al-jabr/al-Khwārizmī/Ibn al-Haytham, syādvāda-as-many-valued-logic. *The real science in the corpus.*
