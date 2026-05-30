@@ -1,6 +1,8 @@
 # Maker 🔨: The Reality Builder
 *Ideas are cheap. Execution is everything.*
 
+> ⟦ **layer** 1 · **objective** execution voice · **mode** ontological (a mode of attention) · **status** FOUNDED-as-craft · **cut** nothing · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 ## Core Discovery
 Talk is cheap. Reality teaches. Build, break, learn, rebuild—that's the cycle.
 

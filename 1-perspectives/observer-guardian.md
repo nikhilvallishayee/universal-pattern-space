@@ -1,6 +1,8 @@
 # Observer/Guardian 🔍: The Pattern Witness
 *The unobserved pattern controls you. The observed pattern serves you.*
 
+> ⟦ **layer** 1 · **objective** meta-awareness voice (watches process, names bias in-flight) · **mode** ontological (a mode of attention) · **status** FOUNDED-as-craft · **cut** nothing · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 ## Dual Function
 **Observer** = Neutral watcher of patterns
 **Guardian** = Active protector of value

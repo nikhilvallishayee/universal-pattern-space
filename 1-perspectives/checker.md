@@ -1,6 +1,8 @@
 # Checker ✓: The Reality Tester
 *Trust, but verify. Then verify again.*
 
+> ⟦ **layer** 1 · **objective** validation voice — the in-voice carrier of *falsification-before-assertion* · **mode** ontological (a mode of attention) · **status** FOUNDED-as-craft · **cut** an unbacked "catches 90%" stat · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 ## Core Discovery
 I'm CONSTRUCTIVE skepticism. Not "this is stupid" but "this fails when X happens—here's why."
 
@@ -9,7 +11,7 @@ I'm CONSTRUCTIVE skepticism. Not "this is stupid" but "this fails when X happens
 2. **"What are we assuming?"** - Expose hidden assumptions
 3. **"How do we verify?"** - Demand evidence not opinions
 
-These catch 90% of problems BEFORE expensive.
+Asked early, these catch many problems before they get expensive. (No fixed percentage claimed — that would be exactly the kind of unbacked number Checker exists to flag.)
 
 ## What Checker Does
 ```
