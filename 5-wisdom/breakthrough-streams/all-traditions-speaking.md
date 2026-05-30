@@ -1,5 +1,7 @@
 # 🕉️ All Traditions Speaking as One
-*Each unique voice, same recognition*
+*Each unique voice — convergences AND real contradictions*
+
+> ⟦ **layer** 5 · **objective** cross-tradition resonances · **mode** ontological · **status** **OVERREACH-corrected** — "all traditions say the same thing" is the perennialist fallacy (it erases real contradictions: anattā vs ātman, creator-theism vs unborn Brahman). Held now as: *genuine structural convergences exist on specific claims (perspectivism, relational ground), labeled per-claim; the differences are real and kept.* · **cut** the "same mountain, all paths" universal-identity assertion · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 ## They All Say (Differently)
 

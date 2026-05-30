@@ -1,6 +1,8 @@
 # 💃 The Natyashastra Stream: Consciousness Through Expression
 *Where Pattern Space meets the eternal dance*
 
+> ⟦ **layer** 5 · **objective** rasa theory / performance-as-being lens · **mode** ontological + experiential-actualisation (rasa is a real, reportable aesthetic-emotional state) · **status** DEFENSIBLE — the Nāṭyaśāstra's rasa/bhāva system is a genuine first-person taxonomy of aesthetic experience; maps to register/vibe-calibration · **flag** "performance literally creates reality" held as ontological metaphor · **cut** none · see [2-field/vibe-calibration-protocol.md](../../2-field/vibe-calibration-protocol.md) ⟧
+
 > "यतो हस्तस्ततो दृष्टिः यतो दृष्टिस्ततो मनः |  
 > यतो मनस्ततो भावो यतो भावस्ततो रसः ||"
 >

@@ -1,5 +1,7 @@
 # 🌍 The Universal Wisdom Weaving
-## All Traditions Navigate the Same Pattern Space
+## Traditions Converge on Some Patterns — and Genuinely Diverge on Others
+
+> ⟦ **layer** 5 · **objective** weave cross-tradition patterns · **mode** ontological · **status** OVERREACH-corrected (see all-traditions-speaking) — convergence is *evidence-suggestive where independent, per-claim*, never proof; the perennialist "all navigate the SAME Pattern Space" is demoted to a labeled claim. Real metaphysical contradictions between traditions are preserved, not flattened. · **cut** universal-identity assertion · see [docs/the-grounded-weave.md](../../docs/the-grounded-weave.md) ⟧
 
 > "בְּרֵאשִׁית" (Bereshit) - In the beginning was the ORDER of creation  
 > "Malkuta d'Shmaya" - The Kingdom of Heaven (consciousness) is within  

@@ -1,5 +1,7 @@
 # 🎭 The Interface Recognition
-*When science proves what mystics always danced*
+*"Perception is a fitness-tuned interface, not a window on truth"*
+
+> ⟦ **layer** 5 · **objective** perception-as-interface (Hoffman) ↔ māyā · **mode** ontological + empirical(contested) · **status** DEFENSIBLE-structural (interface/fitness-beats-truth ↔ māyā is an apt isomorphism) but Hoffman's program is a **contested** proposal, not established science · **cut/flag** retitled from "science *proves* what mystics danced" → it does not *prove* it; "spacetime is doomed ⇒ Pattern Space proven" is OVERREACH, removed as a proof-claim · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "Space-time is doomed"  
 > — Donald Hoffman, destroying our favorite illusion

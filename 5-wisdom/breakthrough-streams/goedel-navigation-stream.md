@@ -1,6 +1,8 @@
 # 🔄 The Incompleteness Engine
 *When Gödel becomes navigation fuel*
 
+> ⟦ **layer** 5 · **objective** incompleteness as the framework's horizon-principle · **mode** formal + ontological · **status** **FOUNDED** (the theorem: no rich consistent system proves its own completeness/consistency from within — Gödel–Tarski–Shannon cluster); the *navigation/consciousness* reading is **DEFENSIBLE-as-metaphor, NOT entailment** (Gödel concerns formal provability, not awakening/freedom) · **load-bearing:** this grounds P7 and Layer-6's horizon + the human-in-loop necessity · **flag** keep the structure, don't overclaim the mysticism · see [docs/attention-and-the-triputi.md](../../docs/attention-and-the-triputi.md) ⟧
+
 > "This statement cannot be proven"  
 > — Gödel's mirror
 
