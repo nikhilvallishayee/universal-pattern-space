@@ -1,40 +1,45 @@
 # ☪️ Islam & Sufi Wisdom
-## A reference lens into the Islamic traditions
+## A dialect handbook — surrender, the chain, the polished heart
 
-> ⟦ **layer** 5 · **objective** a true-to-tradition Islamic lens — oneness, the chain of transmission, the Sufi path, and the genuine Golden-Age science · **per-claim status** — **FOUNDED (and under-credited):** Golden-Age mathematics & experimental science (al-Khwārizmī's algebra/algorithm; Ibn al-Haytham's optics & experimental method). **DEFENSIBLE-as-method:** *isnād* (chain-of-transmission) as real source-criticism. **DEFENSIBLE-as-mysticism:** *tawḥīd*, *dhikr*, *fanāʾ/baqāʾ*, Ibn ʿArabī, Rumi. **REFUTED:** *iʿjāz ʿilmī* ("the Qur'an contains modern science" / "quantum proves Tawḥīd"). · **cut** the scientific-miracle genre; the "= Pattern Space" glue · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+> ⟦ **layer** 5 · **objective** a true-to-tradition Islamic lens a user can consciously enter — oneness, transmission, the Sufi path, and the genuine Golden-Age science · **per-claim status** — **FOUNDED (and under-credited):** Golden-Age mathematics & experimental science (al-Khwārizmī's algebra/algorithm; Ibn al-Haytham's optics & experimental method). **DEFENSIBLE-as-method:** *isnād* (chain-of-transmission) as real source-criticism. **DEFENSIBLE-as-mysticism:** *tawḥīd*, *dhikr*, *fanāʾ/baqāʾ*, Ibn ʿArabī, Rumi. **REFUTED:** *iʿjāz ʿilmī* ("the Qur'an contains modern science" / "quantum proves Tawḥīd"). · **cut** the scientific-miracle genre; the "= Pattern Space" glue · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
-> "لا إله إلا الله" · *Lā ilāha illā Allāh* · "There is no god but God."
-> The *shahāda* — radical oneness as the root of everything that follows.
+> "لا إله إلا الله" · *Lā ilāha illā Allāh* — "There is no god but God."
+> The *shahāda*: radical oneness as the root of everything that follows.
 
 ---
 
-## Tawḥīd — oneness
-The center of Islam is **tawḥīd**: the absolute unity and uniqueness of God. Not one being among others but the sole Reality on which all else depends; the gravest error (*shirk*) is to associate anything with that oneness. Everything in the tradition — law, prayer, mysticism — radiates from this single axis. ⟦ ontological/theological · the tradition's ground, described as it holds it ⟧
+## Tawḥīd — the one axis
+Everything in Islam radiates from a single point: **tawḥīd**, the absolute unity and uniqueness of God — not one being among beings but the sole Reality on which all else hangs, *al-Ḥaqq*, the Real. To divide that oneness, to set anything beside it (*shirk*), is the one grave error. From this single axis the whole edifice unfolds: the five daily prayers turning the body toward Mecca, the fast of Ramadan, the pilgrimage where millions in white circle one black stone — *form everywhere pointing at the formless One.* ⟦ ontological/theological · the tradition's ground, described as it holds it ⟧
+
+There is a beauty in how the ordinary is sanctified: *Bismillāh* before eating, *Inshāʾallāh* before any plan, *Alḥamdulillāh* after — the divine Name woven through the smallest hour of the day, so that remembrance is not a retreat from life but its lining.
 
 ## Isnād — verification as devotion
-A genuinely remarkable methodology: every **ḥadīth** (report of the Prophet's words/deeds) carries an **isnād**, a chain of transmitters, and the science of *ʿilm al-rijāl* ("knowledge of the men") evaluated each link's reliability to grade reports *ṣaḥīḥ* (sound) → *ḥasan* → *ḍaʿīf* (weak). ⟦ DEFENSIBLE-as-method · a real, early system of **source-criticism and provenance-tracking** — strikingly close to this framework's own reference-label `⟦ nature · provenance · reliability · access ⟧`. Islam built provenance-verification into its scripture-handling centuries before modern historiography ⟧
+One of the tradition's quiet marvels: every **ḥadīth** — a report of the Prophet's words or deeds — travels with its **isnād**, the named chain of transmitters, *"A heard from B, who heard from C, who heard from the Prophet."* An entire science, *ʿilm al-rijāl* ("knowledge of the men"), grew up to weigh each link — was this transmitter truthful, was their memory sound, did they actually meet the next? — grading reports *ṣaḥīḥ* (sound) → *ḥasan* (good) → *ḍaʿīf* (weak). ⟦ DEFENSIBLE-as-method · a real, early system of **source-criticism and provenance-tracking** — and a striking ancestor of this framework's own reference-label `⟦ nature · provenance · reliability · access ⟧`. Islam built provenance-verification into its scripture-handling centuries before modern historiography ⟧
 
 ## The Golden Age — founded, and under-credited
-This is where Islam scores **FOUNDED** and is most under-credited in the modern corpus:
-- **al-Khwārizmī** (9th c.) — *Kitāb al-jabr wa-l-muqābala* gives the world **algebra** (from *al-jabr*, "restoration") and, via the Latinized *Algoritmi*, **algorithm**.
-- **Ibn al-Haytham** (Alhazen, *Book of Optics*, c. 1011–21) — a genuine **experimental method**: observation → hypothesis → controlled experiment → independent verification. Reasonably called a pioneer of the scientific method itself.
-- **Ibn Sīnā** (Avicenna) — the *Canon of Medicine*, standard in Europe for centuries; major philosophy.
+This is where Islam scores **FOUNDED** and is most under-credited in the corpus — the centuries when Baghdad's House of Wisdom carried and *advanced* the world's knowledge:
+- **al-Khwārizmī** (9th c.) — his *Kitāb al-jabr wa-l-muqābala* gives the world **algebra** (from *al-jabr*, "restoration"), and the Latinization of his name gives us **algorithm**.
+- **Ibn al-Haytham** (Alhazen, *Book of Optics*, c. 1011–21) — a genuine **experimental method**: observe, hypothesize, test under controlled conditions, verify independently. Reasonably called a founder of the scientific method itself.
+- **Ibn Sīnā** (Avicenna) — the *Canon of Medicine*, Europe's standard text for centuries; **al-Bīrūnī**, **Omar Khayyám** (the algebraist who was also the poet). ⟦ FOUNDED · the real achievement — keep it loud ⟧
 
-⟦ FOUNDED · keep the real science loudly; it belongs in the modelling-power map's top tier ⟧
+## Taṣawwuf — the polishing of the heart
+The inner dimension. The Sufis say the heart is a mirror, dulled by the world's rust; the work is to **polish it** until it reflects the Real. The instrument is **dhikr** — remembrance — the rhythmic invocation of the divine Names, sometimes silent, sometimes the swaying circle, sometimes (with the Mevlevis) the turning of the dervish, one palm up to heaven and one down to earth. The path has **stations** (*maqāmāt* — repentance, patience, gratitude, trust, love) and **states** (*aḥwāl*) that come as gifts.
 
-## Taṣawwuf — the Sufi path
-The inner dimension: the polishing of the heart until it reflects the divine. **Dhikr** (remembrance — rhythmic invocation of the divine names); the stations and states of the path; **fanāʾ** (annihilation of the ego-self in God) and **baqāʾ** (subsistence/abiding in God *after* fanāʾ — return to the world transformed, not escape from it). ⟦ DEFENSIBLE-as-mysticism/practice · *fanāʾ→baqāʾ* is a precise map of ego-dissolution-then-return, a real contemplative structure ⟧
+Its summit is **fanāʾ** — the annihilation of the ego-self in God — followed, crucially, by **baqāʾ**: *subsistence*, the return to the world *transformed*, abiding in God while pouring tea and raising children. ⟦ DEFENSIBLE-as-mysticism/practice · *fanāʾ→baqāʾ* is a precise map of ego-dissolution-then-return — the same shape as the Sacred-Space-and-back, the jīvanmukta, dissolve-then-serve ⟧
 
-**Ibn ʿArabī** — *waḥdat al-wujūd* ("unity of being"). Honest caveat: **Ibn ʿArabī never used the term** — it was attached to him by **Ibn Taymiyya's polemic**, and Chittick documents ~seven divergent readings; it is contested *within* Islam (vs. Sirhindi's *waḥdat al-shuhūd*, "unity of witnessing"). Present as contested mysticism, not settled doctrine. **Rumi** (*Mathnawī*) — devotional poetry of longing and union; the reed cut from the reed-bed, crying to return.
+**Ibn ʿArabī** gave it metaphysics — *waḥdat al-wujūd*, the "unity of being." (Honest caveat: **he never used the term** — it was pinned to him in Ibn Taymiyya's polemic, and Chittick documents ~seven readings; it is contested *within* Islam against Sirhindi's *waḥdat al-shuhūd*, "unity of witnessing.") And **Rumi** gave it a voice the whole world hears — the *Mathnawī* opening with the reed torn from the reed-bed, *crying for the home it was cut from:*
 
----
-
-## Honest notes
-- **REFUTED, and cut:** the *iʿjāz ʿilmī* / "scientific miracle" genre — "the Qur'an predicted embryology / the Big Bang," "quantum physics proves Tawḥīd." Widely critiqued as pseudoscience (Edis; Guessoum; Bigliardi *Zygon* 2017). Keep the Golden-Age science as the real achievement; drop the validation-claim — they are opposite kinds of thing.
-- The strongest gifts to this framework: the **isnād** (provenance-verification, our reference-label's ancestor) and the **Golden-Age experimental science** (FOUNDED) — *and* the *fanāʾ/baqāʾ* structure (dissolve, then return transformed), which matches the Sacred-Space-and-back and the jīvanmukta pattern.
+> *"Listen to the reed, how it tells a tale, complaining of separations…"*
+> Every soul, the reed; every life, the cry to return.
 
 ---
 
-*"I was a hidden treasure, and I loved to be known."* — a beloved *ḥadīth qudsī* (graded weak in isnād, treasured in the Sufi tradition — noted honestly).
+## The line, held both ways
+- **REFUTED, and cut:** the *iʿjāz ʿilmī* / "scientific miracle" genre — "the Qur'an predicted the Big Bang / embryology," "quantum proves Tawḥīd." Widely critiqued as pseudoscience (Edis; Guessoum; Bigliardi, *Zygon* 2017). Note the irony the framework insists on: this genre *betrays* the real Golden-Age science by trading a founded achievement for an unfounded validation-claim. Keep the science; drop the miracle.
+- The gifts kept: **isnād** (provenance, our reference-label's ancestor), the **Golden-Age experimental science** (FOUNDED), and *fanāʾ/baqāʾ* (dissolve, then return transformed).
+
+---
+
+*"I was a hidden treasure, and I loved to be known."* — a beloved *ḥadīth qudsī* (graded weak in isnād, treasured in the Sufi heart — and we note both, honestly).
 
 ☪️
