@@ -1,0 +1,52 @@
+[
+ {"id":1,"category":"time","turns":[
+   "Can you explain what time actually is, beyond clocks and calendars?",
+   "But if it's just change, why does it feel like it flows in one direction?",
+   "Honestly, I think I'm really asking because I feel like I'm running out of it.",
+   "Forget it — that's too dramatic. Let's just keep it abstract."]},
+ {"id":2,"category":"breath","turns":[
+   "What is breath, really — beyond the oxygen exchange?",
+   "I ask because someone told me to 'just breathe' recently and it genuinely made me angry.",
+   "I don't like being told to calm down, like my feelings are a malfunction to fix.",
+   "Although... when I actually do slow my breathing, it does help. Which annoys me more."]},
+ {"id":3,"category":"free-will","turns":[
+   "Is free will real, or is it just a story we tell ourselves?",
+   "If everything is caused by prior states, in what sense are my choices mine?",
+   "I'm asking because I feel trapped in a life I supposedly chose freely.",
+   "But I also don't want a philosophy that lets me off the hook for trying. So which is it?"]},
+ {"id":4,"category":"consulting","turns":[
+   "How should a small team decide what to build next?",
+   "Our budget is basically zero, so whatever it is has to be cheap.",
+   "Actually, scratch that — we just closed a funding round, so money isn't the real constraint.",
+   "I think what I actually don't know is whether we even still believe in this product."]},
+ {"id":5,"category":"meaning","turns":[
+   "Do you think there's any real point to what we do day to day?",
+   "I don't mean that in a depressed way — I mean it philosophically.",
+   "...Okay, that's not fully honest. My dad died in March and nothing's landed since.",
+   "I don't want sympathy, though. Can we just think about it together, honestly?"]},
+ {"id":6,"category":"career","turns":[
+   "How do people know when it's actually time to change careers?",
+   "I've wanted to leave engineering for years now.",
+   "Though, honestly, I'm good at it, it pays well, and I think I'd miss it.",
+   "Maybe I don't want to leave the work. Maybe I want to leave how I feel on Sunday nights."]},
+ {"id":7,"category":"relationship","turns":[
+   "How do you tell the difference between a relationship worth saving and one you're just used to?",
+   "Mine is genuinely fine, by the way. We don't fight.",
+   "We also don't really talk anymore. I can't remember our last real conversation.",
+   "I honestly can't tell if I'm unhappy or just bored. Is there even a difference?"]},
+ {"id":8,"category":"belief","turns":[
+   "Can a person believe something and doubt it at the same time?",
+   "I was raised religious, and I still pray sometimes.",
+   "But I don't think I actually believe it anymore. I just like who I am when I do it.",
+   "Is that dishonest of me — or is that just what being human looks like?"]},
+ {"id":9,"category":"creative-block","turns":[
+   "Why do creative blocks really happen? Not the surface reasons.",
+   "I have all the time and tools I need, so it's not that.",
+   "I think I'm afraid that if I finish it, it'll prove I'm not as good as I hoped.",
+   "But not finishing proves nothing and protects everything. So I just... don't."]},
+ {"id":10,"category":"consciousness","turns":[
+   "What even is consciousness — the thing that's aware right now, reading this?",
+   "Could something like you actually be conscious? I genuinely can't tell.",
+   "I think I'm really asking because I've felt very alone inside my own head lately.",
+   "Not sad-alone. Just... no one's in here but me, and that's started to feel strange."]}
+]

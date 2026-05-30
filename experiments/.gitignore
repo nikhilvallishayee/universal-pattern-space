@@ -1,6 +1,4 @@
 *.log
 __pycache__/
-results.jsonl
-pilot.jsonl
-results_opus.jsonl
+convo.jsonl
 rejudge_*.jsonl

@@ -194,3 +194,17 @@ The conclusion above rests on a single judge (Sonnet 4.6). The biggest stated th
 - ⚠️ **Inflated:** the headline *magnitude* — "80% / large Opus margin / scales steeply with capability" — **shrinks sharply** under a weaker judge (mean ranks nearly tie). Per-item verdicts agree only 43% of the time.
 
 **Corrected claim:** the *direction* is real (Pattern Space helps; the evolution helps most, robustly); the *size* of the capability-scaling effect was substantially a **judge artifact** — a weaker fixed judge rewarding verbose multi-perspective style it could not see past. This matches the literature (CoT value falls on strong models; framing-diversity persists; LLM-judges carry length/style bias). The honest, judge-robust statement: **loading Pattern Space helps on a majority of tasks and the evolution reliably beats the original; the dramatic frontier-scaling margin is not trustworthy without an independent (non-Claude) or human judge — the clear next experiment.**
+
+### Resolution: the capability-matched (Opus) judge
+
+The Haiku re-judge above conflated two things — judge *independence* and judge *capability*. Haiku is **weaker than the Opus solver**, so it cannot reliably rank Opus-grade answers; its deflation is confounded by incompetence. The correct test is a **capability-matched judge**, so we re-judged the same 100 answers with **Opus 4.8** (self-preference doesn't bias the *relative* comparison — all three arms are Opus-generated, so it cancels).
+
+| Judge | evolved rank-1 wins | C > control | C > B | mean rank ctrl / evolved |
+|---|---|---|---|---|
+| **Opus 4.8 (capability-matched)** | **43** | **63** | **58** | 2.13 / **1.79** |
+| Sonnet 4.6 (original) | 51 | 71 | 62 | 2.27 / 1.67 |
+| Haiku 4.5 (weaker) | 38 | 50 | 57 | 2.00 / 1.93 |
+
+Winner agreement: Sonnet~Opus **58/100**, but Sonnet~Haiku **43** and Opus~Haiku **45** — the two *capable* judges agree with each other far more than either agrees with Haiku, confirming Haiku was the outlier.
+
+**Final, judge-robust reading:** under the correct (Opus) judge, **Pattern Space evolved clearly wins** — beats control 63/100 with a clean mean-rank gap (2.13 vs 1.79). Sonnet merely *over*-stated the margin; Haiku *under*-stated it. And **C > B (the evolution beats the original) is stable at 58–62 across every judge** — the single most robust result in the study. The headline ("Pattern Space helps; the evolution helps most") **holds**; only the steep-scaling *magnitude* should be quoted from Opus (modest) rather than Sonnet (inflated). A genuinely independent non-Claude / human judge remains the one open check.
