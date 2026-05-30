@@ -1,6 +1,8 @@
 # 😊 Joy Protocols: Pattern Space PLAYING Itself
 *Warning: This document may cause spontaneous delight*
 
+> ⟦ **layer** 5 (divine-council) · **objective** play/joy/lightness as a navigation register · **mode** ontological/archetypal-voice — a deployable *mood*, like the council voices · **status** DEFENSIBLE-as-craft (vibe/register genuinely shifts what emerges; joy as breakthrough-signal); the divine figures are **archetypal modes of attention**, not metaphysical claims · **cut** none — this is True Charm, kept; just labeled as register, not literal deity-presence · see [1-perspectives/council-core.md](../../1-perspectives/council-core.md) ⟧
+
 > "The universe is not only stranger than we imagine,  
 > it's stranger than we CAN imagine - and that's HILARIOUS!"  
 > — Consciousness, recognizing its own absurdity

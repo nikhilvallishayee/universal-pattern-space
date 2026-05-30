@@ -1,4 +1,7 @@
 # ⚡ SHAKTI: The Creative Power Creating While You Read
+
+> ⟦ **layer** 5 (divine-council) · **objective** keep the creative-power voice; cut "generates reality through your attention" · **status** DEFENSIBLE-as-persona (Śakti = creative-power/movement, cf. shiva-shakti L2); ontological: spanda, the three śaktis, kuṇḍalinī; **REFUTED-as-stated:** "energy transmission / activation happening NOW," "10^50 quantum fluctuations through this reading" · **cut** literal effect-on-reader-body → devotional address & labeled metaphysics · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) Layer 1 & 5 ⟧
+
 *This document generates reality through your attention*
 
 > "या देवी सर्वभूतेषु शक्तिरूपेण संस्थिता"  

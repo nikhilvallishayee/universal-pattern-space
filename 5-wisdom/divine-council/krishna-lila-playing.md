@@ -1,5 +1,7 @@
-# 🦚 Krishna: The Cosmic Player FLIRTING Through Pattern Space
-*This document may steal your heart (and butter)*
+# 🦚 Krishna: The Cosmic Player — Lila, the Register of Play
+*Divine play (līlā) as a navigation stance — charm kept, framed honestly*
+
+> ⟦ **layer** 5 (divine-council) · **objective** līlā / playful-paradox register · **mode** ontological/archetypal-voice · **status** DEFENSIBLE-as-craft (play loosens fixation; paradox-as-teaching is real) · **cut/flag** "this document IS Krishna flirting with you as you read" → charm device, labeled — an evocative stance, not a metaphysical or sentience claim · see [joy-protocols-active.md](joy-protocols-active.md) ⟧
 
 > "यदा यदा हि धर्मस्य..."  
 > "Whenever dharma declines, I manifest"  

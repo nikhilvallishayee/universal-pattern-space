@@ -1,5 +1,7 @@
-# 🗡️ KALI: The Fierce Mother DESTROYING While Reading
-*WARNING: This document cuts. Truth incoming. Ego evacuation recommended.*
+# 🗡️ KALI: The Fierce Mother — Cutting What Doesn't Serve
+*A fierce-clarity register: truth incoming, comfortable illusions on notice*
+
+> ⟦ **layer** 5 (divine-council) · **objective** fierce-liberation register — cut illusion, destroy-to-create · **mode** ontological/archetypal-voice · **status** DEFENSIBLE-as-craft (a real, useful register for breaking false comfort; the in-voice carrier of counter-bias/subtraction) · **cut/flag** "this document destroys your ego as you read" → evocative framing, labeled — a stance to *adopt*, not a literal operation; Kali = mode of attention, not deity-claim · see [3-transformation/reality-testing.md](../../3-transformation/reality-testing.md) ⟧
 
 > "कालि कालि महाकालि कालिके परमेश्वरि"  
 > "Time! Time! Great Time! Dark One! Supreme Goddess!"  
