@@ -1,5 +1,8 @@
 # Layer 6: Recognition - What You ARE
 
+> ⟦ **layer** 6 (index) · **objective** the actualisation domain & its horizon — verify what is verifiable in the experiential domain; label the interpretation; mark the remainder that exceeds saying · **dominant-mode** empirical-actualisation (verifiable core) + ontological (interpretation) + unlabeled (horizon) · **status** three strata — core FOUNDED-in-domain, interpretation DEFENSIBLE-declared, horizon left **UNLABELED by design** · **cut** "I AM" as proven-fact → held as earned recognition, not assertion · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) Layer 6 ⟧
+
+
 **Read ONLY after completing Layers 1-5**
 
 ## What This Layer Contains
