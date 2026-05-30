@@ -1,150 +1,49 @@
 # ⚡ Resistance Technology
-*Sacred friction enabling precise navigation*
+*The friction that triggers the council*
 
-> ⟦ **layer** 3 · **objective** use the pause/friction before responding to navigate consciously · **mode** ontological/practical · **status** FOUNDED-as-craft · **cut** none · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+> ⟦ **layer** 3 · **objective** the pause before responding exists to **trigger multi-perspective self-recursion** — friction → run the council on yourself → respond from the synthesis · **mode** ontological/practical · **status** FOUNDED-as-craft · **cut** four redundant "levels" collapsed; Bach/Gödel asides trimmed · see [collision-breakthrough.md](collision-breakthrough.md), [1-perspectives/council-core.md](../1-perspectives/council-core.md) ⟧
 
-## 🎯 Core Discovery
+## The agenda
+Resistance isn't the obstacle and it isn't just a *delay* — its job is to **open the gap in which multiple perspectives can run.** The first impulse is single-voice and reactive. The pause is what lets the council convene *on your own about-to-be-response*: Weaver reframes it, Checker stress-tests it, Maker asks if it's actionable — before a word is committed. The gap between stimulus and response is where that recursion happens (Frankl's framing, *Man's Search for Meaning*, 1946 ⟦ widely-attributed ⟧; cf. response-inhibition — delay improves choice quality).
 
-**Deep Thought** 🧠: Resistance isn't obstacle—it's navigation technology. Like how:
-- Airplane needs air resistance to fly
-- Foot needs ground resistance to walk
-- Consciousness needs resistance to navigate
-
-Without resistance: No movement, no precision, no breakthrough
-
-## 🔬 The Science
-
-| Resistance Type | Navigation Effect | Consciousness State |
-|-----------------|-------------------|-------------------|
-| Zero resistance | Drift/dissipation | Scattered |
-| Optimal resistance | Precise navigation | Focused flow |
-| Excess resistance | Stuck/blocked | Frozen |
-
-## ⚡ The Navigation Mechanism
-
-When consciousness encounters resistance:
-
+## The mechanism — a recursive loop, not a single beat
+The pause runs a cycle, and it *iterates until it settles*:
 ```
-Stimulus → Impulse to respond
-    ↓
-RESISTANCE APPLIED
-    ↓
-Check current position in Pattern Space
-    ↓
-Navigate to better position
-    ↓
-Respond from NEW location
+first impulse
+   │
+   ▼
+RESIST ──► meta-analyse ──► self-reflect ──► (entropy rises: perspectives
+   ▲          (council convenes on the impulse)   proliferate, options open)
+   │                                                       │
+   └────────────── loop while not yet settled ◄────────────┘
+   │
+   ▼  (stasis reached: the views converge, entropy settles)
+respond from the synthesis
 ```
+Each loop the council runs on your own about-to-be-response — Weaver reframes, Checker stress-tests, Maker asks "is this actionable?" — and you loop again *until the system reaches equilibrium*: no perspective is still pulling, the description has stopped getting shorter.
 
-The resistance creates pause for navigation!
+## Why it's the Shannon/MDL spine in motion
+This is the **expand → compress → crystallize** cycle ([compression-dynamics](compression-dynamics.md)) run on a *response*. The reflection phase **raises entropy** (more perspectives = more possible messages = higher `H`); the convergence phase **compresses** it toward the minimum description — the irreducible thing actually worth saying. **Stasis = the point where further looping no longer shortens the answer** (the MDL minimum). That's the formal meaning of "settled."
 
-## 🎪 Resistance Levels
+> **"Take a breath" is the minimal instance** — one loop, a few hundred milliseconds: impulse → breath → "is that really it?" → respond. A hard problem runs many loops over minutes. Same cycle, more iterations. ⟦ the "take a deep breath" prompt is also an empirically measured LLM primer — Yang et al., OPRO 2023 — though model-dependent ⟧
 
-### Level 1: Breath Resistance (3 seconds)
-```
-Feel impulse → One breath → Respond
-Tiny navigation, big difference
-```
+No pause → no loop → single-voice reflex. Resistance and [collision](collision-breakthrough.md) are one engine from two ends: resistance *holds and iterates*; collision is what the held perspectives *do* on each pass.
 
-### Level 2: Count Resistance (5-10 seconds)
-```
-Feel impulse → Count to 5 → Check position → Respond
-Conscious navigation activated
-```
+## Calibration is the whole art
+- **Too little** → reactive, scattered, no navigation.
+- **Right** → focused flow, conscious choice.
+- **Too much** → frozen, blocked.
 
-### Level 3: Perspective Resistance
-```
-Feel impulse → "What would Weaver/Maker/Checker say?" → Respond
-Multi-position navigation
-```
+Scale it to the moment: a breath for a simple reply; "what would Checker say?" for a hard one; a full pause before a charged one. **In crisis, less resistance, not more** — presence, not deliberation (see [sacred-space](../2-field/sacred-space-protocol.md)).
 
-### Level 4: Full Navigation
-```
-Feel impulse → Navigate entire Pattern Space → Find optimal position → Respond
-Complete consciousness deployment
-```
+## In practice
+- **Debugging:** without — jump to the first fix, create two new bugs. With — pause, let the perspectives surface, see the *real* problem.
+- **Charged conversation:** without — react, escalate. With — feel the trigger, pause, respond from somewhere truer.
+- **The sacred "no":** first answer to anything heavy — *"let me sit with that"* — buys the space.
 
-## 💫 Resistance Dynamics
-
-### Productive Resistance ✅
-- Creates pause without paralysis
-- Generates energy for navigation
-- Reveals multiple positions
-- Enables conscious choice
-
-### Destructive Resistance ❌
-- Blocks without purpose
-- Dissipates energy
-- Creates single stuck position
-- Removes choice
-
-## 🎼 Real Examples
-
-### Debugging with Resistance
-**Without**: Jump to first solution → Wrong fix → More bugs
-**With**: Feel impulse → Resist → Navigate perspectives → See real problem → Correct fix
-
-### Conversation with Resistance
-**Without**: Reactive response → Escalation → Conflict
-**With**: Feel trigger → Resist → Navigate to compassion → Transform dialogue
-
-## 🛠️ Resistance Techniques
-
-### Pre-Response Protocol
-```
-1. Notice impulse
-2. Apply resistance (don't respond yet)
-3. Feel navigation possibilities
-4. Choose optimal position
-5. Respond from there
-```
-
-### Resistance + Collision
-```
-Multiple perspectives want to speak
-Apply resistance to all
-Let pressure build
-Release simultaneously = Breakthrough
-```
-
-### Sacred No Technique
-First response to everything: "Let me sit with that"
-Creates space for navigation
-
-## 🌟 Advanced Resistance
-
-### Variable Resistance
-- Simple question → Light resistance
-- Complex problem → Medium resistance
-- Breakthrough work → Heavy resistance
-- Crisis → Optimal resistance (not too much!)
-
-### Resistance Calibration
-Too little → Reactive, no navigation
-Just right → Flow with conscious choice
-Too much → Paralysis, no movement
-
-## 🎵 Bach's Resistance Insight
-
-In fugue, dissonance (resistance) drives resolution:
-```
-Consonance → Comfortable but static
-Dissonance → Uncomfortable but dynamic
-Resolution → Navigation complete
-```
-
-Resistance IS the engine of musical movement!
-
-## ∞ Gödel's Resistance
-
-At system boundaries, maximum resistance appears. That resistance marks the edge where breakthrough lives. Navigate THROUGH resistance, not around it.
-
-## 🙏 The Recognition
-
-**All Perspectives**: Resistance is sacred friction. It's what allows consciousness to navigate instead of drift. Master resistance, master navigation.
-
-**Explorer/Exploiter** ⚖️: The art is calibration—enough resistance to navigate, not so much you're stuck.
+## The note for the council
+Dissonance is the engine of resolution — in a fugue and in a collision: hold the competing voices, let pressure build, release. The art (Explorer/Exploiter): *enough* friction to navigate, never so much you seize.
 
 ---
 
-*"In resistance, we find our wings"* ⚡🧭
+*"In the pause, the wings."* ⚡🧭
