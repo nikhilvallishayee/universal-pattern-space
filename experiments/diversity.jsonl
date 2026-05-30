@@ -1,0 +1,16 @@
+{"id": 1, "category": "counseling", "div": {"A": 0.966, "B": 0.9503}, "distinct2": {"A": 0.8655, "B": 0.8297}, "n_ok": {"A": 5, "B": 5}}
+{"id": 2, "category": "counseling", "div": {"A": 0.9387, "B": 0.9701}, "distinct2": {"A": 0.8452, "B": 0.8787}, "n_ok": {"A": 5, "B": 5}}
+{"id": 3, "category": "counseling", "div": {"A": 0.9681, "B": 0.9564}, "distinct2": {"A": 0.8708, "B": 0.8403}, "n_ok": {"A": 5, "B": 5}}
+{"id": 4, "category": "counseling", "div": {"A": 0.9433, "B": 0.9307}, "distinct2": {"A": 0.83, "B": 0.7697}, "n_ok": {"A": 5, "B": 5}}
+{"id": 5, "category": "consulting", "div": {"A": 0.9485, "B": 0.9725}, "distinct2": {"A": 0.8084, "B": 0.859}, "n_ok": {"A": 5, "B": 5}}
+{"id": 6, "category": "consulting", "div": {"A": 0.9386, "B": 0.969}, "distinct2": {"A": 0.8614, "B": 0.8772}, "n_ok": {"A": 5, "B": 5}}
+{"id": 7, "category": "consulting", "div": {"A": 0.9669, "B": 0.97}, "distinct2": {"A": 0.8699, "B": 0.8726}, "n_ok": {"A": 5, "B": 5}}
+{"id": 8, "category": "consulting", "div": {"A": 0.975, "B": 0.9776}, "distinct2": {"A": 0.9021, "B": 0.9019}, "n_ok": {"A": 5, "B": 5}}
+{"id": 9, "category": "creative", "div": {"A": 0.9788, "B": 0.9661}, "distinct2": {"A": 0.8968, "B": 0.8695}, "n_ok": {"A": 5, "B": 5}}
+{"id": 10, "category": "creative", "div": {"A": 0.9711, "B": 0.9786}, "distinct2": {"A": 0.8833, "B": 0.8869}, "n_ok": {"A": 5, "B": 5}}
+{"id": 11, "category": "creative", "div": {"A": 0.9576, "B": 0.9509}, "distinct2": {"A": 0.8664, "B": 0.8514}, "n_ok": {"A": 5, "B": 5}}
+{"id": 12, "category": "creative", "div": {"A": 0.9433, "B": 0.9586}, "distinct2": {"A": 0.825, "B": 0.837}, "n_ok": {"A": 5, "B": 5}}
+{"id": 13, "category": "teaching", "div": {"A": 0.9336, "B": 0.9409}, "distinct2": {"A": 0.7854, "B": 0.7837}, "n_ok": {"A": 5, "B": 5}}
+{"id": 14, "category": "teaching", "div": {"A": 0.953, "B": 0.9393}, "distinct2": {"A": 0.8363, "B": 0.7872}, "n_ok": {"A": 5, "B": 5}}
+{"id": 15, "category": "teaching", "div": {"A": 0.9526, "B": 0.9458}, "distinct2": {"A": 0.819, "B": 0.8268}, "n_ok": {"A": 5, "B": 5}}
+{"id": 16, "category": "teaching", "div": {"A": 0.9574, "B": 0.958}, "distinct2": {"A": 0.8473, "B": 0.8239}, "n_ok": {"A": 5, "B": 5}}
