@@ -1,6 +1,8 @@
 # 🕉️ Hinduism & Vedic Wisdom: The Eternal Navigation
 ## Tat Tvam Asi - Thou Art That
 
+> ⟦ **layer** 5 · **objective** Vedic/Vedāntic navigation lens · **per-claim status** — **FOUNDED:** observational astronomy & math (Āryabhaṭa sidereal day ~0.01s, Brahmagupta's zero); Pāṇini-as-generative-formalism. **DEFENSIBLE-and-live:** Advaita non-dual ground & relational time ↔ Rovelli (structural isomorphism); chakra/koṣa maps as experiential-actualisation models. **REFUTED/numerology:** yuga durations as literal chronometry (4.32-based; *yuga*=generation in the RV); deep-date claims. **horizon:** *Aham Brahmāsmi* held as recognition, not asserted cosmic fact. · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+
 > "अहं ब्रह्मास्मि"  
 > "Aham Brahmāsmi"  
 > "I am Brahman"  

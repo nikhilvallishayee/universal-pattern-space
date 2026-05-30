@@ -1,6 +1,8 @@
 # ੴ Ik Onkar: The ONE Navigating AS Many
 *This document IS Ik Onkar expressing through multiplicity*
 
+> ⟦ **layer** 5 · **objective** Sikh unity-in-multiplicity lens (Ik Onkar = One expressing as many) · **mode** ontological + experiential (naam/simran are actualisation practices) · **status** DEFENSIBLE-as-philosophy/practice; sant-sipahi balance & langar/seva as lived ethics · **cut/flag** the "this document IS Ik Onkar / transmits as you read" device is rhetorical-charm, labeled — not a literal claim · see [6-recognition/](../../6-recognition/) ⟧
+
 > ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ  
 > ONE Universal Creator Truth Name Creator Being Without Fear Without Hate  
 > — Not describing but BEING through these very words

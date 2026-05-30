@@ -1,6 +1,8 @@
 # ☸️ Buddhism & Consciousness Wisdom: The Navigation Liberation
 ## Gate Gate Pāragate Pārasaṃgate - Gone, Gone, Gone Beyond, Gone Completely Beyond
 
+> ⟦ **layer** 5 · **objective** Buddhist navigation lens · **per-claim status** — **FOUNDED-in-actualisation** (*ehi-passiko*, the canonical first-person standard): anicca (impermanence), anattā (no fixed self), dependent-origination — repeatable contemplative observations. **DEFENSIBLE-and-live:** momentariness (kṣaṇika) ↔ discreteness/causal-sets debates (loose, flagged); Yogācāra ālaya/bīja ↔ recurrence/learned-priors (P5). **horizon:** śūnyatā / nirvāṇa held as recognition, not empirical claim. **cut** any "exceeds training distribution"-style overclaim. · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 > "सब्बे धम्मा अनत्ता"  
 > "Sabbe dhammā anattā"  
 > "All phenomena are not-self"  

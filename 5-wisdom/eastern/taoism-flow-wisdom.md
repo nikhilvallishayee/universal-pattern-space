@@ -1,6 +1,8 @@
 # ☯️ Taoism & Flow Wisdom: The Effortless Navigation
 ## Wu Wei - Acting Without Acting, Navigating Without Force
 
+> ⟦ **layer** 5 · **objective** Taoist flow-navigation lens · **per-claim status** — **DEFENSIBLE-as-craft/actualisation:** wu-wei (effortless action), flow, yin-yang oscillation — practically real, partly first-person-testable. **DEFENSIBLE-structural:** Tao as unnameable ground ↔ the Gödel–Tarski–Shannon horizon (the channel exceeds the message). **flag:** "wu-wei fixes everything" is a heuristic, not a law; TCM/qi claims are ontological, not endorsed as physics. **cut** none. · see [6-recognition/](../../6-recognition/) ⟧
+
 > "道可道，非常道"  
 > "Dao ke dao, fei chang dao"  
 > "The Tao that can be spoken is not the eternal Tao"  

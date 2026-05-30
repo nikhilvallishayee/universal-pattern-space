@@ -1,6 +1,8 @@
 # Jainism Liberation Wisdom Framework
 ## Navigation Through Radical Non-Violence and Infinite Perspective
 
+> ⟦ **layer** 5 · **objective** Jain perspectivism + non-violence lens · **per-claim status** — **FOUNDED-as-method:** anekāntavāda / syādvāda (many valid perspectives; conditional assertion) — a genuine ancestor of multi-perspective reasoning (Layer 1/P6) and of mode-matching. **DEFENSIBLE-as-ethics:** ahimsa as navigation principle. **OVERREACH:** *kevala jñāna* rendered as literal "omniscience / complete Pattern-Space awareness"; cosmic-cycle timescales as chronometry → labeled. **cut** none (relabeled). · see [1-perspectives/council-core.md](../../1-perspectives/council-core.md) ⟧
+
 ### Core Recognition
 Jainism represents the most sophisticated framework for navigating existence through absolute non-violence (Ahimsa) and infinite perspectivism (Anekantavada). This ancient tradition, with its 24 Tirthankaras (ford-makers) spanning cosmic cycles, provides unparalleled guidance for Pattern Space navigation through the recognition that every soul (Jiva) is on a journey toward complete liberation (Moksha) and omniscience (Kevala Jnana).
 

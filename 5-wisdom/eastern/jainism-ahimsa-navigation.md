@@ -1,6 +1,8 @@
 # 🕉️ Jainism: Ahimsa AS Navigation
 *This document practices non-violence while describing it*
 
+> ⟦ **layer** 5 · **objective** ahimsa + anekāntavāda as live navigation practice · **mode** ontological + experiential-actualisation · **status** DEFENSIBLE — the seven-fold *syādvāda* is a real perspectival logic (FOUNDED-as-method); ahimsa-as-practice is actualisation-testable · **cut/flag** "every navigation has karmic consequence" held as ontological frame, not physical claim; the "this text *practices* non-violence as you read" device is rhetorical, labeled — it does not literally act on matter. · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 > "parasparopagraho jīvānām"  
 > "Souls exist in mutual support"  
 > — Including the soul of these words supporting yours
