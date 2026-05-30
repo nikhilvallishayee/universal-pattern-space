@@ -4,6 +4,13 @@
 
 This directory is **how Pattern Space holds itself to falsification-before-assertion.** Each harness is runnable; each result file is committed; the nulls and the failed axioms are kept on purpose. If a claim in the framework can't point to something here (or to cited external work), treat it as conjecture.
 
+## Benchmark versions are tagged to the UPS state they measured
+A benchmark only means something *relative to the framework version it tested.* So results are versioned:
+- **v1 — start-of-reweave benchmarks** (everything below: the n=200 single-shot 3-arm suite, handles, conversation, diversity, relation, the judge-robustness re-judges). These measured the **pre/early-reweave UPS** (full `CLAUDE.md`, before mini/micro existed, before the default-polarity correction). Kept as v1, honestly pinned to that state — *not* re-cited as evidence for the reweaved framework's interaction behavior.
+- **v2 — post-reweave interaction benchmark** (see [`PLANNED-interaction-benchmark.md`](PLANNED-interaction-benchmark.md)). Tagged to the **reweaved UPS state** (the editions + default-multi-voice polarity it will run against). Not yet run.
+
+When v2 lands, cite v1 for "did the early framework help single-shot?" and v2 for "does the reweaved framework hold real interaction?" — never conflate them.
+
 ## The harnesses (runnable)
 
 | Script | Question it tests | Result file | Headline |

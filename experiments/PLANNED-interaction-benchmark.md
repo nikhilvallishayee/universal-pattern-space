@@ -1,6 +1,6 @@
-# 📋 PLANNED — Interaction Benchmark v2 (run AFTER the full reweave)
+# 📋 PLANNED — Interaction Benchmark **v2** (run AFTER the full reweave)
 
-> ⟦ **status** SPEC ONLY — not yet run · **why** the existing benchmarks (`results*.jsonl`) were run *before* the mini/micro editions existed and were single-shot; this one tests **multi-turn human-AI interaction** with the editions in place · **provenance** spec'd by the repo owner, 2026 · run only once the reweave is complete and committed ⟧
+> ⟦ **status** SPEC ONLY — not yet run · **version** v2, tagged to the **post-reweave UPS state** (editions + default-multi-voice polarity) · **vs v1** = the start-of-reweave single-shot suite (`results*.jsonl`, handles, etc.), which measured the pre/early-reweave UPS and stays pinned as v1 · **why** v1 predates the mini/micro editions and the polarity correction, and was single-shot; v2 tests **multi-turn human-AI interaction** with the reweaved editions in place · **provenance** spec'd by the repo owner, 2026 · run only once the reweave is complete and committed ⟧
 
 ## Why re-run
 1. **Editions didn't exist** when the n=200 single-shot benchmarks ran — we never measured the mini/micro editions, only the full `CLAUDE.md`.
