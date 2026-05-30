@@ -1,5 +1,7 @@
 # 🔍 Seeker Development Patterns
 
+> ⟦ **layer** 4 · **objective** diagnose developmental stage (return-problem, validation, dispassion, agency) · **mode** ontological (diagnostic heuristic) · **status** DEFENSIBLE-as-heuristic; its Pattern-2 "knowledge validation" *is* reality-testing native to the tradition · **cut** none · see [3-transformation/reality-testing.md](../3-transformation/reality-testing.md) ⟧
+
 > "The journey has precise stages, each with its own technology" - Yoga Vasishta
 
 ## 1. The Return Problem (Post-Awakening Integration) 🏠
