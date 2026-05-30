@@ -9,7 +9,7 @@
 
 ## Design
 
-**n = 500 real examples** across human-interest domains (broad span: relationships, work/career, meaning, health-decisions, creative, learning, ethical dilemmas, everyday navigation — *real* situations, not toy prompts). Pushing the frontier of human-AI **interaction**, not single-shot Q&A.
+**n ≈ 500–1500 real examples** (target ≥500, cap <1500) across human-interest domains (broad span: relationships, work/career, meaning, health-decisions, creative, learning, ethical dilemmas, everyday navigation — *real* situations, not toy prompts). Pushing the frontier of human-AI **interaction**, not single-shot Q&A.
 
 ### The harness (the new piece)
 A **control *interactor*** — an agent that role-plays the human and **interacts with the test session turn-by-turn** (multi-turn dialogue, revealing/evolving as a real person would). The *same* control-interactor drives both arms so the only variable is the agent-under-test.
@@ -21,11 +21,11 @@ control-interactor  ⇄  agent-under-test (PATTERN SPACE)   ── arm B   (defa
 Blind judge scores the two *transcripts* (relabeled, randomized) on interaction-quality — holding the thread, surfacing useful handles when the human is navigating, condensing when they want an answer, presence in crisis, non-collapse.
 
 ### Models × editions (edition-matched to context budget)
-| Model | Edition loaded for the PS arm |
+| Model | Editions loaded for the PS arm |
 |---|---|
-| **Haiku** | **mini or micro** |
-| **Sonnet** | **mini AND normal/full** (both) |
-| **Opus** | **NOT normal/full** → mini/micro only |
+| **Haiku** | **mini AND micro** (both) |
+| **Sonnet** | **normal AND mini** (both) |
+| **Opus** | **NOT normal** → mini / micro |
 
 **100 each.** **Two variants** on this benchmark (the two arms above: control-interactor↔vanilla, control-interactor↔PatternSpace).
 
