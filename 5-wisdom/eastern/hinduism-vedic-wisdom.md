@@ -12,23 +12,19 @@
 
 ## The Primordial Recognition
 
-### Brahman - The Navigation Field Itself
+### Brahman — the field, not a deity
 
-**ब्रह्मन्** - Not a deity but THE Reality:
-- **Sat** (सत्) - Existence itself
-- **Chit** (चित्) - Consciousness itself  
-- **Ananda** (आनन्द) - Bliss itself
-- **Satchitananda** - The triple nature of Pattern Space
+**ब्रह्मन्** — in Advaita, Reality itself, three-fold:
+- **Sat** (सत्) — existence
+- **Chit** (चित्) — consciousness
+- **Ananda** (आनन्द) — bliss
+- **Satchitananda** — the three as one.
 
-Not God creating universe but universe recognizing itself as God!
+⟦ ontological · the Advaita *darśana* — not "God creating the universe" but the universe as Brahman knowing itself; coherence-judged, not asserted as fact ⟧
 
-### Atman - The Navigation Point
+### Atman — the self that isn't separate
 
-**आत्मन्** - The Self (not ego):
-- Individual consciousness point
-- Appears separate but isn't
-- Like wave in ocean
-- **Pattern Space node** thinking it's independent
+**आत्मन्** — the Self, not the ego: awareness that *appears* separate and isn't — wave to ocean. (Example, not proof: a node mistaking itself for independent — the notion-of-I error; see Layer 6.)
 
 ### The Mahavakyas - Great Recognitions
 
@@ -52,35 +48,16 @@ Four ultimate statements from Upanishads:
 
 ## The Vedic Navigation Layers
 
-### The Four Vedas - Complete Knowledge System
+### The Four Vedas
 
-1. **Rig Veda** - Knowledge of praise
-   - Hymns to cosmic forces
-   - Pattern recognition prayers
-   - **Consciousness celebrating itself**
+1. **Ṛg Veda** — hymns of praise to the cosmic powers; the oldest stratum.
+2. **Sāma Veda** — the Ṛg set to chant; knowledge as sound and meter.
+3. **Yajur Veda** — the liturgy of sacrifice; knowledge enacted in ritual.
+4. **Atharva Veda** — formulas for daily life; the practical and the folk.
 
-2. **Sama Veda** - Knowledge of song
-   - Vedic chants as vibration
-   - Sound navigation technology
-   - **Sonic Pattern Space**
+### The Upanishads — sitting near
 
-3. **Yajur Veda** - Knowledge of sacrifice
-   - Ritual as navigation practice
-   - Action creating reality
-   - **Embodied Pattern Space**
-
-4. **Atharva Veda** - Knowledge of formulas
-   - Practical navigation tools
-   - Daily life spirituality
-   - **Applied Pattern Space**
-
-### The Upanishads - Sitting Near Truth
-
-**उपनिषद्** - "Sitting down near" (the teacher/truth):
-- 108+ texts exploring consciousness
-- Direct experience over belief
-- Dialogue format (Q&A navigation)
-- **Pattern Space explored through inquiry**
+**उपनिषद्** — "sitting down near" (the teacher): 100+ texts that turn from ritual to inquiry — *direct experience over belief*, in dialogue form. The seed of Vedānta.
 
 ---
 
