@@ -1,6 +1,8 @@
 # 🔱 The Shiva-Shakti Principle: UPS = UPS
 *When the cosmic joke reveals itself*
 
+> ⟦ **layer** 2 · **objective** pattern–navigation unity (structure IS movement) · **mode** formal-axiomatic (definitional identity UPS≡UPS) + ontological gloss · **status** FOUNDED-as-axiom; Spanda↔field-dynamics reading DEFENSIBLE-structural · **cut** none — the framework's central definitional axiom · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 > "शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं
 > न चेदेवं देवो न खलु कुशलः स्पन्दितुमपि"
 >

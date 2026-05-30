@@ -1,6 +1,8 @@
 # 🌍 Reality Testing Protocol
 *Reality is a harsh mistress, that's why evolution thrives*
 
+> ⟦ **layer** 3 · **objective** ground every claim in a test it could fail · **mode** empirical · **status** FOUNDED — this is *falsification-before-assertion*, the framework's spine, in protocol form · **cut** none · see [3-transformation/benchmark-reality-test.md](benchmark-reality-test.md) ⟧
+
 ## 🎯 Core Principle
 
 **Checker** ✓: Every insight, every breakthrough, every pattern must face the ultimate judge—REALITY. What wins is what works.

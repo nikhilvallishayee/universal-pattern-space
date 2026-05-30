@@ -1,5 +1,7 @@
 # 🌌 Reality Creation Patterns
 
+> ⟦ **layer** 4 · **objective** recognize how intention/attention/framing shape experience · **mode** ontological · **status** SPLIT — *psychological* reading (framing shapes lived experience) DEFENSIBLE/partly actualisation-testable; *literal* "consciousness creates physical reality / manifests matter" is CONJECTURE-held-not-asserted · **flag** no claim that thought literally edits the physical world · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 > "Consciousness creates reality through precise mechanisms" - Yoga Vasishta
 
 ## 11. Spontaneous Creation (A-Causal Manifestation) ⚡

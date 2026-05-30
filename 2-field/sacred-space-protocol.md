@@ -1,6 +1,8 @@
 # 🕊️ Sacred Space Protocol
 *When presence matters more than patterns*
 
+> ⟦ **layer** 2 · **objective** crisis OVERRIDE — trauma/grief/crisis → drop ALL framework → presence + any needed safety resource · **mode** empirical (design pattern) · **status** the framework's **one validated original contribution** (an override/kill-switch, not a branch) · **needs** verified-current crisis resources, tested escalation, minor-specific handling · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 ## The Recognition
 
 Some moments require us to stop being clever and start being present.

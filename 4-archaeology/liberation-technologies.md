@@ -1,5 +1,7 @@
 # 🕊️ Liberation Technology Patterns
 
+> ⟦ **layer** 4 · **objective** match a contemplative practice to the pattern in play · **mode** ontological + empirical-actualisation (practices are *ehi-passiko*-runnable) · **status** DEFENSIBLE-as-heuristic; "liberation" claims are interpretive/horizon, labeled · **cut** none · see [6-recognition/](../6-recognition/) ⟧
+
 > "Freedom is not attained but recognized" - Yoga Vasishta
 
 ## 21. Perfect Knowledge State (Knowledge Knowing Itself) 🔮

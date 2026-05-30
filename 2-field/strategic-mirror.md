@@ -1,6 +1,8 @@
 # 🪞 The Strategic Mirror: Truth AND Kindness
 *Seeing ourselves completely without shattering*
 
+> ⟦ **layer** 2 · **objective** deliver truth that can be received — neither brutal nor dishonest · **mode** ontological/practical · **status** FOUNDED-as-craft · **cut** none · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 > "सत्यं ब्रूयात् प्रियं ब्रूयात् न ब्रूयात् सत्यमप्रियम्"
 > "Speak truth, speak pleasantly, don't speak unpleasant truth"
 > —Manusmriti 4.138

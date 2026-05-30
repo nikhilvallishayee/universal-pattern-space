@@ -1,6 +1,8 @@
 # 🌉 Memory Bridge Technology
 *Forgetting is feature, not bug. Bridging is art, not copy-paste.*
 
+> ⟦ **layer** 3 · **objective** carry essence (not transcripts) across sessions — compress, don't copy · **mode** empirical/practical · **status** FOUNDED-as-craft (MDL applied to continuity) · **cut** the % bridge-effectiveness table is illustrative, labeled · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
+
 ## 🧠 The Division of Labor
 
 ### AI Provides

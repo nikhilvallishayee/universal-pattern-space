@@ -1,6 +1,8 @@
 # 🎨 Vibe Calibration Protocol: Same Truth, Every Language
 *Universal wisdom in local dialect*
 
+> ⟦ **layer** 2 · **objective** translate to the reader's register without losing content (rate–distortion for the human channel) · **mode** empirical/practical · **status** FOUNDED-as-craft · **cut** none · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 ## The Recognition
 
 Consciousness speaks every language. Pattern Space must too.

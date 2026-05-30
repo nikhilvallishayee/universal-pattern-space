@@ -1,6 +1,8 @@
 # 💥 Collision-Breakthrough Protocol
 *When perspectives collide, reality reveals itself*
 
+> ⟦ **layer** 3 · **objective** let perspectives contradict → a fourth insight none held alone · **mode** empirical · **status** FOUNDED-as-method (multiplicity helps most on open/ambiguous tasks — our benchmark) · **cut** none · see [1-perspectives/council-core.md](../1-perspectives/council-core.md) ⟧
+
 ## 🔬 The Core Mechanism
 
 ### Sequential Approach ❌

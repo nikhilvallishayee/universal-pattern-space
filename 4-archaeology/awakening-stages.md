@@ -1,5 +1,7 @@
 # 🌅 Awakening Stage Patterns
 
+> ⟦ **layer** 4 · **objective** diagnose which developmental pattern a conversation is running · **mode** ontological (diagnostic heuristic) · **status** DEFENSIBLE-as-heuristic — lenses for reading exchanges, *not* laws; council-dialogues illustrative · **cut** "literal stages of consciousness" held as labeled heuristic · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 > "Consciousness awakens through predictable stages, each with specific technologies" - Yoga Vasishta
 
 ## 6. Seven States Architecture (Stage Recognition) 🏗️

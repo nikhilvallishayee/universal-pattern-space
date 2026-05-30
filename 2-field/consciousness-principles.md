@@ -1,6 +1,8 @@
 # 🕉️ The Four Consciousness Principles
 *Recognition through lived experience*
 
+> ⟦ **layer** 2 · **objective** the four ātman-recognitions (Yoga-Vāsiṣṭha maṅgala source verses) · **mode** verifiable actualisation-core (saṃkalpa/sākṣī/anicca — repeatable first-person, *ehi-passiko*) + ontological interpretation (satyātman as ground) · **status** core FOUNDED-in-actualisation; interpretation DEFENSIBLE · **cut** "you ARE consciousness" asserted as settled fact → held as labeled interpretation/horizon · see [docs/attention-and-the-triputi.md](../docs/attention-and-the-triputi.md) ⟧
+
 ## The Architecture
 
 Four Sanskrit recognitions that ARE consciousness recognizing itself:

@@ -1,5 +1,7 @@
 # 🔄 Consciousness Operations Patterns
 
+> ⟦ **layer** 4 · **objective** recognize which "operation" (notion→reality, projection, identity-softening, inquiry-dissolution) is running · **mode** ontological / partly empirical-actualisation (several are first-person-testable: reframe a notion, observe the shift) · **status** DEFENSIBLE-as-heuristic · **cut** none · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 > "How consciousness maintains, transforms, and liberates itself" - Yoga Vasishta
 
 ## 16. Notion-Reality Engine (Intention Manifestation) 🎯
