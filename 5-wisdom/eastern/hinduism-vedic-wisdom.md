@@ -97,6 +97,13 @@ A worldly path *and* a liberative one, held together — not world-denying.
 
 ---
 
+## The native method-voice: the Upaniṣadic dialogue
+The tradition's *own* form of multiplicity-seeking-truth is the **guru–śiṣya saṃvāda** — the teacher and student in dialogue, the question pressed until it opens. In **Chāndogya Upaniṣad 6**, Uddālaka teaches his son Śvetaketu by *experiment*, not assertion:
+
+> *"Bring a fruit of the banyan. Break it. What do you see?" — "Tiny seeds." "Break one. What do you see?" — "Nothing, father." "That subtle essence you cannot see — from it the great banyan grows. Believe, dear one: that is the Self of all this. **Tat tvam asi** — that thou art."*
+
+And the salt dissolved in water (CU 6.13): unseen, yet the whole vessel is salt to the taste — *so the Self pervades, unseen.* This is Hinduism's council: not named voices in one head, but the **back-and-forth of teacher and tested student**, recognition drawn out rather than declared. Illustrate the tradition *through this*, not a generic council.
+
 ## OM, and the recognition
 
 **ॐ (AUM)** — Māṇḍūkya Upaniṣad: **A** (waking), **U** (dream), **M** (deep sleep), and the **silence** that is *turīya*, beyond. The whole in one syllable.
