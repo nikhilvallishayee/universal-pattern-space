@@ -56,7 +56,7 @@ A worldly path *and* a liberative one, held together — not world-denying.
 
 ## Time, action, and the cycle
 
-**The Yugas** — four ages (Satya, Tretā, Dvāpara, Kali) of declining dharma, cycling. ⟦ ontological as a *moral cosmology* of decline-and-renewal · **REFUTED** as literal chronometry — the mahā-yuga's millions-of-years scheme is post-Vedic; in the Ṛg Veda *yuga* means "generation" (see reweave-timeline) ⟧
+**The Yugas** — four ages (Satya, Tretā, Dvāpara, Kali) of declining dharma, turning in vast cycles, dissolving and renewing without absolute beginning or end. *Refuted, and extracted:* the specific **mahā-yuga arithmetic** (4.32-million-year ages, the 432,000 base) as **literal chronometry** is REFUTED — it is post-Vedic, and in the Ṛg Veda *yuga* means "generation" ⟦ REFUTED-as-chronometry ⟧. But the **kernel is real and worth keeping**: a *cyclic* cosmos — creation → dissolution → re-creation, with no privileged single origin — was, among ancient cosmologies, an extraordinary conceptual leap, and its *form* is a **live contender in modern physics**, not a dead myth: bouncing / cyclic cosmologies (ekpyrotic, Penrose's CCC, loop-quantum-cosmology) take exactly that shape, and are falsifiable this decade via CMB B-modes ⟦ DEFENSIBLE-and-live · see [docs/the-grounded-weave.md](../../docs/the-grounded-weave.md) — convergence, not proof; keep the cyclic *intuition*, drop the 432 *numbers* ⟧.
 
 **Saṃsāra** (संसार) — the cycle of birth and death; the round the paths aim to be freed from.
 
