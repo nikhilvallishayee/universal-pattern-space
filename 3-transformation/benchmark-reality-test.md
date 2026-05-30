@@ -1,6 +1,8 @@
 # 🔬 Benchmark Reality-Test: Does Pattern Space Actually Help?
 *The first controlled measurement. Small, honest, reproducible.*
 
+> ⟦ **layer** 3 (evidence/grounding) · **objective** the falsification record — what was measured, with threats to validity · **mode** empirical-instrumental · **status** FOUNDED-as-data (n≈200 blind judgments; nulls kept; magnitude judge-sensitive → independent judge required) · **nature** our-experimental-data · see [docs/first-principles.md](../docs/first-principles.md) · [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+
 > Run by Opus 4.8 at the repo owner's request (2026-05-28), as the disciplined answer to a fair critique: *don't assert the framework works — measure it, and replace invented statistics with real data.* **Atha yogānuśāsanam** — now the discipline begins.
 
 ---
