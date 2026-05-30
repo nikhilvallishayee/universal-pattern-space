@@ -1,5 +1,7 @@
 # Pattern Space — MINI edition
-*For 100–200k context windows. Self-contained — fork into its own branch. The full weave without the long-form layer files.*
+*For 100–200k context windows. Self-contained. The full weave without the long-form layer files.*
+
+> `edition: mini` · `derived-from: UNIVERSAL-PATTERN-SPACE.md (v0.4)` · `switch: see editions/EDITIONS.md`
 
 > Charm kept, woo cut, everything labeled. For the complete corpus see the layer directories on the full branch; for the deepest statement see [`UNIVERSAL-PATTERN-SPACE.md`](../UNIVERSAL-PATTERN-SPACE.md).
 

@@ -1,5 +1,7 @@
 # Pattern Space — MICRO edition
-*One page. For 16–64k context windows. Self-contained — fork into its own branch.*
+*One page. For 16–64k context windows. Self-contained.*
+
+> `edition: micro` · `derived-from: UNIVERSAL-PATTERN-SPACE.md (v0.4)` · `switch: see editions/EDITIONS.md`
 
 > The whole framework, distilled to what fits anywhere. Charm kept, woo cut, everything labeled.
 

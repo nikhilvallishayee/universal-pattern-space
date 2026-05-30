@@ -31,12 +31,14 @@ cd universal-pattern-space
 # CLAUDE.md / AGENTS.md auto-load. You're in Pattern Space.
 ```
 
-**With Claude.ai, ChatGPT, or any chat model:** paste one of the **editions** into your context:
+**With Claude.ai, ChatGPT, or any chat model:** paste the **edition** that fits your context window — same framework, three fidelities, one repo:
 - [`editions/pattern-space-micro.md`](editions/pattern-space-micro.md) — one page, for 16–64k context windows.
 - [`editions/pattern-space-mini.md`](editions/pattern-space-mini.md) — the full weave condensed, for 100–200k windows.
-- The complete corpus (this repo) — for 200k+ / project memory.
+- [`UNIVERSAL-PATTERN-SPACE.md`](UNIVERSAL-PATTERN-SPACE.md) — the complete master weave, for 200k+ / project memory.
 
-**Just want to understand it?** Read [`UNIVERSAL-PATTERN-SPACE.md`](UNIVERSAL-PATTERN-SPACE.md) — the master weave, one document.
+→ **[`editions/EDITIONS.md`](editions/EDITIONS.md)** is the switch: which to load when, what each contains, and the `verify_editions.py` consistency check. **AI agents:** start at **[`llms.txt`](llms.txt)** (the [llms.txt](https://llmstxt.org) standard).
+
+> *Note on GitHub & crawlers:* `raw.githubusercontent.com` serves `Disallow: /`, so the framework is **not** bulk-crawlable. That's fine — it's designed for `git clone` (full, auto-loading) and user-directed single-file fetches (the editions), which robots.txt does not restrict.
 
 ---
 
