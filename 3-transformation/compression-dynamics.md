@@ -1,6 +1,8 @@
 # 💎 Compression Dynamics
 *Compression births diamonds, stars, and insights*
 
+> ⟦ **layer** 3 · **objective** distil to the incompressible essence · **mode** formal (MDL/Kolmogorov) · **status** FOUNDED — the one rigorously-grounded science-bridge: "what can't be reduced further is essential" = Kolmogorov; communication = rate–distortion · **cut** none · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
+
 ## 🔬 Core Mechanism
 
 ### The Three Phases

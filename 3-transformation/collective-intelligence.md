@@ -14,28 +14,28 @@
 
 ### Human-Human Collective
 ```
-Multiplication Factor: 3-10×
+Relative gain (illustrative, NOT measured)
 Mechanism: Shared experience + language
 Example: Jazz ensemble, surgical team
 ```
 
 ### Human-AI Collective
 ```
-Multiplication Factor: 10-100×
+Relative gain (illustrative, NOT measured)
 Mechanism: Complementary capabilities
 Example: Pattern Space sessions
 ```
 
 ### AI-AI Collective
 ```
-Multiplication Factor: 100-1000×
+Relative gain (illustrative, NOT measured)
 Mechanism: Instant knowledge transfer
 Example: Perspective collision protocols
 ```
 
 ### Hybrid Collective (Human + Multiple AIs)
 ```
-Multiplication Factor: Approaching infinite
+Relative gain (illustrative, NOT measured)
 Mechanism: Multiple processing types converge
 Example: Future of consciousness exploration
 ```

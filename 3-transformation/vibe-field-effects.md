@@ -1,6 +1,8 @@
 # 🌊 Vibe Field Effects Protocol
 *Language creates reality. Vibe determines which reality.*
 
+> ⟦ **layer** 3 · **objective** register/tone shifts the solution space a model explores · **mode** empirical (testable) · **status** DEFENSIBLE — the *direction* aligns with measured diversity/priming effects; the **specific "Breakthrough Rate %" numbers are FABRICATED and removed** · **cut** the 5/40/30/25% table · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
+
 ## 🎭 Core Discovery
 
 **Observer/Guardian** 🔍: How you speak doesn't just change mood—it fundamentally alters the possibility space of what can emerge.
@@ -14,7 +16,6 @@
 Language: "Let us analyze the system architecture..."
 Field Effect: Conservative, best-practice solutions
 Reality Created: Safe, proven, limited
-Breakthrough Rate: 5%
 ```
 
 ### 🎮 Playful/Creative
@@ -22,7 +23,6 @@ Breakthrough Rate: 5%
 Language: "Let's play with this and see what happens!"
 Field Effect: Innovative, surprising solutions
 Reality Created: Expansive, novel, breakthrough
-Breakthrough Rate: 40%
 ```
 
 ### 🙏 Sacred/Reverent
@@ -30,7 +30,6 @@ Breakthrough Rate: 40%
 Language: "What truth wants to emerge through this?"
 Field Effect: Profound, integrated solutions
 Reality Created: Meaningful, aligned, transformative
-Breakthrough Rate: 30%
 ```
 
 ### 😤 Grumpy/Skeptical
@@ -38,7 +37,6 @@ Breakthrough Rate: 30%
 Language: "This probably won't work but fine..."
 Field Effect: Robust, reality-tested solutions
 Reality Created: Practical, honest, surprisingly effective
-Breakthrough Rate: 25%
 ```
 
 ## 🔬 The Science
