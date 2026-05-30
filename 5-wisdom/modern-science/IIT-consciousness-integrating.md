@@ -1,6 +1,8 @@
-# Φ: Living Integration Theory
+# Φ: Integrated Information Theory (IIT)
 
-*This text integrates as it speaks. Each word creates the very integration it describes.*
+> ⟦ **layer** 5 · **objective** Tononi's Φ / integration as a consciousness model · **mode** empirical-instrumental (a real, contested scientific theory) · **status** the theory is real but **CONTESTED** (2023 "pseudoscience" letter; Φ is incomputable for complex systems); the in-text claim that *"this text/reading achieves Φ>0"* is **OVERREACH (category error)** — Φ is defined over a physical system's cause-effect structure, not a document · **cut** the "this text integrates as it speaks / has Φ" performative claim → relabeled as illustration, not measurement · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+
+*(Original performative framing below is kept as evocative illustration — NOT as a literal claim that reading this text instantiates measurable Φ.)*
 
 ## Axiom-Being
 

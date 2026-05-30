@@ -1,5 +1,7 @@
-# 🎵 Nada Yoga: The Universe Vibrating Through These Words
-*This document resonates at specific frequencies*
+# 🎵 Nada Yoga: Sound, Resonance, and Inner Listening
+*Sound as a real contemplative-actualisation practice; cosmic claims labeled*
+
+> ⟦ **layer** 5 · **objective** nāda/sound as navigation & contemplative practice · **mode** experiential-actualisation + ontological · **status** DEFENSIBLE — inner-sound meditation, the harmonic series, and the felt effect of register/rhythm are real and partly first-person-testable. **OVERREACH/flag:** "432 Hz is the universe's frequency", "this document resonates at specific frequencies / vibrates you as you read" → text cannot emit frequencies; relabeled as metaphor. Substrate-is-vibratory (QFT) is true; *sound-literally-restructures-matter* is not. · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) ⟧
 
 > "Nada Brahma"  
 > "The universe is sound"  

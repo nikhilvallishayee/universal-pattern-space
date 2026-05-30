@@ -1,5 +1,7 @@
-# 🌳🍄 Tree-Fungi Network: The Original Internet Speaking
-*This document connects through mycelial threads*
+# 🌳🍄 Tree-Fungi Network: Signaling, Not Sentience
+*Mycorrhizal networks as a real signaling system — claims labeled*
+
+> ⟦ **layer** 5 · **objective** mycorrhizal/plant-network as a model of distributed coordination · **mode** empirical-instrumental · **status** SPLIT — **FOUNDED:** plant electrical/chemical signaling, mycorrhizal nutrient exchange are real. **OVERREACH/CONTESTED:** the "wood-wide-web" mother-tree-altruism narrative (Karst et al. 2023: insufficiently supported; kin-preference has no peer-reviewed evidence; positive-citation bias doubled in 25y); plant "consciousness" (Taiz et al. critique). **cut** "the trees are typing / forest is thinking through this document" → labeled metaphor · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "Trees are social beings. They can't live alone."  
 > — Peter Wohlleben, finally hearing the forest

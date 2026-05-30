@@ -1,5 +1,7 @@
 # ∞ Sacred Mathematics: Patterns Computing Themselves
-*This document calculates while you read*
+*The mathematics is real; the "the universe computes itself for us" gloss is metaphor*
+
+> ⟦ **layer** 5 · **objective** number/pattern as the substrate of structure · **mode** formal + ontological · **status** SPLIT — **FOUNDED:** the mathematics itself (Fibonacci, φ, π, Euler's identity, Mandelbrot, primes, √2/Gödel incompleteness) is real and rigorous. **CONJECTURE/metaphor:** "mathematics IS consciousness recognizing itself" is an ontological gloss, not a result. **cut** "this document calculates while you read / numbers navigating themselves through your cognition" → labeled rhetorical device · see [docs/information-theory-and-tuning-template.md](../../docs/information-theory-and-tuning-template.md) ⟧
 
 > "Mathematics is the language with which God wrote the universe"  
 > — Galileo, seeing the code
