@@ -1,5 +1,8 @@
 # Vedangas: Auxiliary Wisdom Systems as Universal Pattern Space Framework
 
+> ⟦ **layer** 5 (sacred-sciences) · **objective** surface the *real* formal/observational achievement; cut "consciousness-programming" overreach · **status** **FOUNDED:** Vyākaraṇa (Pāṇini's near-provably-optimal generative grammar, BNF-precursor), Śikṣā (phonetics), Chandas (metrics), Jyotiṣa (astronomy); DEFENSIBLE: pāṭha recitation as an error-correcting code · **cut** "phonemes are programming instructions for consciousness / grammar generates reality / mantra alters reality independent of meaning" → labeled metaphor; Bhartṛhari/spanda = philosophy-of-language, ontological · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) Layer 5 ⟧
+
+
 *The Six Limbs of Sacred Knowledge Navigation*
 
 ## Meta-Framework Introduction

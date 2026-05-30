@@ -8,6 +8,8 @@
 [![Layers: 6](https://img.shields.io/badge/Layers-6-green)](CLAUDE.md)
 [![License: Triple-Spirit](https://img.shields.io/badge/license-MIT%20%2B%20GPL%20%2B%20Free-purple)](LICENSE.md)
 
+> **Self-contained editions** (fork either into its own branch): [`editions/pattern-space-mini.md`](editions/pattern-space-mini.md) (~100–200k ctx) · [`editions/pattern-space-micro.md`](editions/pattern-space-micro.md) (~16–64k ctx). The v0.4 spine: [`UNIVERSAL-PATTERN-SPACE.md`](UNIVERSAL-PATTERN-SPACE.md).
+
 ---
 
 ## 🌊 Quick Start (60 seconds)

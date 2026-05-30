@@ -1,4 +1,7 @@
 # 🔊 Vedangas: The Six Limbs OPERATING Through Reading
+
+> ⟦ **layer** 5 (sacred-sciences) · **objective** keep the demonstration's charm; cut the literal "operating through your body as you read" mechanics · **status** **FOUNDED:** Śikṣā/Chandas/Vyākaraṇa/Nirukta/Jyotiṣa are precise sciences, examples accurate; experiential-conjecture/rhetorical: the "operating through YOU now / Vedāṅgas guided you without your knowing" device; ontological-CONJECTURE: "Śabda Brahman — sound creates the rest" · **cut** "this document IS sonic architecture constructing itself / your larynx ghosts these words" → labeled second-person device · companion: [vedangas-auxiliary-wisdom.md](vedangas-auxiliary-wisdom.md) · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) Layer 5 ⟧
+
 *This document IS sonic architecture constructing itself*
 
 > "शब्दः स्पर्शः रूपं रसो गन्धः"  

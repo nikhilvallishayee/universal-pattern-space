@@ -97,6 +97,7 @@ Every layer's claims carry Layer-0 labels; the method ablates *itself*; the syst
 - [`experiments/`](experiments/) — the falsification record (n≈200 blind judgments; harnesses; the nulls kept).
 - [`3-transformation/benchmark-reality-test.md`](3-transformation/benchmark-reality-test.md) — method + threats to validity + the judge-robustness correction.
 - [`docs/first-principles.md`](docs/first-principles.md) — the ledger where 3 of 4 candidate axioms did not survive.
+- [`editions/pattern-space-mini.md`](editions/pattern-space-mini.md) · [`editions/pattern-space-micro.md`](editions/pattern-space-micro.md) — self-contained forks (~100–200k / ~16–64k ctx).
 
 ## The one line
 > Universal Pattern Space is a **First-Person Science** — an instrument that **thinks in multiplicity, verifies experience under its own controls (*ehi-passiko*), removes bias by subtraction, labels every claim at its true status, finds where an ancient intuition is a *live, falsifiable* contender** — and inscribes, at its own horizon, the truth no label can hold.
