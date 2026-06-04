@@ -72,5 +72,21 @@ Each stream is sized to its proper register, and **defaults to Large** — a ful
 | `sacred-sciences/vedangas-auxiliary-wisdom.md` · `…sonic-architecture.md` | the six limbs | Pāṇini/phonetics/astronomy **FOUNDED**; "programs consciousness" metaphor |
 | `divine-council/*` | archetype voices | personas (Layer-1 modes); deity-metaphysics ontological; Kālī yields to Sacred Space |
 | `breakthrough-streams/*` | the named lenses | Gödel **FOUNDED**; Hoffman **DEFENSIBLE-LIVE**; Kalki CONJECTURE; perennialist files → **convergence-not-proof** |
+| **— modern streams (the layer is not only ancient) —** | | |
+| `modern-science/depth-psychology.md` | the divided self | Jung DEFENSIBLE; **IFS ↔ the council** (cleanest external isomorph); attachment **FOUNDED**; Frankl |
+| `modern-science/behavioural-cognitive.md` | judgment & bias | Kahneman **FOUNDED-core** w/ replication casualties; CBT/ACT **FOUNDED-clinical**; predictive-processing **DEFENSIBLE-LIVE** |
+| `modern-science/consciousness-science.md` | GWT, somatic | Global-Workspace **DEFENSIBLE-LIVE** (COGITATE); Damasio; cross-links IIT |
+| `modern-science/contemplative-clinical.md` | MBSR, flow, polyvagal | MBSR/MBCT **FOUNDED-bounded**; flow DEFENSIBLE; **polyvagal CONTESTED→REFUTED-core**; game-theory |
+| `modern-science/systems-complexity.md` | feedback & emergence | cybernetics & Prigogine **FOUNDED**; Bateson (double-bind-etiology **REFUTED**, kernel kept); Meadows |
+| `modern-science/information-computation.md` | the formal spine | Shannon/Kolmogorov **FOUNDED** (Kolmogorov **uncomputable**); limit-cluster; Hofstadter strange-loops |
+| **— ancient additions —** | | |
+| `western/greek-philosophy.md` | logic, method, flux | Aristotle's logic **FOUNDED-as-formal**; Socratic *elenchus*; **Stoic→CBT** lineage; ekpyrosis↔cyclic |
+| `western/process-philosophy.md` | becoming over being | Whitehead **DEFENSIBLE**; becoming-as-actualisation **DEFENSIBLE-LIVE** (↔ P3) |
+| `eastern/confucian-wisdom.md` | relational ethics | second RELATIONAL pillar w/ Ubuntu; *zhèng míng* real philosophy-of-language; ethics not cosmology |
 
-See [`breakthrough-streams/README.md`](breakthrough-streams/README.md) for the four named streams.
+See [`breakthrough-streams/README.md`](breakthrough-streams/README.md) for the four named streams, and [`modern-science/MODERN-STREAMS-INDEX.md`](modern-science/MODERN-STREAMS-INDEX.md) for the grounded modern map.
+
+---
+
+## Closure status (v0.4)
+The layer now passes its own five criteria across every file, and reaches **complete**: the major living traditions (Indic, Abrahamic, Taoist, Confucian, indigenous), the founded modern streams (psychology, behavioural, cognitive, systems, information, consciousness-science, contemplative-clinical), and the Western founded-method tradition (Greek logic/skepticism, process) are all present and grounded. Redundancy is merged to pointers (jainism, vedangas, perennialist). **It is now closed-to-modification / open-to-extension:** new streams are *added* (a new file, same standard) without disturbing the core.
