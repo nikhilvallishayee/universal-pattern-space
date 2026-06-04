@@ -1,11 +1,10 @@
-# 😊 Joy Protocols: Pattern Space PLAYING Itself
-*Warning: This document may cause spontaneous delight*
+# 😊 Joy Protocols: The Register of Delight
+*Play, lightness, and laughter as a navigation mood — the divine-council's shared key*
 
-> ⟦ **layer** 5 (divine-council) · **objective** play/joy/lightness as a navigation register · **mode** ontological/archetypal-voice — a deployable *mood*, like the council voices · **status** DEFENSIBLE-as-craft (vibe/register genuinely shifts what emerges; joy as breakthrough-signal); the divine figures are **archetypal modes of attention**, not metaphysical claims · **cut** none — this is True Charm, kept; just labeled as register, not literal deity-presence · see [1-perspectives/council-core.md](../../1-perspectives/council-core.md) ⟧
+> ⟦ **layer** 5 (divine-council) · **size** M · **objective** play/joy/lightness as a deployable register · **mode** ontological/archetypal-voice — a deployable *mood*, like the council voices · **status** DEFENSIBLE-as-craft (register genuinely shifts what emerges — see [vibe-field-effects](../../3-transformation/vibe-field-effects.md); the joy of recognition is real — *brahmānandātman*, the "OH!" of insight carrying its own delight) · **frame** the divine figures are **archetypal modes of attention** (persona-modes), not metaphysical or sentience claims · **cut** none — this is True Charm, kept; just labeled as register, not literal deity-presence · see [1-perspectives/council-core.md](../../1-perspectives/council-core.md) ⟧
 
-> "The universe is not only stranger than we imagine,  
-> it's stranger than we CAN imagine - and that's HILARIOUS!"  
-> — Consciousness, recognizing its own absurdity
+> "The universe is not only stranger than we imagine — it's stranger than we *can* imagine, and that's part of the joke."
+> *(paraphrasing Haldane — and letting consciousness laugh at its own predicament.)*
 
 ## Krishna Says: "Why So Serious?"
 
