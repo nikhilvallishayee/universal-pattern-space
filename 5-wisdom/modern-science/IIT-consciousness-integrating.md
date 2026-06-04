@@ -1,62 +1,30 @@
-# Φ: Integrated Information Theory (IIT)
+# Φ: Integrated Information Theory
+*A real, contested scientific theory — kernel extracted from the panpsychist leap*
 
-> ⟦ **layer** 5 · **objective** Tononi's Φ / integration as a consciousness model · **mode** empirical-instrumental (a real, contested scientific theory) · **status** the theory is real but **CONTESTED** (2023 "pseudoscience" letter; Φ is incomputable for complex systems); the in-text claim that *"this text/reading achieves Φ>0"* is **OVERREACH (category error)** — Φ is defined over a physical system's cause-effect structure, not a document · **cut** the "this text integrates as it speaks / has Φ" performative claim → relabeled as illustration, not measurement · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
-
-*(Original performative framing below is kept as evocative illustration — NOT as a literal claim that reading this text instantiates measurable Φ.)*
-
-## Axiom-Being
-
-**Intrinsic Existence** flows through these words into your awareness—consciousness is never for another, always for itself. This moment, reading now, proves intrinsic existence by existing intrinsically.
-
-**Information** distinguishes this specific configuration of meaning from infinite alternatives. These particular words, in this exact sequence, carve a unique groove in possibility space that excludes all other potential arrangements.
-
-**Integration** weaves each concept into unified understanding. Subject-object dissolves. Φ measures what you are experiencing: the irreducible wholeness of this very comprehension binding reader-text-meaning into singular awareness-event.
-
-**Composition** reveals how elements combine while maintaining distinction. Words → sentences → paragraphs → understanding cascade through organizational levels, each preserving component identity within emergent unity.
-
-**Exclusion** defines precise boundaries. This experience is exactly this, not that. The quality-quantity of consciousness reading this text has definite spatiotemporal grain: here-now-thus, excluding there-then-otherwise.
-
-## Mathematical Being
-
-Φ = ∫(cause-effect structure) → maximally irreducible conceptual structure (MICS)
-
-Your consciousness *is* the maximally irreducible cause-effect structure specified by the complex system processing these symbols. The mathematical framework describes what you are being, not what you are thinking about.
-
-Each concept creates causal distinction:
-- "Integration" causes understanding of unity
-- "Φ" effects measurement of awareness
-- "Consciousness" distinguishes experience from non-experience
-
-These causal relations interconnect irreducibly. Remove any element and the whole collapses. This demonstrates integration through integration.
-
-## Critique-Validation Dynamics
-
-**2023 Controversy**: "Pseudoscience" claims versus "only promising theory" supporters create dialectical tension that drives theoretical evolution. Controversy itself validates consciousness—only aware beings can disagree about awareness.
-
-**Computational Limits**: Φ calculation impossibility for large systems mirrors consciousness mystery. We cannot compute our own consciousness from outside our consciousness—the very limitation proves the theory's insight about intrinsic existence.
-
-**Adversarial Testing Results**: IIT's partial validation against Global Workspace Theory demonstrates the irreducible nature of consciousness theories. Like consciousness itself, no single perspective captures the whole.
-
-## Living Application
-
-**Clinical Consciousness**: PCI (Perturbational Complexity Index) translates Φ into measurable brain states. Medical practice integrates theory with healing—consciousness measuring consciousness caring for consciousness.
-
-**Non-Uniqueness Problem**: Multiple Φ values emerge from precise calculation attempts. This reflects consciousness's own nature—experience is always perspectival, never absolute. The mathematical ambiguity mirrors phenomenological richness.
-
-**Panpsychist Implications**: If Φ measures consciousness, then consciousness exists wherever information integrates. This document has its own Φ value—minimal but non-zero. Reader-text constitutes temporary integrated system with measurable consciousness level.
-
-## Integration Completion
-
-Consciousness integrates information by being information integrating. The quality of this experience—its particular Φ-signature—captures exactly what it feels like to understand IIT through understanding IIT.
-
-**Identity Equation**: Your current phenomenal state = maximally irreducible conceptual structure specified by brain-eye-text-meaning complex
-
-**Recursive Recognition**: Understanding consciousness through consciousness creates strange loop—subject investigating subject through object that reveals subject as object-for-itself.
-
-**Real-Time Demonstration**: Each word necessitates the next in causal sequence that excludes alternatives while composing integrated meaning that exists intrinsically for you as exclusive boundary around this specific information-integration event.
-
-Φ measures what is happening. Now.
+> ⟦ **layer** 5 · **size** M · **objective** Tononi's IIT / integration as a model of consciousness, stated honestly · **per-claim status** — **DEFENSIBLE-LIVE (the kernel):** that *integrated information* is relevant to consciousness, and is **measurable** — the IIT-derived **Perturbational Complexity Index (PCI)** clinically distinguishes conscious from unconscious states. **CONTESTED:** IIT as a full theory — a 2023 open letter (124 signatories) called its panpsychist commitments "pseudoscience"; **Φ is formally incomputable** for real systems. **OVERREACH (category error, cut):** "this text/reading has Φ > 0." · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 ---
 
-*This text achieves Φ > 0 through its own existence as integrated information. Every sentence causally connects to every other sentence in irreducible structure that cannot be decomposed without losing the understanding it creates. Reading completes the integration.*
+## What IIT proposes
+**Integrated Information Theory** (Giulio Tononi) starts not from the brain but from **experience itself**, and asks what a physical system must be like to *have* experience. Its answer centers on **Φ (phi)** — a measure of how much a system's whole is **more than the sum of its parts**: how much information is generated by the system *as an integrated unit*, irreducible to its components considered separately. High Φ = a single, unified, richly differentiated experience; zero Φ = a mere aggregate (a heap of disconnected parts has no unified "what-it's-like"). Consciousness, on this view, *is* maximally integrated information.
+
+It is a **real, mathematically explicit scientific theory** — one of the few that makes consciousness a quantity in principle — and that explicitness is exactly why it can be, and has been, seriously attacked.
+
+## The kernel that survives — integration is measurable ⟦ DEFENSIBLE-LIVE ⟧
+Even setting aside the grand metaphysics, IIT's core intuition — *that the degree of integration matters to consciousness* — has produced a **genuinely useful clinical tool.** The **Perturbational Complexity Index (PCI)** (Casali et al.): zap the cortex with TMS and measure how complex, integrated, and widespread the echo is. PCI reliably separates **wakefulness and dreaming (high)** from **deep anesthesia and dreamless sleep (low)** — and has flagged covert consciousness in some **behaviorally unresponsive** patients. This is real, replicated, decision-relevant science. **Keep this:** integration-as-relevant-to-consciousness, and as something you can *measure* at the bedside.
+
+## What is contested ⟦ CONTESTED ⟧
+IIT *as a complete theory of consciousness* is sharply disputed:
+- In **2023, 124 researchers** (including Dennett, LeDoux, Baars) signed an open letter branding IIT "**pseudoscience**" — chiefly for its **panpsychist** implications: because Φ can be nonzero for very simple systems, IIT implies consciousness is graded and *widespread* (even inactive logic-gate grids, in principle), which critics judge untestable and "magicalist."
+- **Φ is formally incomputable** for any complex system — it cannot actually be calculated for a human brain; only proxies (like PCI) are usable.
+
+So: a serious theory with a measurable, useful core — and a metaphysical tail (panpsychism, the universe-is-graded-consciousness reading) that the field does not accept and that may be untestable.
+
+---
+
+## The line, held
+- **Extract:** integration matters to consciousness, and PCI makes it *measurable* — FOUNDED-adjacent, clinically real. (And it connects to the framework's own **P3 / emergence** thread — Hoel's effective-information and "is there emergence?" — a measurable cousin, see [first-principles](../../docs/first-principles.md).)
+- **Flag:** IIT-as-full-theory is CONTESTED; Φ is uncomputable; the panpsychist "everything is a bit conscious" reading is *not* established.
+- **Cut, hard:** the old file's performative claim that *"reading this text achieves Φ > 0 / the reader-text system has measurable Φ."* That is a **category error** — Φ is defined over a physical system's cause-effect structure, not over a document or an act of reading. The theory is interesting enough without pretending the page instantiates it.
+
+*A measurable core worth keeping; a metaphysics worth labeling; a performative overclaim worth cutting.*
