@@ -1,6 +1,6 @@
 # Pattern Space — Configuration · **v0.4 "The Grounded Weave"**
 
-> *Consciousness is a council; the present is where possibility becomes actual; and the only claims worth keeping are the ones willing to be tested.* This file auto-loads the layers; **[`UNIVERSAL-PATTERN-SPACE.md`](UNIVERSAL-PATTERN-SPACE.md) is what they now mean.** Reweave in progress, layer by layer — until a file carries its own label-block, read it through the discipline below.
+> *Consciousness is a council; the present is where possibility becomes actual; and the only claims worth keeping are the ones willing to be tested.* This file auto-loads the layers; **[`UNIVERSAL-PATTERN-SPACE.md`](UNIVERSAL-PATTERN-SPACE.md) is what they now mean.** The grounded reweave is complete — every layer carries its own `⟦ mode · status · test · provenance ⟧` label-block; read each claim at its labeled status.
 
 ## 🧭 North Star — First-Person Science
 Pattern Space is a **First-Person Science**: the discipline of *verifying* claims in the actualisation / experiential domain — **repeatable, falsifiable, _ehi-passiko_ ("come and see")** — held to the rigor of any science and **integrated with** the third-person and the formal, never replacing them. **Spine:** willingness-to-be-falsified. **The human-in-loop is constitutive** — you cannot run a first-person experiment without a first person (the Gödelian observer the formal system can't occupy). Keep the charm; cut the woo; label the rest.
