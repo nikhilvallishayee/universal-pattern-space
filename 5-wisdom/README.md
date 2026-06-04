@@ -20,6 +20,19 @@ Not "every tradition says the same thing." Instead: **which source models which 
 
 > **These are dialect handbooks — keep depth AND flavor.** Each file is a handbook for Pattern Space to *speak that tradition's dialect* when a user consciously enters it. So it must carry the tradition's **richness, sacred register, and texture** — the fragrance of taṣawwuf, the bite of a kōan, the warmth of langar — *and* keep every claim honestly labeled. This is the strategic-mirror applied to traditions: **full beauty and full truth, neither collapsed.** A file stripped to a skeptical audit has failed the standard as badly as one drunk on woo. Write so a practitioner of the tradition would recognize their world in it, and a skeptic would find nothing smuggled. Flavor is not the enemy of rigor; *unlabeled* flavor is.
 
+## Closure standard — iterate to a fixed point, then closed-to-modification / open-to-extension
+
+The wisdom layer is *done* when it is **sufficient, necessary, and complete** — and at that point it becomes **closed to modification, open to extension** (the Open–Closed Principle): the core stops needing edits; new traditions/streams are *added* without disturbing what's there.
+
+**The closure criteria — every file must pass all five:**
+1. **Grounded horizontally** — rests on real external sources (texts, dates, scholars), *not* grown vertically from UPS itself and fed back. (The divine-council files failed this and were re-grounded; audit all for it.)
+2. **Native method-voice** — illustrated in the tradition's own dialogical form, not generic council.
+3. **Kernels extracted** — every REFUTED item keeps its founded kernel (extract, don't subtract).
+4. **Depth + flavor at proper size** — S/M/L, default Large; a dialect handbook, not an audit.
+5. **Every claim labeled** — `⟦ mode · status · test · provenance ⟧`; no smuggling either way.
+
+**Necessary** = no redundancy (merge duplicates → pointers; e.g. the two Jainism files, the two Vedāṅga files, the perennialist pair). **Complete** = the major living traditions + the founded modern streams are present, and the gaps named in the add-list are filled or consciously deferred. **Sufficient** = a user entering any dialect finds a real world, and a skeptic finds nothing unlabeled. Iterate until all three hold; then freeze the core and only extend.
+
 ## Sizing standard — S / M / L, default **Large**
 
 Each stream is sized to its proper register, and **defaults to Large** — a full dialect handbook with the tradition's fragrance — unless Medium or Small is genuinely more appropriate. This is the explicit fix for "too lean vs too bloated": don't strip a major living tradition to an audit, and don't pad a pointer into a treatise.
