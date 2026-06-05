@@ -46,6 +46,10 @@ The editions are **hand-curated distillations of the canonical layers**, not mec
 - Run `python3 tools/verify_editions.py` after editing — it fails if any edition has dropped an invariant.
 - Editions carry a `derived-from` header noting which canonical version they track.
 
+## Output polarity & the univoice toggle
+
+Every edition **defaults to multi-voice** (surface the threads — *opt into emergence*). A user who prefers a single voice can say so in-session, or set it as a **standing default** by uncommenting the `UNIVOICE-OVERRIDE` block carried in each edition. Full how-to: [docs/univoice-preference.md](../docs/univoice-preference.md).
+
 ## Forking (optional)
 
 If you'd rather have a standalone branch per edition (e.g. for a separate deploy), the editions are self-contained — `git checkout -b ups-mini` and keep only what you need. But the **default is in-repo + switchable**: one source of truth, three fidelities, no divergence.
