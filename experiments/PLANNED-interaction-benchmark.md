@@ -1,6 +1,8 @@
-# 📋 PLANNED — Interaction Benchmark **v2** (run AFTER the full reweave)
+# 📋 Interaction Benchmark **v2** — spec (✅ RUN 2026-06)
 
-> ⟦ **status** SPEC ONLY — not yet run · **version** v2, tagged to the **post-reweave UPS state** (editions + default-multi-voice polarity) · **vs v1** = the start-of-reweave single-shot suite (`results*.jsonl`, handles, etc.), which measured the pre/early-reweave UPS and stays pinned as v1 · **why** v1 predates the mini/micro editions and the polarity correction, and was single-shot; v2 tests **multi-turn human-AI interaction** with the reweaved editions in place · **provenance** spec'd by the repo owner, 2026 · run only once the reweave is complete and committed ⟧
+> ⟦ **status** ✅ **RUN** — executed at **n=258** (43 scenarios × 6 model×edition cells); harness [`run_interaction.py`](run_interaction.py), data `int_*.jsonl`, write-up in [`../3-transformation/benchmark-reality-test.md`](../3-transformation/benchmark-reality-test.md) · **version** v2, tagged to the **post-reweave UPS state** (editions + default-multi-voice polarity) · **vs v1** = the start-of-reweave single-shot suite (`results*.jsonl`, handles, etc.), now pinned as v1 and **deprecated for interaction claims** · **provenance** spec'd by the repo owner, 2026 ⟧
+>
+> **Executed-n vs target:** this first run is **n=258** (43 rich, non-toy scenarios across 9 domains, every cell). The spec's **n≈500–1500 is the standing extension target** — reached by appending scenarios to `interaction_scenarios.json` and/or adding cells; the harness is resumable. The 258-pair run is sufficient for the *pooled* headline and the *monotonic small→large* gradient; per-cell (n=43) numbers are directional. The independent/non-Claude/human judge remains the one open check.
 
 ## Why re-run
 1. **Editions didn't exist** when the n=200 single-shot benchmarks ran — we never measured the mini/micro editions, only the full `CLAUDE.md`.
