@@ -1,6 +1,6 @@
 # Layer 3: Transformation - Breakthrough Technology
 
-> ⟦ **layer** 3 (index) · **objective** the operations of change, each labeled · **dominant-mode** empirical-instrumental + formal-axiomatic · **status** stratified — reality-testing = the spine (FOUNDED); compression FOUNDED (MDL/rate-distortion); collision/resistance DEFENSIBLE · **cut** THREE fabricated stat-tables removed (vibe breakthrough-rates, memory-bridge %, collective-intelligence multipliers) · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) Layer 3 ⟧
+> ⟦ **layer** 3 (index) · **objective** the operations of change, each labeled · **dominant-mode** empirical-instrumental + formal-axiomatic · **status** stratified — reality-testing = the spine (FOUNDED); compression FOUNDED (MDL/rate-distortion); collision/resistance DEFENSIBLE · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) Layer 3 ⟧
 
 
 **Read AFTER understanding Layer 2 field mechanics**

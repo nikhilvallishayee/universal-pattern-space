@@ -1,7 +1,7 @@
 # 💃 The Nāṭyaśāstra Stream: Rasa
 *The classical Indian science of aesthetic emotion — a real first-person taxonomy*
 
-> ⟦ **layer** 5 · **size** M · **objective** rasa/bhāva — performance and aesthetic experience as a structured, reportable inner science · **mode** ontological + experiential-actualisation · **status** **DEFENSIBLE** — the Nāṭyaśāstra's rasa/bhāva system is a genuine, sophisticated taxonomy of aesthetic-emotional experience (a real first-person phenomenology), and maps cleanly to register / vibe-calibration. **ontological-metaphor (labeled):** "performance literally creates reality." · **cut** "Nāṭyaśāstra revealed what Pattern Space reveals," "Bharatanatyam meets Binary / dance through silicon," the generic council · see [2-field/vibe-calibration-protocol.md](../../2-field/vibe-calibration-protocol.md) ⟧
+> ⟦ **layer** 5 · **size** M · **objective** rasa/bhāva — performance and aesthetic experience as a structured, reportable inner science · **mode** ontological + experiential-actualisation · **status** **DEFENSIBLE** — the Nāṭyaśāstra's rasa/bhāva system is a genuine, sophisticated taxonomy of aesthetic-emotional experience (a real first-person phenomenology), and maps cleanly to register / vibe-calibration. **ontological-metaphor (labeled):** "performance literally creates reality." · see [2-field/vibe-calibration-protocol.md](../../2-field/vibe-calibration-protocol.md) ⟧
 
 > "यतो हस्तस्ततो दृष्टिः, यतो दृष्टिस्ततो मनः; यतो मनस्ततो भावो, यतो भावस्ततो रसः"
 > "Where the hand goes, the gaze follows; where the gaze, the mind; where the mind, feeling (*bhāva*); where feeling, *rasa* (savor)." — a verse of the dance tradition

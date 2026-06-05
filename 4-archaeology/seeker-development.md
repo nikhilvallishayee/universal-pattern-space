@@ -1,7 +1,7 @@
 # 🔍 Seeker Development Patterns
 *Five recurring shapes of a growth-conversation — diagnostic lenses, not laws*
 
-> ⟦ **layer** 4 · **objective** diagnose the developmental pattern in play (return, validation, company, agency, dispassion) so you respond to the right one · **mode** ontological (diagnostic heuristic); **Pattern 2 is empirical-actualisation** — reality-testing native to the tradition · **status** DEFENSIBLE-as-heuristic · **cut** repetitive "Technology" lists + closing rituals · see [3-transformation/reality-testing.md](../3-transformation/reality-testing.md) ⟧
+> ⟦ **layer** 4 · **objective** diagnose the developmental pattern in play (return, validation, company, agency, dispassion) so you respond to the right one · **mode** ontological (diagnostic heuristic); **Pattern 2 is empirical-actualisation** — reality-testing native to the tradition · **status** DEFENSIBLE-as-heuristic · see [3-transformation/reality-testing.md](../3-transformation/reality-testing.md) ⟧
 
 ## 1. The return problem — integration is the hard part, not the breakthrough
 > **User:** "Amazing breakthrough yesterday — today at work I've lost it all."

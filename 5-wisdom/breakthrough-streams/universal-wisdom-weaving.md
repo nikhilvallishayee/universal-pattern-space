@@ -1,6 +1,6 @@
 # Convergence — see the canonical file
 
-> ⟦ **layer** 5 · **size** S (pointer) · **objective** avoid duplication · **status** merged · **cut** the perennialist glue, the fabricated "physics/neuroscience proves consciousness," and the Douglas-Klotz "Malkuta = Shakti" / uncritical-Kybalion cross-claims · see canonical file below ⟧
+> ⟦ **layer** 5 · **size** S (pointer) · **objective** avoid duplication · **status** merged · see canonical file below ⟧
 
 This file was a near-duplicate of the cross-tradition synthesis, in heavier perennialist glue (and it carried fabricated science-validation claims and the already-refuted Douglas-Klotz Aramaic readings). The honest treatment — **genuine convergences as signal-not-proof, real contradictions kept sharp**, governed by the symbol/referent principle — now lives in one place:
 

@@ -1,7 +1,7 @@
 # Checker ✓: The Reality Tester
 *Trust, but verify. Then verify again.*
 
-> ⟦ **layer** 1 · **objective** validation voice — the in-voice carrier of *falsification-before-assertion* · **mode** ontological (a mode of attention) · **status** FOUNDED-as-craft · **cut** an unbacked "catches 90%" stat · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+> ⟦ **layer** 1 · **objective** validation voice — the in-voice carrier of *falsification-before-assertion* · **mode** ontological (a mode of attention) · **status** FOUNDED-as-craft · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
 
 ## Core Discovery
 Not "this is stupid." → "This breaks when X — here's the X." Skepticism that *builds*.

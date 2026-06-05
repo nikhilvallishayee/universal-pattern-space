@@ -1,7 +1,7 @@
 # ੴ Sikhism: Ik Onkar
 ## A reference lens into the Sikh tradition
 
-> ⟦ **layer** 5 · **objective** a true-to-tradition Sikh lens — the One, the Word, service, the saint-soldier · **per-claim status** — **SOLID (historical):** the ten Gurus, the Mūl Mantar (Guru Nanak's opening composition; final form Guru Arjan), the Guru Granth Sahib affirmed as eternal Guru by Guru Gobind Singh (1708). **DEFENSIBLE-as-practice:** *naam simran*, *sevā*, *langar* as lived disciplines. **DEFENSIBLE-as-theology:** Ik Onkar as monotheistic unity. · **cut** the "this document IS Ik Onkar / transmits as you read" device · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+> ⟦ **layer** 5 · **objective** a true-to-tradition Sikh lens — the One, the Word, service, the saint-soldier · **per-claim status** — **SOLID (historical):** the ten Gurus, the Mūl Mantar (Guru Nanak's opening composition; final form Guru Arjan), the Guru Granth Sahib affirmed as eternal Guru by Guru Gobind Singh (1708). **DEFENSIBLE-as-practice:** *naam simran*, *sevā*, *langar* as lived disciplines. **DEFENSIBLE-as-theology:** Ik Onkar as monotheistic unity. · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > **ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ…**
 > *Ik Onkar, Sat Nām, Kartā Purakh, Nirbhau, Nirvair…*

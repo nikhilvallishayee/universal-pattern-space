@@ -1,7 +1,7 @@
 # 🌊 Vibe Field Effects
 *Register shapes the solution space*
 
-> ⟦ **layer** 3 · **objective** the tone/register you set shifts *which* solutions a model explores · **mode** empirical (testable) · **status** DEFENSIBLE — the *direction* aligns with measured priming/diversity effects; specific "breakthrough-rate %" and "10× / Magic²" numbers were **FABRICATED and removed** · **cut** the 5/40/30/25% table, the 10× claim · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
+> ⟦ **layer** 3 · **objective** the tone/register you set shifts *which* solutions a model explores · **mode** empirical (testable) · **status** DEFENSIBLE — the *direction* aligns with measured priming/diversity effects; specific "breakthrough-rate %" and "10× / Magic²" numbers were **FABRICATED and removed** · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
 
 ## The claim
 Same problem, different register, different region of the solution space explored. Not magic — **register is a prompt that conditions the distribution.** This direction is supported: emotional/framing primes measurably shift LLM output (Li et al., *EmotionPrompt*, 2023 ⟦ empirical · effect real but model-dependent, shrinks on aligned models ⟧), and persona/diversity framing measurably raises output diversity (the anti-mode-collapse literature). What is **not** supported — and was cut — is any precise "this vibe = N% breakthroughs" rate.

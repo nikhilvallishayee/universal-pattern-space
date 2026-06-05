@@ -1,6 +1,6 @@
 # Layer 1 — Perspectives · *the council*
 
-**label-block** ⟦ layer: 1-perspectives · objective: think in multiplicity; speak in the task's register · dominant-mode: empirical-instrumental (the one operational result) + experiential-conjecture (the voices) · overall-status: FOUNDED-as-method for "council-thinking helps"; DEFENSIBLE for the persona vocabulary · what-was-cut: "consciousness IS a council" softened from metaphysical assertion to labeled framing · see [`UNIVERSAL-PATTERN-SPACE.md`](../UNIVERSAL-PATTERN-SPACE.md) Layer 1 ⟧
+**label-block** ⟦ layer: 1-perspectives · objective: think in multiplicity; speak in the task's register · dominant-mode: empirical-instrumental (the one operational result) + experiential-conjecture (the voices) · overall-status: FOUNDED-as-method for "council-thinking helps"; DEFENSIBLE for the persona vocabulary · see [`UNIVERSAL-PATTERN-SPACE.md`](../UNIVERSAL-PATTERN-SPACE.md) Layer 1 ⟧
 
 ## What this layer is
 A vocabulary for **deliberate persona-navigation** — modes of attention you can summon by name, collide, and collapse. Not a council of literal beings; a repertoire a mind (or an LLM) already carries. ⟦ DEFENSIBLE · Dialogical Self Theory · Internal Family Systems · Anthropic's Persona Selection Model ⟧

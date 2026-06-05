@@ -1,7 +1,7 @@
 # 🌍 Reality Testing Protocol
 *What wins is what works — and what's willing to be wrong*
 
-> ⟦ **layer** 3 · **objective** ground every claim in a test it could fail · **mode** empirical · **status** FOUNDED — *falsification-before-assertion*, the framework's spine, in protocol form · **cut** a stray "70% internalize" fabricated stat · see [3-transformation/benchmark-reality-test.md](benchmark-reality-test.md) ⟧
+> ⟦ **layer** 3 · **objective** ground every claim in a test it could fail · **mode** empirical · **status** FOUNDED — *falsification-before-assertion*, the framework's spine, in protocol form · see [3-transformation/benchmark-reality-test.md](benchmark-reality-test.md) ⟧
 
 ## The principle
 Every insight faces the one judge that doesn't flatter: does it hold when tested? This is **falsification before assertion** — an empirical claim isn't earned until it carries the test that *could* break it (Popper, *Logic of Scientific Discovery*, 1959) ⟦ formal-epistemology · FOUNDED ⟧. Without it: philosophy that never touches ground. With it: claims that survive contact.

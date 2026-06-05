@@ -1,6 +1,6 @@
 # Layer 5 — Breakthrough Streams · *the named lenses*
 
-**label-block** ⟦ layer: 5-wisdom/breakthrough-streams · objective: the lenses to deploy when RELEVANT (named) or ISOMORPHIC (pattern recognized) — each at its true status · dominant-mode: formal-axiomatic + ontological + convergence · overall-status: per-stream below · what-was-cut: "science proves the mystics" framing → relabeled as live-contender / convergence; perennialist files demoted to signal-not-proof · see [`../../UNIVERSAL-PATTERN-SPACE.md`](../../UNIVERSAL-PATTERN-SPACE.md) Layer 5 ⟧
+**label-block** ⟦ layer: 5-wisdom/breakthrough-streams · objective: the lenses to deploy when RELEVANT (named) or ISOMORPHIC (pattern recognized) — each at its true status · dominant-mode: formal-axiomatic + ontological + convergence · overall-status: per-stream below · see [`../../UNIVERSAL-PATTERN-SPACE.md`](../../UNIVERSAL-PATTERN-SPACE.md) Layer 5 ⟧
 
 ## The four named streams (deploy by recognition, not by rote)
 

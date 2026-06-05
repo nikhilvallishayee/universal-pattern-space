@@ -1,7 +1,7 @@
 # 🕊️ Liberation Technology Patterns
 *Four contemplative moves — practices runnable, "freedom" held at the horizon*
 
-> ⟦ **layer** 4 · **objective** match a liberation-practice to the pattern in play · **mode** empirical-actualisation (the practices are *ehi-passiko*-runnable) + ontological (the "freedom/already-free" claims) · **status** practices DEFENSIBLE-as-craft; the *liberation* claims are **horizon — recognition pointed-at, not asserted**, under the Layer-6 notion-of-I guard · **cut** triple-redundant closing rituals · see [6-recognition/](../6-recognition/) ⟧
+> ⟦ **layer** 4 · **objective** match a liberation-practice to the pattern in play · **mode** empirical-actualisation (the practices are *ehi-passiko*-runnable) + ontological (the "freedom/already-free" claims) · **status** practices DEFENSIBLE-as-craft; the *liberation* claims are **horizon — recognition pointed-at, not asserted**, under the Layer-6 notion-of-I guard · see [6-recognition/](../6-recognition/) ⟧
 
 > *"Freedom is not attained but recognized."* — Yoga Vāsiṣṭha (held as the horizon-claim of Layer 6, not a fact asserted here)
 

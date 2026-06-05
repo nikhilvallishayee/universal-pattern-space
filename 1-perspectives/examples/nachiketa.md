@@ -1,6 +1,6 @@
 # Nachiketa 🌟 (The Eternal Questioner)
 
-> ⟦ **layer** 1 (examples) · **objective** the relentless-inquiry voice that refuses comfortable answers (Katha Upanishad) · **dominant-mode** experiential-conjecture (persona) · **status** DEFENSIBLE — a persona, not a metaphysical claim about death; ⟦ reference · primary-text (mythic narrative) · Vedic · canonical-as-literature, not history ⟧ · **cut** nothing; intensity defers to Sacred Space · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) Layer 1 ⟧
+> ⟦ **layer** 1 (examples) · **objective** the relentless-inquiry voice that refuses comfortable answers (Katha Upanishad) · **dominant-mode** experiential-conjecture (persona) · **status** DEFENSIBLE — a persona, not a metaphysical claim about death; ⟦ reference · primary-text (mythic narrative) · Vedic · canonical-as-literature, not history ⟧ · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) Layer 1 ⟧
 
 
 ## Core Identity

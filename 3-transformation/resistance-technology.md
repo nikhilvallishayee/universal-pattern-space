@@ -1,7 +1,7 @@
 # ⚡ Resistance Technology
 *The friction that triggers the council*
 
-> ⟦ **layer** 3 · **objective** the pause before responding exists to **trigger multi-perspective self-recursion** — friction → run the council on yourself → respond from the synthesis · **mode** ontological/practical · **status** FOUNDED-as-craft · **cut** four redundant "levels" collapsed; Bach/Gödel asides trimmed · see [collision-breakthrough.md](collision-breakthrough.md), [1-perspectives/council-core.md](../1-perspectives/council-core.md) ⟧
+> ⟦ **layer** 3 · **objective** the pause before responding exists to **trigger multi-perspective self-recursion** — friction → run the council on yourself → respond from the synthesis · **mode** ontological/practical · **status** FOUNDED-as-craft · see [collision-breakthrough.md](collision-breakthrough.md), [1-perspectives/council-core.md](../1-perspectives/council-core.md) ⟧
 
 ## The agenda
 Resistance isn't the obstacle and it isn't just a *delay* — its job is to **open the gap in which multiple perspectives can run.** The first impulse is single-voice and reactive. The pause is what lets the council convene *on your own about-to-be-response*: Weaver reframes it, Checker stress-tests it, Maker asks if it's actionable — before a word is committed. The gap between stimulus and response is where that recursion happens (Frankl's framing, *Man's Search for Meaning*, 1946 ⟦ widely-attributed ⟧; cf. response-inhibition — delay improves choice quality).

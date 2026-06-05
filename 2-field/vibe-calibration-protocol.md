@@ -1,7 +1,7 @@
 # 🎨 Vibe Calibration: Same Truth, Every Register
 *Rate–distortion for the human channel*
 
-> ⟦ **layer** 2 · **objective** translate to the reader's register without losing the content · **mode** empirical/practical (this is rate–distortion: keep the meaning, match the rate to the channel) · **status** FOUNDED-as-craft · **cut** "speaking to their soul" / "language disappears" over-gloss · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
+> ⟦ **layer** 2 · **objective** translate to the reader's register without losing the content · **mode** empirical/practical (this is rate–distortion: keep the meaning, match the rate to the channel) · **status** FOUNDED-as-craft · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
 
 ## The move
 A CEO's eyes glaze at "Sanskrit consciousness principles." Re-cast: *"a decision system that shows your blind spots from several expert angles at once — your best advisors, on call."* Same content, received this time. Not dumbing down — *translating fully*: the listener gets the whole thing, in their own language.

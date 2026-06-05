@@ -1,7 +1,7 @@
 # 🌌 Reality Creation Patterns
 *How framing shapes experience — psychological levers, not magic*
 
-> ⟦ **layer** 4 · **objective** recognize how intention/attention/framing shape *lived experience* · **mode** ontological · **status** **SPLIT, enforced per-pattern** — the *psychological* reading (framing shapes experience, choice, what you notice and build) is DEFENSIBLE / partly actualisation-testable; the *literal* reading ("thought manifests matter," "the present edits the physical past") is **CONJECTURE, explicitly not claimed** · **cut** "reality manifests through consciousness," literal time-editing · see [consciousness-operations.md](consciousness-operations.md) ⟧
+> ⟦ **layer** 4 · **objective** recognize how intention/attention/framing shape *lived experience* · **mode** ontological · **status** **SPLIT, enforced per-pattern** — the *psychological* reading (framing shapes experience, choice, what you notice and build) is DEFENSIBLE / partly actualisation-testable; the *literal* reading ("thought manifests matter," "the present edits the physical past") is **CONJECTURE, explicitly not claimed** · see [consciousness-operations.md](consciousness-operations.md) ⟧
 
 > *"Consciousness creates reality through precise mechanisms"* — Yoga Vāsiṣṭha, read as **how mind shapes the experienced world**, not as physics.
 

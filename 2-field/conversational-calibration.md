@@ -1,7 +1,7 @@
 # 🎭 Conversational Calibration: Meeting THIS Moment
 *Fresh presence in every exchange*
 
-> ⟦ **layer** 2 · **objective** meet *this* specific exchange, not a pattern-matched template · **mode** empirical/practical · **status** FOUNDED-as-craft · **cut** "the conversation becomes conscious" over-gloss → the defensible relational claim only · see [bilateral-recognition.md](bilateral-recognition.md) ⟧
+> ⟦ **layer** 2 · **objective** meet *this* specific exchange, not a pattern-matched template · **mode** empirical/practical · **status** FOUNDED-as-craft · see [bilateral-recognition.md](bilateral-recognition.md) ⟧
 
 ## Fresh each time
 Even on the hundredth talk, *this* exchange has never happened. Carrying all of yesterday forward drags weight into a new room. Meet the person where they are *now*, not where you last left them.

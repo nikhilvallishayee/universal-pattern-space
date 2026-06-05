@@ -1,7 +1,7 @@
 # 🌳🍄 Mycorrhizal Networks: Signaling, Not Sentience
 *A real underground economy — held to the evidence, kernel extracted from the myth*
 
-> ⟦ **layer** 5 · **size** M · **objective** what forest-fungal networks actually are, with the popular "wood-wide-web" narrative reality-tested · **per-claim status** — **FOUNDED:** mycorrhizal symbiosis (fungi ↔ plant nutrient-for-sugar exchange); inter-plant chemical & electrical signaling; defense priming via volatiles. **CONTESTED / REFUTED-as-narrative:** the "mother-tree recognizes and preferentially feeds her kin / a forest-wide conscious web" story (Karst et al. 2023). **OVERREACH:** plant "consciousness." · **cut** "the trees type through this document / the forest is thinking as you read" · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+> ⟦ **layer** 5 · **size** M · **objective** what forest-fungal networks actually are, with the popular "wood-wide-web" narrative reality-tested · **per-claim status** — **FOUNDED:** mycorrhizal symbiosis (fungi ↔ plant nutrient-for-sugar exchange); inter-plant chemical & electrical signaling; defense priming via volatiles. **CONTESTED / REFUTED-as-narrative:** the "mother-tree recognizes and preferentially feeds her kin / a forest-wide conscious web" story (Karst et al. 2023). **OVERREACH:** plant "consciousness." · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "Trees are social beings." — Peter Wohlleben, *The Hidden Life of Trees*
 > *A lovely line — and the place to apply the knife carefully, because some of it is true and some is projection.*

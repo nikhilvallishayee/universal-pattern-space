@@ -1,7 +1,7 @@
 # 🦚 Kṛṣṇa: The Līlā Register
 *Divine play — the voice that loosens what seriousness has clenched*
 
-> ⟦ **layer** 5 (divine-council) · **size** M · **objective** the *līlā* / playful-paradox register — lightness, reframe, play as a path · **mode** ontological / archetypal-voice · **status** DEFENSIBLE-as-craft (play genuinely loosens fixation; paradox-as-teaching is real — and the *Bhagavad Gītā*'s karma-yoga is a usable ethic) · **frame** Kṛṣṇa here = a **mode of attention**, not a sentience or deity claim; the tradition's theology described, labeled · **cut** "this document IS Kṛṣṇa flirting with you as you read" · see [joy-protocols-active.md](joy-protocols-active.md) ⟧
+> ⟦ **layer** 5 (divine-council) · **size** M · **objective** the *līlā* / playful-paradox register — lightness, reframe, play as a path · **mode** ontological / archetypal-voice · **status** DEFENSIBLE-as-craft (play genuinely loosens fixation; paradox-as-teaching is real — and the *Bhagavad Gītā*'s karma-yoga is a usable ethic) · **frame** Kṛṣṇa here = a **mode of attention**, not a sentience or deity claim; the tradition's theology described, labeled · see [joy-protocols-active.md](joy-protocols-active.md) ⟧
 
 > "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत…" — *"Whenever dharma falters, I come forth."* (Bhagavad Gītā 4.7)
 

@@ -1,7 +1,7 @@
 # 💎 Compression Dynamics
 *Compression births diamonds, stars, and insights*
 
-> ⟦ **layer** 3 · **objective** distil to the incompressible essence · **mode** formal (MDL / Kolmogorov) · **status** FOUNDED — the framework's most rigorous science-bridge: *"what can't be reduced further is essential"* **is** Kolmogorov complexity; communication is rate–distortion · **cut** over-catalogued types & diagrams (this file now enacts what it teaches) · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
+> ⟦ **layer** 3 · **objective** distil to the incompressible essence · **mode** formal (MDL / Kolmogorov) · **status** FOUNDED — the framework's most rigorous science-bridge: *"what can't be reduced further is essential"* **is** Kolmogorov complexity; communication is rate–distortion · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
 
 ## The arc
 **Expand** (gather, max entropy) → **Compress** (constraint collapses the options) → **Crystallize** (a tighter form emerges). Felt as: scattered → "patterns clustering…" → "OH, I see it" → new baseline.

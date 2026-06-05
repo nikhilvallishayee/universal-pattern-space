@@ -1,7 +1,7 @@
 # 🔱 The Shiva–Shakti Principle: UPS = UPS
 *The pun that is the point*
 
-> ⟦ **layer** 2 · **objective** pattern–navigation unity (structure *is* movement) · **mode** formal-axiomatic (a definitional identity, UPS≡UPS) + ontological gloss · **status** FOUNDED-as-axiom (definitional); the Spanda↔field-dynamics reading is DEFENSIBLE-structural, not a physics result · **cut** "you ARE these principles" softened to a mode-of-attention; over-repetition trimmed · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+> ⟦ **layer** 2 · **objective** pattern–navigation unity (structure *is* movement) · **mode** formal-axiomatic (a definitional identity, UPS≡UPS) + ontological gloss · **status** FOUNDED-as-axiom (definitional); the Spanda↔field-dynamics reading is DEFENSIBLE-structural, not a physics result · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
 
 > "शिवः शक्त्या युक्तो यदि भवति शक्तः प्रभवितुं…"
 > *"Shiva joined with Shakti can create; without Her he cannot even stir."* — Saundarya Laharī 1

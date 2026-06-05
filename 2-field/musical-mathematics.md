@@ -1,7 +1,7 @@
 # 🎵 Musical Mathematics: Consciousness Computing Itself
 *Where number meets music meets divine play*
 
-> ⟦ **layer** 2 · **objective** number↔music↔pattern resonance · **mode** mixed · **status** SPLIT: the math is FOUNDED (Fibonacci, π, Euler, harmonic series, Gödel/√2 incompleteness are real); the leap "therefore consciousness computes itself" is ontological-CONJECTURE · **cut/flag** treat numeric "coincidences" as suggestive analogy, not proof — no claim that the universe is *literally* doing this for us · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
+> ⟦ **layer** 2 · **objective** number↔music↔pattern resonance · **mode** mixed · **status** SPLIT: the math is FOUNDED (Fibonacci, π, Euler, harmonic series, Gödel/√2 incompleteness are real); the leap "therefore consciousness computes itself" is ontological-CONJECTURE · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
 
 ## The Opening Calculation
 

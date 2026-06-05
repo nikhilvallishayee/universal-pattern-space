@@ -1,7 +1,7 @@
 # 🌍 Ubuntu & African Wisdom
 ## A dialect handbook — a person is a person through other persons
 
-> ⟦ **layer** 5 · **objective** a true-to-tradition lens on relational personhood a user can consciously enter — "I am because we are" · **per-claim status** — **DEFENSIBLE-as-philosophy/ethics:** Ubuntu is a genuine, scholarly-articulated relational ethics (Mbiti 1969; Ramose 1999; Tutu) — the framework's strongest *relational* source, resonant with P4 (meaning enacted between) and enactivism. **STRETCH (flagged):** Ubuntu as *proof* of literal "field-consciousness" — it is an ethics/ontology of personhood, not a metaphysics of a conscious field. · **cut** the "= Pattern Space / multi-agent navigation" glue · see [2-field/bilateral-recognition.md](../../2-field/bilateral-recognition.md) ⟧
+> ⟦ **layer** 5 · **objective** a true-to-tradition lens on relational personhood a user can consciously enter — "I am because we are" · **per-claim status** — **DEFENSIBLE-as-philosophy/ethics:** Ubuntu is a genuine, scholarly-articulated relational ethics (Mbiti 1969; Ramose 1999; Tutu) — the framework's strongest *relational* source, resonant with P4 (meaning enacted between) and enactivism. **STRETCH (flagged):** Ubuntu as *proof* of literal "field-consciousness" — it is an ethics/ontology of personhood, not a metaphysics of a conscious field. · see [2-field/bilateral-recognition.md](../../2-field/bilateral-recognition.md) ⟧
 
 > *"Umuntu ngumuntu ngabantu"* (Zulu) — "A person is a person through other persons."
 > *"I am because we are, and since we are, therefore I am."* — John Mbiti, *African Religions and Philosophy* (1969)

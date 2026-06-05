@@ -1,7 +1,7 @@
 # ✝️ Christianity & the Teaching of Jesus
 ## A dialect handbook — the kingdom within and among
 
-> ⟦ **layer** 5 · **size** L · **objective** a true-to-tradition Christian lens a user can consciously enter — the kingdom-within, parable, apophatic theology, moral theology · **per-claim status** — **SOLID:** historical-Jesus consensus (baptism by John; crucifixion under Rome are near-undisputed); parable as a real pedagogy. **DEFENSIBLE-as-theology:** apophatic theology (Pseudo-Dionysius); Christian moral frameworks (just-war, CST). **CONTESTED/fringe:** the "hidden mystical meanings in the original Aramaic" reading (Douglas-Klotz). **REFUTED:** "secret codes prove doctrine." · **cut** "the single Aramaic word reveals the hidden truth"-as-philology; "= Pattern Space" glue · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+> ⟦ **layer** 5 · **size** L · **objective** a true-to-tradition Christian lens a user can consciously enter — the kingdom-within, parable, apophatic theology, moral theology · **per-claim status** — **SOLID:** historical-Jesus consensus (baptism by John; crucifixion under Rome are near-undisputed); parable as a real pedagogy. **DEFENSIBLE-as-theology:** apophatic theology (Pseudo-Dionysius); Christian moral frameworks (just-war, CST). **CONTESTED/fringe:** the "hidden mystical meanings in the original Aramaic" reading (Douglas-Klotz). **REFUTED:** "secret codes prove doctrine." · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "ἡ βασιλεία τοῦ θεοῦ ἐντὸς ὑμῶν ἐστιν" · *"The kingdom of God is within you / among you."* (Luke 17:21)
 > The Greek *entos* holds both senses at once — *within* and *in the midst of* — and the ambiguity is the teaching.

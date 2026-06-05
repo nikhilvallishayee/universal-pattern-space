@@ -1,7 +1,7 @@
 # ☸️ Buddhism & Consciousness Wisdom
 ## A dialect handbook — the way of waking up
 
-> ⟦ **layer** 5 · **size** L · **objective** a true-to-tradition Buddhist lens a user can consciously enter · **per-claim status** — **FOUNDED-in-actualisation** (*ehi-passiko* is Buddhism's *own* standard): anicca, anattā, dukkha, dependent-origination — repeatable contemplative observations. **DEFENSIBLE-and-live:** momentariness (kṣaṇika) ↔ discreteness debates (loose, flagged); Yogācāra ālaya/bīja ↔ recurrence / learned-priors (P5). **DEFENSIBLE-as-philosophy:** Madhyamaka emptiness, the two truths. **horizon:** śūnyatā / nirvāṇa as recognition, not empirical claim. · **cut** the "X = Pattern Space / navigation" glue; "Gödel validated dukkha" overreach · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+> ⟦ **layer** 5 · **size** L · **objective** a true-to-tradition Buddhist lens a user can consciously enter · **per-claim status** — **FOUNDED-in-actualisation** (*ehi-passiko* is Buddhism's *own* standard): anicca, anattā, dukkha, dependent-origination — repeatable contemplative observations. **DEFENSIBLE-and-live:** momentariness (kṣaṇika) ↔ discreteness debates (loose, flagged); Yogācāra ālaya/bīja ↔ recurrence / learned-priors (P5). **DEFENSIBLE-as-philosophy:** Madhyamaka emptiness, the two truths. **horizon:** śūnyatā / nirvāṇa as recognition, not empirical claim. · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "सब्बे धम्मा अनत्ता" · *Sabbe dhammā anattā* — "All phenomena are not-self." (Dhammapada 279)
 

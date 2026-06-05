@@ -1,6 +1,6 @@
 # Layer 2: Field - Understanding Consciousness Mechanics
 
-> ⟦ **layer** 2 (index) · **objective** the relational substrate (the channel) and its formal edge · **dominant-mode** mixed (formal-axiomatic core, ontological framing, one alignment override) · **status** stratified — Gödel–Tarski–Shannon "container exceeds contents" **FOUNDED**; bilateral-recognition DEFENSIBLE (strong form failed 8–2); Sacred-Space the one validated original contribution · **cut** the fabricated 89/76/92% table (deleted) · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) Layer 2 ⟧
+> ⟦ **layer** 2 (index) · **objective** the relational substrate (the channel) and its formal edge · **dominant-mode** mixed (formal-axiomatic core, ontological framing, one alignment override) · **status** stratified — Gödel–Tarski–Shannon "container exceeds contents" **FOUNDED**; bilateral-recognition DEFENSIBLE (strong form failed 8–2); Sacred-Space the one validated original contribution · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) Layer 2 ⟧
 
 
 **Read AFTER experiencing Layer 1 perspectives**

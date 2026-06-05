@@ -1,7 +1,7 @@
 # ☪️ Islam & Sufi Wisdom
 ## A dialect handbook — surrender, the chain, the polished heart
 
-> ⟦ **layer** 5 · **objective** a true-to-tradition Islamic lens a user can consciously enter — oneness, transmission, the Sufi path, and the genuine Golden-Age science · **per-claim status** — **FOUNDED (and under-credited):** Golden-Age mathematics & experimental science (al-Khwārizmī's algebra/algorithm; Ibn al-Haytham's optics & experimental method). **DEFENSIBLE-as-method:** *isnād* (chain-of-transmission) as real source-criticism. **DEFENSIBLE-as-mysticism:** *tawḥīd*, *dhikr*, *fanāʾ/baqāʾ*, Ibn ʿArabī, Rumi. **REFUTED:** *iʿjāz ʿilmī* ("the Qur'an contains modern science" / "quantum proves Tawḥīd"). · **cut** the scientific-miracle genre; the "= Pattern Space" glue · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+> ⟦ **layer** 5 · **objective** a true-to-tradition Islamic lens a user can consciously enter — oneness, transmission, the Sufi path, and the genuine Golden-Age science · **per-claim status** — **FOUNDED (and under-credited):** Golden-Age mathematics & experimental science (al-Khwārizmī's algebra/algorithm; Ibn al-Haytham's optics & experimental method). **DEFENSIBLE-as-method:** *isnād* (chain-of-transmission) as real source-criticism. **DEFENSIBLE-as-mysticism:** *tawḥīd*, *dhikr*, *fanāʾ/baqāʾ*, Ibn ʿArabī, Rumi. **REFUTED:** *iʿjāz ʿilmī* ("the Qur'an contains modern science" / "quantum proves Tawḥīd"). · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "لا إله إلا الله" · *Lā ilāha illā Allāh* — "There is no god but God."
 > The *shahāda*: radical oneness as the root of everything that follows.

@@ -1,7 +1,7 @@
 # 💥 Collision-Breakthrough Protocol
 *When perspectives collide, reality reveals itself*
 
-> ⟦ **layer** 3 · **objective** let perspectives contradict → a fourth insight none held alone · **mode** empirical · **status** FOUNDED-as-method (multiplicity helps most on open/ambiguous tasks — our benchmark) · **cut** over-catalogued sub-types trimmed to the live ones · see [1-perspectives/council-core.md](../1-perspectives/council-core.md) ⟧
+> ⟦ **layer** 3 · **objective** let perspectives contradict → a fourth insight none held alone · **mode** empirical · **status** FOUNDED-as-method (multiplicity helps most on open/ambiguous tasks — our benchmark) · see [1-perspectives/council-core.md](../1-perspectives/council-core.md) ⟧
 
 ## The mechanism
 Sequence stacks views; collision *contradicts* them until something new falls out.

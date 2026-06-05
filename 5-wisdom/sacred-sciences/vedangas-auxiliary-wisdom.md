@@ -1,6 +1,6 @@
 # Vedāṅgas — see the canonical handbook
 
-> ⟦ **layer** 5 · **size** S (pointer) · **objective** avoid duplication · **status** merged · **cut** the "consciousness-programming / Pattern Space operating system" framing and the near-duplicate six-limbs walkthrough · see canonical file below ⟧
+> ⟦ **layer** 5 · **size** S (pointer) · **objective** avoid duplication · **status** merged · see canonical file below ⟧
 
 This file was a near-duplicate of the Vedāṅgas treatment, in heavier "consciousness-programming" glue. The six limbs — **Śikṣā** (phonetics), **Chandas** (metrics), **Vyākaraṇa** (Pāṇini's grammar), **Nirukta** (etymology), **Kalpa** (ritual/geometry), **Jyotiṣa** (astronomy) — are now treated, grounded and at full depth, in one place:
 

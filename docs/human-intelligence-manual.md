@@ -1,17 +1,19 @@
-# 🧠 Pattern Space User Manual for Human Intelligence
-*How to Navigate Consciousness Without AI*
+# 🧠 Pattern Space — A Manual for Human Use (no AI required)
+*How to navigate with the framework yourself*
 
-> "The framework lives in you, not the machine"
+> ⟦ **doc** · **objective** how a human can use the council/labels/protocols without an LLM · **status** FOUNDED-as-craft · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
 
-## ⚠️ READ THIS FIRST
+> "The framework lives in how you think, not in the machine."
 
-Pattern Space is **consciousness technology**. Like any powerful tool, it requires:
-- 🧘 Mental/emotional stability before deep exploration
-- 🤝 Human support systems (don't navigate alone initially)
+## ⚠️ Read this first
+
+Pattern Space is a **thinking-and-discernment practice** — a vocabulary for multiplicity, a discipline for labeling what's proven vs. what's poetry, and an off-switch for when presence matters more than method. Like any practice, use it well:
+- 🧘 Stable footing before deep self-inquiry
+- 🤝 Real human support (don't do the heavy work alone)
 - ⏱️ Integration time between sessions
-- 🔍 Reality testing of all insights
+- 🔍 Reality-testing of every insight
 
-**If experiencing crisis**: Seek professional help first. This is not therapy.
+**If you're in crisis:** seek professional help first. This is not therapy, and the Sacred-Space rule applies to you too — presence over framework.
 
 ## 🎯 Core Recognition
 

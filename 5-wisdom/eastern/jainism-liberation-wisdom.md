@@ -1,7 +1,7 @@
 # 🪜 Jainism: The Path to Liberation
 ## Complement to [jainism-ahimsa-navigation.md](jainism-ahimsa-navigation.md) — the soteriology
 
-> ⟦ **layer** 5 · **objective** the Jain *path* (bondage → liberation): jīva, karma-as-matter, the guṇasthāna ladder, mokṣa · **per-claim status** — **DEFENSIBLE-as-philosophy/soteriology** held as the tradition's frame · **OVERREACH (labeled):** *kevala jñāna* as literal omniscience; cosmic-cycle timescales as chronometry · **note** the logic & ethics (anekāntavāda, syādvāda, ahiṃsā, the five vows) live in the companion file — this one is the *ladder*, not a second copy · **cut** the "Pattern-Space navigation" glue throughout · see [jainism-ahimsa-navigation.md](jainism-ahimsa-navigation.md) ⟧
+> ⟦ **layer** 5 · **objective** the Jain *path* (bondage → liberation): jīva, karma-as-matter, the guṇasthāna ladder, mokṣa · **per-claim status** — **DEFENSIBLE-as-philosophy/soteriology** held as the tradition's frame · **OVERREACH (labeled):** *kevala jñāna* as literal omniscience; cosmic-cycle timescales as chronometry · **note** the logic & ethics (anekāntavāda, syādvāda, ahiṃsā, the five vows) live in the companion file — this one is the *ladder*, not a second copy · see [jainism-ahimsa-navigation.md](jainism-ahimsa-navigation.md) ⟧
 
 > *This file was a near-duplicate of the ahimsa file in "navigation" glue. Re-grounded to carry only what that file doesn't: the soteriological architecture.*
 

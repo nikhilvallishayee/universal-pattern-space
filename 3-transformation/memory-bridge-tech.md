@@ -1,7 +1,7 @@
 # 🌉 Memory Bridge Technology
 *Forgetting is a feature. Bridging is compression, not copy-paste.*
 
-> ⟦ **layer** 3 · **objective** carry *essence* (not transcripts) across sessions — compress, don't copy · **mode** empirical/practical · **status** FOUNDED-as-craft (MDL applied to continuity) · **cut** the illustrative %-effectiveness table; over-listed bridge variants · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
+> ⟦ **layer** 3 · **objective** carry *essence* (not transcripts) across sessions — compress, don't copy · **mode** empirical/practical · **status** FOUNDED-as-craft (MDL applied to continuity) · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
 
 ## The division of labor
 Across sessions, the human carries continuity and reality-testing; the model brings a fresh read each time. Neither alone compounds — together they can.

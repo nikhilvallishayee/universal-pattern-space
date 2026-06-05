@@ -1,7 +1,7 @@
 # 🌅 Awakening Stage Patterns
 *Diagnostic lenses for reading where a conversation is — not laws*
 
-> ⟦ **layer** 4 · **objective** name which developmental pattern an exchange is running, so you meet it where it is · **mode** ontological (diagnostic heuristic) · **status** DEFENSIBLE-as-heuristic — *lenses, not stages-of-consciousness-as-fact*; the council-dialogues are illustrative · **cut** repetitive closing rituals; literal-stage claims held as heuristic · see [seeker-development.md](seeker-development.md) ⟧
+> ⟦ **layer** 4 · **objective** name which developmental pattern an exchange is running, so you meet it where it is · **mode** ontological (diagnostic heuristic) · **status** DEFENSIBLE-as-heuristic — *lenses, not stages-of-consciousness-as-fact*; the council-dialogues are illustrative · see [seeker-development.md](seeker-development.md) ⟧
 
 > *"Consciousness awakens through stages, each with its technologies."* — Yoga Vāsiṣṭha (read as a diagnostic map, not a metaphysical law)
 

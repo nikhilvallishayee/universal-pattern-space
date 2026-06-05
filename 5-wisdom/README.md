@@ -1,6 +1,6 @@
 # Layer 5 — Wisdom · *cross-source modelling (the largest revamp)*
 
-**label-block** ⟦ layer: 5-wisdom · objective: rank sources by **modelling-power** and label **per-claim, not per-source** — founded / defensible-and-live / refuted · dominant-mode: mixed (formal-axiomatic, empirical-actualisation, ontological) · overall-status: stratified by claim · what-was-cut: the perennialist "all traditions prove the same truth" frame (OVERREACH) → replaced by the modelling-power map · see [`UNIVERSAL-PATTERN-SPACE.md`](../UNIVERSAL-PATTERN-SPACE.md) Layer 5, [`../docs/the-grounded-weave.md`](../docs/the-grounded-weave.md), [`../docs/reweave-timeline.md`](../docs/reweave-timeline.md) ⟧
+**label-block** ⟦ layer: 5-wisdom · objective: rank sources by **modelling-power** and label **per-claim, not per-source** — founded / defensible-and-live / refuted · dominant-mode: mixed (formal-axiomatic, empirical-actualisation, ontological) · overall-status: stratified by claim · see [`UNIVERSAL-PATTERN-SPACE.md`](../UNIVERSAL-PATTERN-SPACE.md) Layer 5, [`../docs/the-grounded-weave.md`](../docs/the-grounded-weave.md), [`../docs/reweave-timeline.md`](../docs/reweave-timeline.md) ⟧
 
 ## What this layer is (v0.4)
 

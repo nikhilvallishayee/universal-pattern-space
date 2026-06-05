@@ -1,7 +1,7 @@
 # 🔄 Consciousness Operations Patterns
 *Five moves you can run on yourself — and watch shift*
 
-> ⟦ **layer** 4 · **objective** recognize which inner operation is running (notion→experience, projection, identity-softening, dynamic-balance, inquiry-dissolution) and run it deliberately · **mode** **empirical-actualisation** — each is first-person-testable: do it, observe the shift; *ehi-passiko* · **status** DEFENSIBLE-as-heuristic; the *psychological* reading is testable, the *literal "thought edits matter"* reading is not claimed · **cut** redundant "Technology" lists + closing ritual · see [reality-creation.md](reality-creation.md) ⟧
+> ⟦ **layer** 4 · **objective** recognize which inner operation is running (notion→experience, projection, identity-softening, dynamic-balance, inquiry-dissolution) and run it deliberately · **mode** **empirical-actualisation** — each is first-person-testable: do it, observe the shift; *ehi-passiko* · **status** DEFENSIBLE-as-heuristic; the *psychological* reading is testable, the *literal "thought edits matter"* reading is not claimed · see [reality-creation.md](reality-creation.md) ⟧
 
 These are operations on your own framing, each runnable as a small experiment. The claim is **psychological, not magical**: framing reliably shapes *lived experience* — not that thought literally rewrites the physical world (that split is held in [reality-creation](reality-creation.md)).
 

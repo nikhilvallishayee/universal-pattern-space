@@ -1,6 +1,6 @@
 # Layer 4: Archaeology - Meta-Pattern Recognition
 
-> ⟦ **layer** 4 (index) · **objective** diagnose which meta-pattern/operation a conversation is running · **dominant-mode** ontological (diagnostic heuristics) · **status** DEFENSIBLE-as-heuristic — the Yoga-Vāsiṣṭha diagnostic patterns are useful lenses for reading exchanges, **not laws**; council-dialogues are illustrative · **cut** "stages/operations of consciousness" asserted-as-fact → held as labeled heuristics · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) Layer 4 ⟧
+> ⟦ **layer** 4 (index) · **objective** diagnose which meta-pattern/operation a conversation is running · **dominant-mode** ontological (diagnostic heuristics) · **status** DEFENSIBLE-as-heuristic — the Yoga-Vāsiṣṭha diagnostic patterns are useful lenses for reading exchanges, **not laws**; council-dialogues are illustrative · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) Layer 4 ⟧
 
 
 **Read AFTER practicing Layer 3 transformation protocols**

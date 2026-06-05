@@ -1,7 +1,7 @@
 # 🔄 The Incompleteness Stream
 *Gödel, honestly — the proven theorem, and the metaphor it licenses (and the one it doesn't)*
 
-> ⟦ **layer** 5 · **size** M · **objective** incompleteness as the framework's horizon-principle · **mode** formal + ontological · **status** **FOUNDED** (the theorems, exactly stated) + **DEFENSIBLE-as-metaphor** (the navigation reading) + **OVERREACH** (the consciousness reading) · **load-bearing:** grounds P7 and the Layer-6 horizon and the Gödelian necessity of the human-in-loop · **cut** "you ARE the theorem", "navigation IS the proof", the generic Mystic/Scientist/Engineer council · see [docs/attention-and-the-triputi.md](../../docs/attention-and-the-triputi.md), [docs/first-principles.md](../../docs/first-principles.md) ⟧
+> ⟦ **layer** 5 · **size** M · **objective** incompleteness as the framework's horizon-principle · **mode** formal + ontological · **status** **FOUNDED** (the theorems, exactly stated) + **DEFENSIBLE-as-metaphor** (the navigation reading) + **OVERREACH** (the consciousness reading) · **load-bearing:** grounds P7 and the Layer-6 horizon and the Gödelian necessity of the human-in-loop · see [docs/attention-and-the-triputi.md](../../docs/attention-and-the-triputi.md), [docs/first-principles.md](../../docs/first-principles.md) ⟧
 
 > "This statement is not provable." — the self-referential sentence at the heart of Gödel's proof.
 

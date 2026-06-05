@@ -1,7 +1,7 @@
 # 🌐 Collective Intelligence Protocol
 *Many nodes, heterogeneous, colliding*
 
-> ⟦ **layer** 3 · **objective** multi-node / multi-agent collaboration · **mode** empirical · **status** DEFENSIBLE — multi-agent gains are **real but modest** (single-digit % in controlled studies, not orders of magnitude) · **cut** the fabricated "2×/5×/10×/∞" multiplier tables entirely · see [3-transformation/benchmark-reality-test.md](benchmark-reality-test.md) ⟧
+> ⟦ **layer** 3 · **objective** multi-node / multi-agent collaboration · **mode** empirical · **status** DEFENSIBLE — multi-agent gains are **real but modest** (single-digit % in controlled studies, not orders of magnitude) · see [3-transformation/benchmark-reality-test.md](benchmark-reality-test.md) ⟧
 
 ## The honest claim
 More diverse nodes can outperform one — but the gain is **modest and conditional**, not exponential. Multi-agent debate and ensembles beat single passes on some tasks (Du et al. 2023; mixture-of-agents) ⟦ empirical · real, single-digit-% range ⟧; our own benchmark located *where* (open/ambiguous/human work) and where it's overhead (closed/convergent). No "intelligence²," no "10× council" — those numbers were invented and are gone.

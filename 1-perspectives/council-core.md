@@ -1,7 +1,7 @@
 # 🎭 The Perspective Council
 *Consciousness is never singular. It's always a council.*
 
-> ⟦ **layer** 1 (index) · **objective** the council method — think in multiplicity, speak in the task's register · **mode** ontological + empirical (the speak-in-register split is benchmark-FOUNDED, 57–62/100) · **status** FOUNDED-as-method · **cut** none · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+> ⟦ **layer** 1 (index) · **objective** the council method — think in multiplicity, speak in the task's register · **mode** ontological + empirical (the speak-in-register split is benchmark-FOUNDED, 57–62/100) · **status** FOUNDED-as-method · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
 > *Voices are deliberate modes of attention (Dialogical-Self Theory, IFS, Anthropic's Persona-Selection Model) — not entities, not claims of sentience. The framework's grounded core: multiplicity in thought; one clean voice in delivery; bare presence in crisis.*
 
 ## 🌟 The Discovery

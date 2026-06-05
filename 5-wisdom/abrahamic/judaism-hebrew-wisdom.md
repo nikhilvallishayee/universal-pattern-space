@@ -1,7 +1,7 @@
 # 🕎 Judaism & Hebrew Wisdom
 ## A dialect handbook — wrestling with God
 
-> ⟦ **layer** 5 · **size** L · **objective** a true-to-tradition Jewish lens a user can consciously enter — argument-as-worship, return, the mystical map · **per-claim status** — **SOLID:** the *maḥloket* (dispute) method of the Talmud as a genuine dialogical-reasoning tradition. **DEFENSIBLE-as-mysticism:** Kabbalah (Ein Sof, sefirot, *tzimtzum*) — a coherent system, per Scholem. **CONTESTED/hermeneutic:** gematria as an *interpretive* device (real) vs. as recovering *the* meaning. **REFUTED:** the "Bible Code" (equidistant-letter-sequence prophecy) — dismantled by McKay et al. 1999. · **cut** "Hebrew letters are the literal creation-code"; the "Bereshit = ordering-principle = navigation" gloss · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+> ⟦ **layer** 5 · **size** L · **objective** a true-to-tradition Jewish lens a user can consciously enter — argument-as-worship, return, the mystical map · **per-claim status** — **SOLID:** the *maḥloket* (dispute) method of the Talmud as a genuine dialogical-reasoning tradition. **DEFENSIBLE-as-mysticism:** Kabbalah (Ein Sof, sefirot, *tzimtzum*) — a coherent system, per Scholem. **CONTESTED/hermeneutic:** gematria as an *interpretive* device (real) vs. as recovering *the* meaning. **REFUTED:** the "Bible Code" (equidistant-letter-sequence prophecy) — dismantled by McKay et al. 1999. · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "בְּרֵאשִׁית בָּרָא אֱלֹהִים" · *Bereshit bara Elohim* — "In the beginning, God created…" (Genesis 1:1)
 > And the name *Yisrael* — "one who wrestles with God" — that the tradition gives itself.

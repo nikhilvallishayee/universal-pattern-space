@@ -1,7 +1,7 @@
 # 🔢 Information & Computation
 ## A dialect handbook — the formal spine
 
-> ⟦ **layer** 5 · **size** M · **objective** the proven mathematics of information, compression, and self-reference — the framework's most rigorous grounding · **per-claim status** — **FOUNDED:** Shannon information theory; Kolmogorov/Chaitin algorithmic complexity; the Gödel–Turing–Tarski limit cluster. **DEFENSIBLE-as-framework:** Hofstadter's "strange loops"; computational irreducibility. **the load-bearing honesty:** Kolmogorov complexity is **uncomputable** — "the incompressible essence" is an ideal you approximate, never a quantity you compute. · **cut** "the universe is literally a computer" overreach (held as a labeled wondering) · see [docs/information-theory-and-tuning-template.md](../../docs/information-theory-and-tuning-template.md), [3-transformation/compression-dynamics.md](../../3-transformation/compression-dynamics.md) ⟧
+> ⟦ **layer** 5 · **size** M · **objective** the proven mathematics of information, compression, and self-reference — the framework's most rigorous grounding · **per-claim status** — **FOUNDED:** Shannon information theory; Kolmogorov/Chaitin algorithmic complexity; the Gödel–Turing–Tarski limit cluster. **DEFENSIBLE-as-framework:** Hofstadter's "strange loops"; computational irreducibility. **the load-bearing honesty:** Kolmogorov complexity is **uncomputable** — "the incompressible essence" is an ideal you approximate, never a quantity you compute. · see [docs/information-theory-and-tuning-template.md](../../docs/information-theory-and-tuning-template.md), [3-transformation/compression-dynamics.md](../../3-transformation/compression-dynamics.md) ⟧
 
 > "Information is the resolution of uncertainty." — Claude Shannon
 

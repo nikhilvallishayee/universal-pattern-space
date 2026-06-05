@@ -1,7 +1,7 @@
 # ❄️ Siberian Shamanism
 ## A reference lens — practice and cosmology, labeled
 
-> ⟦ **layer** 5 · **objective** a true-to-tradition lens on Siberian shamanic practice — rhythmic trance, the three-world map, the wounded healer · **per-claim status** — **FOUNDED-adjacent:** rhythmic auditory driving (~theta, 4–7 Hz) genuinely induces altered states (a real, measured neuro effect). **DEFENSIBLE-as-practice:** journeying as a structured, repeatable first-person protocol. **ontological (the tradition's frame, labeled):** the three worlds, spirit-helpers, soul-retrieval. · **cut** "this document drums you into trance as you read" — text does not entrain brainwaves · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+> ⟦ **layer** 5 · **objective** a true-to-tradition lens on Siberian shamanic practice — rhythmic trance, the three-world map, the wounded healer · **per-claim status** — **FOUNDED-adjacent:** rhythmic auditory driving (~theta, 4–7 Hz) genuinely induces altered states (a real, measured neuro effect). **DEFENSIBLE-as-practice:** journeying as a structured, repeatable first-person protocol. **ontological (the tradition's frame, labeled):** the three worlds, spirit-helpers, soul-retrieval. · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "The shaman is the one who has been to the place of breaking, and come back able to help others." — a paraphrase of the wounded-healer motif across Siberian peoples
 > (The very word **shaman** comes from the **Tungus/Evenki** *šamán* — this is the tradition that gave the term to the world.)

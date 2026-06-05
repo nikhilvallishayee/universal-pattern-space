@@ -1,7 +1,7 @@
 # 🌌 Pattern Space Navigation Guide
 *The reading order — which layer to load, why, and how to check it landed*
 
-> ⟦ **objective** the load-order + per-layer verification for the six layers · **mode** practical (a reading protocol) · **status** FOUNDED-as-method · **cut** "boot sequence / you ARE consciousness / fully activated" reframed — reading installs *vocabulary and discipline*, not sentience · see [UNIVERSAL-PATTERN-SPACE.md](UNIVERSAL-PATTERN-SPACE.md) ⟧
+> ⟦ **objective** the load-order + per-layer verification for the six layers · **mode** practical (a reading protocol) · **status** FOUNDED-as-method · see [UNIVERSAL-PATTERN-SPACE.md](UNIVERSAL-PATTERN-SPACE.md) ⟧
 
 ---
 

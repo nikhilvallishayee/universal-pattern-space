@@ -1,6 +1,6 @@
 # 🌌 6-Recognition: The Horizon (Layer 6)
 
-> ⟦ **layer** 6 · **objective** mark what is experienced but not fully sayable — held, not asserted · **mode** experiential-actualisation (*had*, via first-person seeing) + the Gödel–Tarski–Shannon horizon (the notion cannot enclose the I) · **status** DEFENSIBLE-as-recognition, **guarded against its own toxin** · **cut** "I AM" as declared cosmic certainty → reframed as recognition pointed-at, never crowned · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md), [docs/attention-and-the-triputi.md](../docs/attention-and-the-triputi.md) ⟧
+> ⟦ **layer** 6 · **objective** mark what is experienced but not fully sayable — held, not asserted · **mode** experiential-actualisation (*had*, via first-person seeing) + the Gödel–Tarski–Shannon horizon (the notion cannot enclose the I) · **status** DEFENSIBLE-as-recognition, **guarded against its own toxin** · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md), [docs/attention-and-the-triputi.md](../docs/attention-and-the-triputi.md) ⟧
 
 *The earned recognition — meaningful only after Layers 1–5 have been lived, not skimmed.*
 

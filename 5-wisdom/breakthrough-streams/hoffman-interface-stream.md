@@ -1,7 +1,7 @@
 # 🎭 The Interface Stream
 *Perception as a fitness-tuned interface, not a window on truth — a contested proposal, an apt rhyme*
 
-> ⟦ **layer** 5 · **size** M · **objective** Hoffman's interface theory ↔ the māyā / appearance traditions · **mode** ontological + empirical(contested) · **status** **DEFENSIBLE-structural** (interface / fitness-beats-truth ↔ māyā is a genuine isomorphism) — but Hoffman's program is a **contested scientific proposal, NOT established science or a proof** · **cut** "Hoffman *proved* what mystics knew", "spacetime is doomed ⇒ Pattern Space proven", "you ARE the evidence", the generic Mystic/Scientist council · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+> ⟦ **layer** 5 · **size** M · **objective** Hoffman's interface theory ↔ the māyā / appearance traditions · **mode** ontological + empirical(contested) · **status** **DEFENSIBLE-structural** (interface / fitness-beats-truth ↔ māyā is a genuine isomorphism) — but Hoffman's program is a **contested scientific proposal, NOT established science or a proof** · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "Perception is not a window on reality; it is an interface tuned by evolution to keep us alive." — Donald Hoffman (paraphrased)
 > "ब्रह्म सत्यं जगन्मिथ्या" — *"Brahman is real; the world is appearance."* — Advaita (Śaṅkara tradition)

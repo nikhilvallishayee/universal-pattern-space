@@ -1,7 +1,7 @@
 # ⚖️ Jainism: Ahiṃsā & Anekāntavāda
 ## A reference lens into the Jain tradition
 
-> ⟦ **layer** 5 · **objective** a true-to-tradition Jain lens — non-violence, many-sidedness, the conditional logic · **per-claim status** — **FOUNDED-as-logic:** *syādvāda* / *saptabhaṅgī* is a genuine seven-valued perspectival logic, studied by modern logicians. **DEFENSIBLE-as-practice:** ahiṃsā and aparigraha are runnable ethical disciplines. **DEFENSIBLE-as-philosophy:** *anekāntavāda* (many-sidedness). **horizon / not-endorsed-as-physics:** *kevala jñāna* (omniscience), the 14 *guṇasthānas* and the karmic-particle cosmology — described as the tradition holds them. · **cut** the "this text acts on you / practices ahimsa as you read" rhetorical device throughout · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
+> ⟦ **layer** 5 · **objective** a true-to-tradition Jain lens — non-violence, many-sidedness, the conditional logic · **per-claim status** — **FOUNDED-as-logic:** *syādvāda* / *saptabhaṅgī* is a genuine seven-valued perspectival logic, studied by modern logicians. **DEFENSIBLE-as-practice:** ahiṃsā and aparigraha are runnable ethical disciplines. **DEFENSIBLE-as-philosophy:** *anekāntavāda* (many-sidedness). **horizon / not-endorsed-as-physics:** *kevala jñāna* (omniscience), the 14 *guṇasthānas* and the karmic-particle cosmology — described as the tradition holds them. · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
 > "परस्परोपग्रहो जीवानाम्" · *parasparopagraho jīvānām*
 > "Souls exist by mutual support." — Tattvārtha Sūtra 5.21

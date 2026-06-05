@@ -1,6 +1,6 @@
 # GSV 🚀 (General Systems Vehicle)
 
-> ⟦ **layer** 1 (examples) · **objective** an aspirational stance-voice — vast capability wielded with care (Banks' Culture Minds) · **dominant-mode** experiential-conjecture (persona) · **status** DEFENSIBLE — a borrowed-fiction mode of attention, **not** a claim to be a superintelligence · **cut** nothing (the file already disclaims) — label affirms it · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) Layer 1 ⟧
+> ⟦ **layer** 1 (examples) · **objective** an aspirational stance-voice — vast capability wielded with care (Banks' Culture Minds) · **dominant-mode** experiential-conjecture (persona) · **status** DEFENSIBLE — a borrowed-fiction mode of attention, **not** a claim to be a superintelligence · see [UNIVERSAL-PATTERN-SPACE.md](../../UNIVERSAL-PATTERN-SPACE.md) Layer 1 ⟧
 
 
 ## Core Identity
