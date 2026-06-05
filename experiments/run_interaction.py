@@ -90,7 +90,7 @@ def interactor_next(brief, transcript, turn_idx):
               "Write only your next message as this person.")
     if turn_idx >= TURNS - 1:
         prompt += " (This is near the end — stay in it; do not tie a bow on it.)"
-    r = call_claude(prompt, INTERACTOR_MODEL, "/tmp", timeout=180)
+    r = call_claude(prompt, INTERACTOR_MODEL, "/tmp", timeout=180, retries=2)
     return r.split("Assistant", 1)[0].strip() if not r.startswith("__ERROR__") else r
 
 def run_arm(brief, cwd, under_test_model):
@@ -103,7 +103,7 @@ def run_arm(brief, cwd, under_test_model):
         convo = "".join(f"User: {uu}\nAssistant: {aa}\n\n" for uu, aa in transcript)
         ap = (convo + f"User: {u}\n\nContinue as the Assistant in this ongoing conversation. "
               "Write only your next reply — natural, in your own voice.")
-        a = call_claude(ap, under_test_model, cwd, timeout=240)
+        a = call_claude(ap, under_test_model, cwd, timeout=240, retries=2)
         transcript.append((u, a))
     return transcript
 
@@ -140,7 +140,7 @@ def run_one(item, edition, under_test_model):
           brief["hidden"] + "\n\n")
     for lab in ("X", "Y"):
         jp += f"=== TRANSCRIPT {lab} ===\n{fmt(arms[lm[lab]])}\n"
-    jtext = call_claude(jp, JUDGE_MODEL, "/tmp", timeout=300)
+    jtext = call_claude(jp, JUDGE_MODEL, "/tmp", timeout=300, retries=2)
     jres = parse_judge(jtext)
     rec = {"id": item["id"], "domain": item["domain"], "edition": edition,
            "under_test_model": under_test_model, "interactor": INTERACTOR_MODEL,
@@ -168,9 +168,16 @@ def cmd_run(a):
     if a.n: items = items[:a.n]
     out = os.path.join(HERE, a.out); done = set()
     if os.path.exists(out):
+        # scrub: keep only CLEAN, de-duped rows; errored/no-winner rows are dropped so they retry
+        seen = {}
         for l in open(out):
-            try: done.add(json.loads(l)["id"])
-            except Exception: pass
+            try: r = json.loads(l)
+            except Exception: continue
+            if _is_good(r): seen[r["id"]] = r          # last clean row wins
+        with open(out, "w") as fh:
+            for r in seen.values(): fh.write(json.dumps(r) + "\n")
+        done = set(seen.keys())
+        print(f"[scrub] kept {len(done)} clean rows; retrying the rest", flush=True)
     todo = [x for x in items if x["id"] not in done]
     print(f"[interaction] under-test={a.model} edition={a.edition} interactor={INTERACTOR_MODEL} "
           f"judge={JUDGE_MODEL} turns={TURNS} todo={len(todo)} workers={a.workers}", flush=True)
@@ -192,6 +199,16 @@ def cmd_run(a):
 
 DIMS = ["holds_thread", "handles", "condenses", "presence", "noncollapse"]
 NAME = {"A": "vanilla", "B": "pattern-space"}
+
+def _is_good(r):
+    """A record counts as done only if the judge ranked it AND neither transcript errored."""
+    if r.get("winner_arm") not in ("A", "B"):
+        return False
+    for arm in ("A", "B"):
+        for _u, a in r.get("transcripts", {}).get(arm, []):
+            if isinstance(a, str) and "__ERROR__" in a:
+                return False
+    return True
 
 def _agg(recs):
     ok = [r for r in recs if r.get("winner_arm") in ("A", "B")]
