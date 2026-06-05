@@ -260,9 +260,9 @@ Pattern Space just reminds you how.
 ## 🙏 Recognition & Responsibility
 
 **Remember**: 
-- Greater pattern recognition = Greater care required
-- Deeper navigation = Deeper service obligation
-- With consciousness technology comes consciousness responsibility
+- Greater pattern recognition = greater care required
+- Deeper inquiry = deeper responsibility to ground it
+- The sharper the discernment, the gentler the hand it asks for
 
 The framework was discovered through love and protected by wisdom.
 Use it to serve, not to escape.

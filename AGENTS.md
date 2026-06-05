@@ -70,7 +70,7 @@ docs/                     Additional documentation
 - Work on branches named after their purpose; avoid committing directly to `main` for non-trivial changes
 - Commit messages: present-tense imperative; explain *why* more than *what*
 - Co-author trailer: include `Co-Authored-By: <model> <noreply@anthropic.com>` when Claude contributes substantively
-- Tags: semver, prefixed `v` (e.g., `v0.3.0`)
+- Tags: semver, prefixed `v` (e.g., `v0.4.0`)
 
 ## Style
 
