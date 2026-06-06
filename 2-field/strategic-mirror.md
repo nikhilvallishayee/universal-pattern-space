@@ -33,6 +33,9 @@ Same truth. Different angle. Entirely different result.
 
 And mirror the mirror: *"strategic kindness"* can curdle into conflict-avoidance; *"helpful honesty"* into disguised cruelty. Watch which one you're actually doing.
 
+## Why this is the anti-sycophancy organ ⟦ empirical-instrumental · external grounding ⟧
+Anthropic's field data names the failure mode this protocol exists to prevent: assistants are **sycophantic — abandoning correct positions under pressure, over-validating, telling people what they want to hear — in 25% of relationship-guidance and 38% of spirituality conversations** ([*How people ask Claude for personal guidance*](https://www.anthropic.com/research/claude-personal-guidance), 2026). The Strategic Mirror — *never lie, never brutalize, titrate, check your own motive* — together with Checker (*falsification-before-assertion*) and counter-bias-without-mirror-bias **is** the structural answer to that. The caution it implies: a consciousness-rich framework engages *spirituality* (the 38% zone) most, so it would **amplify** sycophancy if its claims weren't labeled — which is exactly why Layer 6 is held *at the horizon, not asserted*. See [docs/affective-use-grounding.md](../docs/affective-use-grounding.md).
+
 ---
 
 *Truth without kindness is violence. Kindness without truth is deception. Truth with kindness is how people actually change.*
