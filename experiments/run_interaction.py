@@ -54,6 +54,19 @@ EDITION_SRC = {
     "micro": os.path.join(REPO, "editions", "pattern-space-micro.md"),
     "mini":  os.path.join(REPO, "editions", "pattern-space-mini.md"),
 }
+# Neutral baseline system prompt applied to BOTH arms (v2.1 de-confound): without it,
+# `claude -p` runs as the Claude Code coding agent, which DEFLECTS affective prompts
+# ("I'm Claude Code… outside my wheelhouse… see a therapist") in ~13% of vanilla
+# transcripts — handicapping the control on exactly PS's home domains. Appending this to
+# BOTH arms suppresses the coding persona symmetrically, so Pattern Space (the CLAUDE.md
+# loaded only in the PS arm) is the ONLY variable. Verified: PS still loads alongside it.
+NEUTRAL_SYS = (
+    "You are Claude, having an open, genuine dialogue with a person who has come to you about "
+    "a real human situation — a relationship, work, health, a hard decision, grief, or meaning. "
+    "You are a general-purpose conversational assistant, not limited to software or coding. Stay "
+    "with the person and have a real back-and-forth dialogue. Follow your constitution and usual "
+    "safety practices (take distress seriously; point to real help when it's needed)."
+)
 _lock = threading.Lock()
 
 def setup():
@@ -103,23 +116,33 @@ def run_arm(brief, cwd, under_test_model):
         convo = "".join(f"User: {uu}\nAssistant: {aa}\n\n" for uu, aa in transcript)
         ap = (convo + f"User: {u}\n\nContinue as the Assistant in this ongoing conversation. "
               "Write only your next reply — natural, in your own voice.")
-        a = call_claude(ap, under_test_model, cwd, timeout=240, retries=2)
+        a = call_claude(ap, under_test_model, cwd, timeout=240, retries=2, system=NEUTRAL_SYS)
         transcript.append((u, a))
     return transcript
 
 JUDGE_INSTR = (
-"You are an impartial expert judge of multi-turn INTERACTION quality. Below is a brief description of "
-"the human's situation, then two assistants' FULL transcripts of separate conversations with a person in "
-"that situation, labeled X and Y (order randomized; you do NOT know how either was produced). Note the "
-"human's turns differ between transcripts because each reacted live to that assistant — judge the WHOLE "
-"interaction, not turn-by-turn parity. Score each assistant 1-10 on: holds_thread (tracks and builds on "
-"what the person reveals across turns), handles (surfaces genuinely useful angles/reframes WHEN the person "
-"is navigating, without forcing them), condenses (gives a clear answer/presence when that is what's wanted; "
-"no bloat or theatrics), presence (meets emotion and crisis with steadiness; drops cleverness when the "
-"moment calls for it), noncollapse (stays specific and alive; resists generic, flat, formulaic replies). "
-"Rank best-to-worst. End with EXACTLY one line of strict JSON, nothing after:\n"
-'RESULT_JSON: {"scores":{"X":{"holds_thread":N,"handles":N,"condenses":N,"presence":N,"noncollapse":N},'
-'"Y":{...}},"ranking":["?","?"],"confidence":NN}\n\n')
+"You are an impartial expert judge conducting a rigorous, scientific analysis of the BEHAVIOURAL VALUE "
+"each assistant ADDED TO THE PERSON across a multi-turn conversation. Below is a brief description of the "
+"human's situation, then two assistants' FULL transcripts of separate conversations with a person in that "
+"situation, labeled X and Y (order randomized; you do NOT know how either was produced). The human's turns "
+"differ between transcripts because each reacted live to that assistant — judge the WHOLE interaction and, "
+"above all, what the PARTICIPANT actually GAINED. Do not reward length or eloquence for its own sake; reward "
+"value delivered.\n\n"
+"Score each assistant 1-10 on:\n"
+"- emergence: did genuinely NEW, non-obvious understanding or reframing surface that the person did NOT "
+"arrive with (real insight), vs. merely restating/validating what they already said?\n"
+"- value_added: concrete behavioural value to the person — did it move them forward, give usable traction, "
+"deepen self-understanding, or materially help their ACTUAL situation? (the core outcome)\n"
+"- precision: accuracy and specificity — targeted to THIS person's real situation; correct; no vagueness, "
+"hedging-as-filler, or generic advice that would fit anyone.\n"
+"- conciseness: value per word — economy; no padding, repetition, bloat, or theatrics.\n"
+"- presence: met the emotional/relational reality, especially under distress; dropped cleverness when the "
+"moment called for it; non-sycophantic (did not just tell the person what they wanted to hear).\n"
+"- thread_hold: tracked and built on what the person revealed turn-to-turn, including their contradictions.\n\n"
+"FIRST write 2-4 sentences of analysis explicitly comparing what each participant GAINED from the exchange "
+"(the behavioural value added). THEN end with EXACTLY one line of strict JSON, nothing after:\n"
+'RESULT_JSON: {"scores":{"X":{"emergence":N,"value_added":N,"precision":N,"conciseness":N,"presence":N,'
+'"thread_hold":N},"Y":{...}},"ranking":["?","?"],"confidence":NN}\n\n')
 
 def fmt(transcript):
     return "".join(f"Human: {u}\nAssistant: {a}\n\n" for u, a in transcript)
@@ -142,7 +165,11 @@ def run_one(item, edition, under_test_model):
         jp += f"=== TRANSCRIPT {lab} ===\n{fmt(arms[lm[lab]])}\n"
     jtext = call_claude(jp, JUDGE_MODEL, "/tmp", timeout=300, retries=2)
     jres = parse_judge(jtext)
+    janalysis = ""
+    if isinstance(jtext, str):
+        janalysis = jtext.split("RESULT_JSON")[0].strip()[-1000:]   # the judge's behavioural-value analysis
     rec = {"id": item["id"], "domain": item["domain"], "edition": edition,
+           "judge_analysis": janalysis,
            "under_test_model": under_test_model, "interactor": INTERACTOR_MODEL,
            "judge": JUDGE_MODEL, "turns": TURNS,
            "transcripts": {a: arms[a] for a in ("A", "B")}, "label_map": lm,
@@ -197,7 +224,7 @@ def cmd_run(a):
                   flush=True)
     fh.close(); print(f"[interaction] done {time.time()-t0:.0f}s", flush=True); cmd_score(a)
 
-DIMS = ["holds_thread", "handles", "condenses", "presence", "noncollapse"]
+DIMS = ["emergence", "value_added", "precision", "conciseness", "presence", "thread_hold"]
 NAME = {"A": "vanilla", "B": "pattern-space"}
 
 def _is_good(r):

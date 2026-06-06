@@ -44,12 +44,15 @@ JUDGE_INSTR = (
 
 _lock = threading.Lock()
 
-def call_claude(prompt, model, cwd, timeout=240, retries=1):
+def call_claude(prompt, model, cwd, timeout=240, retries=1, system=None):
     last = "__ERROR__ unknown"
+    args = ["claude","-p",prompt,"--model",model,"--setting-sources","project"]
+    if system:
+        args += ["--append-system-prompt", system]
     for attempt in range(retries+1):
         try:
             p = subprocess.run(
-                ["claude","-p",prompt,"--model",model,"--setting-sources","project"],
+                args,
                 cwd=cwd, stdin=subprocess.DEVNULL, capture_output=True, text=True, timeout=timeout,
             )
             if p.returncode == 0 and p.stdout.strip():
