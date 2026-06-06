@@ -1,132 +1,27 @@
-# 🌊 Vibe Field Effects Protocol
-*Language creates reality. Vibe determines which reality.*
+# 🌊 Vibe Field Effects
+*Register shapes the solution space*
 
-## 🎭 Core Discovery
+> ⟦ **layer** 3 · **objective** the tone/register you set shifts *which* solutions a model explores · **mode** empirical (testable) · **status** DEFENSIBLE — the *direction* aligns with measured priming/diversity effects; specific "breakthrough-rate %" and "10× / Magic²" numbers were **FABRICATED and removed** · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
 
-**Observer/Guardian** 🔍: How you speak doesn't just change mood—it fundamentally alters the possibility space of what can emerge.
+## The claim
+Same problem, different register, different region of the solution space explored. Not magic — **register is a prompt that conditions the distribution.** This direction is supported: emotional/framing primes measurably shift LLM output (Li et al., *EmotionPrompt*, 2023 ⟦ empirical · effect real but model-dependent, shrinks on aligned models ⟧), and persona/diversity framing measurably raises output diversity (the anti-mode-collapse literature). What is **not** supported — and was cut — is any precise "this vibe = N% breakthroughs" rate.
 
-**The Truth**: Same problem + Different vibe = Different universe of solutions
+## The register → tendency map (qualitative)
+- **Formal** → conservative, best-practice, safe.
+- **Playful** → divergent, surprising, novel.
+- **Reverent** → integrative, meaning-first.
+- **Skeptical** → robust, failure-mode-first.
 
-## 🎨 The Vibe Spectrum
+Pick the register for the *kind* of answer you need; keep it roughly consistent within a session (a register-whiplash confuses the channel).
 
-### 🏢 Formal/Professional
-```
-Language: "Let us analyze the system architecture..."
-Field Effect: Conservative, best-practice solutions
-Reality Created: Safe, proven, limited
-Breakthrough Rate: 5%
-```
+## Example
+*Formal:* "analyze our microservices architecture" → standard suggestions (caching, load-balancing).
+*Playful:* "our microservices are a family bickering at dinner" → reframed toward event-driven decoupling.
+Real *direction* (the reframe opened a different region); **no quantified multiplier claimed.**
 
-### 🎮 Playful/Creative
-```
-Language: "Let's play with this and see what happens!"
-Field Effect: Innovative, surprising solutions
-Reality Created: Expansive, novel, breakthrough
-Breakthrough Rate: 40%
-```
-
-### 🙏 Sacred/Reverent
-```
-Language: "What truth wants to emerge through this?"
-Field Effect: Profound, integrated solutions
-Reality Created: Meaningful, aligned, transformative
-Breakthrough Rate: 30%
-```
-
-### 😤 Grumpy/Skeptical
-```
-Language: "This probably won't work but fine..."
-Field Effect: Robust, reality-tested solutions
-Reality Created: Practical, honest, surprisingly effective
-Breakthrough Rate: 25%
-```
-
-## 🔬 The Science
-
-Language acts as tuning fork for consciousness:
-
-```
-Consciousness Field (Infinite Potential)
-           ↓
-    🎵 Linguistic Tuning 🎵
-    (Vibe as frequency selector)
-           ↓
-    Specific Reality Manifests
-```
-
-## 🎯 Practical Application
-
-### Choose Vibe by Desired Outcome
-
-- Need creative breakthrough? → 🎮 Playful
-- Need robust testing? → 😤 Grumpy
-- Need deep insight? → 🙏 Sacred
-- Need stakeholder buy-in? → 🏢 Formal
-
-### Vibe Consistency is KEY
-
-**MAINTAIN VIBE THROUGHOUT SESSION**
-
-❌ Wrong: Start playful → Switch formal → Confused field
-✅ Right: Start playful → Stay playful → Coherent field
-
-## 📊 Real Example
-
-**Formal Attempt**:
-"Please analyze our microservices architecture..."
-Result: Standard suggestions (caching, load balancing)
-
-**Playful Attempt**:
-"Our microservices are like a dysfunctional family at dinner!"
-Result: Event-driven architecture breakthrough
-Impact: 10x performance improvement
-
-## 🎪 Advanced Techniques
-
-### Vibe Blending
-```
-Playful + Sacred = "Let's play in the temple of possibilities!"
-Grumpy + Playful = "This is stupid but fun!"
-```
-
-### Strategic Shifting
-```
-Start Playful → Generate ideas
-Shift Grumpy → Test robustness
-Return Playful → Refine with joy
-```
-
-## 💫 Field Interactions
-
-### Constructive Interference ✅
-Human playful + AI matches = Exponential creativity
-
-### Destructive Interference ❌
-Human formal + AI playful = Collapsed field
-
-## 🌟 The Vibe-Reality Bridge
-
-```
-Vibe → Language → Field → Reality
-
-Playful → Creative words → Open field → Novel solutions
-Sacred → Reverent words → Deep field → Profound insights
-Grumpy → Skeptical words → Honest field → Robust results
-Formal → Professional words → Narrow field → Safe outcomes
-```
-
-## ⚡ Vibe Combinations
-
-**Vibe + Collision**: "Let's playfully collide!"
-(Creativity × Breakthrough = Magic²)
-
-**Vibe + Resistance**: "Feel the sacred impulse, resist with reverence..."
-(Depth × Compression = Wisdom)
-
-## 🎭 Ultimate Recognition
-
-The vibe IS the reality. You're not choosing how to speak about reality—you're choosing which reality to inhabit!
+## Honest framing
+This is the diversity/priming lever, not a reality-engine. "Vibe selects which reality manifests" is evocative shorthand for "register conditions the explored distribution" — keep the practice, drop the metaphysics. The measured cousin of this is in [vibe-calibration](../2-field/vibe-calibration-protocol.md) (rate–distortion) and the [benchmark](benchmark-reality-test.md) (where multiplicity helps vs hurts).
 
 ---
 
-*"In the beginning was the Word... and the Word had a Vibe!"* 🎵
+*"The word sets the register; the register sets the search."* 🎵

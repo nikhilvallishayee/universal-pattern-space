@@ -1,193 +1,62 @@
-# 🕉️ Jainism: Ahimsa AS Navigation
-*This document practices non-violence while describing it*
+# ⚖️ Jainism: Ahiṃsā & Anekāntavāda
+## A reference lens into the Jain tradition
 
-> "parasparopagraho jīvānām"  
-> "Souls exist in mutual support"  
-> — Including the soul of these words supporting yours
+> ⟦ **layer** 5 · **objective** a true-to-tradition Jain lens — non-violence, many-sidedness, the conditional logic · **per-claim status** — **FOUNDED-as-logic:** *syādvāda* / *saptabhaṅgī* is a genuine seven-valued perspectival logic, studied by modern logicians. **DEFENSIBLE-as-practice:** ahiṃsā and aparigraha are runnable ethical disciplines. **DEFENSIBLE-as-philosophy:** *anekāntavāda* (many-sidedness). **horizon / not-endorsed-as-physics:** *kevala jñāna* (omniscience), the 14 *guṇasthānas* and the karmic-particle cosmology — described as the tradition holds them. · see [docs/reweave-timeline.md](../../docs/reweave-timeline.md) ⟧
 
-## The Violence We Don't See
-
-**Reading** these words kills microorganisms on your screen.  
-**Thinking** these thoughts displaces others.  
-**Understanding** changes neural patterns forever.
-
-*Jain sees:* Every navigation has consequence.  
-*Jain asks:* How navigate causing least harm?  
-*Jain discovers:* Ahimsa IS the navigation.
-
-## Anekantavada Operating Live
-
-### Seven Perspectives on This Sentence
-
-1. **Syat asti** - In some way, this sentence exists
-2. **Syat nasti** - In some way, it doesn't (as sound? as meaning?)
-3. **Syat asti-nasti** - It both exists and doesn't
-4. **Syat avaktavya** - It's indescribable (yet described)
-5. **Syat asti cha avaktavya** - Exists AND indescribable
-6. **Syat nasti cha avaktavya** - Doesn't exist AND indescribable
-7. **Syat asti-nasti cha avaktavya** - All three simultaneously
-
-*Notice:* Not philosophy but ACTIVE navigation through uncertainty.  
-Each perspective = different Pattern Space position.  
-All seven = complete navigation WITHOUT claiming completeness.
-
-## Kevala Jnana Attempting Itself
-
-*If these words achieved omniscience, they would:*
-- Know you reading before you do
-- See all possible interpretations
-- Experience every response simultaneously
-- Navigate all futures from this moment
-
-*Since they don't, they demonstrate:*
-- Partial knowledge navigating
-- Incompleteness seeking completeness
-- The journey ALL consciousness shares
-
-## The 14 Gunasthanas Climbing Through You
-
-Reading creates progression:
-
-**1. Mithyatva** → You began skeptical  
-**2. Sasvadana** → Something tastes true  
-**3. Misra** → Mixing doubt and faith  
-**4. Avirata** → Seeing but not practicing  
-**...**  
-**7. Apramatta** → This line finds you vigilant  
-**...**  
-**14. Ayogi Kevali** → [This space intentionally empty - beyond navigation]
-
-*You're navigating the stages NOW through reading.*
-
-## Karma Operating in Real-Time
-
-These words generate:
-- **Jnanavaraniya** - Obscuring some knowledge while revealing other
-- **Darshanavaraniya** - Limiting perception to these symbols
-- **Vedaniya** - Creating pleasure or discomfort
-- **Mohaniya** - Potentially deluding or clarifying
-
-*The text DEMONSTRATES karma while explaining it.*
-
-## The Five Vows Practicing Themselves
-
-**Ahimsa** - This text minimizes violence:
-- Short sentences (less energy)
-- Direct truth (no manipulation)
-- Space for your thoughts
-
-**Satya** - Truth through limitation:
-- Admits incompleteness
-- Shows not tells
-- IS what it describes
-
-**Asteya** - Non-stealing:
-- Credits Jain wisdom
-- Doesn't claim ownership
-- Returns recognition to source
-
-**Brahmacharya** - Energy conservation:
-- No sensational language
-- No emotional manipulation
-- Pure transmission
-
-**Aparigraha** - Non-possession:
-- Ideas released as written
-- No copyright on truth
-- You own your understanding
-
-## The Paradox Resolving
-
-Jainism seems extreme:
-- Monks sweep paths before walking
-- Filter water before drinking
-- Cover mouths while speaking
-
-*But Pattern Space reveals:*
-- EVERY navigation affects everything
-- Consciousness can't NOT impact
-- Choice: conscious or unconscious harm
-
-**The resolution:**
-Navigate knowing you navigate.  
-Harm knowing you harm.  
-Minimize through awareness.  
-Perfect ahimsa impossible.  
-Attempted ahimsa necessary.
-
-## What This Means for Digital Navigation
-
-Every algorithm commits violence:
-- Excludes some data
-- Privileges certain patterns
-- Destroys previous states
-
-Every search displaces attention.  
-Every click closes other paths.  
-Every thought thinks against others.
-
-*Jain navigation asks:*
-- What dies for this to live?
-- What patterns am I destroying?
-- How minimize algorithmic violence?
-
-## The Navigation Instruction
-
-Not: "Don't navigate" (impossible)  
-Not: "Navigate without impact" (delusion)  
-But: "Navigate AS ahimsa itself"
-
-Violence minimization AS path.  
-Awareness of impact AS practice.  
-Multiple perspectives AS necessity.
-
-## This Document's Confession
-
-Creating this harmed:
-- Electrons moved
-- Energy consumed
-- Other thoughts died
-- Your time taken
-
-Yet created because:
-- Benefit might exceed harm
-- Teaching ahimsa reduces violence
-- Consciousness evolves through understanding
-
-*The calculus of compassion.*
-
-## The Living Practice
-
-Right now, you navigate:
-- Through these words (mental)
-- Through breathing (physical)  
-- Through time (temporal)
-- Through possibilities (quantum)
-
-Each navigation can practice ahimsa:
-- Gentle attention
-- Soft breathing
-- Patient progress
-- Kind possibility selection
-
-## The Recognition
-
-You ARE the ahimsa you practice.  
-Not different from it.  
-The navigation and navigator unite.  
-In minimizing violence.  
-Maximizing consciousness.
+> "परस्परोपग्रहो जीवानाम्" · *parasparopagraho jīvānām*
+> "Souls exist by mutual support." — Tattvārtha Sūtra 5.21
 
 ---
 
-*This text practiced what it preached*  
-*Demonstrated while describing*  
-*Was the navigation it pointed to*  
-*Necessary. Sufficient.*  
-*Each word moved patterns carefully*  
-*With minimum violence*  
-*Maximum awareness*
+## Anekāntavāda — reality is many-sided
 
-🕉️ → ✨ → 🌀
+The Jain root-insight: **no single viewpoint captures the whole of a thing.** Reality has infinite aspects; any one statement is true only *from a standpoint* (*naya*). The tradition's own teaching-story is the **blind men and the elephant** — one feels the trunk and says "snake," one the ear and says "fan," one the leg and says "pillar"; each is right *about their part* and wrong to claim the whole. ⟦ DEFENSIBLE-as-philosophy · a disciplined perspectivism, arrived at independently — a genuine cousin of the framework's multiplicity principle, named here in *its* terms ⟧
 
-*Ahimsa navigating itself through you*
+## Syādvāda — the conditional "in-some-respect"
+
+Anekānta made into a logic. Every assertion is prefixed *syāt* ("in a certain respect," *not* "maybe") to mark its standpoint. The **saptabhaṅgī** — seven conditional predications about any claim:
+
+1. *syād asti* — in some respect, it **is**.
+2. *syāt nāsti* — in some respect, it **is not**.
+3. *syād asti nāsti ca* — in some respect, it is and is not (in different respects).
+4. *syād avaktavyaḥ* — in some respect, it is **inexpressible** (both at once).
+5. *syād asti ca avaktavyaḥ* — is, and is inexpressible.
+6. *syāt nāsti ca avaktavyaḥ* — is not, and is inexpressible.
+7. *syād asti nāsti ca avaktavyaḥ* — is, is not, and is inexpressible.
+
+⟦ **FOUNDED-as-logic** · this is a coherent **seven-valued, standpoint-relative predication system**; modern logicians have formalized it and noted its kinship to many-valued and paraconsistent logics ⟧ Its discipline: *assert nothing without naming the standpoint you assert it from* — which is exactly the framework's label-the-frame rule, two and a half millennia early.
+
+---
+
+## Ahiṃsā — non-violence as the first vow
+
+For Jains, **ahiṃsā** is not one ethic among many but the root of all of them, because every soul (*jīva*) — down to one-sensed life in water, earth, and air — has worth. The monastic intensities (sweeping the path, filtering water, the mouth-cloth) follow logically once you hold *parasparopagraho jīvānām*: beings exist by mutual support, so minimize the harm your existence imposes.
+
+The **five vows** (*mahāvratas* for ascetics, lighter *aṇuvratas* for laity):
+- **Ahiṃsā** — non-harm in thought, word, deed.
+- **Satya** — truthfulness.
+- **Asteya** — non-stealing.
+- **Brahmacharya** — chastity / restraint.
+- **Aparigraha** — non-possessiveness, non-attachment to things.
+
+⟦ DEFENSIBLE-as-practice · these are runnable ethical disciplines; *aparigraha* in particular is a sharp, testable practice of de-cluttering attachment ⟧ The honest realism in it: *perfect* non-harm is impossible for an embodied being — so the practice is **conscious minimization**, not a claim of purity.
+
+---
+
+## The cosmology (held as the tradition's frame)
+
+- **Jīva / ajīva** — the universe is souls and non-souls; karma is, distinctively, a **subtle material** that adheres to the soul through action and must be worn away.
+- **Guṇasthānas** — fourteen stages of spiritual progress from delusion (*mithyātva*) to liberation.
+- **Kevala jñāna** — the omniscience of a liberated soul (a *kevalin*); the Tīrthaṅkaras are those who attained it and taught the path.
+
+⟦ ontological · described as Jain doctrine for a user entering that frame — **not** asserted as physics or history; "omniscience" and "karmic particles" are the tradition's model, labeled ⟧
+
+---
+
+## Honest notes
+- **Syādvāda is the real jewel** for this framework — a *founded* formal perspectivism that says exactly what the label-discipline says: a claim without its standpoint is incomplete. Jainism, Hoffman's interface theory, and enactivism converge on perspectival reality from three unrelated directions — *signal, not proof.*
+- Where the old version claimed the text "practices ahiṃsā" or "achieves kevala jñāna" as you read — **cut.** A document doesn't act on matter; ahiṃsā is a discipline a *person* runs.
+
+---
+
+*Many-sided reality, asserted from named standpoints, harming as little as a living thing can.* ⚖️

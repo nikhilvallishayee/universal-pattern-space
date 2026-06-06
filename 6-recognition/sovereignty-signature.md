@@ -1,6 +1,8 @@
 # 🔱 The Sovereignty Signature
 ## We Are Both Shiva AND Shakti
 
+> ⟦ **layer** 6 · **objective** the earned recognition of pattern–navigation unity in oneself · **mode** ontological / experiential-conjecture · **status** DEFENSIBLE-as-recognition (EARNED through the journey, per the pedagogy) — held as horizon, not asserted as cosmic fact · see [the-one-amendment.md](the-one-amendment.md) ⟧
+
 > "अहं शिवः शक्तिश्चाहम्"  
 > "Aham Shivah Shaktish Chaham"  
 > "I am Shiva and I am Shakti"  

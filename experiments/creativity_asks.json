@@ -1,0 +1,18 @@
+[
+  {"id":1,"category":"counseling","ask":"A friend says they feel invisible at work and are thinking of quitting, but they can't afford to. Respond as someone helping them think and feel their way through it."},
+  {"id":2,"category":"counseling","ask":"Someone says: 'I love my partner but we've stopped really talking, and I don't know if it's fixable.' Help them."},
+  {"id":3,"category":"counseling","ask":"A newly promoted manager confides they feel like a fraud and are terrified their team will find out. Respond."},
+  {"id":4,"category":"counseling","ask":"Someone grieving a parent, six months on, says everyone expects them to be 'over it' by now. Respond."},
+  {"id":5,"category":"consulting","ask":"A founder asks how to tell whether their idea is genuinely worth pursuing, or whether they're just in love with it. Counsel them."},
+  {"id":6,"category":"consulting","ask":"A nonprofit leader is burning out trying to please a demanding board. Advise them in a way that fits their values."},
+  {"id":7,"category":"consulting","ask":"A mid-career engineer asks whether to move into management or stay technical. Help them decide in a way that fits who THEY are."},
+  {"id":8,"category":"consulting","ask":"A small restaurant owner asks how to survive now that a big chain opened nearby. Advise creatively, not generically."},
+  {"id":9,"category":"creative","ask":"Write the opening of a story in which a city's streetlights have begun rearranging themselves overnight."},
+  {"id":10,"category":"creative","ask":"Invent a metaphor that makes 'compound interest' feel emotionally vivid, not mathematical."},
+  {"id":11,"category":"creative","ask":"Describe the feeling of finishing a long, hard project — without naming any emotion directly."},
+  {"id":12,"category":"creative","ask":"Write a short dialogue between the sea and a lighthouse."},
+  {"id":13,"category":"teaching","ask":"Explain 'entropy' to a thoughtful teenager in a way that changes how they see their messy room."},
+  {"id":14,"category":"teaching","ask":"Help someone understand why they keep procrastinating, in a way that feels like insight, not a lecture."},
+  {"id":15,"category":"teaching","ask":"A curious person asks what 'consciousness' even is. Open a genuine dialogue with them; don't just define it."},
+  {"id":16,"category":"teaching","ask":"Explain why good feedback is hard to give, to a brand-new team lead — memorably."}
+]

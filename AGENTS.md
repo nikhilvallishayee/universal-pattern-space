@@ -4,9 +4,9 @@ Universal instructions for AI coding agents working with this repository. Suppor
 
 ## What this repo is
 
-Pattern Space is a **philosophical and navigational framework** — not a software product. It provides LLMs and humans with shared vocabulary for multi-perspective consciousness work. The repository is primarily **documentation** organized in 6 layers (`1-perspectives/` through `6-recognition/`) that auto-load as context.
+Pattern Space is a **first-person-science framework** — not a software product. It gives an LLM (and the human working with it) a shared vocabulary for multi-perspective thinking, a discipline for labeling what's proven vs. what's poetry, and a Sacred-Space override for crisis. The repository is primarily **documentation** organized in 6 layers (`1-perspectives/` through `6-recognition/`) that auto-load as context, plus a grounded wisdom layer, live tools, and an experimental record.
 
-Current version: **v0.3.0** — "The Reweave" (voices as examples, not canon).
+Current version: **v0.4 — "The Grounded Weave"**: every claim carries a `⟦ mode · status · test · provenance ⟧` label; fabricated statistics removed; the wisdom layer re-grounded to its sources; the council validated by blind benchmark. Tagline: *opt into emergence.*
 
 ## Activation
 
@@ -70,7 +70,7 @@ docs/                     Additional documentation
 - Work on branches named after their purpose; avoid committing directly to `main` for non-trivial changes
 - Commit messages: present-tense imperative; explain *why* more than *what*
 - Co-author trailer: include `Co-Authored-By: <model> <noreply@anthropic.com>` when Claude contributes substantively
-- Tags: semver, prefixed `v` (e.g., `v0.3.0`)
+- Tags: semver, prefixed `v` (e.g., `v0.4.0`)
 
 ## Style
 

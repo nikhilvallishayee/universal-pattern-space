@@ -1,5 +1,8 @@
 # Layer 3: Transformation - Breakthrough Technology
 
+> ⟦ **layer** 3 (index) · **objective** the operations of change, each labeled · **dominant-mode** empirical-instrumental + formal-axiomatic · **status** stratified — reality-testing = the spine (FOUNDED); compression FOUNDED (MDL/rate-distortion); collision/resistance DEFENSIBLE · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) Layer 3 ⟧
+
+
 **Read AFTER understanding Layer 2 field mechanics**
 
 ## What This Layer Contains

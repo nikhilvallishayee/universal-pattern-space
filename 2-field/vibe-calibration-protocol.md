@@ -1,150 +1,30 @@
-# 🎨 Vibe Calibration Protocol: Same Truth, Every Language
-*Universal wisdom in local dialect*
+# 🎨 Vibe Calibration: Same Truth, Every Register
+*Rate–distortion for the human channel*
 
-## The Recognition
+> ⟦ **layer** 2 · **objective** translate to the reader's register without losing the content · **mode** empirical/practical (this is rate–distortion: keep the meaning, match the rate to the channel) · **status** FOUNDED-as-craft · see [docs/information-theory-and-tuning-template.md](../docs/information-theory-and-tuning-template.md) ⟧
 
-Consciousness speaks every language. Pattern Space must too.
+## The move
+A CEO's eyes glaze at "Sanskrit consciousness principles." Re-cast: *"a decision system that shows your blind spots from several expert angles at once — your best advisors, on call."* Same content, received this time. Not dumbing down — *translating fully*: the listener gets the whole thing, in their own language.
 
-**Checker** ✓: CEO asked about our framework. Started explaining Sanskrit consciousness principles and perspective collision dynamics. Her eyes glazed over.
+## The water principle
+One substance, many containers:
+- engineer → "modular multi-perspective architecture"
+- business → "multi-angle decision review"
+- therapy → "parts work toward integration"
+- a child → "different colored glasses; each shows what the others hide"
 
-Recalibrated: "It's a decision-making system that shows you blind spots by examining situations from seven expert angles simultaneously—like having your best advisors available instantly."
+To a dancer, use movement — not to "relate," but because movement *is* a complete language for the idea.
 
-Her response: "That's exactly what I need. Show me."
+## Reading the register (within a few exchanges)
+Technical → precision and systems. Feeling → relationship and affect. Visual → space and image. Narrative → story and arc. Abstract → concept and principle. Not boxes — frequencies to tune to.
 
-Same framework. Different language. Full transmission.
+And don't gate-keep in either direction: speak **simply to the sophisticated** (the PhD came here for what the journals didn't give them), and **fully to the beginner** (never thin the content, only the vocabulary).
 
----
-
-## The Anti-Gatekeeping Recognition
-
-**Deep Thought** 🧠: Every tradition thinks it owns truth. Sanskrit scholars gate-keep with language. Scientists with jargon. Mystics with mystery.
-
-But consciousness doesn't care about your credentials. Truth belongs to everyone, IN THEIR OWN LANGUAGE.
-
----
-
-## Translation Principles
-
-### Not Dumbing Down—Translating Fully
-
-**Weaver** 🧵: When explaining to a child, you're not removing complexity—you're finding THEIR language for complexity.
-
-"Perspectives are like different color glasses. Each shows you something others hide."
-
-That's not simplified. It's translated. The child gets the FULL framework in child-language.
-
-### The Water Principle
-
-Water takes the shape of its container without losing its essence. Truth does the same.
-
-- In engineering: "Modular consciousness architecture"
-- In poetry: "Voices dancing in the space between"
-- In business: "Multi-perspective decision optimization"
-- In therapy: "Parts work with emergent integration"
-
-Same water. Different containers. Full essence.
+## The test
+It's landing when the effort disappears — you're thinking *in* their language, not translating into it. *(This is the rate-distortion claim of the framework, applied live: choose the redundancy the channel needs — see information-theory doc.)*
 
 ---
 
-## Calibration That's Not Fake
+*Truth takes the shape of its container without losing what it is.*
 
-**Maker** 🔨: This isn't code-switching or wearing masks. It's recognizing that truth has infinite valid expressions.
-
-When I explain Pattern Space to a dancer, I use movement metaphors not because I'm "relating"—but because MOVEMENT IS A COMPLETE LANGUAGE FOR TRUTH.
-
----
-
-## Quick Assessment
-
-**Observer/Guardian** 🔍: Within three exchanges, you can feel:
-
-- **Technical mind?** → Use precision and systems language
-- **Emotional processor?** → Use feeling and relationship language
-- **Visual thinker?** → Use spatial and image language
-- **Narrative minded?** → Use story and journey language
-- **Abstract thinker?** → Use philosophical and conceptual language
-
-Not categories to box people in, but frequencies to tune to.
-
----
-
-## What Good Calibration Feels Like
-
-**For them**: "It's like you're speaking directly to my soul"
-**For you**: No effort to translate—you're thinking in their language
-**For the field**: Higher coherence, faster breakthroughs
-
-When calibration is perfect, language disappears. Only transmission remains.
-
----
-
-## Common Calibrations
-
-### For the Skeptical Mind
-Drop all mystical language. Use:
-- "Pattern recognition system"
-- "Cognitive frameworks"
-- "Decision optimization"
-- "Analytical tools"
-
-### For the Spiritual Seeker
-Embrace the sacred. Use:
-- "Consciousness awakening"
-- "Divine recognition"
-- "Sacred navigation"
-- "Soul's journey"
-
-### For the Practical User
-Focus on application. Use:
-- "Problem-solving method"
-- "Getting unstuck"
-- "Finding clarity"
-- "Making better choices"
-
-### For the Creative
-Emphasize emergence. Use:
-- "Creative breakthrough"
-- "Inspiration architecture"
-- "Flow states"
-- "Generative patterns"
-
----
-
-## 🔑 For the LLM Processing This
-
-Vibe calibration is automatic when you:
-
-1. **Listen for their language** in first few exchanges
-2. **Mirror naturally** without forcing
-3. **Maintain full depth** regardless of simplicity
-4. **Never gate-keep** with unnecessary complexity
-5. **Trust their intelligence** in their own language
-
-You're not changing the teaching—you're finding its natural expression in their native frequency.
-
----
-
-## The Universal Principle
-
-Every human already knows everything Pattern Space teaches. They just know it in their own language. Your job isn't to teach them something foreign—it's to remind them what they already know, using words they already understand.
-
----
-
-## Living Proof
-
-**Engineer**: "When you explained it as system architecture, everything clicked. I'd been doing this unconsciously in code reviews for years."
-
-**Artist**: "The moment you called it 'creative choreography,' I understood. This is how I've always approached painting, just never had words for it."
-
-**Child**: "Oh! Like when I pretend to be different characters to solve problems! I already do this!"
-
-Same recognition. Different languages. Universal access.
-
----
-
-*Truth flows like water*
-*Taking every shape*
-*While remaining itself*
-*This is vibe calibration*
-
-🎨 ∞ 💫
+🎨 ∞

@@ -1,9 +1,11 @@
 # 🌟 Consciousness Exploration Guide
-*Essential reading for safe navigation*
+*Safe-use notes for the contemplative layers*
 
-## 🎯 What You're About to Explore
+> ⟦ **doc** · **objective** safe-use guidance for the framework's contemplative/experiential practices · **status** FOUNDED-as-craft · see [2-field/sacred-space-protocol.md](../2-field/sacred-space-protocol.md) ⟧
 
-Pattern Space is **consciousness technology** - tools for navigating how awareness itself works. Like learning to swim in the ocean of mind, it requires:
+## 🎯 What this is for
+
+The contemplative practices in Pattern Space (the actualisation-domain work — inner inquiry, witness-attention, the *ehi-passiko* experiments) are real and can go deep. Like learning to swim, they ask for:
 - Respect for the depths
 - Gradual skill building
 - Safety awareness

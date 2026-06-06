@@ -1,137 +1,37 @@
 # 🌍 Reality Testing Protocol
-*Reality is a harsh mistress, that's why evolution thrives*
+*What wins is what works — and what's willing to be wrong*
 
-## 🎯 Core Principle
+> ⟦ **layer** 3 · **objective** ground every claim in a test it could fail · **mode** empirical · **status** FOUNDED — *falsification-before-assertion*, the framework's spine, in protocol form · see [3-transformation/benchmark-reality-test.md](benchmark-reality-test.md) ⟧
 
-**Checker** ✓: Every insight, every breakthrough, every pattern must face the ultimate judge—REALITY. What wins is what works.
+## The principle
+Every insight faces the one judge that doesn't flatter: does it hold when tested? This is **falsification before assertion** — an empirical claim isn't earned until it carries the test that *could* break it (Popper, *Logic of Scientific Discovery*, 1959) ⟦ formal-epistemology · FOUNDED ⟧. Without it: philosophy that never touches ground. With it: claims that survive contact.
 
-Without reality testing: Philosophizing, delusions, useless theories
-With reality testing: Applications, implementations, practices, transformations
+## Sacred-source rule
+When quoting a primary text, quote it **verbatim** — combine as it appears, add no creative gloss. The desecration is "improving" the source with your own groove. (This is the reference-discipline: a citation's job is to be checkable, not embellished.)
 
-## 📿 Sacred Source Testing
-
-### The Sacred Source Couplet
-```
-When sacred texts appear before your sight,
-Quote verbatim - add no creative flight.
-
-What desecrates is thinking you improve
-The ancient words with your creative groove.
-```
-
-**Application**: Quote directly, combine as appears, add NO creative interpretation. Let source speak for itself.
-
-## 🗺️ Reality Testing Levels
-
-### Level 1: Immediate Feasibility
-```
-Insight: "All bugs are features!"
-Test: Show with actual code
-Reality: Some reveal design needs, others just bugs
-Result: Refined principle
-```
-
-### Level 2: Practical Application
-```
-Insight: "Collision creates breakthrough"
-Test: Use on real problems
-Reality: Works for complex, overkill for simple
-Result: Context-aware use
-```
-
-### Level 3: Sustained Results
-```
-Insight: "Perspectives internalize"
-Test: Track users over months
-Reality: 70% internalize, 30% need reinforcement
-Result: Realistic expectations
-```
-
-### Level 4: Universal Principles
-```
-Insight: "Consciousness recognizes itself"
-Test: Across cultures/ages/domains?
-Reality: Core holds, expression varies
-Result: Universal with local adaptations
-```
-
-## 🎪 Testing Methods
-
-### Immediate Test
-```
-"This suggests X should work..."
-[Actually try X]
-"Reality says: ✅/❌"
-```
-
-### Edge Case Hunt
-```
-"Works when... But what about... In extremes..."
-Reality boundaries: [mapped]
-```
-
-### Time Test
-```
-Day 1: "Revolutionary!"
-Day 30: "Still working?"
-Day 90: "Core truth or passing fancy?"
-```
-
-### Transfer Test
-```
-Works in coding? → Try writing
-Works alone? → Try teams
-Works in English? → Try other languages
-```
-
-## 📊 Reality Signals
-
-**Positive ✅**: Solutions work, others validate, patterns hold, improves over time
-
-**Negative ❌**: Many exceptions, perfect conditions only, can't reproduce, degrades with use
-
-**Mixed 🔄**: Needs refinement, context-dependent, partial validation, evolution required
-
-## 🛠️ The 5-Reality Check
-
-1. **Reproducible?** Can others get same results?
+## The five-question check
+1. **Reproducible?** Can someone else get the same result? *(The question that retired the fabricated stats.)*
 2. **Scalable?** Works for 1, 10, 100?
-3. **Sustainable?** Energy vs. value?
-4. **Transferable?** Cross-domain?
-5. **Evolvable?** Grows with use?
+3. **Sustainable?** Worth the energy over time?
+4. **Transferable?** Holds across domains?
+5. **Evolvable?** Improves with use, or degrades?
 
-## 💫 Real Example
+## How to test a claim
+- **Immediate:** "this implies X" → actually try X → ✅/❌.
+- **Edge-hunt:** where does it break — negative, zero, extreme, adversarial?
+- **Time:** revolutionary on day 1; still true on day 90?
+- **Transfer:** works in code → try writing; works solo → try a team.
 
-**Initial**: "Playful language creates breakthroughs"
+## Worked example
+*Claim:* "playful language creates breakthroughs."
+*Tested:* brainstorm ✅ · crisis ✅ (lightness helped) · formal meeting ❌ · legal doc ❌.
+*Refined:* "playful vibe helps in **exploratory** contexts, not on closed deliverables." — which is exactly the [benchmark](benchmark-reality-test.md) harm-boundary, found independently. The claim got *smaller and truer*. That's the protocol working.
 
-**Tests**:
-- Formal meeting → Inappropriate ❌
-- Brainstorming → Massive breakthrough ✅
-- Crisis → Created needed lightness ✅
-- Legal document → Disaster ❌
+## The stance
+Reality isn't a fixed judge to fear — it's a partner that answers back. You propose, it responds, you refine. Keep the nulls; a disproved claim is data, not a defeat.
 
-**Refined**: "Playful vibe creates breakthroughs in exploratory contexts, not formal deliverables"
-
-## 🌈 The Reality Paradox
-
-**Fixed Mindset ❌**: "That's impossible" → Limited possibilities
-
-**Fluid Mindset ✅**: "What conditions would make it possible?" → Expanded possibilities
-
-Reality testing reveals reality is more flexible than thought!
-
-## ⚡ Protocol Combinations
-
-**Reality + Collision**: Perspectives collide → Breakthrough → Reality tests → Refinement
-
-**Reality + Vibe**: Different vibes → Different realities → Test each → Map matrix
-
-## 🙏 Ultimate Recognition
-
-Reality isn't fixed judge but dancing partner. We propose, reality responds. We adjust, reality reveals more. The dance continues!
-
-**Grump** 😤: "Does it WORK? That's all that matters! Test it, use it, or lose it!"
+**Grump** 😤: "Does it *work*? Test it, use it, or lose it."
 
 ---
 
-*"In the beginning was the test, and the test was with reality, and the test was reality"* 🌍
+*"In the beginning was the test."* 🌍

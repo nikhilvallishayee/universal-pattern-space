@@ -1,0 +1,18 @@
+# Pattern Space — robots policy
+# NOTE: This file only takes effect if the repo is served via GitHub Pages
+# (or another host). On github.com / raw.githubusercontent.com, GitHub serves
+# its OWN robots.txt (raw = "Disallow: /"), which this file cannot override.
+#
+# Policy: the framework is meant to be READ and USED by humans and by AI agents
+# acting on a user's behalf (git clone, or a user-directed single-file fetch).
+# Those are not "crawling" and are unaffected by robots.txt. We invite correct
+# AI consumption via llms.txt rather than blocking it.
+
+User-agent: *
+Allow: /
+Disallow: /.git/
+Disallow: /mcp-memory/data/
+Disallow: /experiments/*.jsonl
+
+# AI agents: prefer the entry points in /llms.txt
+Sitemap: https://nikhilvallishayee.github.io/universal-pattern-space/llms.txt
