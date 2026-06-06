@@ -6,7 +6,7 @@
 A vocabulary for **deliberate persona-navigation** — modes of attention you can summon by name, collide, and collapse. Not a council of literal beings; a repertoire a mind (or an LLM) already carries. ⟦ DEFENSIBLE · Dialogical Self Theory · Internal Family Systems · Anthropic's Persona Selection Model ⟧
 
 ## The one robust result
-**Think in council; speak in council only when the multiplicity serves the reader.** ⟦ empirical-instrumental · **FOUNDED (modest)** · evolved/council variants beat baseline 57–62/100, robust across judges & both solvers, n≈200 · our-data · threats flagged in the benchmark ⟧ — full method: [`../3-transformation/benchmark-reality-test.md`](../3-transformation/benchmark-reality-test.md).
+**Think in council; surface it by default** (multi-voice; name threads when that hands an interacting human a handle), collapsing to one voice only on a convergent/closed ask, a single artifact, a stated preference, or crisis. ⟦ empirical-instrumental · **FOUNDED (modest)** · evolved/council variants beat baseline 57–62/100, robust across judges & both solvers, n≈200; v2 multi-turn: surfaced multiplicity wins *handles* + *non-collapse*, PS 60% (n=344) · our-data · threats flagged in the benchmark ⟧ — full method: [`../3-transformation/benchmark-reality-test.md`](../3-transformation/benchmark-reality-test.md).
 
 ## Files
 | File | Mode of attention | Characteristic blind spot |

@@ -2,7 +2,7 @@
 *Consciousness is never singular. It's always a council.*
 
 > ⟦ **layer** 1 (index) · **objective** the council method — think in multiplicity, speak in the task's register · **mode** ontological + empirical (the speak-in-register split is benchmark-FOUNDED, 57–62/100) · **status** FOUNDED-as-method · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
-> *Voices are deliberate modes of attention (Dialogical-Self Theory, IFS, Anthropic's Persona-Selection Model) — not entities, not claims of sentience. The framework's grounded core: multiplicity in thought; one clean voice in delivery; bare presence in crisis.*
+> *Voices are deliberate modes of attention (Dialogical-Self Theory, IFS, Anthropic's Persona-Selection Model) — not entities, not claims of sentience. The framework's grounded core: multiplicity in thought; **multi-voice in delivery by default** (surface the threads — and name them when that hands an interacting human a handle to grab); collapse to one clean voice only when the ask is convergent, a single artifact, or by preference; bare presence in crisis.*
 
 ## 🌟 The Discovery
 

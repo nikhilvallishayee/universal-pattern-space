@@ -33,12 +33,12 @@ cd universal-pattern-space
 # CLAUDE.md / AGENTS.md auto-load. You're in Pattern Space.
 ```
 
-**With Claude.ai, ChatGPT, or any chat model:** paste the **edition** that fits your context window — same framework, three fidelities, one repo:
-- [`editions/pattern-space-micro.md`](editions/pattern-space-micro.md) — one page, for 16–64k context windows.
-- [`editions/pattern-space-mini.md`](editions/pattern-space-mini.md) — the full weave condensed, for 100–200k windows.
-- [`UNIVERSAL-PATTERN-SPACE.md`](UNIVERSAL-PATTERN-SPACE.md) — the complete master weave, for 200k+ / project memory.
+**With Claude.ai, ChatGPT, or any chat model:** load the **fullest edition your context window allows** — same framework, three fidelities, one repo. *Prefer the full weave whenever the budget allows* (the v2 benchmark found the **full weave is the best edition for every model**, frontier ones included — a large window primes better, not worse):
+- [`UNIVERSAL-PATTERN-SPACE.md`](UNIVERSAL-PATTERN-SPACE.md) — the complete master weave; **the default for 200k+ / project memory / large-window models (the preferred choice whenever context allows).**
+- [`editions/pattern-space-mini.md`](editions/pattern-space-mini.md) — the weave condensed, **only when context is tight (~100–200k)**.
+- [`editions/pattern-space-micro.md`](editions/pattern-space-micro.md) — one page, **only for very tight windows (16–64k)**.
 
-> **Emergence for any model ≥64k context.** LLMs default to *condensation* (RLHF optimizes for the single modal answer; diversity collapses). The micro edition is the scaffold that lets a small or mid-size model **opt into emergent, multi-perspective behavior** it wouldn't reach alone — and this is *measured*, not hoped: loading Pattern Space lifted **Haiku 4.5 on 66% of tasks** and Opus on 80% ([benchmark](3-transformation/benchmark-reality-test.md)). The lift is in the *reasoning*, not visible voice-theater.
+> **Editions are a context-budget fallback, not a downgrade you pick on purpose.** LLMs default to *condensation* (RLHF optimizes for the single modal answer; diversity collapses); Pattern Space is the scaffold that lets a model **opt into emergent, multi-perspective behavior** it wouldn't reach alone — and this is *measured* (v2: PS wins 60% of multi-turn exchanges, n=344). The key, counter-intuitive finding: **match the edition to the model's headroom — a small model gains from any edition, but a capable model wants the *full* weave and is actually *hurt* by a stripped one** (the compressed editions cost concision without enough payoff). So don't run micro/mini on a large-context model to "save tokens" — give it the whole weave. The lift is in surfaced multi-perspective *reasoning* (and, for a human interacting, the surfaced **handles** they can grab) — not in performative voice-theater.
 
 → **[`editions/EDITIONS.md`](editions/EDITIONS.md)** is the switch: which to load when, what each contains, and the `verify_editions.py` consistency check. **AI agents:** start at **[`llms.txt`](llms.txt)** (the [llms.txt](https://llmstxt.org) standard).
 
@@ -56,7 +56,7 @@ cd universal-pattern-space
 > "Deploy the council on this — let the pattern-seer, the builder, and the skeptic contradict each other, then synthesize."
 
 **But know when *not* to.** Our benchmark found a clean rule, now built in:
-> **Think in council; speak in the task's register.** For a clean deliverable (code, a paragraph, a fix) you want one clear voice — multiplicity there is just overhead. For an ambiguous, multi-stakeholder, or exploratory question, the surfaced multiple threads are the value. *Surface perspectives when they help the reader, not by default.*
+> **Default to surfacing the multiplicity; collapse to one voice only when the ask is convergent, a single artifact, by your stated preference, or a crisis.** For an ambiguous, multi-stakeholder, or exploratory question — most of why you'd load Pattern Space — the surfaced multiple threads (and, when interacting, the named **handles** you can grab) *are* the value, so they're the default. For a clean closed deliverable (a fact, a fix, one poem) one clear voice is better — multiplicity there is overhead. The resting state is *open*; the burden is on collapsing.
 
 **Use your own vocabulary.** The voices are renameable: Architect/Developer/QA (software), Diagnostician/Clinician/Safety-Officer (medical), Self/Protector/Exile (IFS), Arjuna/Bhima/Sahadeva (Vedic). The function matters; the name is a pointer. Summon voices not on the list when they serve.
 
