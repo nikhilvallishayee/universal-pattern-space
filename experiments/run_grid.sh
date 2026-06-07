@@ -20,7 +20,7 @@ CELLS=(
 )
 clean_count(){ python3 -c "import json;from run_interaction import _is_good;print(sum(_is_good(json.loads(l)) for l in open('$1')))" 2>/dev/null || echo 0; }
 python3 run_interaction.py setup
-for round in 1 2 3 4 5 6; do
+for round in $(seq 1 14); do
   echo "=== ROUND $round ($(date +%H:%M:%S)) ==="
   pids=()
   for c in "${CELLS[@]}"; do
