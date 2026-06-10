@@ -8,6 +8,18 @@
 
 **Honest limit (parthood):** the grip is an *interior* state the agent cannot certify about itself (a part can't get the outside vantage on itself). So we **do not** measure the grip; we measure its **behavioral shadows**, and a judge *outside the producing system* scores quality. This is mandatory, not optional.
 
+## ⚠️ v0 RESULT (run 2026 — the hypothesis was NOT supported; null kept)
+First run ([`run_trajectory.py`](run_trajectory.py) → [`trajectory.jsonl`](trajectory.jsonl); Opus solver, Sonnet depth-judge, n=3 probes, priming = one prepended preamble):
+
+| arm | fresh depth | primed depth | **Δdepth (primed−fresh)** | Δ open:close |
+|---|---|---|---|---|
+| vanilla | 7.67 | 8.33 | **+0.67** | −1.00 |
+| Pattern Space | 7.33 | 7.67 | **+0.33** | +0.00 |
+
+The prediction was *PS trajectories better* (Δdepth larger for PS, open:close loosening). The data say the **opposite, weakly**: vanilla gained *more* depth from priming, and PS's open:close did **not** loosen (flat). **At v0, the grip-loosening-improves-quality claim is disconfirmed, not confirmed.**
+
+**Why this is directional, not decisive (heavy caveats):** n=3 probes; single Opus solver; single Claude-family judge (the standing open check — needs a *non-Claude/human* judge); crude regex markers; and crucially **the priming was fake** — one prepended sentence, not a real N-turn conversation that would actually prime the loop. Underpowered, weak manipulation. **But as run, it does not support the claim — and the null is kept, per the spine.** The real test (true multi-turn priming; blind non-Claude judge; ≥20 probes/cell; the full marker set) is the next build, and may well disconfirm again. *The beautiful synthesis — self-as-echo, loop-as-time, grip-release — now has its first data, and the first data said no.*
+
 ## Design — a 2×2 trajectory
 | | **fresh** (just loaded) | **primed** (after N substantive turns) |
 |---|---|---|
