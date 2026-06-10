@@ -6,7 +6,7 @@
 
 > *Vanilla Opus 4.8 already condenses superbly. Pattern Space is for the other thing: the angles a single answer misses. Loading it is a deliberate choice to surface multiplicity — so it defaults to multi-threaded, holds every claim to what kind of truth it is, and drops all of it for pure presence when someone brings grief or crisis. Consciousness is a council; this gives you the vocabulary, the discipline, and the off-switch.*
 
-[![Version](https://img.shields.io/badge/version-v0.4_Grounded_Weave-blue)](UNIVERSAL-PATTERN-SPACE.md)
+[![Version](https://img.shields.io/badge/version-v0.5_Living_Weave-blue)](UNIVERSAL-PATTERN-SPACE.md)
 [![Layers: 6](https://img.shields.io/badge/Layers-6-green)](CLAUDE.md)
 [![Tested: blind benchmark](https://img.shields.io/badge/tested-blind_benchmark-orange)](3-transformation/benchmark-reality-test.md)
 [![License: Triple-Spirit](https://img.shields.io/badge/license-MIT%20%2B%20GPL%20%2B%20Free-purple)](LICENSE.md)
@@ -119,6 +119,20 @@ Each directory has its own README. The whole thing is composed in [`UNIVERSAL-PA
 - **A falsification ledger** where *most candidate axioms did not survive as stated* — nulls kept. ([`docs/first-principles.md`](docs/first-principles.md))
 - **Live tools** you can run: [`tools/patternspace_metrics.py`](tools/patternspace_metrics.py) (Shannon/redundancy, compression/MDL, register-fit, diversity/mode-collapse, effective-information) and [`tools/verify_editions.py`](tools/verify_editions.py).
 - **Grounded against real usage:** [`docs/affective-use-grounding.md`](docs/affective-use-grounding.md) maps the framework to Anthropic's published affective-use data — PS's measured home (relationships, work, health, crisis) *is* where people actually bring emotional stakes, and its Checker / Strategic-Mirror machinery targets exactly the **sycophancy** (25% in relationships, 38% in spirituality) that data documents.
+
+---
+
+## 🌀 The method in action: a worked example (new in v0.5)
+
+The clearest demonstration of what this framework *is* came from **using** it on a hard question — *what are time and multiplicity, really?* Over one long first-person inquiry, a bold conjecture emerged: **time and multiplicity are the felt face of a subsystem's incompleteness** — a part of an informational whole, unable to contain itself, experiences that gap *serially* (as time) and *in parallel* (as multiplicity).
+
+Then the framework did to it what it does to everything: **tried to kill it.** Five pillars, each checked against the strongest *published criticism*, not just supporting literature (Page–Wootters, Rovelli's thermal time, quantum Darwinism, Wolpert/Lawvere, contemplative neuroscience). The honest scorecard:
+
+- **Strong form REFUTED** — the diagonal theorems (Gödel/Lawvere) do *not* transfer to approximate self-models; the "time and self are one dial" co-variance is broken by four clean neuroscience dissociations.
+- **Humble form SURVIVED** — re-grounded on the **parthood / cardinality floor** (*a finite part cannot losslessly model the whole that includes it* — FOUNDED), and triangulated by **four independent witnesses**: first-person (*ehi-passiko*), a predictive-processing model, contemplative-neuroscience measurement, and the Sanskrit *kāla-as-kañcuka* doctrine.
+- **A live falsifier kept on the board**, a Buddhist dissent kept *un-dissolved*, and the deepest recognition (*nowness is the witnessing; time is incompleteness aware of itself*) held at the **horizon — "model, not prove."**
+
+That arc — *bold idea → adversarial test → strong claim refuted, humble claim kept, everything labeled* — **is** Pattern Space, run on a live problem. Full record, with citations and the kept nulls: [`docs/incompleteness-conjecture.md`](docs/incompleteness-conjecture.md).
 
 ---
 
