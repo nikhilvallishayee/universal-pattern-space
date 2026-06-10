@@ -59,6 +59,9 @@ Each stream is sized to its proper register, and **defaults to Large** — a ful
 | `eastern/taoism-flow-wisdom.md` | flow, polarity | DEFENSIBLE-philosophy; "complexity validates Tao" → convergence |
 | `eastern/jainism-ahimsa-navigation.md` · `…liberation-wisdom.md` | logic + ethics + soteriology | syādvāda **FOUNDED-as-logic**; kevala/cycles doctrine |
 | `eastern/sikhism-ik-onkar-being.md` | unity-in-multiplicity | DEFENSIBLE-devotional; performative lines = address |
+| `eastern/zoroastrian-zurvan-wisdom.md` | Time-as-ground; ethical dualism | Gāthic philology FOUNDED; aša↔ṛta; **Zurvan-as-Time** DEFENSIBLE-LIVE rhyme (signal); Zurvanism-as-sect CONTESTED (Zaehner qualified by Boyce/Shaked) |
+| `eastern/tibetan-bon-wisdom.md` | rigpa, the natural state | Bön/Dzogchen FOUNDED-living; rigpa-pointing DEFENSIBLE/actualisation; rigpa↔witness/MPE (signal); Bön-origins CONTESTED; "quantum consciousness" CUT |
+| `eastern/shinto-wisdom.md` | kami, musubi, purity | DEFENSIBLE-worldview/practice; immanent sacrality↔relational field (signal); "timeless nature-worship" CUT; **State-Shintō (1868–1945) flagged** |
 | `abrahamic/judaism-hebrew-wisdom.md` | order, return, argument | DEFENSIBLE-exegesis; gematria = mnemonic |
 | `abrahamic/christianity-aramaic-wisdom.md` | kingdom-within | DEFENSIBLE-theology; Aramaic philology **CONTESTED** |
 | `abrahamic/islam-sufism-wisdom.md` | surrender, unity | Islamic math **FOUNDED**; "quantum validates Tawhid" → convergence |
@@ -67,6 +70,7 @@ Each stream is sized to its proper register, and **defaults to Large** — a ful
 | `indigenous/siberian-shamanism-wisdom.md` | drum/journey | ethnography DEFENSIBLE; "drums you" = device |
 | `indigenous/aboriginal-dreamtime-wisdom.md` | the Dreaming / everywhen, Country, songlines | antiquity & mnemonics **FOUNDED** (Clarkson 2017; Nunn & Reid 2016); everywhen↔block-time **signal-not-proof**; romantic-primitivism **CUT** |
 | `indigenous/mesoamerican-wisdom.md` | Maya/Aztec cyclic-qualitative time, *teotl* | math/astronomy **FOUNDED**; cyclic-cosmos worldview DEFENSIBLE; "2012 apocalypse" **CUT** |
+| `indigenous/yoruba-ifa-wisdom.md` | Yoruba cosmology + Ifá divination | DEFENSIBLE-worldview; **Ifá 256-Odù combinatorics FOUNDED-as-formal-structure**; àṣẹ/orí rhymes (signal); "Ifá = binary computer" CUT; living Yorubaland + diaspora |
 | `modern-science/IIT-consciousness-integrating.md` | IIT/Φ | DEFENSIBLE-theory + **CONTESTED**; "this text has Φ" cut |
 | `nature-wisdom/tree-fungi-network-consciousness.md` | mycorrhizae | ecology **FOUNDED**; Simard's strong reading **CONTESTED**; "forest thinks" metaphor |
 | `sacred-sciences/mathematics-computing-itself.md` | real math | theorems **FOUNDED**; "math IS consciousness" ontological |
@@ -90,6 +94,9 @@ Each stream is sized to its proper register, and **defaults to Large** — a ful
 | `eastern/confucian-wisdom.md` | relational ethics | second RELATIONAL pillar w/ Ubuntu; *zhèng míng* real philosophy-of-language; ethics not cosmology |
 | `western/phenomenology.md` | lived time & perception | Husserl/James/Bergson/Merleau-Ponty/Kant; thick-present **DEFENSIBLE**; ↔ anicca/kṣaṇa & predictive-processing (signal-not-proof); the Western actualisation-cousin |
 | `western/hermeticism-wisdom.md` | microcosm / macrocosm | history **FOUNDED** (Casaubon 1614); mentalism **CONJECTURE**; "as above so below" = the **parthood invariant** (a part *patterns* but cannot *contain* the whole) |
+| `western/kemetic-egyptian-wisdom.md` | Ma'at, the neteru, two-times | Egyptology **FOUNDED** (Assmann/Hornung); **neheh/djet↔A/B-series** DEFENSIBLE-LIVE rhyme (signal); multi-part soul↔self-strata; pyramid-pseudoscience **CUT** |
+| `western/german-idealism.md` | self constituted; Spirit self-knowing | dialectical method **FOUNDED**; Kant/Fichte/Schelling DEFENSIBLE; Absolute-Spirit **CONJECTURE**; dialectic↔collision + self-recursion (signal; **Hegel closes the circle, the framework leaves it open**) |
+| `western/norse-germanic-wisdom.md` | fate, world-tree, renewal | DEFENSIBLE-mythology; **wyrd-as-woven-time** rhyme (signal); 13th-c. Christian-era source **provenance-caveat**; neo-völkisch/Nazi appropriation **CUT & named** |
 
 See [`breakthrough-streams/README.md`](breakthrough-streams/README.md) for the four named streams, and [`modern-science/MODERN-STREAMS-INDEX.md`](modern-science/MODERN-STREAMS-INDEX.md) for the grounded modern map.
 
