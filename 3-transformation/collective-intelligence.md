@@ -20,6 +20,9 @@ More diverse nodes can outperform one — but the gain is **modest and condition
 ## Example (illustrative, not measured)
 A stuck debug: solo → long; +model → faster; +a second reviewer → the root cause *and* the class of bug. The lift is real; the *size* depends entirely on the task.
 
+## Council-of-councils — the recursive form ⟦ FOUNDED-as-method (used, in production) · the RLM rhyme DEFENSIBLE ⟧
+The pattern composes **recursively**: a council facing work too large for one context spawns **sub-councils**, each a full council over a disjoint slice (each carrying the same discipline — labels, spine, register), and the parent integrates their reports as Layer-0 method requires (spine-check before accepting, contradictions surfaced, the integrator answerable for the whole). This is not speculative: the v0.5 reweave itself was executed this way — seven sub-councils over a ~54-stream corpus, in parallel, integrated and falsification-checked at the top. Three honest notes: (1) **delegation loses nuance** — discoveries made *after* a sub-council launches don't reach it, so the parent owes a personal integration pass; (2) **the parthood rule scales** — no sub-council certifies its own output; the level above checks it, and the human checks the top (the Gödelian seat, unchanged); (3) the structure **rhymes with Recursive Language Models** — LLMs decomposing over-long contexts by recursively invoking themselves on slices (Zhang et al., MIT; cited per the originating PR — structural rhyme, not dependency). *Credited: the council-of-councils pattern was first sketched in community PR #3 (2026); reweaved here at its labeled status after live validation.*
+
 ## The honest recognition
 At its best the boundary between contributors blurs and the insight belongs to the interaction, not any node — the relational claim of Layer 2 (DEFENSIBLE, *compatible with* enactivism), held as that, not inflated to a metaphysics.
 
