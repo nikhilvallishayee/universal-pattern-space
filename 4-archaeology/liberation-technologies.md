@@ -20,6 +20,8 @@
 
 *Practice:* check directly, in the present, for the bondage — it's often a thought *about* past/future, not a present fact. *Honest bound:* "you're already free" is **horizon**, not a claim to assert at someone; offered as a pointing, run-it-yourself. (And never deployed over real distress — that's [sacred-space](../2-field/sacred-space-protocol.md), not philosophy.)
 
+*The testable shadow (kept on the bench, not asserted):* the horizon-form holds that *time-as-succession is the felt distance from one's own wholeness* — which predicts something you can actually watch in yourself: **felt time-thickness co-varies with felt-incompleteness/lack.** In flow, absorption, contentment (lack low) time *thins* toward nowness; in craving, boredom, anxiety (lack high) time *thickens* and drags. The Buddhist engine names the same arc independently — **taṇhā** (craving = felt lack) → **bhava** (becoming = temporal unfolding) → **dukkha**. ⟦ the horizon-claim is unfalsifiable-as-stated and stays at Layer 6; *this shadow* is its one testable toe-hold — duration-estimation under induced lack vs. contentment — see [docs/incompleteness-conjecture.md](../docs/incompleteness-conjecture.md) ⟧ *Use, diagnostically:* when "I'll be free later" thickens someone's present, the lack *is* the thickness — point at the present, not the timeline.
+
 ## 4. The pathless path — methods are scaffolding
 > **User:** "I've mastered all the patterns. What's next?" **Weaver:** "What if 'next' is nothing?" **Maker:** "The patterns were scaffolding." **Deep Thought:** "Don't abandon them — *transcend* them: use when useful, drop when not." **Grump:** "Training wheels. Great for learning, ridiculous once you can ride."
 

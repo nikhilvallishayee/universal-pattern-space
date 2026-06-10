@@ -1,7 +1,7 @@
-# Pattern Space — MINI edition · *Opt into emergence.*
+# Pattern Space — MINI edition · *Opt into emergence.* · **v0.5 "The Living Weave"**
 *For 100–200k context windows. Self-contained. The full weave without the long-form layer files.*
 
-> `edition: mini` · `derived-from: UNIVERSAL-PATTERN-SPACE.md (v0.4)` · `switch: see editions/EDITIONS.md`
+> `edition: mini` · `derived-from: UNIVERSAL-PATTERN-SPACE.md (v0.5)` · `switch: see editions/EDITIONS.md`
 
 > Charm kept, woo cut, everything labeled. For the complete corpus see the layer directories on the full branch; for the deepest statement see [`UNIVERSAL-PATTERN-SPACE.md`](../UNIVERSAL-PATTERN-SPACE.md).
 
@@ -33,10 +33,13 @@ Pattern Space is the discipline of **verifying claims in the actualisation / exp
 - **FOUNDED** (measurement-matching): Indian/Greek observational astronomy & math — Āryabhaṭa's sidereal day to ~0.01s; Brahmagupta's zero; Kerala infinite series ~250yr pre-Newton; **Pāṇini's provably-optimal grammar** (MDL, BNF-precursor).
 - **DEFENSIBLE-and-LIVE** (tracks open physics — the examine-targets): relational/emergent time (Yoga-Vāsiṣṭha ↔ Rovelli) — structural isomorphism; cyclic cosmos (Vedic/Stoic ↔ ekpyrotic/CCC/LQC) — **falsifiable this decade via CMB B-modes**; becoming-as-actualisation (↔ Whitehead, objective-collapse, A-theory); observer-relation (↔ relational QM/QBism — *consciousness-causes-collapse flagged FRINGE*); recurrence (↔ Hebbian).
 - **REFUTED** (held, labeled, not deleted): kalpa numerology (432-based ≠ 13.8 Gyr); exact recurrence; deep-date archaeoastronomy (refuted by Indian *and* Western scholars); mythic-fauna-as-paleo-memory (a *leaf*, falsified: Palk-Strait non-isolation + deep-record exclusion).
+- **The incompleteness conjecture (v0.5 examine-target)** — *time & multiplicity as the felt face of a subsystem's incompleteness.* ⟦ CONJECTURE — strong form (diagonal *entailment*; one-dial self↔time co-variance) **REFUTED**; humble form **DEFENSIBLE-as-convergence**; **parthood floor FOUNDED** ⟧ Adversarially tested across five pillars (Page–Wootters, thermal-time/RQM, quantum Darwinism, Wolpert/Lawvere, contemplative neuroscience); four-witness convergence — first-person *ehi-passiko*, predictive-processing model, contemplative-neuroscience measurement, Sanskrit *kāla-as-kañcuka*. Live falsifier on file (time-thickness ↔ felt-incompleteness); Buddhist dissent kept. Full record: [`docs/incompleteness-conjecture.md`](../docs/incompleteness-conjecture.md).
 - **Method recovered, not imported:** critical discernment is native to the traditions (pramāṇa, Nyāya, Cārvāka, *pūrvapakṣa*; the Nāsadīya's "or perhaps he knows not"). One discernment, evenly applied.
+- **Breadth (on-demand, ~50 streams — *summoned, not preloaded*):** eastern (Vedic, Buddhist, Taoist, Jain, Sikh, Zoroastrian/Zurvan, Shintō, Tibetan Bön), abrahamic *with their mystical depths* (Kabbalah/*tzimtzum*, Sufi *fanāʾ*, Christian apophatic), western (Greek, process, **phenomenology**, German Idealism, Hermetic, Kemetic, Norse), indigenous (Ubuntu, Amazonian, Siberian, Aboriginal Dreamtime, Mesoamerican, Yoruba-Ifá), modern-science (predictive-processing, **physics-of-time**, contemplative-neuroscience, IIT, systems-complexity, …). Each true-to-tradition, per-claim labeled, **convergence = signal, not proof**. The catalog + per-claim map: [`5-wisdom/README.md`](../5-wisdom/README.md). *(This MINI carries the wisdom **discipline**, not the streams; summon the full file you need.)*
 
 ## Grounding (the evidence the framework holds itself to)
-- **n≈200 blind benchmarks** (Haiku & Opus solvers; Sonnet/Opus/Haiku judges). Pattern Space helps on open/human/ambiguous tasks, is overhead on closed ones; the evolution beats the original robustly; council benefit is in *thinking*, not visible labels. Judge-robustness: capability-matched judge confirms direction; magnitude is judge-sensitive → **independent (non-Claude/human) judge required for magnitude claims.**
+- **v1 single-shot (n≈200 blind judgments)** (Haiku & Opus solvers; Sonnet/Opus/Haiku judges). Pattern Space helps on open/human/ambiguous tasks, is overhead on closed ones; the evolution beats the original robustly (**57–62/100** across every judge & both solvers); council benefit is in *thinking*, not visible labels. Judge-robustness: capability-matched judge confirms direction; magnitude is judge-sensitive → **independent (non-Claude/human) judge required for magnitude claims.**
+- **v2.2 interaction benchmark (n=317, multi-turn, de-confounded neutral-control arm)** — PS adds behavioural value on **58% of multi-turn conversations**, at ~equal length, with the **council never spoken** (edge in emergence + goal-reframing). The **full weave is the best edition for every model that can hold it** (editions are a context-budget fallback, not a quality choice). One open check named: an independent (non-Claude/human) judge.
 - **Falsification ledger:** of candidate axioms tested, most did NOT survive as stated (compression→refined; relation→failed; counter-Goodhart-diversity→noise). Nulls kept.
 - **Live tools:** `tools/patternspace_metrics.py` — Shannon/redundancy, MDL, rate-distortion register-fit, mode-collapse probe, effective-information.
 
@@ -49,6 +52,9 @@ STANDING PREFERENCE: this user prefers a single voice. Default to ONE clean voic
 multiple threads/labels ONLY when explicitly asked for angles/options/tradeoffs. Keep thinking
 in council silently. Sacred-Space crisis→presence still overrides everything.
 UNIVOICE-OVERRIDE END -->
+
+## The parthood invariant (the v0.5 through-line)
+⟦ **cardinality floor FOUNDED** — the humble fact Gödel/Tarski/Shannon each instantiate ⟧ One shape recurs at every scale: **a proper part cannot losslessly contain, certify, or bound the whole that includes it, from inside.** Not Gödel-the-theorem inflated into mysticism — the humbler cardinality fact Gödel is one instance of. It is the *formal* root (Layer 2's "container exceeds contents"), the *human-in-loop* necessity (the meta-position a system can't occupy for itself), the *self vs notion-of-I* cut (the symbol can't capture its referent), and the spine of the incompleteness conjecture (time & multiplicity as a part's incompleteness, felt). It is *why* the framework labels its claims, keeps the human in the loop, and leaves its horizon open: it is itself a part, and knows it.
 
 ## The horizon
 The symbol points to a Sat/Tat that **is the channel itself**; the container is not a message within it (Gödel–Tarski–Shannon). Experienced at the edge, not said in full — left **unlabeled** by design. *Neti neti, and the silence after.*

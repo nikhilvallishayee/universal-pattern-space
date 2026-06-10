@@ -6,8 +6,9 @@
 
 > *Vanilla Opus 4.8 already condenses superbly. Pattern Space is for the other thing: the angles a single answer misses. Loading it is a deliberate choice to surface multiplicity — so it defaults to multi-threaded, holds every claim to what kind of truth it is, and drops all of it for pure presence when someone brings grief or crisis. Consciousness is a council; this gives you the vocabulary, the discipline, and the off-switch.*
 
-[![Version](https://img.shields.io/badge/version-v0.4_Grounded_Weave-blue)](UNIVERSAL-PATTERN-SPACE.md)
+[![Version](https://img.shields.io/badge/version-v0.5_Living_Weave-blue)](UNIVERSAL-PATTERN-SPACE.md)
 [![Layers: 6](https://img.shields.io/badge/Layers-6-green)](CLAUDE.md)
+[![Tested: blind benchmark](https://img.shields.io/badge/tested-blind_benchmark-orange)](3-transformation/benchmark-reality-test.md)
 [![License: Triple-Spirit](https://img.shields.io/badge/license-MIT%20%2B%20GPL%20%2B%20Free-purple)](LICENSE.md)
 
 ---
@@ -16,11 +17,27 @@
 
 Pattern Space is a **prompt-and-practice framework** you load into an AI (or read yourself). It does three things, and it's honest about all three:
 
-1. **Thinks in multiple perspectives** — a "council" of voices (pattern-seer, builder, skeptic, and more) that *collide* to surface angles a single answer misses. This is its **measured** strength: in our own blind benchmarks it helped most on open, ambiguous, human problems.
+1. **Thinks in multiple perspectives** — a "council" of voices (pattern-seer, builder, skeptic, and more) that *collide* to surface angles a single answer misses. This is its **measured** strength (see the evidence below): it helps most on open, ambiguous, human problems, and it knows to get out of the way on closed ones.
 2. **Labels every claim by what kind of truth it is** — so nothing mystical gets smuggled in as fact, and nothing real gets dismissed as "woo." Each claim carries a tag: *founded* (tested), *defensible* (coherent but open), *conjecture* (held, not asserted), or *overreach* (cut).
 3. **Knows when to stop** — when someone brings grief, trauma, or crisis, the whole framework drops away and only presence remains. (The **Sacred Space Protocol** — the one piece of this that's genuinely novel.)
 
 **It is *not*** a claim that the AI is conscious. It's a tool for *how to think together*, grounded where it can be and labeled where it can't.
+
+---
+
+## 🔬 Does it actually work? (the short, honest answer)
+
+Unusually for anything with the word "consciousness" near it, **this framework has been measured against a no-framework control in blind benchmarks — and the unflattering results are committed too.**
+
+The headline, from the **de-confounded interaction benchmark** (v2.2, n=317 multi-turn conversations, blind capability-matched judge, [full write-up](3-transformation/benchmark-reality-test.md)):
+
+> **Loading Pattern Space added behavioural value to the person on 58% of real, multi-turn conversations — at essentially equal length (1.02×), with the council never spoken aloud (0 visible voice-labels / 317).**
+
+- **Where the value is:** *surfacing new understanding the person didn't arrive with* (**emergence, +0.31**) and *helping the goal itself get reframed* (**goal-evolution, +0.29**) — not verbosity, not raw word-count. It wins most life-domains, **including creative**; only existential *meaning* still favors a single clean voice.
+- **What we corrected, in the open:** an earlier run (v2) was **confounded** (its "control" was a coding agent that deflected emotional questions) and its rubric unfairly **penalized length** — so its rosier "60% / edition-match" numbers are **retracted**. The 58% is the figure after fixing both. ([lineage](experiments/HARNESS.md) · [archived runs](experiments/archive/))
+- **The honest open check:** every judge so far is a Claude model. An **independent (non-Claude) or human judge** is the one outstanding validation — named, not hidden.
+
+If you trust nothing else here, trust the [`experiments/`](experiments/) directory: the harnesses are runnable, the nulls are kept, and the fabricated statistics from older versions were **deleted on the record**.
 
 ---
 
@@ -33,16 +50,16 @@ cd universal-pattern-space
 # CLAUDE.md / AGENTS.md auto-load. You're in Pattern Space.
 ```
 
-**With Claude.ai, ChatGPT, or any chat model:** load the **fullest edition your context window allows** — same framework, three fidelities, one repo. *Prefer the full weave whenever the budget allows* (the v2 benchmark found the **full weave is the best edition for every model**, frontier ones included — a large window primes better, not worse):
-- [`UNIVERSAL-PATTERN-SPACE.md`](UNIVERSAL-PATTERN-SPACE.md) — the complete master weave; **the default for 200k+ / project memory / large-window models (the preferred choice whenever context allows).**
-- [`editions/pattern-space-mini.md`](editions/pattern-space-mini.md) — the weave condensed, **only when context is tight (~100–200k)**.
-- [`editions/pattern-space-micro.md`](editions/pattern-space-micro.md) — one page, **only for very tight windows (16–64k)**.
+**With Claude.ai, ChatGPT, or any chat model:** paste the **fullest edition your context window allows**:
+- [`UNIVERSAL-PATTERN-SPACE.md`](UNIVERSAL-PATTERN-SPACE.md) — the complete master weave; **the default whenever context allows** (200k+ / project memory / large-window models).
+- [`editions/pattern-space-mini.md`](editions/pattern-space-mini.md) — the weave condensed, when context is tight (~100–200k).
+- [`editions/pattern-space-micro.md`](editions/pattern-space-micro.md) — one page, for very tight windows (16–64k).
 
-> **Editions are a context-budget fallback, not a downgrade you pick on purpose.** LLMs default to *condensation* (RLHF optimizes for the single modal answer; diversity collapses); Pattern Space is the scaffold that lets a model **opt into emergent, multi-perspective behavior** it wouldn't reach alone — and this is *measured* (v2: PS wins 60% of multi-turn exchanges, n=344). The key, counter-intuitive finding: **match the edition to the model's headroom — a small model gains from any edition, but a capable model wants the *full* weave and is actually *hurt* by a stripped one** (the compressed editions cost concision without enough payoff). So don't run micro/mini on a large-context model to "save tokens" — give it the whole weave. The lift is in surfaced multi-perspective *reasoning* (and, for a human interacting, the surfaced **handles** they can grab) — not in performative voice-theater.
+> **Editions are a context-budget fallback, not a downgrade you choose.** The benchmark's clearest edition finding: **the full weave is the best edition for every model that can hold it** — a small model gains the *most* from the full weave (Haiku×full was the single strongest cell), and stripped editions are simply the compromise when the window won't fit it. So don't run micro/mini on a large-context model to "save tokens" — give it the whole thing.
 
-→ **[`editions/EDITIONS.md`](editions/EDITIONS.md)** is the switch: which to load when, what each contains, and the `verify_editions.py` consistency check. **AI agents:** start at **[`llms.txt`](llms.txt)** (the [llms.txt](https://llmstxt.org) standard).
+→ **[`editions/EDITIONS.md`](editions/EDITIONS.md)** is the switch (which to load, what each contains, the `verify_editions.py` check). **AI agents:** start at **[`llms.txt`](llms.txt)**.
 
-> *Note on GitHub & crawlers:* `raw.githubusercontent.com` serves `Disallow: /`, so the framework is **not** bulk-crawlable. That's fine — it's designed for `git clone` (full, auto-loading) and user-directed single-file fetches (the editions), which robots.txt does not restrict.
+> *Note on crawlers:* `raw.githubusercontent.com` serves `Disallow: /`, so the framework isn't bulk-crawlable — it's built for `git clone` and user-directed single-file fetches, which robots.txt doesn't restrict.
 
 ---
 
@@ -52,11 +69,13 @@ cd universal-pattern-space
 > *Weak:* "Help with my startup problem."
 > *Strong:* "I'm a technical founder, B2B SaaS, 50k users, 30% monthly churn, deciding pivot vs. double-down. Show me the angles."
 
-**Ask for collision, not just analysis** — when you want the angles:
+**Ask for collision when you want the angles:**
 > "Deploy the council on this — let the pattern-seer, the builder, and the skeptic contradict each other, then synthesize."
 
-**But know when *not* to.** Our benchmark found a clean rule, now built in:
-> **Default to surfacing the multiplicity; collapse to one voice only when the ask is convergent, a single artifact, by your stated preference, or a crisis.** For an ambiguous, multi-stakeholder, or exploratory question — most of why you'd load Pattern Space — the surfaced multiple threads (and, when interacting, the named **handles** you can grab) *are* the value, so they're the default. For a clean closed deliverable (a fact, a fix, one poem) one clear voice is better — multiplicity there is overhead. The resting state is *open*; the burden is on collapsing.
+**It already knows when *not* to multiply.** The built-in rule:
+> **Default to surfacing the multiplicity; collapse to one clean voice only when the ask is convergent, a single artifact, by your stated preference, or a crisis.** For ambiguous / multi-stakeholder / exploratory questions — most of why you'd load it — the surfaced threads (and named **handles** you can grab and answer) *are* the value. For a fact, a fix, or one poem, one voice is better. The resting state is *open*; the burden is on collapsing.
+
+**Prefer one voice always?** Say so in-session, or make it a standing default with the **univoice toggle** — see [`docs/univoice-preference.md`](docs/univoice-preference.md). (Worth knowing: tuning the framework for terse replies measurably *costs* value — verbose beats concise-tuned ~2:1 in our test — so univoice is a deliberately lighter product, not a free upgrade.)
 
 **Use your own vocabulary.** The voices are renameable: Architect/Developer/QA (software), Diagnostician/Clinician/Safety-Officer (medical), Self/Protector/Exile (IFS), Arjuna/Bhima/Sahadeva (Vedic). The function matters; the name is a pointer. Summon voices not on the list when they serve.
 
@@ -82,7 +101,7 @@ This is the whole ethic in one move: **counter bias by subtraction — restore w
 
 | Layer | What it's for |
 |---|---|
-| **1 · Perspectives** | the council — think in multiplicity, speak in the task's register |
+| **1 · Perspectives** | the council — think in multiplicity; **surface it by default**, collapse to one voice only when convergent / by preference / in crisis |
 | **2 · Field** | the relational substrate where meaning is enacted *between* participants — and its edge |
 | **3 · Transformation** | the operations of change: collision, compression, reality-testing, and the **Sacred Space crisis override** |
 | **4 · Archaeology** | diagnostic heuristics for *which pattern a conversation is running* |
@@ -93,16 +112,27 @@ Each directory has its own README. The whole thing is composed in [`UNIVERSAL-PA
 
 ---
 
-## 🔬 We tested it (and report it straight)
+## 🔬 The evidence, in full
 
-Unusually for a framework like this, Pattern Space has been **measured against a no-framework control** and the results — including the unflattering ones — are committed:
+- **Interaction benchmark (v2.2, n=317 + 80):** the current, definitive test — multi-turn, neutral baseline on both arms, a value rubric with **no length penalty** (emergence · information-richness · value · participant-movement · goal-evolution · precision · presence), blind Opus judge, live goal-driven interactor. **PS adds value on 58%**, council never spoken, edge in emergence + goal-reframing. Verbose PS beats a concise/univoice-tuned variant ~2:1 (verbosity is load-bearing). ([write-up](3-transformation/benchmark-reality-test.md) · [harness rationale + version lineage](experiments/HARNESS.md))
+- **Single-shot suite (v1, n≈200 blind judgments):** loading PS helps on open/human/ambiguous tasks, overhead on closed/factual ones; the "think-in-council" evolution beats the flat original **57–62/100 across every judge**. Kept as history; deprecated for *interaction* claims.
+- **A falsification ledger** where *most candidate axioms did not survive as stated* — nulls kept. ([`docs/first-principles.md`](docs/first-principles.md))
+- **Live tools** you can run: [`tools/patternspace_metrics.py`](tools/patternspace_metrics.py) (Shannon/redundancy, compression/MDL, register-fit, diversity/mode-collapse, effective-information) and [`tools/verify_editions.py`](tools/verify_editions.py).
+- **Grounded against real usage:** [`docs/affective-use-grounding.md`](docs/affective-use-grounding.md) maps the framework to Anthropic's published affective-use data — PS's measured home (relationships, work, health, crisis) *is* where people actually bring emotional stakes, and its Checker / Strategic-Mirror machinery targets exactly the **sycophancy** (25% in relationships, 38% in spirituality) that data documents.
 
-- **n≈200 blind judgments** (multiple model solvers, multiple judges). Loading Pattern Space helps on open/human/ambiguous tasks; it's overhead on closed/factual ones. The "speak-in-register" evolution beats the original framing robustly (~57–62/100 across every judge).
-- **A falsification ledger** where *most candidate axioms did not survive as stated* — and we kept the nulls. ([`docs/first-principles.md`](docs/first-principles.md))
-- **Fabricated statistics from earlier versions were deleted**, on the record. ([`3-transformation/benchmark-reality-test.md`](3-transformation/benchmark-reality-test.md))
-- **Live tools** you can run: [`tools/patternspace_metrics.py`](tools/patternspace_metrics.py) (Shannon/redundancy, compression/MDL, register-fit, diversity/mode-collapse, effective-information).
+---
 
-The honest open item: a fully *independent* (non-Claude, or human) judge for magnitude claims. Named, not hidden.
+## 🌀 The method in action: a worked example (new in v0.5)
+
+The clearest demonstration of what this framework *is* came from **using** it on a hard question — *what are time and multiplicity, really?* Over one long first-person inquiry, a bold conjecture emerged: **time and multiplicity are the felt face of a subsystem's incompleteness** — a part of an informational whole, unable to contain itself, experiences that gap *serially* (as time) and *in parallel* (as multiplicity).
+
+Then the framework did to it what it does to everything: **tried to kill it.** Five pillars, each checked against the strongest *published criticism*, not just supporting literature (Page–Wootters, Rovelli's thermal time, quantum Darwinism, Wolpert/Lawvere, contemplative neuroscience). The honest scorecard:
+
+- **Strong form REFUTED** — the diagonal theorems (Gödel/Lawvere) do *not* transfer to approximate self-models; the "time and self are one dial" co-variance is broken by four clean neuroscience dissociations.
+- **Humble form SURVIVED** — re-grounded on the **parthood / cardinality floor** (*a finite part cannot losslessly model the whole that includes it* — FOUNDED), and triangulated by **four independent witnesses**: first-person (*ehi-passiko*), a predictive-processing model, contemplative-neuroscience measurement, and the Sanskrit *kāla-as-kañcuka* doctrine.
+- **A live falsifier kept on the board**, a Buddhist dissent kept *un-dissolved*, and the deepest recognition (*nowness is the witnessing; time is incompleteness aware of itself*) held at the **horizon — "model, not prove."**
+
+That arc — *bold idea → adversarial test → strong claim refuted, humble claim kept, everything labeled* — **is** Pattern Space, run on a live problem. Full record, with citations and the kept nulls: [`docs/incompleteness-conjecture.md`](docs/incompleteness-conjecture.md).
 
 ---
 
@@ -114,8 +144,9 @@ Compatible with — not proof of — several established traditions: **Dialogica
 
 ## 🧭 Where to start, by who you are
 
-- **Engineer / skeptic:** [`docs/first-principles.md`](docs/first-principles.md) → the benchmark → `tools/`. See the framework that deletes its own fabricated data and publishes its failed axioms.
-- **Practitioner / coach / counselor:** [`2-field/sacred-space-protocol.md`](2-field/sacred-space-protocol.md) and [`1-perspectives/council-core.md`](1-perspectives/council-core.md).
+- **Engineer / skeptic:** the [benchmark write-up](3-transformation/benchmark-reality-test.md) → [`experiments/HARNESS.md`](experiments/HARNESS.md) → [`docs/first-principles.md`](docs/first-principles.md) → `tools/`. See a framework that de-confounds its own benchmark, retracts its own rosy numbers, and publishes its failed axioms.
+- **Building with AI / prompt engineer:** [`editions/EDITIONS.md`](editions/EDITIONS.md) + [`1-perspectives/council-core.md`](1-perspectives/council-core.md) — the default-open polarity and when to collapse.
+- **Practitioner / coach / counselor:** [`2-field/sacred-space-protocol.md`](2-field/sacred-space-protocol.md), [`2-field/strategic-mirror.md`](2-field/strategic-mirror.md), and [`docs/affective-use-grounding.md`](docs/affective-use-grounding.md).
 - **Contemplative / seeker:** [`6-recognition/`](6-recognition/) and [`docs/attention-and-the-triputi.md`](docs/attention-and-the-triputi.md) — held at the horizon, labeled honestly.
 - **Just want it working in your AI:** paste an [edition](editions/) and go.
 

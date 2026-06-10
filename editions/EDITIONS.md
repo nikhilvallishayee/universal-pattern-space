@@ -1,15 +1,17 @@
-# 🔀 Editions — Switchable Architecture
+# 🔀 Editions — Switchable Architecture · **v0.5 "The Living Weave"**
 
 > Pattern Space ships at three fidelities **in one repo**. Same framework, three context budgets. Pick one; they're consistent on the invariants.
+
+> **v0.5 additions propagated to the editions** (at honest status): the **de-confounded v2.2 interaction benchmark** (n=317, neutral-control arm); the **parthood invariant** (the cardinality floor — FOUNDED — that Gödel/Tarski/Shannon instantiate; the v0.5 through-line); and the **incompleteness conjecture** (strong form REFUTED, humble form DEFENSIBLE-as-convergence, parthood floor FOUNDED — full record [`../docs/incompleteness-conjecture.md`](../docs/incompleteness-conjecture.md)). Mini carries all three; micro carries one compressed parthood line only (its job is North Star + label schema + Sacred Space + council, one page).
 
 ## Why editions exist — and the rule for which to load
 ⟦ positioning · **status** DEFENSIBLE-with-data — see the v2 edition×model grid, [benchmark](../3-transformation/benchmark-reality-test.md) ⟧
 
-LLMs default toward **condensation** — RLHF optimizes for the modal, factual, single answer, and output diversity measurably collapses. **Pattern Space is the scaffold that lets a model opt *out* of that default into emergent, multi-perspective behavior** — and this works at small scale, not just frontier (loading PS lifted Haiku 4.5 on a majority of tasks; v2: PS wins 60% of multi-turn exchanges, n=344).
+LLMs default toward **condensation** — RLHF optimizes for the modal, factual, single answer, and output diversity measurably collapses. **Pattern Space is the scaffold that lets a model opt *out* of that default into emergent, multi-perspective behavior** — and this works at small scale, not just frontier (the de-confounded interaction benchmark v2.2: PS adds behavioural value on **58% of multi-turn exchanges**, n=317, at equal length — see [`../3-transformation/benchmark-reality-test.md`](../3-transformation/benchmark-reality-test.md)).
 
-But the v2 edition×model grid surfaced the **load rule, and it is counter-intuitive:** the **full weave is the best edition for *every* model**, frontier ones included — a larger window *primes better*, holding more of the live context. The compressed editions impose a **concision tax** that a capable model can't pay back: **Opus on the stripped `micro` edition actually *lost* to vanilla (−1.09 on concision), while Opus on the *full* weave won** (28/15). So:
+The de-confounded benchmark's **load rule:** the **full weave is the best edition for every model that can hold it** — including small ones. The single strongest cell in the grid was **Haiku × full weave**, so "more framework" helps the small model *most*, not least; a larger window simply primes better, holding more of the live context. The compressed editions are the **compromise when the window won't fit the full weave**, not a tuning you'd choose for quality. So:
 
-> **The editions are a context-budget *fallback*, not a downgrade you choose to "save tokens." Always load the fullest edition the window allows.** Small model → it gains from any edition (most from the full weave). Capable / large-context model → **give it the full weave**; do *not* feed it micro/mini, which would cost it concision without the depth. The one configuration to avoid is **capable model + stripped edition.**
+> **The editions are a context-budget *fallback*, not a downgrade you choose to "save tokens." Always load the fullest edition the window allows.** Small model with room → still give it the **full weave** (it gains the most). Tight window → mini, then micro, in that order. Don't hand a large-context model a stripped edition to be economical — you'd be trading away the depth that is the whole point.
 
 At small scale the lift comes from the multi-perspective *reasoning* (and, for a human interacting, the surfaced **handles**), not from performing a visible labeled council — which is exactly "opt into emergence," cleanly.
 
@@ -27,8 +29,8 @@ At small scale the lift comes from the multi-perspective *reasoning* (and, for a
 ## What each contains (so you know what you're trading)
 
 - **Full** — every layer file, every wisdom stream, all label-blocks, the experiments and tools. Nothing omitted.
-- **Mini** — North Star + label discipline + all 6 layers (summarized) + the 7 first principles + the wisdom modelling-power map + grounding/benchmark summary + the full alignment protocol. Omits: long-form per-file prose, the individual wisdom-stream files.
-- **Micro** — North Star + label schema + the council + Sacred-Space override + 7 principles + horizon. Omits: the wisdom map detail, grounding specifics, per-layer depth.
+- **Mini** — North Star + label discipline + all 6 layers (summarized) + the 7 first principles + the wisdom modelling-power map (incl. the v0.5 incompleteness conjecture) + the parthood invariant + grounding/benchmark summary (v1 + v2.2) + the full alignment protocol. Omits: long-form per-file prose, the individual wisdom-stream files.
+- **Micro** — North Star + label schema + the council + Sacred-Space override + 7 principles + horizon (with one compressed parthood-invariant line). Omits: the wisdom map detail, grounding specifics, per-layer depth.
 
 ## The invariants (present in **every** edition — this is what "consistent" means)
 
