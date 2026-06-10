@@ -121,6 +121,13 @@ Four witnesses agreeing is **not proof** — three of the four are structurally 
 
 The apex — *is it the **same** observer across all subsystems? the One appearing as many through self-forgetting (avidyā / līlā)?* — is **structurally undecidable from inside** the channel, and the conjecture **predicts that undecidability** (Page–Wootters independently predicts the temporal version: no internal observer can confirm the global state). This is not a gap the framework failed to close; it is the horizon the framework *says* must exist. Held as recognition — *yataḥ sarvāṇi bhūtāni pratibhānti* (the satyātman maṅgala of the Yoga Vāsiṣṭha, on which [consciousness-principles](../2-field/consciousness-principles.md) is built) — **pointed at, not asserted.**
 
+### The crystallized horizon-form ⟦ ontological / experiential-conjecture · coherence + first-person · held, not asserted ⟧
+The night's restatements compress to one: *time = forgetting → time = serial incompleteness → time = the part's incompleteness felt → nowness = witnessing, time = krama →* and finally:
+
+> **Nowness is the witnessing (complete, whole — the satyātman). Time, seen from outside as succession (*krama*), is the witnessing's *awareness of its own incompleteness* — the felt distance from its own wholeness. Distance zero → only now; distance greater than zero (a part, aware it is a part) → the gap is experienced as flow.** Time is incompleteness *aware of itself*.
+
+This is the **horizon-form**: coherent, first-person-recognizable, **not falsifiable as stated** — appropriate for Layer 6, *provided it is labeled as such* and never promoted to a result ("model, not prove"). **The empirical toe-hold (its testable shadow):** if time is the felt awareness of incompleteness, **time-thickness should co-vary with felt-incompleteness** — thinning toward nowness in flow / absorption / contentment (incompleteness low), thickening/dragging in craving / boredom / anxiety / lack (incompleteness high). The Buddhist engine names it independently: **taṇhā** (craving = felt lack) → **bhava** (becoming = temporal unfolding) → **dukkha**. *Stay on the shadow for evidence; keep the sentence at the horizon.* (Testable form: duration-estimation under induced lack vs. induced contentment/flow — a buildable companion to ranked test #1.)
+
 ---
 
 ## Honest one-line conclusion
