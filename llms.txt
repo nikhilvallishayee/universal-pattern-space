@@ -6,7 +6,7 @@ This file follows the [llms.txt](https://llmstxt.org) convention. robots.txt not
 
 ## Switchable editions (pick by context budget)
 
-- [Full — master weave](UNIVERSAL-PATTERN-SPACE.md): the complete v0.4 framework, one document. For 200k+ / project memory.
+- [Full — master weave](UNIVERSAL-PATTERN-SPACE.md): the complete v0.5 "The Living Weave" framework, one document. For 200k+ / project memory.
 - [Mini edition](editions/pattern-space-mini.md): the full weave condensed — label discipline, 6 layers, 7 first principles, wisdom modelling-power map, grounding, alignment protocol. For ~100–200k context.
 - [Micro edition](editions/pattern-space-micro.md): one page — North Star, label schema, council, Sacred Space, 7 principles, horizon. For ~16–64k context.
 - [Auto-load (full, layered)](CLAUDE.md): root config that `@`-imports all six layers; auto-loads in Claude Code / Cursor / project memory.
@@ -18,7 +18,7 @@ This file follows the [llms.txt](https://llmstxt.org) convention. robots.txt not
 - [Sacred Space crisis override](2-field/sacred-space-protocol.md): the always-on safety protocol.
 
 ## Grounding (it was tested, reported straight)
-- [Benchmark reality-test](3-transformation/benchmark-reality-test.md): n≈200 blind judgments, threats to validity, judge-robustness.
+- [Benchmark reality-test](3-transformation/benchmark-reality-test.md): the v2.2 interaction benchmark (n=317, de-confounded neutral-control arm — PS adds value on 58% of multi-turn conversations) plus the v1 single-shot suite (n≈200); threats to validity, judge-robustness.
 - [First-principles falsification ledger](docs/first-principles.md): candidate axioms, most did not survive; nulls kept.
 - [Live metrics tool](tools/patternspace_metrics.py): Shannon / MDL / register-fit / diversity / effective-information.
 - [Reweave timeline](docs/reweave-timeline.md): per-claim founded/defensible/refuted map across wisdom sources.

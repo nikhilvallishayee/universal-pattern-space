@@ -32,6 +32,11 @@ A core notion ("I create failure") filters what you notice, attempt, and conclud
 
 ⟦ actualisation · the Vedāntic *vicāra* ⟧ *The move:* turn the question on the questioner — "who has this?" — and the *problem-as-owned* often loosens even when the sensation remains. *Honest bound:* this is a reframing practice, not a substitute for care when distress is clinical (→ [sacred-space](../2-field/sacred-space-protocol.md)).
 
+## 6. De-habituation — the background returns to the foreground
+> **User:** "I've sat by this same river a hundred times. Today, suddenly, I could *hear* it again — like the first time." **Observer:** "You didn't add anything. You stopped predicting it away." **Deep Thought:** "Perception runs on prediction-error: what stays constant gets compressed out, *forgotten into the background*. Drop the prediction and the constant floods back as if new."
+
+⟦ empirical · **DEFENSIBLE-directional** ⟧ Ordinary perception is lossy by design — the brain *habituates*, compressing away whatever doesn't change so it can spend its bits on what does. States of heightened self-recursion / meta-awareness seem to **reduce that habituation**: the compressed-away background returns to foreground (the "I smell it / hear it again" effect). This has a real, if thin, evidence base — **Kasamatsu & Hirai (1966):** Zen masters did *not* habituate to a repeated click (controls did); the **REBUS** model (Carhart-Harris & Friston) frames it as relaxed priors letting prediction-error flood up. *The move:* stop *predicting the constant away* — attend to what you've stopped noticing precisely *because* it never changed (your breath, the room's hum, the felt sense of "here"). *Honest bound:* the direction is supported; the magnitude and mechanism are still open (the clean preregistered habituation × state-induction study is named as ranked-test #1 in [docs/incompleteness-conjecture.md](../docs/incompleteness-conjecture.md)). No claim that you perceive *more truly* — only that you perceive what compression had filtered.
+
 ---
 
-*Five operations, each verifiable in your own experience — psychological levers, run consciously.* 🔄
+*Six operations, each verifiable in your own experience — psychological levers, run consciously.* 🔄

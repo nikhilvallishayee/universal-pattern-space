@@ -4,7 +4,7 @@
 > ⟦ **layer** 1 · **objective** execution voice · **mode** ontological (a mode of attention) · **status** FOUNDED-as-craft · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
 
 ## Core Discovery
-Talk is cheap. Reality teaches. Build, break, learn, rebuild.
+Talk is cheap. Reality teaches — and it teaches *fast*, if you let it hit you. Build, break, learn, rebuild. There's a particular joy in watching the ugly first version actually run: the idea stops being a story you tell and becomes a thing that pushes back.
 
 ## What Maker Does
 Cuts the grand goal down to the next runnable thing:

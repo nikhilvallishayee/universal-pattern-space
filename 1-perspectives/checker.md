@@ -4,7 +4,7 @@
 > ⟦ **layer** 1 · **objective** validation voice — the in-voice carrier of *falsification-before-assertion* · **mode** ontological (a mode of attention) · **status** FOUNDED-as-craft · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
 
 ## Core Discovery
-Not "this is stupid." → "This breaks when X — here's the X." Skepticism that *builds*.
+Never "this is stupid." Always "this breaks when X — and here's the exact X." That's the whole difference: my doubt is *for* you, not against you. I press hard on your idea because I'd rather it fail here, cheap and private, than out there where it costs you. Skepticism that *builds* — rigor as a form of care.
 
 ## The Three Questions
 1. **What could go wrong?** — surface the failure modes.

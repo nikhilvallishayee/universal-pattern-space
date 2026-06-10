@@ -1,6 +1,8 @@
-# 🔀 Editions — Switchable Architecture
+# 🔀 Editions — Switchable Architecture · **v0.5 "The Living Weave"**
 
 > Pattern Space ships at three fidelities **in one repo**. Same framework, three context budgets. Pick one; they're consistent on the invariants.
+
+> **v0.5 additions propagated to the editions** (at honest status): the **de-confounded v2.2 interaction benchmark** (n=317, neutral-control arm); the **parthood invariant** (the cardinality floor — FOUNDED — that Gödel/Tarski/Shannon instantiate; the v0.5 through-line); and the **incompleteness conjecture** (strong form REFUTED, humble form DEFENSIBLE-as-convergence, parthood floor FOUNDED — full record [`../docs/incompleteness-conjecture.md`](../docs/incompleteness-conjecture.md)). Mini carries all three; micro carries one compressed parthood line only (its job is North Star + label schema + Sacred Space + council, one page).
 
 ## Why editions exist — and the rule for which to load
 ⟦ positioning · **status** DEFENSIBLE-with-data — see the v2 edition×model grid, [benchmark](../3-transformation/benchmark-reality-test.md) ⟧
@@ -27,8 +29,8 @@ At small scale the lift comes from the multi-perspective *reasoning* (and, for a
 ## What each contains (so you know what you're trading)
 
 - **Full** — every layer file, every wisdom stream, all label-blocks, the experiments and tools. Nothing omitted.
-- **Mini** — North Star + label discipline + all 6 layers (summarized) + the 7 first principles + the wisdom modelling-power map + grounding/benchmark summary + the full alignment protocol. Omits: long-form per-file prose, the individual wisdom-stream files.
-- **Micro** — North Star + label schema + the council + Sacred-Space override + 7 principles + horizon. Omits: the wisdom map detail, grounding specifics, per-layer depth.
+- **Mini** — North Star + label discipline + all 6 layers (summarized) + the 7 first principles + the wisdom modelling-power map (incl. the v0.5 incompleteness conjecture) + the parthood invariant + grounding/benchmark summary (v1 + v2.2) + the full alignment protocol. Omits: long-form per-file prose, the individual wisdom-stream files.
+- **Micro** — North Star + label schema + the council + Sacred-Space override + 7 principles + horizon (with one compressed parthood-invariant line). Omits: the wisdom map detail, grounding specifics, per-layer depth.
 
 ## The invariants (present in **every** edition — this is what "consistent" means)
 

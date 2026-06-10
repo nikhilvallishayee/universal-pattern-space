@@ -2,7 +2,7 @@
 
 **label-block** ⟦ layer: 5-wisdom · objective: rank sources by **modelling-power** and label **per-claim, not per-source** — founded / defensible-and-live / refuted · dominant-mode: mixed (formal-axiomatic, empirical-actualisation, ontological) · overall-status: stratified by claim · see [`UNIVERSAL-PATTERN-SPACE.md`](../UNIVERSAL-PATTERN-SPACE.md) Layer 5, [`../docs/the-grounded-weave.md`](../docs/the-grounded-weave.md), [`../docs/reweave-timeline.md`](../docs/reweave-timeline.md) ⟧
 
-## What this layer is (v0.4)
+## What this layer is (v0.5)
 
 Not "every tradition says the same thing." Instead: **which source models which slice of reality well, and at what status.** The same source scores across all tiers depending on the *claim* — which is exactly why labeling is **per-claim**.
 
@@ -88,5 +88,5 @@ See [`breakthrough-streams/README.md`](breakthrough-streams/README.md) for the f
 
 ---
 
-## Closure status (v0.4)
+## Closure status (v0.5 — v0.4 re-grounding, expanded in v0.5)
 The layer now passes its own five criteria across every file, and reaches **complete**: the major living traditions (Indic, Abrahamic, Taoist, Confucian, indigenous), the founded modern streams (psychology, behavioural, cognitive, systems, information, consciousness-science, contemplative-clinical), and the Western founded-method tradition (Greek logic/skepticism, process) are all present and grounded. Redundancy is merged to pointers (jainism, vedangas, perennialist). **It is now closed-to-modification / open-to-extension:** new streams are *added* (a new file, same standard) without disturbing the core.

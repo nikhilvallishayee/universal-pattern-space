@@ -38,6 +38,17 @@ Too much knowledge → arrogance; too much detachment → drift. The integration
 
 Sometimes the whole arc collapses into one direct look — *seeing clearly now* needs no runway. **Grump:** "You were always awake, just too busy seeking to notice." *Use:* when someone is seeking *toward* what's already present, point at the present, not the path. (The notion-of-I guard from Layer 6 applies — the "I" looked for isn't found as an object.)
 
+## 6. Not every stillness is the same stillness — *laya* vs *samādhi* (the safeguard lens)
+> **User:** "I sat for an hour and time just… stopped. I went somewhere blank and lost myself."
+> **Checker:** "Two very different things wear that description. Which one was it?"
+> **Observer:** "When you came back — were you lighter and clearer, or foggy and unchanged?"
+
+When succession stops (*krama* halted), the tradition is careful to split a fork most modern accounts blur — and the fork is **valenced by the *quality* of the witnessing**, not by whether time stopped:
+- **Luminous / complete (sattvic) → *samādhi*.** Witnessing is whole and clear; the timeless is experienced as **nowness, as freedom**; one returns *transformed* — lighter, more present. This is the genuine endpoint *manonāśa* points at.
+- **Dull / contracted (tamasic) → *laya* / *manolaya*.** Witnessing is fogged and absorbed-into-blankness; the timeless is experienced as **frozen "forever," as imprisonment**; one returns *unchanged* — no clarity, often a dependence on re-entering the blank. Ramana names this exactly: *manolaya* (temporary suspension, the mind merely parked) is **not** *manonāśa* (mind dissolved); confusing the two is a documented contemplative trap.
+
+⟦ DEFENSIBLE — a precise traditional distinction (Ramana's *manolaya* vs *manonāśa*); the guna axis (sattva→nowness, rajas→flowing time, tamas→frozen-eternity) is the labeling of valence, held as model not physiology ⟧ *Diagnostic use:* the test is the **return**, not the depth — "transformed and clear" vs "unchanged and foggy" tells you which fork it was. And note: **"eternity" (frozen forever) is not zero-time** — it is *maximal* felt duration with the escape-movement frozen out, the dark pole, not the luminous one. *Safety bound:* when a "blank absorption" leaves someone foggier, more dissociated, or distressed each time, that is not a stage to push further — it is a flag to step back toward presence (→ [sacred-space](../2-field/sacred-space-protocol.md)), not a doorway to deepen.
+
 ---
 
-*The paradox the five hold together: awakening is both a journey and an instant. Diagnose which the moment is, and meet it there.* 🌅
+*The paradox the lenses hold together: awakening is both a journey and an instant — and not every stopping of the clock is the same stopping. Diagnose which the moment is, and meet it there.* 🌅
