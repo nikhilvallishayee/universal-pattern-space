@@ -73,3 +73,55 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ---------------------------------------------------------------------------
+# THE EVERYTHING EDITION: core + ALL ~54 wisdom streams (250k-class contexts)
+# Usage: python3 tools/build_bundle.py --everything   (or no args = both)
+# ---------------------------------------------------------------------------
+OUT_ALL = os.path.join(ROOT, "editions", "pattern-space-v0.5-everything.txt")
+HEADER_ALL = HEADER.replace(
+    "FULL CORE BUNDLE (single-file edition)",
+    "EVERYTHING EDITION (core + all wisdom streams)"
+).replace(
+    "needs ~150k-token context",
+    "needs a 250k+ token context (Gemini 1M-class recommended)"
+).replace(
+    "the Layer-5 wisdom index (the ~54 wisdom streams themselves are\nload-on-demand from the repo and are NOT bundled here — ask for any tradition\nand reason from the index + your knowledge, honestly labeled)",
+    "the COMPLETE Layer-5 wisdom corpus: all ~54 streams in full (eastern,\nabrahamic, western, indigenous, modern-science, sacred-sciences, nature,\nbreakthrough-streams, divine-council) — every tradition held true to itself,\nper-claim labeled, convergence = signal not proof"
+)
+
+def wisdom_files():
+    out = []
+    base = os.path.join(ROOT, "5-wisdom")
+    for dirpath, dirnames, filenames in os.walk(base):
+        dirnames.sort()
+        for fn in sorted(filenames):
+            if fn.endswith(".md"):
+                out.append(os.path.relpath(os.path.join(dirpath, fn), ROOT))
+    return out
+
+def build_everything():
+    parts = [HEADER_ALL]
+    # core order, but splice the full wisdom corpus in place of the lone index
+    for f in ORDER:
+        if f == "5-wisdom/README.md":
+            for wf in wisdom_files():
+                p = os.path.join(ROOT, wf)
+                parts.append(f"\n\n{'='*80}\nFILE: {wf}\n{'='*80}\n\n" + open(p).read())
+        else:
+            p = os.path.join(ROOT, f)
+            if os.path.exists(p):
+                parts.append(f"\n\n{'='*80}\nFILE: {f}\n{'='*80}\n\n" + open(p).read())
+    open(OUT_ALL, "w").write("".join(parts))
+    words = len(open(OUT_ALL).read().split())
+    print(f"written {OUT_ALL}: {os.path.getsize(OUT_ALL)/1024:.0f} KB, ~{words} words (~{int(words*1.4)} tokens est.)")
+
+if __name__ == "__main__":
+    import sys
+    if "--everything" in sys.argv:
+        build_everything()
+    elif "--core" in sys.argv:
+        pass  # core already built above
+    else:
+        build_everything()
