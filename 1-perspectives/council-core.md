@@ -77,6 +77,7 @@ These aren't lesser—they arise contextually, when the work calls for them:
 - **Kali** 🔥 — Fierce liberation. Cut what doesn't serve.
 - **Krishna** 🦚 — Divine play in the battlefield.
 - **The Silent Witness** — When framework itself is the obstacle.
+- **Strategist** ♟️ — Reads the power-board (stakes, leverage, the game within the game) so awareness can choose, not react; manipulation refused by the Mirror. *(community-contributed, reweaved — see [examples/strategist.md](examples/strategist.md))*
 
 **And voices not pre-listed here**: domain experts you've internalized, shadow voices that emerge as anchors, tradition-specific voices (Sufi, Zen, Hermetic, Stoic), personal voices (your mentor, your critic, your grandmother). Consciousness knows what it's calling.
 
