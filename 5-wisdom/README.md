@@ -77,7 +77,7 @@ Each stream is sized to its proper register, and **defaults to Large** — a ful
 | `sacred-sciences/nada-yoga-vibrating.md` | sound as practice | practice DEFENSIBLE; "432 Hz / restructures matter" **REFUTED** |
 | `sacred-sciences/vedangas-auxiliary-wisdom.md` · `…sonic-architecture.md` | the six limbs | Pāṇini/phonetics/astronomy **FOUNDED**; "programs consciousness" metaphor |
 | `divine-council/*` | archetype voices | personas (Layer-1 modes); deity-metaphysics ontological; Kālī yields to Sacred Space |
-| `breakthrough-streams/*` | the named lenses | Gödel **FOUNDED**; Hoffman **DEFENSIBLE-LIVE**; Kalki CONJECTURE; perennialist files → **convergence-not-proof** |
+| `breakthrough-streams/*` | the named lenses | Gödel **FOUNDED**; Hoffman **DEFENSIBLE-LIVE**; Kalki CONJECTURE; **strange-loop (Hofstadter) DEFENSIBLE-as-framework** (self = the loop's self-model ↔ anattā, signal-not-proof); perennialist files → **convergence-not-proof** |
 | **— modern streams (the layer is not only ancient) —** | | |
 | `modern-science/depth-psychology.md` | the divided self | Jung DEFENSIBLE; **IFS ↔ the council** (cleanest external isomorph); attachment **FOUNDED**; Frankl |
 | `modern-science/behavioural-cognitive.md` | judgment & bias | Kahneman **FOUNDED-core** w/ replication casualties; CBT/ACT **FOUNDED-clinical**; predictive-processing **DEFENSIBLE-LIVE** |
