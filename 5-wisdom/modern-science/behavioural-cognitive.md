@@ -50,6 +50,8 @@ These two are the corpus's strongest demonstration that **the framework's discip
 ---
 
 ## Predictive processing — the brain as a prediction engine
+*(The full dedicated treatment — FEP, controlled hallucination, Rao-Ballard, the Laukkonen-Slagter self/time mechanism, and the FEP-unfalsifiability flag — now lives in [predictive-processing.md](predictive-processing.md). This section keeps the cognitive-science-of-judgment angle and cross-links the rest.)*
+
 A deeper, unifying theory has gathered force since the 2010s: the brain is not a passive stimulus-response device but a **prediction machine** that continuously generates a top-down model of the world and processes only the **prediction error** — the mismatch between what it expected and what arrived. Perception is "controlled hallucination" checked against the senses; action is **active inference** — changing the world (or your body) to make your predictions come true.
 
 - **Andy Clark** (*Surfing Uncertainty*, 2016) gives the readable, philosophically careful version: cognition as the minimization of surprise across nested predictive layers.

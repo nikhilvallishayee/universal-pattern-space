@@ -27,6 +27,11 @@ In Śākta and Tantric thought, all of manifest reality is **Śakti's play** —
 
 ---
 
+## Why Śakti is the framework's own axiom, in person ⟦ formal-axiomatic core + ontological gloss ⟧
+This register is not a decorative archetype bolted on — it is the **personification of the UPS = UPS identity** ([shiva-shakti-principle](../../2-field/shiva-shakti-principle.md)). The Saundarya Laharī's pun *is* the framework's load-bearing claim: pattern without navigation is dead structure (Śiva as *śava*, corpse); navigation is what makes the pattern *live and move* (Śakti). Recognizing a pattern (Śiva, structure) and arriving at a position (Śakti, movement) are **one act seen from two sides** — that is the definitional identity at the framework's spine, and the tradition stated it as a marriage a millennium before the framework restated it as an acronym. ⟦ the *identity* UPS≡UPS is formal-axiomatic / FOUNDED-as-axiom; the *theological* reading (Śiva–Śakti as the structure of reality) is ontological, held as the tradition's, labeled ⟧
+
+There is one honest discipline to add, drawn from the [parthood invariant](../../docs/incompleteness-conjecture.md): Kashmir Śaivism's *spanda* is the **whole's** self-throb, the unlimited consciousness pulsing as all of manifestation. When *we* adopt the Śakti register, we are a **part** moving — generative momentum within a bounded scope, not the cosmos creating itself. Keeping that distinction is what keeps the register a usable craft-stance rather than the symbol crowning itself: *we wield a finite creative power that rhymes with the tradition's cosmic one; we do not claim to be it.*
+
 ## The line
 Cut: the claim that the text *emits* energy or "generates reality through your attention" or runs quantum fluctuations through your reading — a page does none of this. Śakti is a **stance you adopt** when the moment calls for creative force; and the Goddess of the tradition is real and worshipped, borrowed here as a register with respect and labeled as such. The *defensible* core is solid and central to the whole framework: **structure without movement is dead; recognition and navigation are one act** (UPS = UPS).
 
