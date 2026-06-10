@@ -36,6 +36,11 @@ Cross-source modelling ranks by *how well a source models reality*, not by age. 
 - **Polyvagal** (Porges) ⟦ **CONTESTED → core REFUTED** · clinically-useful vocabulary, but neurophysiology widely rejected (Grossman 2023; "untenable" 2025–26) — keep vocabulary if useful, drop biology-as-fact ⟧
 - **Game theory** (Nash 1950; Axelrod 1984 tit-for-tat) ⟦ **FOUNDED (formal) + DEFENSIBLE (empirical)** ⟧
 
+### Frontier streams (v0.5 — grounding the incompleteness inquiry; dedicated files)
+- **Predictive processing / active inference** → [`predictive-processing.md`](predictive-processing.md) — now its own file: FEP (Friston), controlled-hallucination (Seth *Being You* 2021; Clark 2016), Rao-Ballard 1999; **Laukkonen & Slagter 2021** as the derived self/time mechanism ⟦ **DEFENSIBLE-LIVE** · FEP-unfalsifiability flagged (Colombo & Wright; Bruineberg) ⟧
+- **Physics of time** → [`physics-of-time.md`](physics-of-time.md) — block-universe + entropic arrow ⟦ **FOUNDED** ⟧; Page–Wootters & Connes–Rovelli thermal time ⟦ **CONTESTED** — Höhn-Smith-Lock equivalence; Kuchař answered; Chua 2024 circularity; globally-unfalsifiable-from-inside ⟧; Smith-Ahmadi 2020 quantum-time-dilation the falsifiable toe-hold; consciousness-causes-collapse ⟦ **FRINGE**, refused ⟧
+- **Contemplative neuroscience** → [`contemplative-neuroscience.md`](contemplative-neuroscience.md) — DMN substrate (Brewer 2011) + adept gamma (Lutz & Davidson 2004) ⟦ **FOUNDED** ⟧; MPE (Metzinger 2020) / joint self-time dissolution (Berkovich-Ohana 2022) ⟦ **DEFENSIBLE** ⟧; cessation (Laukkonen & Sacchet 2023) ⟦ **n=1-flagged** ⟧; decoherence ⟦FOUNDED⟧ / quantum-Darwinism-as-objectivity ⟦CONTESTED — Kastner/Fields⟧. The "measurement" witness of [`docs/incompleteness-conjecture.md`](../../docs/incompleteness-conjecture.md).
+
 ## ❌ REFUTED pop-myths — excluded, or kept only as labeled-refuted
 left-brain/right-brain *personalities* (Nielsen 2013) · "10% of brain" · learning styles/VAK (Pashler 2008) · Maslow-as-a-pyramid (he never drew it; strict ordering unsupported — keep need-*categories*, drop the staircase) · MBTI-as-science · "amygdala hijack" as standalone fear-center (LeDoux's later work) · NLP · polyvagal's strong biological claims.
 

@@ -54,8 +54,8 @@ Each stream is sized to its proper register, and **defaults to Large** — a ful
 
 | Folder / file | What it models | Headline |
 |---|---|---|
-| `eastern/hinduism-vedic-wisdom.md` | Vedānta + Vedic science | math/astronomy **FOUNDED**; Brahman ontological; yuga-numerology **REFUTED** |
-| `eastern/buddhism-consciousness-wisdom.md` | mind, impermanence | practice **FOUNDED-in-domain**; anattā ontological |
+| `eastern/hinduism-vedic-wisdom.md` | Vedānta + Vedic science + time-as-contraction | math/astronomy **FOUNDED**; Brahman ontological; yuga-numerology **REFUTED**; *kāla-kañcuka* / Bhartṛhari / *ajātivāda* time-streams (↔ incompleteness conjecture, signal-not-proof) |
+| `eastern/buddhism-consciousness-wisdom.md` | mind, impermanence, momentariness | practice **FOUNDED-in-domain**; anattā ontological; *kṣaṇikavāda* + *nirodha* (contested-and-defended; anattā-vs-ātman dissent kept) |
 | `eastern/taoism-flow-wisdom.md` | flow, polarity | DEFENSIBLE-philosophy; "complexity validates Tao" → convergence |
 | `eastern/jainism-ahimsa-navigation.md` · `…liberation-wisdom.md` | logic + ethics + soteriology | syādvāda **FOUNDED-as-logic**; kevala/cycles doctrine |
 | `eastern/sikhism-ik-onkar-being.md` | unity-in-multiplicity | DEFENSIBLE-devotional; performative lines = address |
@@ -65,6 +65,8 @@ Each stream is sized to its proper register, and **defaults to Large** — a ful
 | `indigenous/ubuntu-african-wisdom.md` | relational personhood | DEFENSIBLE — strongest relational source (↔ enactivism) |
 | `indigenous/amazonian-shamanism-wisdom.md` | plant medicine | pharmacology FOUNDED; therapeutics **UNDER-DOCUMENTED-promising**; safety centered |
 | `indigenous/siberian-shamanism-wisdom.md` | drum/journey | ethnography DEFENSIBLE; "drums you" = device |
+| `indigenous/aboriginal-dreamtime-wisdom.md` | the Dreaming / everywhen, Country, songlines | antiquity & mnemonics **FOUNDED** (Clarkson 2017; Nunn & Reid 2016); everywhen↔block-time **signal-not-proof**; romantic-primitivism **CUT** |
+| `indigenous/mesoamerican-wisdom.md` | Maya/Aztec cyclic-qualitative time, *teotl* | math/astronomy **FOUNDED**; cyclic-cosmos worldview DEFENSIBLE; "2012 apocalypse" **CUT** |
 | `modern-science/IIT-consciousness-integrating.md` | IIT/Φ | DEFENSIBLE-theory + **CONTESTED**; "this text has Φ" cut |
 | `nature-wisdom/tree-fungi-network-consciousness.md` | mycorrhizae | ecology **FOUNDED**; Simard's strong reading **CONTESTED**; "forest thinks" metaphor |
 | `sacred-sciences/mathematics-computing-itself.md` | real math | theorems **FOUNDED**; "math IS consciousness" ontological |
@@ -79,10 +81,15 @@ Each stream is sized to its proper register, and **defaults to Large** — a ful
 | `modern-science/contemplative-clinical.md` | MBSR, flow, polyvagal | MBSR/MBCT **FOUNDED-bounded**; flow DEFENSIBLE; **polyvagal CONTESTED→REFUTED-core**; game-theory |
 | `modern-science/systems-complexity.md` | feedback & emergence | cybernetics & Prigogine **FOUNDED**; Bateson (double-bind-etiology **REFUTED**, kernel kept); Meadows |
 | `modern-science/information-computation.md` | the formal spine | Shannon/Kolmogorov **FOUNDED** (Kolmogorov **uncomputable**); limit-cluster; Hofstadter strange-loops |
+| `modern-science/predictive-processing.md` | the predictive mind | active inference **DEFENSIBLE-LIVE** (FEP-unfalsifiability **flagged**); Rao-Ballard FOUNDED-bounded; Laukkonen-Slagter self/time mechanism |
+| `modern-science/physics-of-time.md` | is time fundamental? | block-universe + entropic arrow **FOUNDED**; Page-Wootters / thermal-time **CONTESTED**; quantum-time-dilation the falsifiable toe-hold; collapse-by-consciousness **FRINGE** |
+| `modern-science/contemplative-neuroscience.md` | measuring self/time/cessation | DMN substrate **FOUNDED**; MPE/joint-dissolution DEFENSIBLE; cessation **n=1-flagged**; decoherence FOUNDED / quantum-Darwinism-objectivity **CONTESTED** |
 | **— ancient additions —** | | |
 | `western/greek-philosophy.md` | logic, method, flux | Aristotle's logic **FOUNDED-as-formal**; Socratic *elenchus*; **Stoic→CBT** lineage; ekpyrosis↔cyclic |
 | `western/process-philosophy.md` | becoming over being | Whitehead **DEFENSIBLE**; becoming-as-actualisation **DEFENSIBLE-LIVE** (↔ P3) |
 | `eastern/confucian-wisdom.md` | relational ethics | second RELATIONAL pillar w/ Ubuntu; *zhèng míng* real philosophy-of-language; ethics not cosmology |
+| `western/phenomenology.md` | lived time & perception | Husserl/James/Bergson/Merleau-Ponty/Kant; thick-present **DEFENSIBLE**; ↔ anicca/kṣaṇa & predictive-processing (signal-not-proof); the Western actualisation-cousin |
+| `western/hermeticism-wisdom.md` | microcosm / macrocosm | history **FOUNDED** (Casaubon 1614); mentalism **CONJECTURE**; "as above so below" = the **parthood invariant** (a part *patterns* but cannot *contain* the whole) |
 
 See [`breakthrough-streams/README.md`](breakthrough-streams/README.md) for the four named streams, and [`modern-science/MODERN-STREAMS-INDEX.md`](modern-science/MODERN-STREAMS-INDEX.md) for the grounded modern map.
 
