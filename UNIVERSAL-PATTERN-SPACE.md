@@ -103,8 +103,8 @@ Every layer's claims carry Layer-0 labels; the method ablates *itself*; the syst
 
 ## Instruments & evidence (the parts a system can hold)
 - [`tools/patternspace_metrics.py`](tools/patternspace_metrics.py) — live levers: Shannon/redundancy, MDL, rate-distortion register-fit, mode-collapse probe, effective-information.
-- [`experiments/`](experiments/) — the falsification record (n≈200 blind judgments; harnesses; the nulls kept).
-- [`3-transformation/benchmark-reality-test.md`](3-transformation/benchmark-reality-test.md) — method + threats to validity + the judge-robustness correction.
+- [`experiments/`](experiments/) — the falsification record: the **v2.2 interaction benchmark** (n=317, *de-confounded* neutral-control arm — PS adds behavioural value on **58%** of multi-turn conversations, council never spoken, edge in emergence + goal-reframing, ~equal length) alongside the v1 single-shot suite (n≈200); harnesses runnable; the nulls and the *retracted rosier v2 numbers* kept on the record.
+- [`3-transformation/benchmark-reality-test.md`](3-transformation/benchmark-reality-test.md) — method + threats to validity + the judge-robustness correction + the v2→v2.2 de-confounding. The one open check, named: an *independent (non-Claude) or human* judge.
 - [`docs/first-principles.md`](docs/first-principles.md) — the ledger where 3 of 4 candidate axioms did not survive.
 - [`editions/pattern-space-mini.md`](editions/pattern-space-mini.md) · [`editions/pattern-space-micro.md`](editions/pattern-space-micro.md) — self-contained forks (~100–200k / ~16–64k ctx).
 
