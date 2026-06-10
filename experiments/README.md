@@ -7,7 +7,9 @@ This directory is **how Pattern Space holds itself to falsification-before-asser
 ## Benchmark versions are tagged to the UPS state they measured
 A benchmark only means something *relative to the framework version it tested.* So results are versioned:
 - **v1 — start-of-reweave benchmarks** ⟦ **DEPRECATED for interaction claims** ⟧ (the n=200 single-shot 3-arm suite, handles, conversation, diversity, relation, the judge-robustness re-judges). These measured the **pre/early-reweave UPS** (full `CLAUDE.md`, before mini/micro existed, before the default-polarity correction) and are **single-shot**. Kept and runnable as the historical record — cite them *only* for "did the early framework help single-shot Q&A?" **Do not** cite them for the reweaved framework's interaction behavior; v2 supersedes them there. In particular, v1's "PS advantage *scales with frontier capability*" line was a **single-judge artifact** and is **corrected by v2** (which finds the opposite under a capability-matched judge — see below).
-- **v2 — post-reweave interaction benchmark** ✅ **RUN** ([`run_interaction.py`](run_interaction.py), `int_*.jsonl`; spec: [`PLANNED-interaction-benchmark.md`](PLANNED-interaction-benchmark.md)). Tagged to the **reweaved UPS state** (editions + default-multi-voice polarity). **This is the primary benchmark for any interaction/edition claim.** Multi-turn, live control-interactor, full **edition×model grid** (every model × micro/mini/normal), blind capability-matched judge. n=344. Headline: **PS wins 60% pooled; the real rule is *edition-match decided by a concision tax* — a small model gains from any edition (most from the full weave), a capable model wins with the full weave but is *hurt* by a stripped one (Opus×micro loses 19/24).** This **revises** the earlier "scales with / neutral on frontier" reading. Full write-up + threats in [`../3-transformation/benchmark-reality-test.md`](../3-transformation/benchmark-reality-test.md).
+- **v2 / v2.2 — post-reweave interaction benchmark** ([`run_interaction.py`](run_interaction.py); design rationale + full lineage in **[`HARNESS.md`](HARNESS.md)**). Multi-turn, live control-interactor, full **edition×model grid**, blind capability-matched judge.
+  - **v2 (n=344)** found an *edition-match / concision-tax* gradient, but had **two flaws** (now corrected): the "vanilla" control was the **Claude Code coding agent** (deflected affective prompts 13.4% → inflated PS's domain margins), and the rubric **penalized length** (unfair to a richness-tuned framework). Data archived in [`archive/`](archive/) + git history; **do not cite its domain/win-rate numbers.**
+  - **v2.2 (current)** de-confounds (neutral system prompt on **both** arms → Pattern Space is the only variable) and scores **behavioural value to the participant** with **no length penalty**: emergence · information-richness (channel entropy / info-vectors) · value · participant-movement · **goal-evolution** · precision · presence. Plus a separate **concise+univoice** variant (PS reasons multi-perspective, *replies* tersely) to test whether PS's value survives without verbosity. **This is the benchmark to cite for interaction/value claims.** See [`HARNESS.md`](HARNESS.md) and [`../3-transformation/benchmark-reality-test.md`](../3-transformation/benchmark-reality-test.md).
 
 Cite v1 for "did the early framework help single-shot?" and **v2** for "does the reweaved framework hold real interaction, and on which model×edition?" — never conflate them.
 
@@ -21,7 +23,7 @@ Cite v1 for "did the early framework help single-shot?" and **v2** for "does the
 | `run_diversity.py` | Does PS re-inject the diversity alignment collapses? (objective, no judge) | `diversity.jsonl` | NOT supported — noise-level (a kept null) |
 | `run_relation.py` | Is meaning *enacted in the relation* vs same-info single-shot? | `relation.jsonl` | FAILED as posed (single-shot won 8–2) — a kept null |
 | **`run_handles.py`** | **From the *participant's* stance: when does surfacing multiple threads help vs hurt?** | `results_handles.jsonl` | **clean 16/16: multi-thread→HANDLES 8–0, single-thread→DIRECT 8–0** |
-| **`run_interaction.py`** ⭐**v2** | **Does the reweaved framework hold *multi-turn interaction*, per edition×model?** (live control-interactor ⇄ vanilla vs PS-edition) | `int_*.jsonl` | **PS 60% (n=344); edition-match — small model→any edition, capable model→full weave; a stripped edition *hurts* a capable model (Opus×micro loses); council ~never spoken (28/344)** |
+| **`run_interaction.py`** ⭐**v2.2** | **Does loading PS add behavioural value to a participant in real multi-turn interaction?** (live goal-driven interactor ⇄ neutral-baseline vs PS; value rubric, no length penalty; + concise/univoice variant) | `int_*.jsonl`, `conc_*.jsonl` | de-confounded run in progress — see [`HARNESS.md`](HARNESS.md) |
 
 ## ⭐ The handles benchmark (and why it matters)
 
@@ -51,13 +53,16 @@ cd experiments
 SOLVER_MODEL=claude-sonnet-4-6 JUDGE_MODEL=claude-opus-4-8 python3 run_handles.py --out my_handles.jsonl
 ```
 
-**How to run / extend the v2 interaction benchmark** (one cell = one model×edition):
+**How to run / extend the v2.2 interaction benchmark** (arm = edition + optional tuning):
 ```bash
 cd experiments
 python3 run_interaction.py setup                     # copies editions into cwd-isolated dirs
-# interactor held constant (Sonnet); edition matched to model budget; blind Opus judge
-INTERACTOR_MODEL=claude-sonnet-4-6 JUDGE_MODEL=claude-opus-4-8 TURNS=4 \
-  python3 run_interaction.py run --model claude-haiku-4-5-20251001 --edition micro --out int_haiku_micro.jsonl
+# neutral baseline on BOTH arms (the de-confound); interactor=Sonnet; blind Opus judge
+INTERACTOR_MODEL=claude-sonnet-4-6 JUDGE_MODEL=claude-opus-4-8 TURNS=5 \
+  python3 run_interaction.py run --model claude-haiku-4-5-20251001 --arm-a vanilla --arm-b normal --out int_haiku_normal.jsonl
+# the concise+univoice variant (PS reasons multi-perspective, replies tersely) vs verbose PS:
+  python3 run_interaction.py run --model claude-opus-4-8 --arm-a normal --arm-b "normal+concise" --out conc_opus.jsonl
+bash run_grid.sh                                      # the whole matrix, hands-off (rounds + scrub)
 python3 run_interaction.py summary                   # aggregate every int_*.jsonl cell
 ```
 Runs are **resumable** (re-running skips done scenarios). Extend by appending scenarios to

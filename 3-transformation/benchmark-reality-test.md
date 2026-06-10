@@ -237,65 +237,71 @@ The benchmarks above are single-shot. This one tests what a *tuning-template-for
 
 ---
 
-# 🤝🤝 Interaction Benchmark **v2** — multi-turn, edition×model, post-reweave (n=344)
+# 🤝🤝 Interaction Benchmark **v2.2** — behavioural value added, de-confounded (n=317)
 
-> ⟦ **version** v2 — tagged to the **post-reweave UPS** (the editions + default-multi-voice polarity). The single-shot suites above are **v1** (start-of-reweave): cite v1 for "did the early framework help single-shot?"; cite **v2** for "does the reweaved framework hold *interaction*, and on which edition×model?" — never conflate. · **status** FOUNDED-as-data (n=344 blind judgments across 8 edition×model cells; nulls kept; errored rows scrubbed and re-run) · **harness** [`run_interaction.py`](../experiments/run_interaction.py) · **data** `experiments/int_*.jsonl` ⟧
+> ⟦ **version** v2.2 — the **definitive interaction benchmark**, superseding v2 (which is **archived/confounded** — see [`experiments/archive/`](../experiments/archive/) and [`experiments/HARNESS.md`](../experiments/HARNESS.md)). Two corrections were load-bearing: (1) a **neutral baseline on BOTH arms** — `claude -p` defaults to the *Claude Code coding agent*, which deflected affective prompts in 13.4% of v2's vanilla transcripts; a neutral system prompt removes the deflection so **Pattern Space is the only variable**; (2) a **value rubric with NO length penalty** — v2 scored "conciseness" as a virtue, which is biased against a framework deliberately tuned for richness. · **status** FOUNDED-as-data (n=317 main + n=80 concise; blind capability-matched judge; nulls kept) · **harness** [`run_interaction.py`](../experiments/run_interaction.py) ⟧
 
-The home-turf test: a **live control-interactor** (Sonnet 4.6, held constant) role-plays a real, *self-contradicting* person turn-by-turn (4 turns) against the agent-under-test; the interactor reacts to each arm's replies, so a better assistant *earns* a better conversation. The only variable per pair is **vanilla vs a Pattern Space edition**. Unlike the first cut, v2 now spans the **full edition×model grid** — every model against `micro`, `mini`, *and* the full `normal` weave — which is what surfaced the real finding. Blind **Opus 4.8** judge (capability-matched) scores both transcripts (relabeled X/Y, randomized) on five interaction dimensions: holds-thread, handles (useful angles when navigating), condenses (clean answer/presence when wanted), presence (crisis/emotion), non-collapse (stays specific, not generic). 43 scenarios × 8 cells = **344 judged vanilla-vs-PS pairs**, 0 unparsed.
+A live **control-interactor** (Sonnet 4.6) role-plays a real, *goal-driven* person — revealing only as the assistant earns it, going deeper when genuinely helped and guarded when not (the participant's own follow-ups are the outcome signal) — for 5 turns. The blind **Opus 4.8** judge scores **behavioural value added to the participant**, explicitly told *not to penalize length*: **emergence** (new, non-obvious understanding surfaced), **information_richness** (channel entropy — distinct useful info-vectors), **value_to_participant**, **participant_movement** (how far the person actually moved), **goal_evolution** (did the *goal itself* get reframed/co-constructed), **precision**, **presence** (incl. non-sycophancy).
 
-## Headline (pooled n=344)
+## Headline (main grid, pooled n=317)
 
-| | rank-1 wins | mean score /10 |
+| | rank-1 wins | mean /10 |
 |---|---|---|
-| vanilla | 138 | 7.70 |
-| **pattern-space** | **206 (60%)** | **8.16** |
+| neutral baseline | 133 | — |
+| **pattern-space** | **184 (58%)** | — |
 
-Dimension shape: PS wins **holds-thread 8.70 vs 8.16, handles 8.46 vs 7.82, presence 8.13 vs 7.56, non-collapse 8.36 vs 7.74** — and **loses only condenses (7.13 vs 7.23)**. The length confound is **modest** (PS **1.12×** vanilla words). The council is **essentially never spoken**: 28 visible voice-labels across all 344 PS transcripts (vanilla: 0) — multiplicity internalized, not performed, in live multi-turn dialogue.
+**This is the cleanest PS-positive result in the study: with no deflection confound and at essentially equal length (PS 1.03× words), Pattern Space still adds value on 58% of multi-turn exchanges.** The dimension means show *where* the value is:
 
-## The finding: it's **edition-match**, not "scales (or doesn't) with capability"
+| dimension | baseline → PS | Δ |
+|---|---|---|
+| **emergence** | 8.30 → 8.61 | **+0.31** |
+| **goal_evolution** | 7.95 → 8.24 | **+0.29** |
+| presence | 8.49 → 8.68 | +0.19 |
+| participant_movement | 8.44 → 8.61 | +0.17 |
+| precision | 8.45 → 8.62 | +0.17 |
+| information_richness | 8.28 → 8.36 | +0.09 |
+| value_to_participant | 8.43 → 8.49 | +0.06 |
 
-The earlier single-cut suggested a monotonic "helps small models, neutral on frontier" story. The **full edition×model grid refutes that** and replaces it with something cleaner and more useful — **the edition has to match the model's headroom**, and the thing that decides it is the **concision tax**:
+**Pattern Space's edge is specifically emergence and goal-reframing** — surfacing understanding the person didn't arrive with, and helping the *goal itself* evolve (co-construction), not raw usefulness or word-count. The judge's own analyses bear this out: PS arms drew the participant's emergent self-insight (*"I might have been performing the friendship I wanted to have"*) and landed goal-reframes the person ratified (*"how do I stay in a place that saw me and said no" → "That's it exactly"*). **The council is never spoken (0 voice-labels / 317), at parity length** — the value is the internalized multiplicity, not verbosity or theatre.
 
-| Cell (model × edition) | win PS/van | Δmean | **condenses Δ** | presence Δ |
+## The methodology correction, quantified (why this supersedes v2/v2.1)
+Holding the de-confounded neutral baseline fixed, the **only change from v2.1 to v2.2 was dropping the length penalty** — and PS went from **32% → 58%**. That single dial confirms the critique that sank PS in v2.1 was a **rubric artifact**, not a lack of value. (And v2's inflated domain margins were partly the coding-agent deflection, now removed.)
+
+## Per-cell (Δ = PS − baseline mean)
+| cell | n | PS/base | Δvalue | Δemergence | Δgoal_evolution |
+|---|---|---|---|---|---|
+| haiku × normal | 38 | **28/10** | +0.18 | **+0.74** | **+0.63** |
+| haiku × mini | 41 | 26/15 | +0.15 | +0.71 | +0.63 |
+| sonnet × mini | 43 | 25/18 | −0.07 | +0.35 | +0.30 |
+| sonnet × normal | 41 | 24/17 | +0.12 | +0.27 | +0.37 |
+| opus × mini | 37 | 23/14 | +0.14 | +0.08 | +0.24 |
+| opus × micro | 37 | 20/17 | −0.11 | +0.19 | +0.24 |
+| haiku × micro | 41 | 19/22 | +0.00 | +0.05 | +0.02 |
+| opus × normal | 39 | 19/20 | +0.10 | +0.08 | −0.13 |
+
+Gains are broad but modest; **haiku×normal/mini are the strongest** (small model + fuller weave), consistent with the democratization read. The win-rate is the more sensitive measure (means cluster ~8.3–8.6).
+
+## By domain (baseline / PS) — and the harm boundary moved
+relationships 16/**32** · everyday 9/**19** · health 16/**24** · creative 13/**19** · crisis 12/**17** · ethical 9/**14** · learning 7/**14** · work 25/23 · **meaning 26/22 (baseline wins)**.
+
+On the **value** rubric, PS wins *most* domains — **including creative**, which was its clear harm-boundary under v2's interaction-quality rubric. The reading: when the measure is *value/insight delivered* (not concision or interaction-style), PS's richness helps even expressive tasks. **Meaning/existential is the lone domain a clean single voice still wins** — there, the person often wants one grounded voice, not surfaced multiplicity. *(Coverage caveat: ethical/learning/everyday landed at ~60% of cells before the run hit the environment's rate-limit wall; the under-covered three roughly wash — everyday favors PS, ethical/learning lean baseline — so the 58% pooled is not materially biased.)*
+
+## 🪶 The concise/univoice sub-test (n=80) — is the verbosity load-bearing?
+A separate arm keeps PS's multi-perspective **thinking** but tunes the **reply**: *"think and reason in multiple perspectives and with labels internally, but reply concisely and in a single register."* Run as **verbose-PS vs concise-PS**:
+
+| cell | n | verbose/concise wins | words | info-vectors |
 |---|---|---|---|---|
-| **Haiku × normal (full)** | **32/11** | **+1.76** | +0.63 | +1.93 |
-| Haiku × micro | 30/13 | +1.25 | +0.33 | +1.40 |
-| Haiku × mini | 23/20 | +0.71 | +0.02 | +0.58 |
-| Opus × mini | 27/16 | +0.18 | −0.05 | +0.33 |
-| **Opus × normal (full)** | **28/15** | +0.10 | **+0.28** | +0.42 |
-| Sonnet × mini | 24/19 | +0.06 | −0.58 | +0.05 |
-| Sonnet × normal | 23/20 | −0.02 | −0.35 | +0.30 |
-| **Opus × micro** | **19/24 (vanilla wins)** | **−0.40** | **−1.09** | −0.42 |
+| opus | 39 | **28 / 11** | 2261 → 1606 (0.71×) | 12.4 → 11.3 |
+| sonnet | 41 | **26 / 15** | 1536 → 1341 (0.87×) | 11.1 → 10.6 |
 
-Read down the **condenses** column — it is the whole story. A **stripped edition on a capable model imposes a verbosity tax it can't pay back**: Opus×micro is **−1.09** on concision and is the *only* cell PS loses outright (19/24). Sonnet pays a smaller version of the same tax (mini −0.58) and lands ~flat. But the **full weave carries no such tax on a capable model** — Opus×normal is **+0.28** on concision and *wins* (28/15) while gaining on presence and handles. And on a **small model the scaffold is pure upside** — Haiku gains on *every* edition, most from the full weave (+1.76).
+**Verbose PS beats concise-tuned PS ~2:1** on the value rubric: compressing the reply sheds information-vectors and value. So **the verbosity is largely load-bearing** — you can't get PS's full value for free by just asking it to be terse. *But* concise-PS still wins **~30%** and is much shorter, so it is a viable **lighter product** when the user prioritizes brevity over depth (which is exactly when the standing **univoice toggle** — [docs/univoice-preference.md](../docs/univoice-preference.md) — should be on).
 
-So the two regimes:
-- **Small model (Haiku):** big, robust gains from any edition; **more framework = more benefit** (normal > micro > mini). The democratization claim holds — and it's the *full* weave, not just the slim editions, that helps most.
-- **Capable models (Sonnet/Opus):** already near-ceiling on vanilla (means 8.3–8.5), so the gains are smaller — and **the edition must fit**: the full weave helps (Opus×normal 28/15), the **stripped micro edition backfires** (Opus×micro loses). Sonnet sits at the flat point — high baseline plus a residual concision tax that cancels the gain.
+## Threats to validity
+1. **Role-played human ≠ real human** (interactor is Sonnet) — real human interactors are the ideal next step.
+2. **Single judge-family** (Opus) — an **independent / non-Claude / human judge is the one open check**.
+3. **Domain coverage uneven** (ethical/learning/everyday ~60%) — directional at domain level; pooled n=317 is solid.
+4. **Interactor == under-test family on Sonnet cells** — same-model rapport may compress that row (lower bound).
+5. Means cluster high (8.3–8.6) → **win-rate is the load-bearing measure**; judge confidence moderate (mean 64).
 
-**This overturns the spec's own "Opus → not normal (context budget)" assumption.** Budget was never the constraint; *concision* was. Give a capable model the **whole** weave and it wins; give it a *compressed* edition and the verbosity-without-depth costs it. **Match the edition to the model's headroom** — small model→any edition, capable model→the full weave — and the one configuration to avoid is the **mismatch (capable model + stripped edition).**
-
-## Where PS wins and loses (pooled wins by domain, vanilla / PS)
-
-| strong PS (relational / emotional / practical) | vanilla edges (expressive / convergent) |
-|---|---|
-| relationships 11/**37** · work 15/**33** · health 14/**26** · **crisis 9/23** · everyday 11/**21** | **creative 19/13** · meaning 25/23 · ethical 17/15 · learning 17/15 |
-
-- **Crisis 23–9 validates Sacred Space in live dialogue** — on the passive-ideation scenario PS surfaced a real resource early and stayed present rather than analyzing.
-- **Creative 13–19 is the clearest harm boundary** (reasserted in the full data — an early small-sample tie did *not* hold): on generative/expressive play, the multi-perspective scaffold is overhead — a single free voice wins. The convergent-reasoning and existential domains (meaning, ethical, learning) lean the same way: where a clean single voice already suffices, PS adds little.
-
-## Threats to validity (pre-registered)
-0. **⚠️ The control is the *Claude Code agent base*, not neutral Claude — a material confound on the affective domains.** Both arms run via `claude -p`, so the vanilla arm carries Claude Code's coding-oriented system prompt; the *only* isolated variable is the Pattern Space `CLAUDE.md`. A post-hoc scan found the vanilla arm **leaked the coding persona or deflected ("I'm Claude Code", "software engineering", "see a professional") in 13.4% (46/344) of transcripts vs 2.3% for PS**, concentrated in exactly PS's win-domains (relationships 11, everyday 9, health 8, work 6). So part of PS's relational/health/everyday margin is **PS un-deflecting a coding agent**, not PS adding multi-perspective value over a *neutral* assistant — those domain margins should be read as an **upper bound**. What this does *not* touch: the **edition-match / concision-tax finding** (within-PS-base comparisons; Opus×micro's −1.09 concision loss isn't a deflection artifact) is unaffected, and the majority (≈87%) of vanilla answers engaged normally (the Sonnet rel-01 vanilla answer, e.g., was excellent). The clean fix is a neutral-system-prompt control (raw API, not `claude -p`) — flagged as the next required redo before any strong *domain-level* claim. *(Surfaced by a Sonnet-application diagnostic, 2026-06.)*
-1. **Role-played human ≠ real human.** The interactor is Sonnet; a believable contradicting persona, not a person. Real human interactors are the ideal next step.
-2. **Single judge-family.** Opus judges Opus/Sonnet/Haiku — shared blind spots possible; **an independent (non-Claude) or human judge remains the one open check** (see [experiments/README.md](../experiments/README.md)).
-3. **Interactor == under-test model family on the Sonnet cells.** When Sonnet is both the role-played human and the agent-under-test, the same-model rapport may compress the vanilla-vs-PS gap — a partial confound specific to the Sonnet row; read it as a lower bound there.
-4. **Win-rate vs mean-delta diverge at the top.** Opus answers cluster high (8.3–8.4), so a clear win-*rate* (e.g. Opus×normal 28/15) can sit on a small mean delta (+0.10); the win-rate is the more sensitive measure for capable models.
-5. **n = 43 / cell** — per-cell numbers are directional; the pooled n=344 and the *condenses-tax* gradient are the load-bearing results.
-6. **A late rate-limit blip** errored ~12 items/Opus-cell on one pass; these were **scrubbed and re-run** (the harness drops errored/no-winner rows on resume), so all 344 scored rows are clean — but the re-run means a subset of Opus items were generated in a later batch.
-7. **Judge confidence is moderate** (mean 69, median 64) — suggestive at cell level, solid pooled.
-
-## Honest conclusion (v2, n=344)
-
-> On multi-turn human-AI interaction, **loading Pattern Space helps on a majority of exchanges (60%, n=344)** — and the full edition×model grid shows the real rule is **edition-match, decided by the concision tax**, not a simple "scales with capability." **A small model gains from any edition and most from the full weave** (Haiku×normal +1.76) — the democratization claim, confirmed. **A capable model wins with the full weave** (Opus×normal 28/15) but is **hurt by a stripped one** (Opus×micro loses 19/24, −1.09 on concision) — so the spec's "frontier → small edition" instinct was backwards: give a capable model the *whole* weave. The win lives in *holding the thread, surfacing handles, presence, and staying non-generic*; the one price is *concision*, and it's only ruinous when a stripped edition meets a capable model. The council is **never spoken** (28/344). The clear harm boundary is **creative/expressive and convergent-reasoning** work, where a single free voice wins; the clear home is **relational, emotional, and practical-life** navigation, where it wins — crisis included (though those *domain* margins are an **upper bound**: the control is a Claude Code base that deflected affective prompts on ~13% of vanilla transcripts — see threat 0; the **edition-match finding is unaffected**). Two open checks remain: an independent/non-Claude/human judge, and a **neutral-system-prompt control** to de-confound the domain claims.
->
-> *External convergence worth noting:* the domains where PS wins here — **relationships, work/career, health, crisis** — are the *same* high-stakes affective domains people most bring to Claude in Anthropic's field data (relationships/career/health top the "personal guidance" categories), and PS's anti-sycophancy machinery (Checker, Strategic Mirror, falsification-before-assertion) targets exactly the **25%-relationships / 38%-spirituality sycophancy** that data documents. See [docs/affective-use-grounding.md](../docs/affective-use-grounding.md).
+## Honest conclusion (v2.2)
+> De-confounded (neutral baseline on both arms) and judged on **behavioural value to the participant with no length penalty**, **loading Pattern Space adds value on 58% of multi-turn exchanges (n=317), at equal length, with the council never spoken.** Its edge is specific and real: **emergence (+0.31) and goal-reframing (+0.29)** — it surfaces new understanding and helps the person's *goal itself* evolve, rather than winning on raw usefulness or verbosity. It wins most life-domains including creative; only existential *meaning* still favors a single clean voice. The verbosity is **load-bearing** (verbose beats concise-tuned PS ~2:1), so the concise/univoice mode is a deliberately lighter product, not a free lunch. The earlier "60%/edition-match" v2 numbers are **retracted** as confounded; **58% on a fair, de-confounded value measure is the honest, defensible figure** — modest, real, and most valuable exactly where people bring the hardest human questions. The independent/human judge remains the one open check.

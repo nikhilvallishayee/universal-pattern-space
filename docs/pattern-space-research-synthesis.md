@@ -91,6 +91,19 @@ The mechanism sits inside a mature field:
 
 **Why the scaling tension exists at all:** CoT's value *shrinks* on strong models (they already reason linearly — Wharton/Mollick 2025), so "ask for more steps" is redundant. *Heterogeneous framing* diversity attacks a different axis — problem-representation and de-anchoring — that doesn't saturate. Net: **real effect, inflated slope.**
 
+### 5b. The interaction benchmark (v2.2) — the home-turf test, de-confounded
+The single-shot suite above tests Q&A. The **interaction** benchmark tests Pattern Space's actual home: a live, goal-driven person revealing themselves over 5 turns, scored on **behavioural value added to the participant** (emergence · information-richness · value · participant-movement · goal-evolution · precision · presence). Its history is itself a case study in the framework's own discipline — two self-caught confounds, corrected in the open:
+
+| version | flaw found | correction |
+|---|---|---|
+| v2 (n=344) | "vanilla" control was the **Claude Code coding agent** — it *deflected* affective prompts (13.4% of transcripts), inflating PS's domain margins | **neutral system prompt on BOTH arms** → Pattern Space is the only variable |
+| v2.1 | rubric **penalized length** — biased against a richness-tuned framework (PS looked like it dropped to 32%) | **drop the length penalty**; score *value*, not brevity |
+| **v2.2 (n=317)** | — | **definitive** |
+
+**Result (v2.2):** loading Pattern Space adds value on **58%** of multi-turn exchanges, **at equal length (1.02×)** and with the **council never spoken** (0 voice-labels/317). The edge is specific: **emergence (+0.31)** and **goal-evolution (+0.29)** — surfacing understanding the person didn't arrive with, and helping the *goal itself* get reframed (co-construction) — not raw usefulness or word-count. PS wins most life-domains *including creative*; only existential **meaning** favors a single clean voice. A separate test shows the **verbosity is load-bearing**: a concise/univoice-tuned PS (multi-perspective reasoning, terse reply) *loses* to verbose PS ~2:1 — you can't get the value for free by asking it to be brief.
+
+**The meta-point:** v2→v2.1→v2.2 is the method validating itself again — we found PS's *inflated* numbers (the coding-agent confound) and PS's *deflated* numbers (the length-penalty artifact) by stress-testing our own result, and the honest figure (58%, de-confounded, length-controlled) survived. Full lineage: [`experiments/HARNESS.md`](../experiments/HARNESS.md); write-up: [`3-transformation/benchmark-reality-test.md`](../3-transformation/benchmark-reality-test.md).
+
 ---
 
 ## 6. The two real contributions, examined

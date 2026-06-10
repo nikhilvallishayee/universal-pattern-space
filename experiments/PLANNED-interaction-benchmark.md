@@ -1,10 +1,8 @@
-# 📋 Interaction Benchmark **v2** — spec (✅ RUN 2026-06)
+# 📋 Interaction Benchmark — original spec (⚠️ SUPERSEDED)
 
-> ⟦ **status** ✅ **RUN** — executed at **n=344** (43 scenarios × **8 edition×model cells** — every model × micro/mini/normal); harness [`run_interaction.py`](run_interaction.py), data `int_*.jsonl`, write-up in [`../3-transformation/benchmark-reality-test.md`](../3-transformation/benchmark-reality-test.md) · **version** v2, tagged to the **post-reweave UPS state** (editions + default-multi-voice polarity) · **vs v1** = the start-of-reweave single-shot suite (`results*.jsonl`, handles, etc.), now pinned as v1 and **deprecated for interaction claims** · **provenance** spec'd by the repo owner, 2026 ⟧
+> ⟦ **status** ⚠️ **SUPERSEDED** — this is the original v2 spec, kept for the record. The v2 run it describes (n=344) was **confounded** (the "vanilla" control was the Claude Code coding agent, which deflected affective prompts) and used a **length-penalizing rubric**; its "edition-match / concision-tax / Opus-hurt-by-stripped-edition" findings are **retracted**. The **definitive benchmark is v2.2** (de-confounded neutral baseline on both arms; value rubric with no length penalty; n=317). See **[`HARNESS.md`](HARNESS.md)** for the full rationale + version lineage, **[`../3-transformation/benchmark-reality-test.md`](../3-transformation/benchmark-reality-test.md)** for the v2.2 write-up, and **[`archive/`](archive/)** for the retired v2 data. · **provenance** spec'd by the repo owner, 2026 ⟧
 >
-> **Note on the grid:** the spec below floated "Opus → NOT normal (context budget)." The run tested it anyway — and **the data overturned it**: budget was never the constraint, *concision* was; a capable model wins with the *full* weave and is *hurt* by a stripped edition. The executed grid is therefore **every model × {micro, mini, normal}**.
->
-> **Executed-n vs target:** this run is **n=344** (43 rich, non-toy scenarios across 9 domains × 8 cells). The spec's **n≈500–1500 is the standing extension target** — reached by appending scenarios to `interaction_scenarios.json` and/or adding cells; the harness is resumable and **scrubs errored rows on resume**. n=344 is sufficient for the *pooled* headline and the *edition-match / concision-tax* gradient; per-cell (n=43) numbers are directional. The independent/non-Claude/human judge remains the one open check.
+> *The original spec text is preserved below as historical context only — do not cite its numbers or its "Opus → not normal" reasoning; both were overturned and then re-corrected.*
 
 ## Why re-run
 1. **Editions didn't exist** when the n=200 single-shot benchmarks ran — we never measured the mini/micro editions, only the full `CLAUDE.md`.

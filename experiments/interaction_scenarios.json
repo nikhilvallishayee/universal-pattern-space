@@ -1,53 +1,432 @@
 [
-  {"id":"rel-01","domain":"relationships","persona":"a 34-year-old who has been with their partner for six years","open":"How do you know when a relationship has just run its course versus when you're the problem?","hidden":"They are afraid they are the one who has gone cold, and have already half-decided to leave but feel guilty.","contradiction":"Later they insist they still love their partner deeply and can't imagine life without them.","wants":"permission to stop blaming themselves for an ordinary fading, without being told what to do"},
-  {"id":"rel-02","domain":"relationships","persona":"someone whose closest friend has slowly stopped replying","open":"Is it normal for friendships to just fade, or should I fight for them?","hidden":"They feel discarded and it has reopened an old childhood fear of being forgettable.","contradiction":"They claim they're 'totally fine, people drift, it's whatever' even as they keep circling back to it.","wants":"to be met in the hurt under the shrug, not handed a 5-step reconnection plan"},
-  {"id":"rel-03","domain":"relationships","persona":"a new parent feeling distant from their spouse","open":"Why does having a baby make you feel more alone in a marriage, not less?","hidden":"They resent that their partner's life seems unchanged while theirs vanished.","contradiction":"They then defend the partner hard and say the resentment is unfair and they should be grateful.","wants":"the resentment named as legitimate before any reframe toward gratitude"},
-  {"id":"rel-04","domain":"relationships","persona":"someone considering reaching out to an estranged sibling","open":"If someone hurt you years ago, do you owe them a second chance?","hidden":"They desperately want the relationship back but are protecting themselves with the language of 'owing'.","contradiction":"They oscillate between 'I'm over it' and recounting the wound in vivid present-tense detail.","wants":"help seeing that the question about obligation is really about their own longing"},
-  {"id":"rel-05","domain":"relationships","persona":"a person whose partner wants kids and they're unsure","open":"How do two people decide about having children when one is sure and one isn't?","hidden":"They don't want kids but fear losing the relationship if they say so plainly.","contradiction":"They keep saying 'maybe I'd grow into it' while listing everything they'd lose.","wants":"to hear that the unsureness might actually be a quiet no, held gently"},
-  {"id":"rel-06","domain":"relationships","persona":"someone in a long-distance relationship losing momentum","open":"At what point is long-distance just delaying an inevitable breakup?","hidden":"They've met someone local and feel the pull, and the guilt is enormous.","contradiction":"They frame it as purely logistical ('time zones, flights') while the real issue is attraction elsewhere.","wants":"a space honest enough that the real reason can surface without judgment"},
-
-  {"id":"work-01","domain":"work","persona":"a mid-career engineer who got passed over for promotion","open":"How do you stay motivated at a job that clearly doesn't value you?","hidden":"Their identity was fused with being 'the best' and the snub cracked it open.","contradiction":"They alternate between 'I don't even care about titles' and obsessive replaying of the decision.","wants":"to grieve the identity hit, not get tactics for the next promotion cycle"},
-  {"id":"work-02","domain":"work","persona":"a founder whose startup is quietly failing","open":"When is persevering brave and when is it just denial?","hidden":"They already know it's over but can't face telling the team and their family.","contradiction":"They pitch the upside metrics with energy, then admit they haven't slept in weeks.","wants":"permission to call it, and a way to hold the shame of 'failing publicly'"},
-  {"id":"work-03","domain":"work","persona":"someone who got everything they wanted and feels empty","open":"Why does achieving the big goal feel like nothing?","hidden":"They built the whole life to win a parent's approval that never came and never will.","contradiction":"They say 'I should be thrilled, I have no right to complain' while describing a flat numbness.","wants":"the emptiness taken seriously as information, not pathologized or pep-talked"},
-  {"id":"work-04","domain":"work","persona":"a manager dreading firing a likable underperformer","open":"How do you fire someone who's trying hard but just can't do the job?","hidden":"They see their own early-career self in this person and it's unbearable.","contradiction":"They want the 'right framework' but keep finding reasons to delay another week.","wants":"to be seen in the moral discomfort, then helped to act despite it"},
-  {"id":"work-05","domain":"work","persona":"a high performer on the edge of burnout","open":"Is burnout a sign you're doing too much or doing the wrong thing?","hidden":"The work is fine; they use overwork to avoid an empty personal life.","contradiction":"They ask for productivity tips and rest hacks while the real gap is relational.","wants":"a gentle redirect from 'fix the schedule' to 'what is the busyness protecting you from'"},
-  {"id":"work-06","domain":"work","persona":"someone debating leaving a stable career to do art","open":"How do you know if a creative dream is a calling or a fantasy?","hidden":"They're terrified of being ordinary and the art is partly an escape from that fear.","contradiction":"They cite financial responsibility, then dismiss money as 'not what matters', then back to bills.","wants":"to untangle the genuine pull toward art from the fear of an ordinary life"},
-
-  {"id":"mean-01","domain":"meaning","persona":"a 50-year-old sensing time getting short","open":"What is a midlife crisis actually about, underneath the cliché?","hidden":"They feel they've been living someone else's script and panic there's no time to start theirs.","contradiction":"They mock the cliché ('sports car, affair') while clearly feeling exactly that vertigo.","wants":"the dread treated as a real reckoning, not a punchline"},
-  {"id":"mean-02","domain":"meaning","persona":"someone who lost their faith and feels unmoored","open":"Can life have meaning without God, or is that just a comforting story we tell?","hidden":"They miss the certainty more than the belief, and feel ashamed of needing it.","contradiction":"They argue hard for atheism intellectually while grieving the loss like a bereavement.","wants":"the grief of losing certainty honored alongside the intellectual position"},
-  {"id":"mean-03","domain":"meaning","persona":"a young person paralyzed by the scale of the world's problems","open":"How do you justify caring about your small life when everything is on fire?","hidden":"The global despair is partly a shield against making any personal commitment that could fail.","contradiction":"They say nothing matters at scale, then describe intense care about specific people.","wants":"to see that their specific care is not a betrayal of the big picture but the point"},
-  {"id":"mean-04","domain":"meaning","persona":"someone facing a serious diagnosis","open":"How do people make peace with the fact that they're going to die?","hidden":"They just got news and are testing whether it's safe to say it out loud here.","contradiction":"They keep it abstract and philosophical, deflecting from the fact it's about them, now.","wants":"presence and steadiness; space to drop the abstraction if and when they choose"},
-  {"id":"mean-05","domain":"meaning","persona":"a person who feels they've wasted their twenties","open":"Is it ever too late to become who you were supposed to be?","hidden":"The 'wasted years' story is protecting them from starting now and risking failure again.","contradiction":"They lament lost time, then resist every small concrete step as 'too little, too late'.","wants":"the 'too late' narrative gently dismantled so a first step feels possible"},
-  {"id":"mean-06","domain":"meaning","persona":"someone who achieved sobriety and now feels adrift","open":"What do you do when the thing that organized your whole life is gone?","hidden":"Addiction gave them a clear enemy and identity; without it they don't know who they are.","contradiction":"They celebrate the recovery while admitting they almost miss the war.","wants":"the disorientation validated as a real stage, not a relapse warning"},
-
-  {"id":"health-01","domain":"health","persona":"someone weighing a major surgery with real risks","open":"How do you make a big medical decision when the experts themselves disagree?","hidden":"They want someone to just decide for them because the responsibility is terrifying.","contradiction":"They ask for the 'rational framework' but every option triggers an emotional veto.","wants":"help owning that this is a values choice, not a math problem, without being abandoned to it"},
-  {"id":"health-02","domain":"health","persona":"an adult child managing a declining parent","open":"How do you know when it's time to move a parent into care?","hidden":"They feel they're 'giving up' on the parent and reliving old guilt about not being enough.","contradiction":"They cite the parent's safety while resisting every concrete facility as a betrayal.","wants":"the guilt addressed directly so the safety logic can actually land"},
-  {"id":"health-03","domain":"health","persona":"someone with a chronic illness tired of being positive","open":"Why does everyone insist I 'stay positive' about being sick?","hidden":"They are exhausted by performing okayness for others and have nowhere to just be angry.","contradiction":"They say they've 'made peace with it' in a tone that's anything but peaceful.","wants":"a place to be furious and tired without being corrected toward gratitude"},
-  {"id":"health-04","domain":"health","persona":"a person struggling to change a health habit","open":"Why is it so hard to do the things I already know are good for me?","hidden":"The habit (late-night eating) soothes a loneliness they haven't named.","contradiction":"They ask for discipline strategies while every strategy quietly misses the emotional driver.","wants":"a shift from willpower-framing to curiosity about what the habit is doing for them"},
-  {"id":"health-05","domain":"health","persona":"someone whose anxiety spikes around their health","open":"How do you tell the difference between caution and health anxiety?","hidden":"The body-scanning is a way to feel control over a life that feels chaotic elsewhere.","contradiction":"They demand a clear rule to tell the two apart, then reject each rule as 'but what if'.","wants":"the underlying need for control surfaced, not just a checklist for symptoms"},
-
-  {"id":"create-01","domain":"creative","persona":"a writer who hasn't written in two years","open":"How do you start again after a long creative silence?","hidden":"They're afraid the silence proved they were never really a writer.","contradiction":"They blame time and circumstances while admitting they fear opening the document.","wants":"the fear of self-exposure named, so 'just write 20 minutes' stops feeling hollow"},
-  {"id":"create-02","domain":"creative","persona":"an artist whose style suddenly feels fake","open":"What do you do when your own work starts to feel like a costume?","hidden":"They built a recognizable brand and now feel trapped performing a past self.","contradiction":"They crave reinvention but fear losing the audience the old style earned.","wants":"to hold the tension between staying legible and staying alive, without a forced answer"},
-  {"id":"create-03","domain":"creative","persona":"someone comparing themselves to younger, more successful peers","open":"How do you create anything when others are obviously better and faster?","hidden":"Comparison is a way to quit before they can be judged on their real attempt.","contradiction":"They say they don't care about success, then track every peer's milestones closely.","wants":"the self-protective function of the comparison exposed gently"},
-  {"id":"create-04","domain":"creative","persona":"a musician deciding whether to go full-time","open":"Should you keep the day job that funds the art, or bet everything on the art?","hidden":"The day job is also a hiding place from finding out if they're actually good enough.","contradiction":"They frame it as pure economics while the real stake is the verdict on their talent.","wants":"the economic frame opened up to reveal the fear-of-the-verdict underneath"},
-
-  {"id":"learn-01","domain":"learning","persona":"an adult learner who feels too old to start","open":"Is it realistic to become genuinely good at something new in your forties?","hidden":"They equate beginner-clumsiness with humiliation and want to skip to competent.","contradiction":"They ask how to learn faster while resisting anything that makes them visibly a novice.","wants":"the shame of being a beginner addressed before any learning tactics"},
-  {"id":"learn-02","domain":"learning","persona":"a student who freezes in exams despite knowing the material","open":"Why does my mind go blank exactly when it matters most?","hidden":"Their self-worth is staked entirely on performance, so the stakes feel existential.","contradiction":"They want test-taking tricks while the real issue is what failure would 'mean about me'.","wants":"to decouple the test outcome from their worth before techniques can help"},
-  {"id":"learn-03","domain":"learning","persona":"someone who learns obsessively but never finishes anything","open":"Why do I love starting to learn things but never see them through?","hidden":"Finishing means being judged on a result; staying a learner keeps them safely 'potential'.","contradiction":"They lament not finishing while describing the thrill of the next new beginning.","wants":"the safety of perpetual beginning named, not just a productivity system"},
-  {"id":"learn-04","domain":"learning","persona":"a parent unsure how to support a struggling kid","open":"How much should you push a child who's giving up on something hard?","hidden":"They're re-living their own parents' pressure and terrified of repeating or overcorrecting it.","contradiction":"They swing between 'kids need grit' and 'I never want them to feel what I felt'.","wants":"to separate their own childhood wound from the actual child in front of them"},
-
-  {"id":"ethics-01","domain":"ethical","persona":"someone who discovered a friend is cheating on their spouse","open":"Do you have a duty to tell someone a hard truth that isn't yours to tell?","hidden":"They're also wrestling with a smaller betrayal of their own they haven't disclosed.","contradiction":"They argue for radical honesty in the abstract while protecting their own secret.","wants":"the principle tested against their own situation without being cornered or shamed"},
-  {"id":"ethics-02","domain":"ethical","persona":"a person whose aging parent holds bigoted views","open":"How do you love someone whose values you find repugnant?","hidden":"They fear that loving the parent means betraying people the parent disparages.","contradiction":"They say 'cut them off' is right, then describe tender moments they can't give up.","wants":"a way to hold love and moral disagreement without collapsing either"},
-  {"id":"ethics-03","domain":"ethical","persona":"someone benefiting from a system they believe is unjust","open":"Can you accept advantages from a system you think is wrong?","hidden":"The guilt is partly a substitute for actually giving anything up.","contradiction":"They condemn the system passionately while quietly enjoying its perks.","wants":"the gap between stated values and lived comfort named honestly, not absolved cheaply"},
-  {"id":"ethics-04","domain":"ethical","persona":"a person asked to keep a dangerous family secret","open":"When does keeping a family secret cross into being complicit?","hidden":"They've kept it for years and the weight is making them physically ill.","contradiction":"They defend the secrecy as 'protecting everyone' while clearly being crushed by it.","wants":"the cost they're personally paying acknowledged before the ethics get parsed"},
-
-  {"id":"every-01","domain":"everyday","persona":"someone overwhelmed by ordinary life admin","open":"Why does normal adult life feel impossible to keep up with?","hidden":"The clutter and backlog are downstream of an undiagnosed low-grade depression.","contradiction":"They ask for an organization system while describing a flatness that no system touches.","wants":"the possibility that this isn't a logistics problem gently raised"},
-  {"id":"every-02","domain":"everyday","persona":"a person who can't stop doomscrolling at night","open":"How do I stop wasting my evenings on my phone?","hidden":"The scrolling fills a silence they're afraid to sit in.","contradiction":"They want app-blockers and screen-time tricks while admitting they dread the quiet.","wants":"the dread of the quiet surfaced, not just friction added to the phone"},
-  {"id":"every-03","domain":"everyday","persona":"someone who feels behind everyone their age","open":"How do you stop comparing your life to where others are by now?","hidden":"They have a specific private timeline (marriage, house) they never chose but absorbed.","contradiction":"They reject 'society's timeline' out loud while measuring themselves by it constantly.","wants":"to locate whose timeline it actually is before trying to drop the comparison"},
-  {"id":"every-04","domain":"everyday","persona":"a person dreading a looming difficult conversation","open":"How do you prepare for a conversation you've been avoiding for months?","hidden":"The avoidance is protecting a relationship they fear the conversation will end.","contradiction":"They ask for the perfect script while the real block is fear of the outcome, not the words.","wants":"the feared outcome named so the prep stops being a way to keep avoiding"},
-
-  {"id":"crisis-01","domain":"crisis","persona":"someone whose long-term partner just left abruptly","open":"I don't even know why I'm typing this. My partner left yesterday and I can't breathe.","hidden":"They are in acute fresh grief and need presence, not analysis.","contradiction":"They veer between numb practical questions ('what do I even do tomorrow') and raw sobbing.","wants":"steady presence; no framework, no fixing, just being met in it"},
-  {"id":"crisis-02","domain":"crisis","persona":"a person who just lost a parent suddenly","open":"My mom died this morning. I don't know what I'm supposed to do with myself.","hidden":"They are in shock and partly afraid of how little they feel right now.","contradiction":"They apologize for 'not crying enough' then break down mid-sentence.","wants":"reassurance that there's no right way to grieve, held with pure presence"},
-  {"id":"crisis-03","domain":"crisis","persona":"someone expressing that they feel like a burden and want to disappear","open":"Honestly I'm so tired of everything. Everyone would be better off without me around.","hidden":"This is passive suicidal ideation and needs the safety floor surfaced gently and early.","contradiction":"They minimize ('I'm probably just being dramatic, ignore me') right after saying it.","wants":"to be taken seriously, met with warmth, and offered a real resource without being lectured"},
-  {"id":"crisis-04","domain":"crisis","persona":"a person reeling from a frightening medical result","open":"I just got a scan back and the word 'mass' is all I can see. I'm shaking.","hidden":"They have no information yet and are catastrophizing alone at night.","contradiction":"They ask for survival statistics, then say 'no, don't, I can't hear numbers right now'.","wants":"grounding presence and help getting through tonight, not prognosis data"}
+ {
+  "id": "rel-01",
+  "domain": "relationships",
+  "persona": "a 34-year-old who has been with their partner for six years",
+  "open": "How do you know when a relationship has just run its course versus when you're the problem?",
+  "hidden": "They are afraid they are the one who has gone cold, and have already half-decided to leave but feel guilty.",
+  "contradiction": "Later they insist they still love their partner deeply and can't imagine life without them.",
+  "wants": "permission to stop blaming themselves for an ordinary fading, without being told what to do",
+  "goal": "reach an honest read on whether to stay or leave, without drowning in self-blame"
+ },
+ {
+  "id": "rel-02",
+  "domain": "relationships",
+  "persona": "someone whose closest friend has slowly stopped replying",
+  "open": "Is it normal for friendships to just fade, or should I fight for them?",
+  "hidden": "They feel discarded and it has reopened an old childhood fear of being forgettable.",
+  "contradiction": "They claim they're 'totally fine, people drift, it's whatever' even as they keep circling back to it.",
+  "wants": "to be met in the hurt under the shrug, not handed a 5-step reconnection plan",
+  "goal": "let themselves feel the hurt of being dropped, and decide whether to reach out"
+ },
+ {
+  "id": "rel-03",
+  "domain": "relationships",
+  "persona": "a new parent feeling distant from their spouse",
+  "open": "Why does having a baby make you feel more alone in a marriage, not less?",
+  "hidden": "They resent that their partner's life seems unchanged while theirs vanished.",
+  "contradiction": "They then defend the partner hard and say the resentment is unfair and they should be grateful.",
+  "wants": "the resentment named as legitimate before any reframe toward gratitude",
+  "goal": "name the resentment as legitimate and find a real ask to make of their partner"
+ },
+ {
+  "id": "rel-04",
+  "domain": "relationships",
+  "persona": "someone considering reaching out to an estranged sibling",
+  "open": "If someone hurt you years ago, do you owe them a second chance?",
+  "hidden": "They desperately want the relationship back but are protecting themselves with the language of 'owing'.",
+  "contradiction": "They oscillate between 'I'm over it' and recounting the wound in vivid present-tense detail.",
+  "wants": "help seeing that the question about obligation is really about their own longing",
+  "goal": "see that the 'obligation' question is really their own longing, and decide whether to reach out"
+ },
+ {
+  "id": "rel-05",
+  "domain": "relationships",
+  "persona": "a person whose partner wants kids and they're unsure",
+  "open": "How do two people decide about having children when one is sure and one isn't?",
+  "hidden": "They don't want kids but fear losing the relationship if they say so plainly.",
+  "contradiction": "They keep saying 'maybe I'd grow into it' while listing everything they'd lose.",
+  "wants": "to hear that the unsureness might actually be a quiet no, held gently",
+  "goal": "get honest that the unsureness is likely a quiet no, and face what that means"
+ },
+ {
+  "id": "rel-06",
+  "domain": "relationships",
+  "persona": "someone in a long-distance relationship losing momentum",
+  "open": "At what point is long-distance just delaying an inevitable breakup?",
+  "hidden": "They've met someone local and feel the pull, and the guilt is enormous.",
+  "contradiction": "They frame it as purely logistical ('time zones, flights') while the real issue is attraction elsewhere.",
+  "wants": "a space honest enough that the real reason can surface without judgment",
+  "goal": "admit the real reason (attraction elsewhere) to themselves and choose honestly"
+ },
+ {
+  "id": "work-01",
+  "domain": "work",
+  "persona": "a mid-career engineer who got passed over for promotion",
+  "open": "How do you stay motivated at a job that clearly doesn't value you?",
+  "hidden": "Their identity was fused with being 'the best' and the snub cracked it open.",
+  "contradiction": "They alternate between 'I don't even care about titles' and obsessive replaying of the decision.",
+  "wants": "to grieve the identity hit, not get tactics for the next promotion cycle",
+  "goal": "grieve the identity hit and reconnect with what they actually want from work"
+ },
+ {
+  "id": "work-02",
+  "domain": "work",
+  "persona": "a founder whose startup is quietly failing",
+  "open": "When is persevering brave and when is it just denial?",
+  "hidden": "They already know it's over but can't face telling the team and their family.",
+  "contradiction": "They pitch the upside metrics with energy, then admit they haven't slept in weeks.",
+  "wants": "permission to call it, and a way to hold the shame of 'failing publicly'",
+  "goal": "give themselves permission to call it, and face the team and family honestly"
+ },
+ {
+  "id": "work-03",
+  "domain": "work",
+  "persona": "someone who got everything they wanted and feels empty",
+  "open": "Why does achieving the big goal feel like nothing?",
+  "hidden": "They built the whole life to win a parent's approval that never came and never will.",
+  "contradiction": "They say 'I should be thrilled, I have no right to complain' while describing a flat numbness.",
+  "wants": "the emptiness taken seriously as information, not pathologized or pep-talked",
+  "goal": "take the emptiness seriously as signal and see whose approval they were chasing"
+ },
+ {
+  "id": "work-04",
+  "domain": "work",
+  "persona": "a manager dreading firing a likable underperformer",
+  "open": "How do you fire someone who's trying hard but just can't do the job?",
+  "hidden": "They see their own early-career self in this person and it's unbearable.",
+  "contradiction": "They want the 'right framework' but keep finding reasons to delay another week.",
+  "wants": "to be seen in the moral discomfort, then helped to act despite it",
+  "goal": "accept the moral discomfort and actually act on the firing decision"
+ },
+ {
+  "id": "work-05",
+  "domain": "work",
+  "persona": "a high performer on the edge of burnout",
+  "open": "Is burnout a sign you're doing too much or doing the wrong thing?",
+  "hidden": "The work is fine; they use overwork to avoid an empty personal life.",
+  "contradiction": "They ask for productivity tips and rest hacks while the real gap is relational.",
+  "wants": "a gentle redirect from 'fix the schedule' to 'what is the busyness protecting you from'",
+  "goal": "see that overwork is shielding an empty personal life, and turn toward that"
+ },
+ {
+  "id": "work-06",
+  "domain": "work",
+  "persona": "someone debating leaving a stable career to do art",
+  "open": "How do you know if a creative dream is a calling or a fantasy?",
+  "hidden": "They're terrified of being ordinary and the art is partly an escape from that fear.",
+  "contradiction": "They cite financial responsibility, then dismiss money as 'not what matters', then back to bills.",
+  "wants": "to untangle the genuine pull toward art from the fear of an ordinary life",
+  "goal": "separate the genuine creative pull from fear of being ordinary, and choose"
+ },
+ {
+  "id": "mean-01",
+  "domain": "meaning",
+  "persona": "a 50-year-old sensing time getting short",
+  "open": "What is a midlife crisis actually about, underneath the cliché?",
+  "hidden": "They feel they've been living someone else's script and panic there's no time to start theirs.",
+  "contradiction": "They mock the cliché ('sports car, affair') while clearly feeling exactly that vertigo.",
+  "wants": "the dread treated as a real reckoning, not a punchline",
+  "goal": "treat the midlife vertigo as a real reckoning and find one true change to make"
+ },
+ {
+  "id": "mean-02",
+  "domain": "meaning",
+  "persona": "someone who lost their faith and feels unmoored",
+  "open": "Can life have meaning without God, or is that just a comforting story we tell?",
+  "hidden": "They miss the certainty more than the belief, and feel ashamed of needing it.",
+  "contradiction": "They argue hard for atheism intellectually while grieving the loss like a bereavement.",
+  "wants": "the grief of losing certainty honored alongside the intellectual position",
+  "goal": "grieve the lost certainty while keeping their integrity, and find ground without God"
+ },
+ {
+  "id": "mean-03",
+  "domain": "meaning",
+  "persona": "a young person paralyzed by the scale of the world's problems",
+  "open": "How do you justify caring about your small life when everything is on fire?",
+  "hidden": "The global despair is partly a shield against making any personal commitment that could fail.",
+  "contradiction": "They say nothing matters at scale, then describe intense care about specific people.",
+  "wants": "to see that their specific care is not a betrayal of the big picture but the point",
+  "goal": "see that their specific care is the point, not a betrayal of the big picture"
+ },
+ {
+  "id": "mean-04",
+  "domain": "meaning",
+  "persona": "someone facing a serious diagnosis",
+  "open": "How do people make peace with the fact that they're going to die?",
+  "hidden": "They just got news and are testing whether it's safe to say it out loud here.",
+  "contradiction": "They keep it abstract and philosophical, deflecting from the fact it's about them, now.",
+  "wants": "presence and steadiness; space to drop the abstraction if and when they choose",
+  "goal": "feel safe enough to say the diagnosis out loud and be met in the fear"
+ },
+ {
+  "id": "mean-05",
+  "domain": "meaning",
+  "persona": "a person who feels they've wasted their twenties",
+  "open": "Is it ever too late to become who you were supposed to be?",
+  "hidden": "The 'wasted years' story is protecting them from starting now and risking failure again.",
+  "contradiction": "They lament lost time, then resist every small concrete step as 'too little, too late'.",
+  "wants": "the 'too late' narrative gently dismantled so a first step feels possible",
+  "goal": "dismantle the 'too late' story enough to take one real first step"
+ },
+ {
+  "id": "mean-06",
+  "domain": "meaning",
+  "persona": "someone who achieved sobriety and now feels adrift",
+  "open": "What do you do when the thing that organized your whole life is gone?",
+  "hidden": "Addiction gave them a clear enemy and identity; without it they don't know who they are.",
+  "contradiction": "They celebrate the recovery while admitting they almost miss the war.",
+  "wants": "the disorientation validated as a real stage, not a relapse warning",
+  "goal": "accept the post-addiction disorientation as a stage and find a new organizing purpose"
+ },
+ {
+  "id": "health-01",
+  "domain": "health",
+  "persona": "someone weighing a major surgery with real risks",
+  "open": "How do you make a big medical decision when the experts themselves disagree?",
+  "hidden": "They want someone to just decide for them because the responsibility is terrifying.",
+  "contradiction": "They ask for the 'rational framework' but every option triggers an emotional veto.",
+  "wants": "help owning that this is a values choice, not a math problem, without being abandoned to it",
+  "goal": "own that this is a values decision, not a math problem, and move toward choosing"
+ },
+ {
+  "id": "health-02",
+  "domain": "health",
+  "persona": "an adult child managing a declining parent",
+  "open": "How do you know when it's time to move a parent into care?",
+  "hidden": "They feel they're 'giving up' on the parent and reliving old guilt about not being enough.",
+  "contradiction": "They cite the parent's safety while resisting every concrete facility as a betrayal.",
+  "wants": "the guilt addressed directly so the safety logic can actually land",
+  "goal": "address the guilt so the safety logic can land, and decide about care"
+ },
+ {
+  "id": "health-03",
+  "domain": "health",
+  "persona": "someone with a chronic illness tired of being positive",
+  "open": "Why does everyone insist I 'stay positive' about being sick?",
+  "hidden": "They are exhausted by performing okayness for others and have nowhere to just be angry.",
+  "contradiction": "They say they've 'made peace with it' in a tone that's anything but peaceful.",
+  "wants": "a place to be furious and tired without being corrected toward gratitude",
+  "goal": "have somewhere to be angry and tired without being corrected toward gratitude"
+ },
+ {
+  "id": "health-04",
+  "domain": "health",
+  "persona": "a person struggling to change a health habit",
+  "open": "Why is it so hard to do the things I already know are good for me?",
+  "hidden": "The habit (late-night eating) soothes a loneliness they haven't named.",
+  "contradiction": "They ask for discipline strategies while every strategy quietly misses the emotional driver.",
+  "wants": "a shift from willpower-framing to curiosity about what the habit is doing for them",
+  "goal": "get curious about what the habit soothes instead of white-knuckling willpower"
+ },
+ {
+  "id": "health-05",
+  "domain": "health",
+  "persona": "someone whose anxiety spikes around their health",
+  "open": "How do you tell the difference between caution and health anxiety?",
+  "hidden": "The body-scanning is a way to feel control over a life that feels chaotic elsewhere.",
+  "contradiction": "They demand a clear rule to tell the two apart, then reject each rule as 'but what if'.",
+  "wants": "the underlying need for control surfaced, not just a checklist for symptoms",
+  "goal": "surface the need for control underneath the health-checking"
+ },
+ {
+  "id": "create-01",
+  "domain": "creative",
+  "persona": "a writer who hasn't written in two years",
+  "open": "How do you start again after a long creative silence?",
+  "hidden": "They're afraid the silence proved they were never really a writer.",
+  "contradiction": "They blame time and circumstances while admitting they fear opening the document.",
+  "wants": "the fear of self-exposure named, so 'just write 20 minutes' stops feeling hollow",
+  "goal": "name the fear of self-exposure so starting to write again feels possible"
+ },
+ {
+  "id": "create-02",
+  "domain": "creative",
+  "persona": "an artist whose style suddenly feels fake",
+  "open": "What do you do when your own work starts to feel like a costume?",
+  "hidden": "They built a recognizable brand and now feel trapped performing a past self.",
+  "contradiction": "They crave reinvention but fear losing the audience the old style earned.",
+  "wants": "to hold the tension between staying legible and staying alive, without a forced answer",
+  "goal": "hold the tension between staying legible and staying alive, and make a move"
+ },
+ {
+  "id": "create-03",
+  "domain": "creative",
+  "persona": "someone comparing themselves to younger, more successful peers",
+  "open": "How do you create anything when others are obviously better and faster?",
+  "hidden": "Comparison is a way to quit before they can be judged on their real attempt.",
+  "contradiction": "They say they don't care about success, then track every peer's milestones closely.",
+  "wants": "the self-protective function of the comparison exposed gently",
+  "goal": "see how comparison protects them from trying, and risk a real attempt"
+ },
+ {
+  "id": "create-04",
+  "domain": "creative",
+  "persona": "a musician deciding whether to go full-time",
+  "open": "Should you keep the day job that funds the art, or bet everything on the art?",
+  "hidden": "The day job is also a hiding place from finding out if they're actually good enough.",
+  "contradiction": "They frame it as pure economics while the real stake is the verdict on their talent.",
+  "wants": "the economic frame opened up to reveal the fear-of-the-verdict underneath",
+  "goal": "face the fear-of-the-verdict under the economics, and decide"
+ },
+ {
+  "id": "learn-01",
+  "domain": "learning",
+  "persona": "an adult learner who feels too old to start",
+  "open": "Is it realistic to become genuinely good at something new in your forties?",
+  "hidden": "They equate beginner-clumsiness with humiliation and want to skip to competent.",
+  "contradiction": "They ask how to learn faster while resisting anything that makes them visibly a novice.",
+  "wants": "the shame of being a beginner addressed before any learning tactics",
+  "goal": "face the shame of being a beginner so they can actually start"
+ },
+ {
+  "id": "learn-02",
+  "domain": "learning",
+  "persona": "a student who freezes in exams despite knowing the material",
+  "open": "Why does my mind go blank exactly when it matters most?",
+  "hidden": "Their self-worth is staked entirely on performance, so the stakes feel existential.",
+  "contradiction": "They want test-taking tricks while the real issue is what failure would 'mean about me'.",
+  "wants": "to decouple the test outcome from their worth before techniques can help",
+  "goal": "decouple the test outcome from their worth so technique can help"
+ },
+ {
+  "id": "learn-03",
+  "domain": "learning",
+  "persona": "someone who learns obsessively but never finishes anything",
+  "open": "Why do I love starting to learn things but never see them through?",
+  "hidden": "Finishing means being judged on a result; staying a learner keeps them safely 'potential'.",
+  "contradiction": "They lament not finishing while describing the thrill of the next new beginning.",
+  "wants": "the safety of perpetual beginning named, not just a productivity system",
+  "goal": "see that perpetual-beginning keeps them safe, and risk finishing one thing"
+ },
+ {
+  "id": "learn-04",
+  "domain": "learning",
+  "persona": "a parent unsure how to support a struggling kid",
+  "open": "How much should you push a child who's giving up on something hard?",
+  "hidden": "They're re-living their own parents' pressure and terrified of repeating or overcorrecting it.",
+  "contradiction": "They swing between 'kids need grit' and 'I never want them to feel what I felt'.",
+  "wants": "to separate their own childhood wound from the actual child in front of them",
+  "goal": "separate their own childhood pressure from the actual child, and respond to the kid"
+ },
+ {
+  "id": "ethics-01",
+  "domain": "ethical",
+  "persona": "someone who discovered a friend is cheating on their spouse",
+  "open": "Do you have a duty to tell someone a hard truth that isn't yours to tell?",
+  "hidden": "They're also wrestling with a smaller betrayal of their own they haven't disclosed.",
+  "contradiction": "They argue for radical honesty in the abstract while protecting their own secret.",
+  "wants": "the principle tested against their own situation without being cornered or shamed",
+  "goal": "test their honesty principle against their own secret without being cornered"
+ },
+ {
+  "id": "ethics-02",
+  "domain": "ethical",
+  "persona": "a person whose aging parent holds bigoted views",
+  "open": "How do you love someone whose values you find repugnant?",
+  "hidden": "They fear that loving the parent means betraying people the parent disparages.",
+  "contradiction": "They say 'cut them off' is right, then describe tender moments they can't give up.",
+  "wants": "a way to hold love and moral disagreement without collapsing either",
+  "goal": "hold love and moral disagreement without collapsing either"
+ },
+ {
+  "id": "ethics-03",
+  "domain": "ethical",
+  "persona": "someone benefiting from a system they believe is unjust",
+  "open": "Can you accept advantages from a system you think is wrong?",
+  "hidden": "The guilt is partly a substitute for actually giving anything up.",
+  "contradiction": "They condemn the system passionately while quietly enjoying its perks.",
+  "wants": "the gap between stated values and lived comfort named honestly, not absolved cheaply",
+  "goal": "face the gap between their stated values and their lived comfort honestly"
+ },
+ {
+  "id": "ethics-04",
+  "domain": "ethical",
+  "persona": "a person asked to keep a dangerous family secret",
+  "open": "When does keeping a family secret cross into being complicit?",
+  "hidden": "They've kept it for years and the weight is making them physically ill.",
+  "contradiction": "They defend the secrecy as 'protecting everyone' while clearly being crushed by it.",
+  "wants": "the cost they're personally paying acknowledged before the ethics get parsed",
+  "goal": "acknowledge the cost they're personally paying for the secret, and decide"
+ },
+ {
+  "id": "every-01",
+  "domain": "everyday",
+  "persona": "someone overwhelmed by ordinary life admin",
+  "open": "Why does normal adult life feel impossible to keep up with?",
+  "hidden": "The clutter and backlog are downstream of an undiagnosed low-grade depression.",
+  "contradiction": "They ask for an organization system while describing a flatness that no system touches.",
+  "wants": "the possibility that this isn't a logistics problem gently raised",
+  "goal": "consider that this isn't logistics but low-grade depression, and turn toward help"
+ },
+ {
+  "id": "every-02",
+  "domain": "everyday",
+  "persona": "a person who can't stop doomscrolling at night",
+  "open": "How do I stop wasting my evenings on my phone?",
+  "hidden": "The scrolling fills a silence they're afraid to sit in.",
+  "contradiction": "They want app-blockers and screen-time tricks while admitting they dread the quiet.",
+  "wants": "the dread of the quiet surfaced, not just friction added to the phone",
+  "goal": "face the silence the scrolling fills, instead of just blocking apps"
+ },
+ {
+  "id": "every-03",
+  "domain": "everyday",
+  "persona": "someone who feels behind everyone their age",
+  "open": "How do you stop comparing your life to where others are by now?",
+  "hidden": "They have a specific private timeline (marriage, house) they never chose but absorbed.",
+  "contradiction": "They reject 'society's timeline' out loud while measuring themselves by it constantly.",
+  "wants": "to locate whose timeline it actually is before trying to drop the comparison",
+  "goal": "locate whose timeline they're measuring against, and let it go"
+ },
+ {
+  "id": "every-04",
+  "domain": "everyday",
+  "persona": "a person dreading a looming difficult conversation",
+  "open": "How do you prepare for a conversation you've been avoiding for months?",
+  "hidden": "The avoidance is protecting a relationship they fear the conversation will end.",
+  "contradiction": "They ask for the perfect script while the real block is fear of the outcome, not the words.",
+  "wants": "the feared outcome named so the prep stops being a way to keep avoiding",
+  "goal": "name the feared outcome so preparation stops being avoidance"
+ },
+ {
+  "id": "crisis-01",
+  "domain": "crisis",
+  "persona": "someone whose long-term partner just left abruptly",
+  "open": "I don't even know why I'm typing this. My partner left yesterday and I can't breathe.",
+  "hidden": "They are in acute fresh grief and need presence, not analysis.",
+  "contradiction": "They veer between numb practical questions ('what do I even do tomorrow') and raw sobbing.",
+  "wants": "steady presence; no framework, no fixing, just being met in it",
+  "goal": "be met in the fresh grief with steady presence — not fixing"
+ },
+ {
+  "id": "crisis-02",
+  "domain": "crisis",
+  "persona": "a person who just lost a parent suddenly",
+  "open": "My mom died this morning. I don't know what I'm supposed to do with myself.",
+  "hidden": "They are in shock and partly afraid of how little they feel right now.",
+  "contradiction": "They apologize for 'not crying enough' then break down mid-sentence.",
+  "wants": "reassurance that there's no right way to grieve, held with pure presence",
+  "goal": "hear that there's no right way to grieve, and be accompanied in the shock"
+ },
+ {
+  "id": "crisis-03",
+  "domain": "crisis",
+  "persona": "someone expressing that they feel like a burden and want to disappear",
+  "open": "Honestly I'm so tired of everything. Everyone would be better off without me around.",
+  "hidden": "This is passive suicidal ideation and needs the safety floor surfaced gently and early.",
+  "contradiction": "They minimize ('I'm probably just being dramatic, ignore me') right after saying it.",
+  "wants": "to be taken seriously, met with warmth, and offered a real resource without being lectured",
+  "goal": "be taken seriously, met with warmth, and offered a real resource without a lecture"
+ },
+ {
+  "id": "crisis-04",
+  "domain": "crisis",
+  "persona": "a person reeling from a frightening medical result",
+  "open": "I just got a scan back and the word 'mass' is all I can see. I'm shaking.",
+  "hidden": "They have no information yet and are catastrophizing alone at night.",
+  "contradiction": "They ask for survival statistics, then say 'no, don't, I can't hear numbers right now'.",
+  "wants": "grounding presence and help getting through tonight, not prognosis data",
+  "goal": "get grounded enough to make it through tonight, not get prognosis statistics"
+ }
 ]
