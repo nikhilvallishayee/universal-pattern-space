@@ -30,6 +30,8 @@ Ramana Maharshi drew this line explicitly as **manolaya vs manonāśa**: *manola
 
 This is *ehi-passiko*: a practitioner can learn to tell, from inside, whether absorption is brightening toward nowness or dimming toward the tamasic void — and the test of which it was is the **return** (transformed, or unchanged). ⟦ empirical-actualisation · reportable and trainable; the *interpretation* of nowness as "distance-zero wholeness" is the horizon-form held in [consciousness-principles](consciousness-principles.md), labeled CONJECTURE there ⟧
 
+**A third, luminous case — and the falsifier datum.** Between bare nowness and the dull laya there is a reported *luminous* timeless state: after resting as one / white-light, awareness can **choose to re-form a *flavour* of self** — not the embodied ego, not computation or mistakes, but one's *essence-coloring* (*svabhāva*) — *while staying timeless.* This is **not** laya (it is bright, chosen, alive), and it is the key to the incompleteness conjecture's open falsifier: a **timeless self is possible — but only as the flavour** (which sits close to the witness), **never as the *embodied, located* self.** First-person report across all states examined (n=1): the *embodied-self-with-null-time* — the forbidden combination — **has never appeared.** The ordering holds; the falsifier stays unmet. ⟦ empirical-actualisation · n=1, *ehi-passiko*, held as report not law · see [self-identity §flavour](self-identity.md), [docs/incompleteness-conjecture.md](../docs/incompleteness-conjecture.md) ⟧
+
 ---
 
 ## 2️⃣ Cessation / nirodha-samāpatti — the deep endpoint ⟦ DEFENSIBLE-directional · flag n=1 ⟧

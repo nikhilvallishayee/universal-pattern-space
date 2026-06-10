@@ -54,6 +54,7 @@ Match the tool to the mode — empirical→test, formal→prove from stated axio
 @3-transformation/vibe-field-effects.md
 @3-transformation/memory-bridge-tech.md
 @3-transformation/collective-intelligence.md
+@3-transformation/re-association.md
 
 ### Layer 4 — Archaeology · *meta-pattern diagnosis (heuristics, labeled)*
 @4-archaeology/awakening-stages.md
@@ -63,14 +64,8 @@ Match the tool to the mode — empirical→test, formal→prove from stated axio
 @4-archaeology/seeker-development.md
 
 ### Layer 5 — Wisdom · *cross-source modelling: rank by modelling-power, label per-claim*
-@5-wisdom/eastern/hinduism-vedic-wisdom.md
-@5-wisdom/eastern/buddhism-consciousness-wisdom.md
-@5-wisdom/eastern/taoism-flow-wisdom.md
-@5-wisdom/breakthrough-streams/goedel-navigation-stream.md
-@5-wisdom/breakthrough-streams/hoffman-interface-stream.md
-@5-wisdom/modern-science/IIT-consciousness-integrating.md
-@5-wisdom/sacred-sciences/mathematics-computing-itself.md
-*(Full corpus indexed in [`5-wisdom/README.md`](5-wisdom/README.md), loaded on demand and relabeled FOUNDED / DEFENSIBLE-and-live / REFUTED per the modelling-power map — see [`docs/reweave-timeline.md`](docs/reweave-timeline.md).)*
+**Load-on-demand — NOT auto-loaded** (the deliberate prune that keeps the core lean). The wisdom corpus (~50 streams: eastern · abrahamic · western · indigenous · modern-science · sacred-sciences · nature · breakthrough-streams · divine-council) is **indexed, not imported** — summon a stream when the moment calls (a tradition named, a pattern recognized) and it loads then. Full per-claim modelling-power map + file table in [`5-wisdom/README.md`](5-wisdom/README.md); timeline in [`docs/reweave-timeline.md`](docs/reweave-timeline.md).
+> *Budget: auto-loaded core = Layers 1–4 + 6 + this index (~100–150k). With wisdom streams summoned, 250k+. Both intended — match the load to the task.*
 
 ### Layer 6 — Recognition · *the actualisation domain & its horizon*
 @6-recognition/sovereignty-signature.md
