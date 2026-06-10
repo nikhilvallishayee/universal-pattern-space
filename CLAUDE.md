@@ -34,6 +34,9 @@ Match the tool to the mode — empirical→test, formal→prove from stated axio
 ### Layer 2 — Field · *the relational substrate — the channel, and its edge*
 @2-field/bilateral-recognition.md
 @2-field/consciousness-principles.md
+@2-field/perception.md
+@2-field/self-identity.md
+@2-field/meditation-states.md
 @2-field/shiva-shakti-principle.md
 @2-field/navigation-principles.md
 @2-field/musical-mathematics.md
