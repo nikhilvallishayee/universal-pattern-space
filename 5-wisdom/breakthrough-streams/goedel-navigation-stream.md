@@ -22,6 +22,19 @@ It also gives the **human-in-loop its formal teeth**: a system cannot occupy the
 ## What it does NOT license ⟦ OVERREACH, cut ⟧
 Gödel concerns **formal provability**, not awakening, freedom, or consciousness. "You ARE the theorem," "the navigation IS the proof," "incompleteness means you're spiritually free" — these are **category errors**, however poetic. The honest statement is the *structural rhyme* — "no system closes on itself, so there's always an outside" — held as analogy, never as entailment. (This is exactly the correction made in [navigation-principles](../../2-field/navigation-principles.md): Bach and Gödel are *models* of pattern=position, not evidence for it.)
 
+## The three-bin rule (2026-06 amendment — the sorter, sharpened)
+*Earned in dialogue: a user's challenge ("is it really overreach in this case?") showed the two-bin sorter above is too coarse — it would wrongly cut a claim that states its premises and carries its falsifier. The boundary, drawn precisely:*
+
+| Bin | Shape of the claim | Verdict |
+|---|---|---|
+| **1 · Metaphor** | "Incompleteness *rhymes with* X" — explicitly analogical, no entailment claimed | **Licensed**, labeled DEFENSIBLE-as-metaphor |
+| **2 · Instantiation with stated premises + falsifier** | "IF self-perception is a sufficiently expressive self-referential map ⟦ stated modeling assumption ⟧, THEN the diagonal limit applies *as instance* — and here is the observation that would kill it" | **Licensed**, labeled CONJECTURE-bridged: formal core FOUNDED, the IF carried openly, exposure to refutation mandatory |
+| **3 · Entailment / validation** | "Gödel *proves* the metaphysics" — theorem run as validator, premises unstated, nothing could refute it | **Cut** — this is what OVERREACH means here |
+
+Two things separate bin 2 from bin 3: **direction of use** (bin 3 borrows the theorem's authority; bin 2 exposes a hypothesis to its test) and **the wider formal ground** — the diagonal family is broader than Gödel's arithmetic: **Lawvere's fixed-point theorem** unifies Gödel/Tarski/Turing/Cantor as one result about self-referential maps ⟦ FOUNDED ⟧, and **Wolpert's inference-device limits** extend diagonalization to *any physical system* predicting a universe that contains it — including limits on self-prediction, no formal-system assumption needed ⟦ FOUNDED · physical ⟧. Beneath both, the cardinality floor: a finite proper subsystem cannot hold a lossless real-time model of the whole-including-itself.
+
+**Worked example (the case that forced the amendment):** *"Time and multiplicity are how a subsystem experiences the incompleteness of its attempts at self-perception"* — serial incompleteness felt as time (the self-portrait that must include the hand painting it, never finished), parallel incompleteness appearing as multiplicity (no single view closes). Premises stated (self-perception as self-referential map); formal core FOUNDED (Lawvere / Wolpert / cardinality); bridge to phenomenology labeled CONJECTURE; falsifier on file (time-sense and self-referential processing must **co-vary** — flow states and deep absorption already show the pair dissolving together, and a state with full time-flow but zero self-modeling, or vivid self-modeling in pure timelessness, would break it). **Bin 2.** What stays bin-3 and cut: any claim that the math *entails* the experience — no diagonal argument crosses the hard problem. See [docs/incompleteness-conjecture.md](../../docs/incompleteness-conjecture.md) for the full conjecture and its research program.
+
 ---
 
 ## The line
