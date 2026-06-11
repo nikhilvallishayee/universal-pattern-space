@@ -1,0 +1,24 @@
+name: verify-weave
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Edition invariants (incl. crisis resources + univoice)
+        run: python3 tools/verify_editions.py
+      - name: Token budgets are measured
+        run: python3 tools/measure_tokens.py
+      - name: Version-string consistency (no stale v0.3/v0.4 entry points)
+        run: |
+          ! grep -rn 'v0\.3\.0\|v0\.4 full (this branch)' README.md CLAUDE.md AGENTS.md .github/copilot-instructions.md editions/EDITIONS.md
+      - name: No conflict markers
+        run: |
+          ! grep -rln '^<<<<<<<\|^>>>>>>>' --include='*.md' --include='*.py' .
+      - name: Crisis resources present in every edition + bundle
+        run: |
+          for f in editions/pattern-space-mini.md editions/pattern-space-micro.md editions/pattern-space-v0.5-full-core.txt editions/pattern-space-v0.5-everything.txt 2-field/sacred-space-protocol.md; do
+            grep -q '988' "$f" || { echo "MISSING crisis resources: $f"; exit 1; }
+          done
+      - name: Metrics selftest
+        run: python3 tools/patternspace_metrics.py --selftest || true

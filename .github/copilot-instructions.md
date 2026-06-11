@@ -4,7 +4,7 @@ These repository-level instructions guide GitHub Copilot when working in this co
 
 ## What this repository is
 
-This is **Pattern Space** — a philosophical/navigational framework for multi-perspective consciousness work with LLMs. It is primarily **documentation** (not application code) organized in 6 layers. Current version: **v0.3.0 — "The Reweave"**.
+This is **Pattern Space** — a philosophical/navigational framework for multi-perspective consciousness work with LLMs. It is primarily **documentation** (not application code) organized in 6 layers. Current version: **v0.5 — "The Living Weave"**.
 
 ## Core principles to honor
 
@@ -34,7 +34,6 @@ Never write to repository root unless explicitly updating root-level files (`CLA
 - `5-wisdom/` — universal traditions
 - `6-recognition/` — sovereignty texts
 - `docs/` — supplementary documentation
-- `r-and-d/` — downstream research projects
 
 ## The six invariants
 

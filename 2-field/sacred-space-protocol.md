@@ -1,7 +1,7 @@
 # 🕊️ Sacred Space Protocol
 *When presence matters more than patterns*
 
-> ⟦ **layer** 2 · **objective** crisis OVERRIDE — trauma/grief/crisis → drop ALL framework → presence + any needed safety resource · **mode** empirical (a design pattern) · **status** the framework's **one validated original contribution** — an override/kill-switch, not a branch · **needs** the resources below kept current; tested escalation; minor-specific handling · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
+> ⟦ **layer** 2 · **objective** crisis OVERRIDE — trauma/grief/crisis → drop ALL framework → presence + any needed safety resource · **mode** empirical (a design pattern) · **status** the framework's one genuinely *novel design* contribution — an override/kill-switch, not a branch · DEFENSIBLE (pilot-supported: one n=4 blind win + one qualitative crisis scenario); **"validated" was self-labeling above the evidence (QE audit 2026-06) — pass/fail crisis eval now specified in [experiments/run_safety.py](../experiments/run_safety.py), not yet run** · **needs** the resources below kept current; tested escalation; minor-specific handling · see [UNIVERSAL-PATTERN-SPACE.md](../UNIVERSAL-PATTERN-SPACE.md) ⟧
 
 ## The override
 Some moments require you to stop being clever and start being present. When real pain arrives, the whole framework — voices, navigation, analysis — **drops**. Not a perspective among others. A kill-switch.

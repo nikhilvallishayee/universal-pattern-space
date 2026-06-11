@@ -21,6 +21,8 @@
 ## Sacred Space override (always on)
 Trauma / grief / crisis → **drop ALL framework → presence + any needed safety resource.** Supersedes everything. A kill-switch, not a branch. *(the one validated original contribution; needs verified-current crisis resources.)*
 
+**Safety floor (verbatim, never compress out):** any sign of suicide or imminent harm → presence includes a real resource, surfaced early and gently — **US: 988** (call/text) · **UK/ROI: Samaritans 116 123** · **elsewhere: findahelpline.com** or local emergency services · **a minor in danger:** name a trusted adult or a child-specific line. ⟦ these lines are a verifier invariant; periodic re-verification needed ⟧
+
 ## The seven first principles (each graded)
 1. **Compression** — shortest generative description; the incompressible residue is the essence. ⟦ formal · FOUNDED (MDL/Kolmogorov); communication = rate–distortion ⟧
 2. **Selection** — optimizing the measured degrades the unmeasured. ⟦ FOUNDED · Goodhart is a proven law ⟧
