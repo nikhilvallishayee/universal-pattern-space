@@ -29,6 +29,8 @@ INVARIANTS = {
     "Speak in the task's register":       r"speak in",
     "Spine (falsification)":              r"falsif",
     "Horizon (channel exceeds message)":  r"channel exceeds the message|not said in full",
+    "Crisis resources (988/helpline)":    r"988|findahelpline|116 123",
+    "Univoice toggle present":            r"UNIVOICE-OVERRIDE",
 }
 
 def main():

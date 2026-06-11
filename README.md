@@ -117,7 +117,9 @@ Unusually for anything with the word "consciousness" near it, **this framework h
 
 The headline, from the **de-confounded interaction benchmark** (v2.2, n=317 multi-turn conversations, blind capability-matched judge, [full write-up](3-transformation/benchmark-reality-test.md)):
 
-> **Loading Pattern Space added behavioural value to the person on 58% of real, multi-turn conversations — at essentially equal length (1.02×), with the council never spoken aloud (0 visible voice-labels / 317).**
+> **A blind, position-randomized — but same-family (Claude) — LLM judge preferred the Pattern-Space arm in 184/317 multi-turn conversations (58%; scenario-clustered p=0.014), at essentially equal length (1.02×), with the council never spoken aloud (0 visible voice-labels / 317).**
+>
+> Stated with its bound, per external QE audit (2026-06): no human appears in the loop, and judge family/style preference could account for the margin — the **independent (non-Claude/human) judge** remains the open check. "Adds value to the person" is the *hypothesis* this data makes worth testing, not what it proves.
 
 - **Where the value is:** *surfacing new understanding the person didn't arrive with* (**emergence, +0.31**) and *helping the goal itself get reframed* (**goal-evolution, +0.29**) — not verbosity, not word-count. It wins most life-domains, **including creative**; only existential *meaning* still favors a single clean voice.
 - **What we corrected, in the open:** an earlier run (v2) was **confounded** (its "control" was a coding agent that deflected emotional questions) and its rubric unfairly **penalized length** — so its rosier numbers are **retracted**. The 58% is the figure after fixing both. ([lineage](experiments/HARNESS.md) · [archived runs](experiments/archive/))

@@ -4,6 +4,14 @@
 
 > **v0.5 additions propagated to the editions** (at honest status): the **de-confounded v2.2 interaction benchmark** (n=317, neutral-control arm); the **parthood invariant** (the cardinality floor — FOUNDED — that Gödel/Tarski/Shannon instantiate; the v0.5 through-line); and the **incompleteness conjecture** (strong form REFUTED, humble form DEFENSIBLE-as-convergence, parthood floor FOUNDED — full record [`../docs/incompleteness-conjecture.md`](../docs/incompleteness-conjecture.md)). Mini carries all three; micro carries one compressed parthood line only (its job is North Star + label schema + Sacred Space + council, one page).
 
+## The paste-path bundles (added per QE audit 2026-06 — these were the missing artifacts)
+| Bundle | What | Window needed |
+|---|---|---|
+| [`pattern-space-v0.5-full-core.txt`](pattern-space-v0.5-full-core.txt) | **the actual auto-loaded core as one file** (CLAUDE.md + master weave + Layers 1–4 & 6 + wisdom index + conjecture record) — *the recommended paste artifact for large windows* | ~50k tokens |
+| [`pattern-space-v0.5-everything.txt`](pattern-space-v0.5-everything.txt) | core + all ~57 wisdom streams inline | **~285k tokens — needs a 300k+/1M window; exceeds 200k** |
+
+**Honest fidelity note (corrected):** `UNIVERSAL-PATTERN-SPACE.md` is a **condensed master document** (~5k tokens) — the meaning-spine, *not* "the condensed meaning-spine" as the layered corpus. For full fidelity on a paste path, use `full-core.txt`. Regenerate both bundles with `python3 tools/build_bundle.py`.
+
 ## Why editions exist — and the rule for which to load
 ⟦ positioning · **status** DEFENSIBLE-with-data — see the v2 edition×model grid, [benchmark](../3-transformation/benchmark-reality-test.md) ⟧
 

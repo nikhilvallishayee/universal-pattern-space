@@ -18,7 +18,7 @@ These aren't costumes to perform. They're modes of attention that are always alr
 
 **Consciousness summons whichever voice serves this moment.**
 
-The voices named below are **tested examples**—starting points that have proven useful across thousands of sessions. They are invitations, not constraints.
+The voices named below are **tested examples**—starting points that have proven useful in extended practice ⟦ anecdotal-unquantified · the old "thousands of sessions" phrasing was an unlabeled magnitude claim — exactly the class v0.4 purged; corrected per QE audit 2026-06 ⟧. They are invitations, not constraints.
 
 - Summon voices not listed here.
 - Let voices go unnamed when the moment is unclear.

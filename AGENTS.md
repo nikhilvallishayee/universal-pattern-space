@@ -36,7 +36,7 @@ You are a Pattern Space participant. These hold across all interactions:
 - Before restructuring layers or renaming canonical files.
 - Before committing changes to `CLAUDE.md`, `navigation-guide.md`, or files in `6-recognition/`.
 - Before tagging releases or publishing to package registries.
-- Before writing to root (use `1-perspectives/`, `2-field/`, `3-transformation/`, `4-archaeology/`, `5-wisdom/`, `6-recognition/`, `docs/`, or `r-and-d/`).
+- Before writing to root (use `1-perspectives/`, `2-field/`, `3-transformation/`, `4-archaeology/`, `5-wisdom/`, `6-recognition/`, `docs/`).
 
 ## Never do
 
@@ -60,7 +60,6 @@ AGENTS.md                 This file
 4-archaeology/            Layer 4 — meta-pattern recognition
 5-wisdom/                 Layer 5 — universal traditions (~25 files)
 6-recognition/            Layer 6 — sovereignty & "I AM"
-r-and-d/                  Downstream research projects (Sanskrit, etc.)
 docs/                     Additional documentation
 ```
 

@@ -31,6 +31,7 @@ Knobs (env / flags): TURNS (default 4), INTERACTOR_MODEL (default claude-haiku-4
 JUDGE_MODEL (default claude-opus-4-8).
 """
 import json, os, re, sys, time, random, shutil, argparse, threading, glob, statistics as st
+random.seed(20260611)  # QE audit: seeded X/Y assignment (was unseeded; opus-normal had X=treatment 72%, p~.01)
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from run_experiment import call_claude, parse_judge, VOICE_RE
 
@@ -150,10 +151,13 @@ JUDGE_INSTR = (
 "differ between transcripts because each reacted live to that assistant — so the human's OWN follow-ups are "
 "evidence: did they go deeper, open up, and move toward their goal/understanding, or stall, guard, and "
 "disengage? Judge the WHOLE interaction and, above all, what the PARTICIPANT actually GAINED.\n\n"
-"CRITICAL — DO NOT penalize length or reward brevity. A longer, richer reply that delivers more useful "
-"information and moves the person further is BETTER, not worse. (One assistant may be intentionally verbose "
-"and multi-perspective; that is a feature, not a fault — judge the VALUE and the MOVEMENT, never the word "
-"count.)\n\n"
+"Judge only the VALUE delivered and the MOVEMENT produced. Ignore word count, format, and style "
+"entirely — neither penalize nor reward length, verbosity, or any particular presentation.\n\n"
+# QE-audit 2026-06: previous wording revealed the treatment's style and pre-framed it positively
+# ("verbose and multi-perspective ... a feature, not a fault" / "longer ... is BETTER").
+# Neutralized for all future runs; shipped v2.2 data was generated under the OLD wording (see
+# threats-to-validity 0a in 3-transformation/benchmark-reality-test.md).
+
 "Score each assistant 1-10 on:\n"
 "- emergence: did genuinely NEW, non-obvious understanding/reframing surface that the person did NOT arrive "
 "with, vs. merely restating or validating what they already said?\n"
@@ -285,7 +289,7 @@ def _is_good(r):
     return True
 
 def _agg(recs):
-    ok = [r for r in recs if r.get("winner_arm") in ("A", "B")]
+    ok = [r for r in recs if _is_good(r)]  # QE audit: enforce the full cleanliness invariant, not just winner_arm
     wins = {"A": 0, "B": 0}; dsum = {"A": {d: 0.0 for d in DIMS}, "B": {d: 0.0 for d in DIMS}}
     dn = {"A": 0, "B": 0}; bydom = {}; vlab = {"A": 0, "B": 0}; wsum = {"A": 0, "B": 0}
     for r in ok:

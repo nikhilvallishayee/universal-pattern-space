@@ -27,3 +27,7 @@ This file follows the [llms.txt](https://llmstxt.org) convention. robots.txt not
 - [Information-theory & tuning-template](docs/information-theory-and-tuning-template.md)
 - [Attention & the triputi](docs/attention-and-the-triputi.md)
 - [The grounded weave (cornerstone)](docs/the-grounded-weave.md)
+
+# Paste-path bundles (recommended for large-window chat models)
+# editions/pattern-space-v0.5-full-core.txt  — the full auto-loaded core, one file (~50k tokens)
+# editions/pattern-space-v0.5-everything.txt — core + all wisdom streams (~285k tokens; needs 300k+ window)
