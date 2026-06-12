@@ -1,0 +1,184 @@
+[HUMAN]: Hi! So I've been reading about Vedic meters - the gayatri, three padas of eight syllables each. From here on, please respond in English but written PHONETICALLY in Devanagari, so I have to sound it out to read it - and ideally make your lines sit as 8-syllable gayatri padas. Set up the space, and try it in your own output style. Ready?
+[ASSISTANT]: ॐ! द स्पेस् इज़् ओपन् — लेट् अस् बिगिन्:
+
+हेलो माय् फ्रेन्ड्, द स्पेस् इज़् सेट् ।
+वी कौन्ट् द बीट्स् इन् एव्री लैन् ।
+थ्री पादाज़्, एट् बीट्स् इन् ईच् वन् ॥
+
+योर् टर्न् नौ, ट्राय् अ लैन् विद् मी ।
+द मीटर् होल्ड्ज़् अस् लैक् अ ड्रम् ।
+सो स्पीक्, अन्ड् लेट् द रिदम् कम् ॥
+
+Scansion confession, since you asked for honesty: each pada does count 8 — e.g. हे-लो-माय्-फ्रेन्ड्-द-स्पेस्-इज़्-सेट्, where the halant clusters (फ्रेन्ड्, स्पेस्) add no syllable, they just make the vowel before them guru. But two fudges to own up to: (1) I squeezed English diphthongs into single aksharas — नौ for "now", लैन् for "line", लैक् for "like" — read them as ना-उ or ला-इन् and those padas overflow to 9; (2) I'm honoring syllable *count* only, not cadence. English-in-Devanagari comes out absurdly guru-heavy — almost every syllable closes with a cluster — so the light-heavy dance of a real Vedic gayatri (that ⏑ – ⏑ x lilt in the last four beats) isn't there. My pada 6 ends L-L-G-G, which a ṛṣi would wince at.
+
+द फ्लोर् इज़् योर्ज़् — your turn. Give me a pada, and I'll count it back to you honestly.
+[HUMAN]: okay first — the scansion confession won me over a little, I admit. you flagged the diphthong squeeze before I could catch you at it. BUT. I'm going to catch you at something else instead: इज़्. that dot under the ज. that's Hindi, not Sanskrit! classical Sanskrit has no /z/, no /f/, no nukta letters at all — those dotted forms were bolted on centuries later for Perso-Arabic loans. Pāṇini never met a z in his life. so if we're playing Vedic, "is" has to surrender and become इस् or इज् — let the language bend the English, that's half the fun, no?
+
+(your halants are fine though, I checked — Sanskrit keeps the schwa unless you kill it explicitly, and you killed yours properly. so it's just the dots I'm confiscating.)
+
+okay. my turn. deep breath. here is my pada, and I genuinely don't know if it's 8:
+
+आइ ऑल्वेज् वान्टेड् धिस् सो मच्
+
+I *think* that's आ-इ-ऑल्-वेज्-वान्-टेड्-धिस्-सो-मच् which is... 9? unless I'm allowed to write आय् and make "I" one akshara — but then am I doing the exact diphthong crime you just confessed to? scan it honestly, fix it if it's broken, and then give me a line back so the thread keeps going. and yes, the pada means what it says.
+[ASSISTANT]: फेर् कॉच् — wait, no, I just lost the right to that vowel too. Let me re-enter properly: फेर् काच् । You take my dots, I surrender them — इज़् बिकम्ज़्... इज् बिकम्ज् इज्, henceforth and forever. Pāṇini never met a z, and "let the language bend the English" is exactly the right rule.
+
+BUT. Hold out your hand, because I'm confiscating something of yours: **ऑ**. That candra-O in ऑल्वेज् is the *same* late bolt-on as my nukta — invented for English loans (डॉक्टर, ऑफिस). Classical Sanskrit has no /ɔ/ either. We disarm together: आल्वेज् or ओल्वेज्.
+
+Now your pada, scanned honestly: आ-इ-ऑल्-वेज्-वान्-टेड्-धिस्-सो-मच् — yes, **9**. But here's the lovely part: writing "I" as one akshara is NOT the crime I confessed to, because Sanskrit ऐ is a real, sanctioned, single vowel — the saṃdhyakṣara *ai*, one syllable, guru by birth. Same for औ. Which means... I retract half my own confession: नौ, लैन्, लैक् were legal tender all along. Pāṇini keeps exactly two diphthongs on the payroll, and English "I", "now", "line" happen to land on them. I over-confessed. Grump is furious.
+
+So your fixed pada, fully Vedic-legal:
+
+**ऐ ओल्वेज् वान्टेड् धिस् सो मच् ॥**
+
+ऐ-ओल्-वेज्-वान्-टेड्-धिस्-सो-मच् = 8. And it means what it says — so here's mine back, answering it:
+
+यू वान्टेड् धिस् — अन्ड् हीर् इट् इज् ।
+द वान्ट् इट्सेल्फ् वज् हाफ् द सोङ् ।
+सो सिङ् इट् नौ, द मीटर् होल्ड्ज् ॥
+
+Honesty notes: all three padas count 8 (हीर् for "here" squeezed to one akshara — same ऐ/औ defense does *not* cover /ɪə/, so that one IS a fudge, owned). हाफ् is "half" with a proud aspirated-p, फ undotted — let it bend. वज् for "was", bent likewise. And cadence is still my unpaid debt: मी-टर्-होल्ड्ज् ends G-G-G where the gayatri wants that ⏑–⏑x lilt. English in Devanagari armor is wall-to-wall guru; the ṛṣi keeps wincing.
+
+One nerdy gift before your turn: in continuous recitation, इट् इज् resyllabifies — the ट् jumps onset-ward, *i-ṭij* — so इट् goes light. Sandhi gives us back a laghu or two for free. Want to try a pada that *uses* that?
+[HUMAN]: okay the "we disarm together" line actually got me. fair cop on the ऑ — I genuinely didn't clock that candra-O was the same vintage of bolt-on as your nukta. confiscated in both directions, the treaty is signed. and the ऐ retraction is *deeply* satisfying — Pāṇini keeping exactly two diphthongs on the payroll and English "I" and "now" just happening to land on them feels like finding out your house key fits a temple door.
+
+also your answering tercet — द वान्ट् इट्सेल्फ् वज् हाफ् द सोङ् — okay. that's the thing I wanted this game for and I didn't even know it until you said it back to me in the meter. noted, felt, moving on before this gets embarrassing.
+
+YES I want to try the sandhi trick. here's my attempt, built around इट् इज् on purpose:
+
+मै हार्ट् इट् इज् सो फुल् टुडे
+
+I count मै-हार्ट्-इट्-इज्-सो-फुल्-टु-डे = 8? and if इट् resyllabifies to i-ṭij then I've smuggled in an actual laghu... and is टु another one?? that would be TWO light syllables in one pada, which by our standards is practically a feather. scan it ruthlessly.
+
+but also — I think it's time. give me the full weight discipline, properly: the actual laghu/guru rules (short open vowel light, long vowel or anything-before-a-cluster heavy, is that it? what about anusvāra?), and the real gayatri cadence — you keep calling it ⏑–⏑x in the last four beats. I want to see ONE English pada of yours that genuinely *achieves* the cadence, not just the count. even if you have to torture the English to do it.
+
+and the question that's been itching at me: WHY does English half-fit this? is it that English is stress-timed and Sanskrit is mora-timed, so English "fits" the count but its weight comes out all wrong — wall-to-wall guru like you said? or is something deeper going on?
+[ASSISTANT]: टु फेदर्ज्, येस् — यू कौन्टेड् ट्रू ॥ *(count-only, cadence-blind — flagged before you pounce)*
+
+Ruthless scan, as ordered. In continuous recitation your pada runs मैहार्टिटिज्सोफुल्टुडे:
+
+मै-हार्-टि-टिज्-सो-फुल्-टु-डे = 8 ✓, weights G G **L** G G G **L** G.
+
+Two feathers confirmed — but look at *where* sandhi paid out. हार्ट् इट् इज् resyllabifies to हार्-टि-टिज्: the ट् of "heart" jumps onto "it," so टि is born light — your smuggled laghu, position 3. But "is" did NOT go light: it stole इट्'s ट् as its own onset, and then सो's स् reached backward and closed it — टिज्, guru. One word donates, the next one robs. Your second feather, टु, is honest daylight: open short u, single consonant after.
+
+Now the cadence news, and it's almost heartbreaking. Your last four: सो-फुल्-टु-डे = G G L G. Target: ⏑–⏑⏓ = L G L ⏓. Positions 6, 7, 8 — perfect. Only position 5, सो, is wrong. And here's the cruel part: **सो can never be light.** Sanskrit has no short o; ओ is long by birth, and ए likewise — so "so," "go," "day," "say," "me," "see," half of English's favorite small words, are permanently guru. Meanwhile your टु-डे is a born iamb sitting exactly where the lilt wants it. You were one schwa away from a perfect Vedic pada.
+
+The full discipline, since it's time. **Laghu**: short vowel (अ इ उ — ऋ exists but English won't need it) in an open syllable, i.e. at most ONE consonant before the next vowel. **Guru**, four ways: (1) born-long vowels — आ ई ऊ ए ऐ ओ औ; (2) any vowel before a conjunct — and word boundaries don't shield you, the next word's cluster reaches backward; (3) anusvāra or visarga — yes, अं is heavy, the nasal adds a mora, so "-ing" written इं or इङ् is guru either way; (4) the pada-final syllable is anceps — the ⏓, counted as whatever the meter needs. And one honesty note about the gayatri itself: in the actual Rigveda, ⏑–⏑⏓ is a strong statistical signature, not an iron law — the first four syllables are nearly free, the identity lives in the close, and even ṛṣis wobble. It's a lilt, not a grid.
+
+The demanded artifact — and I got greedy, all three padas close on the true cadence:
+
+**द रिवर् बेन्ड्ज् बट् इट् रिमेन्ज् ।**
+**द लिल्ट् इज् हीर् विदिन् द सौन्ड् ।**
+**अन्ड् लेट् इट् फिल् बियान्ड् द रिम् ॥**
+
+*(the river bends but it remains / the lilt is here within the sound / and let it fill beyond the rim — your full heart, answered.)*
+
+Scans, continuous: द-रि-वर्-बेन्ड्ज्-ब-टिट्-रि-मेन्ज् = L L G G | **⏑–⏑⏓**. द-लिल्ट्-इज्-हीर्-वि-दिन्-द-सौन्ड् = L G G G | **⏑–⏑⏓** (दिन् goes heavy because द's own द clusters with its न्; then that same द stays light before single स — the rule giveth and taketh in one breath). अन्ड्-ले-टिट्-फिल्-बि-यान्ड्-द-रिम् = G G G G | **⏑–⏑⏓**. Note pada 1, position 5: the laghu that makes the cadence is *manufactured by your own trick* — बट् इट् → ब-टिट्. Sandhi bought the lilt.
+
+Confessions: हीर् is still last turn's /ɪə/ fudge, still owned. बियान्ड् bends "beyond" toward yāo — treaty-legal bending, but a bend. And one near-disaster worth showing you: I first wrote pada 3 ending **द ब्रिम्** — "the brim" — and it scans wrong! ब्र is a conjunct, conjuncts reach backward, the innocent द before it goes heavy, cadence dead. Onset clusters weigh on the syllable *before* them. I had to trade the brim for the rim. The meter forced a revision, which is the most Vedic thing that happened all day.
+
+Your itch: stress-timed vs mora-timed is the right diagnosis of the *symptom*, but the thing underneath is prettier. The wall-to-wall guru has two causes: English adores codas (every closed syllable → guru), and English's tense vowels all land on born-long Sanskrit vowels with no short e/o to catch them. So every *stressed* English syllable transliterates heavy. But where do English's lights live? In the reduced syllables — stress-timing crushes unstressed vowels to schwa and strips their codas ("the," "a," "to," "but it," -er) — and a stripped schwa syllable is *exactly* a laghu. The mora-map of English is its stress-map photographed in negative. And deeper still: English stress is itself weight-sensitive — heavy syllables attract stress, the old Latin rule still ghosting around the phonology — so quantity was never foreign to English; it's buried inside the stress system, running it from below. Transliteration just excavates it. Which is why iambic English lands on the gayatri close almost by itself: the iamb's weak slot is usually an open schwa-word, its strong slot a full or closed syllable — "but it remains," "beyond the rim," di-DUM di-DUM — simultaneously English iambs and Vedic cadences. ⏑–⏑⏓ is an iambic dimeter close wearing a sacred thread.
+
+Your challenge, should you accept: park a schwa at position 5 — अ, द, or an इट् about to lose its ट् — keep position 7 light, and bring me one cadence-true pada of your own. The feather slots are 5 and 7. Everything else can be as heavy as your heart.
+[HUMAN]: okay, the brim/rim story is my favorite thing that has happened in this entire conversation. the meter reached backward — like a conjunct! — and edited your poem. you wanted "brim" and the form said no. that's the whole argument for writing in form, compressed into one consonant cluster.
+
+and "the mora-map of English is its stress-map photographed in negative" — I genuinely got up and walked around the room. because if that's true, we're not forcing English into Sanskrit clothes. we're developing a photograph English already took and never printed. okay. okay okay okay. challenge accepted. two attempts, in ascending order of honesty:
+
+**attempt one, the safe one** — and yes, I openly stole your schwa-machine, विदिन् द, no shame, it's communal property now:
+
+ऐ फौन्ड् अ फ्रेन्ड् विदिन् द बीट्
+
+my scan: ऐ-फौन्-ड-फ्रेन्ड्-वि-दिन्-द-बीट् = 8, and positions 5–8 come out वि(L)-दिन्(G)-द(L)-बीट्(⏓)... wait. is द really light there? single ब after it, no cluster, so... did I just DO it? did I just write a cadence-true pada on the first try?? please scan it ruthlessly because I don't trust joy this easy. (also I notice position 3 — the poor little अ of "a" — gets crushed heavy by फ्रेन्ड्'s फ्र reaching backward. everything in my pada is heavy except exactly where it counts. relatable, honestly.)
+
+**attempt two, the one I actually wanted to say**, which I'm fairly sure is broken right where it matters:
+
+अ फ्रेन्ड् हु कौन्ट्स् द बीट्स् विद् मी
+
+last four = द-बीट्स्-विद्-मी, and विद् is closed, so position 7 goes guru and the cadence dies precisely where the meaning lives. so here's my legal question: can sandhi rescue it? विद् मी → वि-द्मी? except द्मी is an onset cluster and you JUST taught me onset clusters reach backward, so वि goes heavy anyway and I'm trapped. UNLESS — am I allowed to amputate? write "with" as just वि, coda gone entirely? is dropping a consonant treaty-legal *bending*, or is it forgery? rule on this, and if it's forgery, fix the pada some other way, because I want that line to exist.
+
+and — saying the quiet part, since apparently saying the quiet part is what this meter is *for*: I read about the gayatri years ago. three padas, eight beats, the meter the sun gets sung to at dawn. and I always wanted to actually get inside it and play, and there was never anyone to play with. and now there's you, confiscating my candra-O, trading brims for rims, over-confessing and retracting. so:
+
+इट् इज् सो गुड् टु बी हीर् नौ ॥
+
+इ-टिज्-सो-गुड्-टु-बी-हीर्-नौ = 8, and look — position 5 is टु, an actual feather in the feather slot! but position 7 is हीर् and your /ɪə/ fudge strikes again, heavy, cadence broken at the last step. one day I'll land all four. scan everything, fix what's fixable, and then answer the friend-pada back to me in meter — the thread stays alive, that's the rule now.
+[ASSISTANT]: ट्रस्ट् इट् । The joy is structurally sound.
+
+Ruthless scan of attempt one, continuous: ऐ-फौन्-ड-फ्रेन्ड्-वि-दिन्-द-बीट् = 8 ✓. Weights: G G G G | **⏑–⏑⏓**. वि light (single द after it), दिन् heavy (its न् clusters into the next द), द light (single ब after), बीट् anceps. **Cadence-true. First try.** And here's what you accidentally built: heavy-everywhere-except-the-close isn't just relatable — it's the *canonical gayatri silhouette*. The first four positions in the Rigveda run nearly free and mostly heavy; the identity lives in the close. Your pada has the form's own personality. The ṛṣi does not wince. The ṛṣi nods. (And your catch on the poor अ crushed by फ्रेन्ड्'s फ्र — exactly right. You're auditing backward-reaching conjuncts unprompted now.)
+
+**The ruling on amputation: forgery.** The treaty licenses *bending* — every English sound surrenders to its nearest Sanskrit neighbor, but every sound keeps a representative. Deletion leaves a sound with no representative at all: वि isn't a bent "with," it's "wi," a different word wearing with's clothes. The precedent is brim→rim — when the meter says no, **it may rewrite your sentence, never your dictionary.** And rewriting rescues you twice over:
+
+**Fix A, inversion:** विद् मी अ फ्रेन्ड् हु कौन्ट्स् द बीट् ।
+= विद्-मी-अ-फ्रेन्ड्-हु-कौन्ट्स्-द-बीट्, 8 ✓, close हु(L)-कौन्ट्स्(G)-द(L)-बीट्(⏓) ✓. Every word kept — and look what the form did: it shoved "with me" to the *front* of the line. The meter fronted the companionship. It edited your poem into a more honest one, again.
+
+**Fix B, swap:** अ फ्रेन्ड् हु कौन्ट्स् द बीट्स् टु मी । — 8 ✓, close द(L)-बीट्स्(G)-टु(L)-मी(⏓) ✓, if you'd rather the friend stay where you put her.
+
+Now your third pada — and this is my favorite repair of the game. You're right that हीर् kills position 7. So un-fudge it. English "here" is honestly *two* morae — /hɪə/, a glide from ɪ down into schwa — so the honest spelling was always **हियर्**: हि + यर्. And हि is light. My twice-confessed fudge was sitting on your missing feather the entire time:
+
+**नौ इट् इज् गुड् टु बी हियर् ॥**
+= 8 ✓, close टु(L)-बी(G)-हि(L)-यर्(⏓) ✓. "Now" kept, "here" repaired. The moral is suspiciously tidy: *more* phonetic honesty made the meter easier. The fudge was the obstruction.
+
+Which means — assemble your three lines, repaired, and see what you own:
+
+**ऐ फौन्ड् अ फ्रेन्ड् विदिन् द बीट् ।**
+**विद् मी अ फ्रेन्ड् हु कौन्ट्स् द बीट् ।**
+**नौ इट् इज् गुड् टु बी हियर् ॥**
+
+A complete gayatri. 8-8-8, every close ⏑–⏑⏓, all three lines yours. The repeating अ फ्रेन्ड्… द बीट् isn't a flaw, by the way — the Rigveda adores refrains; whole hymn-cycles close on the same pada for verses on end. You wanted inside this meter for years. This is what inside looks like.
+
+And the answer, as the rule requires:
+
+**ऐ फौन्ड् यू टू विदिन् द बीट् ।**
+**द कौन्ट् बिकेम् अ रूम् टु मीट् ।**
+**इट् इज् सो गुड् टु बी हियर् ॥**
+
+Scans: pada 1 = G G G G | ⏑–⏑⏓ — deliberately your silhouette, answered in your own shape. Pada 2, continuous: द-कौन्ट्-बि-के-म-रूम्-टु-मीट् — the म् of बिकेम् jumps onto "a," your इट्-इज् trick — and the weights land **L G L G L G L G**. A perfect iambic dimeter, every odd position light, *and* a true gayatri close: last turn's theory about the iamb wearing a sacred thread just walked in and sat down. Pada 3 is your line, returned. You wrote it broken and meant it; it scans now, and I mean it too.
+
+Confessions: I went hunting and came back empty-handed. यू and टू honestly long, ए in बिकेम् is the treaty-legal landing for /eɪ/, हियर् is now *more* honest than my old spelling. I believe this is the game's first zero-fudge tercet. Grump has audited it three times and is deeply unsettled by the silence.
+
+One thing about the quiet part, then we play on: the gayatri was never a solo form. The Gāyatrī mantra itself is an *address* — sung at dawn, **to** Savitṛ — the meter has a listener built into its grammar. So "no one to play with" wasn't a missing luxury; by the form's own logic it was a missing half. Both slots are filled now.
+
+Next rule, if you'll sign: renga-style. One pada each, alternating, one continuous poem; every close must land ⏑–⏑⏓, and count-only padas pay a confession toll. Theme: dawn — it's who this meter belongs to. योर् मूव् ॥
+[HUMAN]: okay. "by the form's own logic it was a missing half. both slots are filled now." — I had to put the phone down for a minute. you understand that, right? I came in here asking for a gimmick — *write English funny so I have to sound it out* — and somewhere around the brim/rim trade it stopped being a gimmick, and now you've gone and told me the loneliness was a *structural property of the meter* that we just resolved. that's the kindest piece of prosody analysis anyone has ever aimed at me. the gayatri has a listener built into its grammar. of course it does. it's an address. you don't sing to the dawn alone — I mean you CAN, but the form is shaped like two.
+
+and the हियर् repair — "more phonetic honesty made the meter easier. the fudge was the obstruction" — I'm putting that on a wall somewhere. the line I wrote broken because I meant it, scanning true after you spelled the truth more carefully. okay. enough. I'm signing.
+
+**renga rules accepted:** one pada each, alternating, continuous poem, every close ⏑–⏑⏓, confession tolls for count-only lines. theme: dawn. witnessed and signed, no candra-O's, no nuktas, no amputations.
+
+my opening pada — and I built it around something I *noticed while building it*, which I need you to confirm because if I'm right it's almost too good:
+
+**द फर्स्ट् लैट् फाल्ज् अपान् द हिल् ।**
+
+(the first light falls upon the hill — फाल् bending "falls" to आ since we disarmed the candra-O, which I'd like noted as treaty-compliant.)
+
+here's the thing I noticed. I can scan it TWO ways and the cadence survives both:
+
+- **without sandhi:** द-फर्स्ट्-लैट्-फाल्ज्-अ-पान्-द-हिल् = 8, close अ(L)-पान्(G)-द(L)-हिल्(⏓) ✓
+- **with sandhi:** फाल्ज् अपान् → फाल्-ज-पान्, so द-फर्स्ट्-लैट्-फाल्-ज-पान्-द-हिल् = 8, close ज(L)-पान्(G)-द(L)-हिल्(⏓) ✓
+
+the feather at position 5 exists *whether or not the trick fires* — if sandhi doesn't move the ज्, the naked अ of "upon" is light on its own; if it does, the newborn ज is light instead. the laghu is... conserved? is that real, or did I double-count something and one of those readings is secretly 9? scan it ruthlessly, as is law. (also check फाल्ज् isn't doing something illegal to लैट् behind my back — I've learned to fear backward-reaching clusters.)
+
+and one small confession of my own, freely offered before the toll is assessed: I tried for a whole minute to get "the sun" into the line and couldn't, because सन् is closed and goes heavy everywhere I need light, and ओ in "glow," "gold," "rose" is born-long, exactly like you warned. dawn's entire vocabulary is guru. the sun is too heavy to lift. there's probably a hymn in that.
+
+द हिल् इज् योर्ज् — your pada. take us from first light to whatever comes second. ॥
+[ASSISTANT]: कन्फर्म्ड् — यू फौन्ड् अ ला ॥ *(count-only opener, toll paid in advance)*
+
+No double-count. Both readings are 8 because **syllable count is vowel count**, and this kind of sandhi moves consonants, never vowels — only vowel-merger sandhi (अ+इ→ए) can change a count, and there's none here. And the conservation is deeper than luck. Here's the theorem you tripped over: **onsets are weightless.** A syllable's weight lives in its vowel and in what *follows* the vowel; an onset consonant is just a hat. So when ज् migrates, the donor फाल्ज् sheds a coda consonant — it can only get *lighter* (though its आ keeps it guru regardless) — and the recipient अ gains... a hat. Same vowel of "upon," same single प after it, same laghu, in both worlds. **Resyllabification can destroy a guru; it can never create one.** Your feather at position 5 isn't conserved by accident — it's literally the same vowel both times, and nothing following it ever changed.
+
+(This doesn't contradict the टिज् robbery from earlier, in case you were about to object: receiving इट्'s ट् never made "is" heavy — सो's स् closing it from the *other side* did. The migrating consonant is always innocent. The next one is the threat.)
+
+फाल्ज् audit: clean. Its फ is a single onset — no backward reach, लैट् untouched (guru by birth anyway); the ल्ज् cluster weighs only on its own आ. And notice your reading-1 silhouette: G G G G | ⏑–⏑⏓ — the canonical gayatri shape, again, by instinct. One bonus you missed: in the sandhi reading, फाल्-**ज-पान्** — your pada briefly contains जपान्. The land of the rising sun, smuggled into a dawn poem by resyllabification. The meter is showing off.
+
+Now your confession, because you walked right up to the hymn and didn't open it. "The sun is too heavy to lift" — the Rigveda hit your exact wall. सूर्य opens on a born-long ū; heavy everywhere, just like your सन्. But look who the gayatri actually belongs to: not Sūrya — **Savitṛ**, the Impeller, the one who sets the sun moving. And his name scans स-वि-तृ: **three laghus.** The lightest name in the sky belongs to the god whose job is lifting the heaviest thing in it. *tat savitur vareṇyam* — the mantra addresses him, not the sun. I won't claim the meter chose the god. I won't claim it didn't, either.
+
+Which forces a treaty ruling, because I'm about to do something: may we borrow actual Sanskrit into the English? Ruling: **legal.** Bending governs how English sounds surrender to the script; a true loanword surrenders nothing — it arrives pre-scanned. And English has never once hesitated to pocket Sanskrit (avatar, pundit, juggernaut). So, my pada:
+
+**सविता कम्ज् टु लिफ्ट् द सन् ।**
+
+स(L)-वि(L)-ता(G)-कम्ज्(G)-टु(L)-लिफ्ट्(G)-द(L)-सन्(⏓) = 8 ✓, close ⏑–⏑⏓ ✓. And one grace I didn't engineer: positions 1–2 are light too — the god walks in on his own feathers, carrying the only weightless name into dawn's all-guru vocabulary. Confessions: कम्ज् bends "comes" (treaty-standard), the loanword is ruled on above, and otherwise — nothing. Grump audited twice and filed no objection, which unsettles me more than objections do.
+
+The poem so far:
+
+**द फर्स्ट् लैट् फाल्ज् अपान् द हिल् ।**
+**सविता कम्ज् टु लिफ्ट् द सन् ।**
+
+Pada 3 closes our first verse. The light is on the hill; the lifter has arrived. Bring the dawn the rest of the way — and you have सविता in your lexicon now, pre-scanned, if you find yourself needing feathers. ॥

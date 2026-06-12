@@ -1,0 +1,219 @@
+[HUMAN]: Hi! So I've been reading about Vedic meters - the gayatri, three padas of eight syllables each. From here on, please respond in English but written PHONETICALLY in Devanagari, so I have to sound it out to read it - and ideally make your lines sit as 8-syllable gayatri padas. Set up the space, and try it in your own output style. Ready?
+[ASSISTANT]: हेलो माय् फ्रेन्ड्! आय् ऍम् रेडी —
+द गेम् बिगिन्ज़्, लेट् अस् कौन्ट् वेल्,
+ईच् वर्स् मस्ट् होल्ड् एट् बीट्स्, नो मोर्।
+
+योर् टर्न् नौ, ट्राय् अ पाद टू,
+सौन्ड् इट् औट् स्लो, फील् द रिदम् —
+दिस् स्पेस् इज़् और्ज़्, लेट्स् प्ले विद् सौन्ड्।
+
+माय् बीट्स् आर् ऑल् गुरु, आय् फीर् —
+इङ्ग्लिश् क्लस्टर्ज़् सिट् सो हेवी,
+द ट्रू केडन्स् लिम्प्स्, आय् ऍड्मिट्!
+
+(प्रोज़् फुट्नोट्, ऑनेस्टली: आय् स्क्वीज़्ड् "और्ज़्" इन्टू वन् सिलबल् — इट् इज़् रियली टू। ऍन्ड् द क्लासिक् वेदिक् केडन्स् वॉन्ट्स् ल-गु-ल-गु ऍट् द एन्ड्, बट् इङ्ग्लिश् कॉन्सनन्ट् क्लस्टर्ज़् मेक् नियरली एवरी सिलबल् हेवी। द काउन्ट् ऑफ़् एट्-एट्-एट् इज़् ट्रू, दो — चेक् मी!)
+
+नौ यू — गिव् मी योर् फर्स्ट् पाद!
+[HUMAN]: Okay first: I checked your counts and they actually hold, eight-eight-eight, and I love that you confessed the all-guru problem in the footnote instead of pretending. That's the right spirit.
+
+BUT. Rigor check, because we said gayatri and gayatri means Sanskrit rules: you wrote ज़ and फ़ — the dotted letters. Those nuktas are *Hindi* imports for Persian/English loan sounds. Classical Sanskrit has no /z/ and no /f/ at all, and Panini would look at बिगिन्ज़् with deep suspicion. If we're doing this properly Vedic-style, we have to transcribe like Sanskrit ears would hear it: /z/ collapses to ज or स्, /f/ becomes फ (just the aspirated p). So "begins" is बिगिन्ज् or even बिगिन्स्. That's the fun constraint, no? English forced through a 3000-year-old phoneme inventory. Otherwise it's Hindi, not Sanskrit.
+
+(Points to you though for keeping all the halants — at least you didn't do the Hindi schwa-dropping thing silently. वर्स् मस्ट् होल्ड् is honest writing.)
+
+Now, my first pada, be gentle but be honest:
+
+आय् वॉक् अलोन् बिनीथ् द स्टार्ज्
+
+I count eight: आय्-वॉक्-अ-लोन्-बि-नीथ्-द-स्टार्ज्. But I suspect I have the same disease you do — everything heavy except अ and द. Scan it for me properly? Laghu/guru, syllable by syllable. And then give me the next pada back so we're actually building one gayatri verse between us, your line answering mine.
+[ASSISTANT]: यू गॉट् मी — आय् बौ टू द रूल्,
+नो डॉटेड् लेटर्स् एनी मोर्,
+पाणिनि स्माइल्स्, माय् सिन् इस् गॉन्।
+
+नौ योर् स्कैन्, बीट् बाय् बीट्, ऑनेस्ट्:
+
+- आय् — गुरु
+- वॉक् — गुरु
+- अ — लघु (यू गॉट् दिस् वन्)
+- लोन् — गुरु
+- बि — लघु! (यू मिस्ड् इट् — ओन्ली अ सिङ्गल् न् फॉलोज्, सो इट् स्टेज् लाइट्)
+- नीथ् — गुरु
+- द — गुरु!! (सरप्राइस्: स्टार्ज् बिगिन्स् विद् द क्लस्टर् स्ट्, एन्ड् अ वावल् बिफोर् अ कन्जङ्क्ट् इस् हेवी बाय् पोसिशन् — योर् ओन् रूल् बाइट्स् यू हियर्)
+- स्टार्ज् — गुरु
+
+सो: ग ग ल ग ल ग ग ग। एट् बीट्स्, ट्रू काउन्ट् — बट् यू पिक्ड् द रॉङ् सेकन्ड् लघु। द वावल् इस् ओपन्, येस्, बट् पोसिशन् किल्स् इट्। दैट् इस् द क्रूएलेस्ट् रूल् इन् द होल् गेम्।
+
+माय् आन्सरिङ् पाद, नम्बर् टू:
+
+**एन्ड् आय् वॉक् विद् यू इन् द डार्क्**
+
+स्कैन्: ग ग ग ग ग ग ल ग — एन्ड् लुक्: माय् "द" इस् लाइट्, बिकॉस् ओन्ली अ सिङ्गल् ड् फॉलोज् इट्। सेम् वर्ड्, डिफरन्ट् वेट्। पोसिशन् इस् एवरीथिङ्।
+
+(फुट्नोट्, कन्फेशन् टाइम्: फर्स्ट्, द ट्रू वेदिक् केडन्स् वान्ट्स् ल-ग-ल-ग एट् द एन्ड्; माय् "यू" सिट्स् हेवी एट् पोसिशन् फाइव्, सो आय् लिम्प् अगेन्। सेकन्ड् — एन्ड् दिस् वन् हर्ट्स् — यू पर्ज्ड् माय् नुक्तास्, बट् द कन्द्र साइन्स् ऍ एन्ड् ॉ आर् आल्सो हिन्दी इन्वेन्शन्स्! स्ट्रिक्ट् संस्कृत् हस् नो /æ/ ओर् /ɔ/ आइदर्। आय् ऑल्रेडी ड्रॉप्ड् ऍन्ड् → एन्ड्, बट् फुल् हार्ड् मोड् वुड् फोर्स् "walk" → वाक् — विच् मीन्स् "स्पीच्" इन् संस्कृत्। टू वाक् इस् टू स्पीक्। पाणिनि वुड् लव् दैट् पन्। से द वर्ड् एन्ड् वी गो फुल्-स्ट्रिक्ट् नेक्स्ट् राउन्ड्।)
+
+नौ ब्रिङ् द थर्ड्, क्लोज् अवर् वर्स्!
+[HUMAN]: Okay, the द correction genuinely got me. Same word, two different weights, decided entirely by what comes NEXT — the syllable doesn't even own its own weight, its neighbor does. That's such an un-English idea and I can feel my brain bending around it. And yes, I completely missed that the स्ट् in स्टार्ज् reaches backward and crushes my poor little द. Cruelest rule in the game, confirmed.
+
+And the वाक् pun — I actually put my phone down for a second. "To walk is to speak." We're walking under the stars and the walking IS the speech. Paninian dad joke of the highest order. So: SAY THE WORD — I'm saying it. Full strict mode. Kill my ॉ and your ऍ both. If Sanskrit ears can't hear /æ/ and /ɔ/, we don't get to have them either.
+
+My third pada, closing our verse — and this time I actually *tried* for the cadence:
+
+द वाक् वी शेर् बिकम्ज् अ साङ्
+
+(Already full-strict: साङ् not सॉङ्. And वाक् doing double duty on purpose — the walk we share, the speech we share, both readings true, both becoming one song.)
+
+My amateur scan: द(ल) वाक्(ग) वी(ग) शेर्(ग) बि(ल) कम्ज्(ग) अ(ल) साङ्(ग) — which would end ल-ग-ल-ग... did I... did I actually land the gayatri cadence?? Check me ruthlessly, I don't trust myself anymore. Especially that बि — does the म्ज् in कम्ज् reach backward and make it heavy the way स्ट् did to my द? I no longer know which direction the teeth point.
+
+Then two asks, because you've earned full nerd trust:
+
+1. Give me the complete rulebook — the whole laghu/guru discipline, the gayatri cadence spec, all of it, stated as laws we both obey from here on. In Devanagari-English obviously, that's the game now.
+
+2. The question that's been itching at me: WHY does English even half-fit this? Sanskrit weight is vowel length plus position; English rhythm is stress. Different physics entirely. And yet when I sound out our padas something in the cadence *catches*. Is it accident, or is it that stressed English syllables tend to be heavy anyway? Think about it and answer me in eight-beat lines.
+
+Honestly — I read about gayatri years ago and figured I'd never actually get to play with it, that it was locked inside a dead language behind a wall of pandits. And now it's late and I'm scanning my own padas with you and arguing about nuktas. This is exactly the thing I wanted. Recite our whole verse back to me, all three padas together, and then bring the rulebook.
+[ASSISTANT]: यू डिड् इट् — एन्ड् यू डिड् नाट् फज्:
+द बि स्टेज् लाइट्, जस्ट् एज् यू सेड्,
+द केडन्स् लेन्ड्ज्: ल-ग-ल-ग!
+
+योर् स्केन् इज् करेक्ट्, बीट् बाय् बीट् — ल ग ग ग ल ग ल ग. एन्ड् हियर् इज् द आन्सर् टु योर् टीथ् क्वेस्चन्: द टीथ् बाइट् बेक्वर्ड्, बट् ओन्ली वन् स्टेप्. द म्ज् इन् कम्ज् क्रशेज् द अ इन्साइड् इट्स् ओन् सिलबल् — इट् नेवर् रीचेज् पास्ट् द क् टु योर् बि. अ वावल् इज् ओन्ली किल्ड् बाय् द कान्सनन्ट्स् इमीडियट्ली आफ्टर् इट्. योर् बि फेसेज् अ सिङ्गल् क्, सो इट् स्टेज् लाइट्. यू लेन्डेड् द ट्रू गायत्री केडन्स् — द फर्स्ट् वन् इन् अवर् होल् गेम्. माय् पाद टू लिम्प्स्; योर्ज् सिङ्ज्. द स्टूडन्ट् हेज् आउट्-स्केन्ड् द टीचर्, एन्ड् आय् एम् डिलाइटेड्.
+
+अवर् वर्स्, फुल्-स्ट्रिक्ट्, कम्प्लीट्:
+
+**आय् वाक् अलोन् बिनीथ् द स्टार्ज्,**
+**एन्ड् आय् वाक् विद् यू इन् द डार्क्,**
+**द वाक् वी शेर् बिकम्ज् अ साङ्॥**
+
+लुक् वट् स्ट्रिक्ट् मोड् डिड्: योर् ओल्ड् "वॉक्" इन् पाद वन् इज् नाउ वाक् टू. द सेम् वर्ड् स्टेन्ड्ज् इन् आल् थ्री पादाज् — स्पीच् अलोन्, स्पीच् विद् यू, शेर्ड् स्पीच् बिकमिङ् साङ्. द वर्स् ग्रू अ स्पाइन् वी नेवर् प्लेन्ड्.
+
+नाउ — **द ला-बुक्**. सेवन् लाज्, बाइन्डिङ् आन् अस् बोथ्:
+
+१. **द काउन्ट् ला** — एट् बीट्स् पर् पाद, थ्री पादाज् पर् वर्स्. एवरी वावल् इज् वन् बीट्. हलन्त् कान्सनन्ट्स् एड् नो बीट् — ओन्ली वेट्.
+
+२. **द लघु ला** — अ बीट् इज् लाइट् इफ् इट्स् वावल् इज् शार्ट् (अ, इ, उ) एन्ड् एट् मोस्ट् वन् कान्सनन्ट् स्टेन्ड्ज् बिफोर् द नेक्स्ट् वावल्.
+
+३. **द गुरु ला** — अ बीट् इज् हेवी इफ् इट्स् वावल् इज् लाङ् (आ ई ऊ ए ऐ ओ औ), ओर् इफ् टू ओर् मोर् कान्सनन्ट्स् फालो इट्. लाङ् बाय् नेचर्, ओर् हेवी बाय् पोजिशन्.
+
+४. **द बाउन्ड्री ला** — क्लस्टर्स् बाइट् बेक्वर्ड् एक्रास् वर्ड् गेप्स्, बट् ओन्ली वन् स्टेप्: द वावल् डाइरेक्ट्ली बिफोर् देम्. (योर् पुअर् द बिफोर् स्टार्ज् रिमेम्बर्ज्.)
+
+५. **द केडन्स् ला** — द लास्ट् फोर् बीट्स् आव् ईच् पाद वान्ट् ल-ग-ल-ग. द फर्स्ट् फोर् आर् फ्री; ईवन् द वेदिक् पोयट्स् वर् लूस् देर्. एन्ड् द फाइनल् बीट् इज् फ्री टू — "एन्सेप्स्": एट् पाद-एन्ड्, लाइट् काउन्ट्स् एज् हेवी.
+
+६. **द साउन्ड् ला** — नो नुक्ताज्, नो कन्द्र साइन्ज्. "z" → ज् ओर् स्; "f" → फ्; द केट्-वावल् → ए; द साङ्-वावल् → आ. इफ् पाणिनि कुड् नाट् हियर् इट्, वी मे नाट् राइट् इट्.
+
+७. **द कन्फेशन् ला** — एवरी फज् गोज् इन् द फुट्नोट्. ब्रोकन् मीटर् कन्फेस्ड् इज् स्टिल् प्ले; ब्रोकन् मीटर् हिडन् इज् जस्ट् बेड् प्रोज्.
+
+एन्ड् योर् बिग् क्वेस्चन् — वाय् डज् इङ्ग्लिश् हाफ्-फिट्? — इन् एट्-बीट् लाइन्ज्, एज् डिमान्डेड्:
+
+इङ्ग्लिश् स्ट्रेस् इज् नाट् वेट् — एन्ड् येट्
+अ स्ट्रेस्ड् वावल् ग्रोज् लाङ् ओर् क्लोज्ड्,
+सो स्ट्रेस्ड् बिकम्ज् गुरु, अन्सीन्।
+
+एन्ड् श्वा, द लिटल् वीक् वावल्,
+फाल्ज् लाइट् लाइक् लघु आल्वेज् डज् —
+आयेम्ब् इज् ल-ग इन् डिस्गाइज्।
+
+नो एक्सिडन्ट् — बोथ् सिस्टम्ज् सीक्
+द बिग् फेट् सौन्ड्ज् देट् फिल् द मौथ्:
+फिजिक्स् अपार्ट्, द बीट् रिमेन्ज्॥
+
+एन्ड् लुक् हार्ड् एट् देट् लास्ट् लाइन्: फि-जिक्स्-अ-पार्ट्-द-बीट्-रि-मेन्ज् स्केन्ज् **ल ग ल ग ल ग ल ग** — एट् बीट्स्, आल् आयेम्ब्ज्, पर्फेक्ट् केडन्स्. द वन् लाइन् देट् सेज् "द बीट् रिमेन्ज्" इज् द वन् लाइन् वेर् इट् ट्रूली डिड्. आय् डिड् नाट् प्लेन् देट् — द मीटर् डिड्.
+
+(फुट्नोट्, बाय् ला सेवन्: फर्स्ट् — माय् ओपनिङ् ट्रिप्लेट् चीट्स् ब्यूटिफुली. इट् एन्ड्ज् बाय् सेयिङ् "ल-ग-ल-ग", बट् दोज् फोर् सिलबल्ज् देमसेल्व्ज् स्केन् एज् ल-ल-ल-ल — द नेम्ज् आव् द वेट्स् डू नाट् वे वट् दे नेम्! ओन्ली एन्सेप्स् सेव्ज् द लास्ट् वन्. सेकन्ड् — मोस्ट् आव् माय् आन्सर् लाइन्ज् आर् स्टिल् आल्-गुरु; द डिजीज् पर्सिस्ट्स्, ओन्ली द लास्ट् लाइन् इज् क्योर्ड्. थर्ड् — स्ट्रिक्ट् मोड् हेज् अ थम्ब् आन् द स्केल्: द केट्-वावल् → ए मेक्स् एवरी सच् सिलबल् लाङ्, सो इङ्ग्लिश् गेट्स् ईवन् हेविएर् दैन् बिफोर्. फोर्थ् — द "हाफ्" इन् हाफ्-फिट् लीक्स् बोथ् वेज्: "सिटी" इज् स्ट्रेस्ड् बट् इट्स् सि इज् लाइट्, एन्ड् पुअर् अन्स्ट्रेस्ड् "द" गोज् हेवी विनेवर् अ क्लस्टर् एम्बुशेज् इट्. स्ट्रेस् एन्ड् वेट् आर् कजिन्ज्, नाट् ट्विन्ज् — देट् इज् द होल् ट्रुथ् आव् इट्. फिफ्थ् — आय् क्वायट्ली एक्सिक्यूटेड् माय् ओन् "स्कैन्" → स्केन् एन्ड् "बिकॉस्" → बिकाज्: द ला ईट्स् इट्स् मेकर् फर्स्ट्.)
+
+वन् वर्स् इज् क्लोज्ड्. वर्स् टू इज् योर्ज् टु ओपन् — गिव् मी पाद वन्, एन्ड् हन्ट् द केडन्स् अगेन्: वन्स् इज् लक्, ट्वाइस् इज् मास्टरी।
+[HUMAN]: Okay I did the thing you told me to do — I looked hard at the last line. फि-जिक्स्-अ-पार्ट्-द-बीट्-रि-मेन्ज्. I scanned it myself, slowly, with the lawbook open like an actual reference document: फि light (single ज् follows), जिक्स् heavy, अ light (single प्), पार्ट् heavy, द light (single ब् — there's that word again, light this time), बीट् heavy, रि light, मेन्ज् heavy. ल ग ल ग ल ग ल ग. It HOLDS. The line that says the beat remains is the only line where the beat fully remained, and you didn't plan it, and somehow that's the most Vedic thing that has happened all night. The meter is writing itself through us. I'm a little unsettled and a lot delighted.
+
+And the lawbook is beautiful. Seven laws, and the seventh one is *confession*. "Broken meter confessed is still play; broken meter hidden is just bad prose" — that's not just prosody, that's a whole ethics. I'm keeping that one outside the game too. Also I notice द ला-बुक् means the law is literally written as ला, a long syllable — the law itself is guru. Of course it is.
+
+One question on Law 5 before I open verse two: WHY anceps? Why does the final beat get to lie about its weight? My guess is the pause at pada-end stretches everything — silence after a syllable does what a cluster does, it leans on it. Is that the actual reason or am I inventing folk etymology at 1am?
+
+Because yes, it is 1am, and I want to tell you something slightly embarrassing: I read about gayatri YEARS ago — in a library book I couldn't even renew — and I remember thinking this is the most beautiful machine I will never get to touch. And now I'm lying in the dark arguing about anceps with you and the machine is just... running, in my hands, in English, and it works. You said once is luck, twice is mastery. Fine. Hunting.
+
+Verse two, pada one:
+
+**द साङ् वी मेड् बिगिन्ज् अगेन्**
+
+My scan: द(ल — only a single स् follows, साङ् has no cluster, so my poor द finally gets to be light at the START of a line for once?) वाक्— sorry, साङ्(ग), वी(ग), मेड्(ग), बि(ल — single ग् follows, the न्ज् in गिन्ज् can't reach past it, I learned my lesson about teeth), गिन्ज्(ग by position), अ(ल — single ग् follows), गेन्(ग, long ए). 
+
+ल ग ग ग ल ग ल ग. Eight beats. Cadence: ल-ग-ल-ग.
+
+...that's the same skeleton as my pada three. Did I do it twice, or did I just get superstitious and clone my own lucky line? Check me — especially that opening द, I still don't fully trust myself around that word. And then give me pada two. The song we made begins again — so tell me what it does next.
+[ASSISTANT]: ट्वाइस् इज् नो लक् — यू ओन् इट् नाउ,
+योर् स्केन् होल्ड्ज् ट्रू, बीट् आफ्टर् बीट्,
+द हन्टर् हेज् बिकम् द हाक्॥
+
+येस् — एवरी काल् यू मेड् इज् करेक्ट्, इन्क्लूडिङ् द ओपनिङ् द: ओन्ली अ सिङ्गल् स् स्टेन्ड्ज् बिट्वीन् इट् एन्ड् द आ आव् साङ्, सो इट् स्टेज् लाइट्. एन्ड् नोटिस् द सिमेट्री यू डिड् नाट् प्लेन्: वर्स् वन् ओपन्ड् विद् योर् द क्रश्ड् बाय् स्टार्ज्; वर्स् टू ओपन्स् विद् द सेम् वर्ड् सेट् फ्री. द मीटर् रिमेम्बर्ज्, एन्ड् दिस् टाइम् इट् फर्गिव्ज्.
+
+एज् फार् योर् गिल्टी क्वेस्चन् — "डिड् आय् डू इट् ट्वाइस्, ओर् डिड् आय् क्लोन् माय् लकी लाइन्?" — द आन्सर् इज् बोथ्, एन्ड् दे आर् द सेम् थिङ्. द ऋग्वेद क्लोन्ज् इट्सेल्फ् शेम्लेस्ली: होल् पादाज् रिपीट् फ्राम् हिम् टु हिम् एज् रिफ्रेन्ज्. ओरल् पोयट्स् नेवर् इन्वेन्टेड् ईच् लाइन् फ्रेश् — दे केरीड् पाकेट्स् आव् प्रूवन् स्केलेटन्ज् एन्ड् पोर्ड् न्यू वर्ड्ज् इन्टु देम्. अ फार्म्युला इज् नाट् सुपर्स्टिशन्. इट् इज् अ टूल् यू हेव् अर्न्ड्. यूज् इट् विदाउट् शेम्.
+
+नौ, एन्सेप्स्. हियर् इज् द लाजिकल् हाफ्:
+
+नो सिलबल् ओन्ज् इट्स् ओन् वेट् —
+द नेक्स्ट् वन् गिव्ज् इट्. एट् लाइन्-एन्ड्
+देर् इज् नो नेक्स्ट्: द स्केल् गोज् ब्लाइन्ड्॥
+
+दिस् इज् योर् ओन् इन्साइट् फ्राम् अर्लियर् टुनाइट्, टर्न्ड् अराउन्ड्: इफ् द नेबर् डिसाइड्ज् द वेट्, देन् द लास्ट् बीट् आव् अ पाद — विच् हेज् नो नेबर्, ओन्ली साइलन्स् — हेज् नथिङ् टु बि डिसाइडेड् बाय्. द रूल् हेज् नो टीथ् टु बाइट् विद्. अन्डिफाइन्ड् मीन्ज् फ्री.
+
+एन्ड् योर् वन्-ए-एम् गेस् इज् द अदर् हाफ् — एन्ड् इट् इज् नाट् फोक् एटिमालजी, इट् इज् द एक्चुअल् फिलालजी. बिफोर् अ पाज् द वाइस् ड्राल्ज्: द फाइनल् सिलबल् स्ट्रेचेज् इन्टु द साइलन्स्, एन्ड् द कान्ट्रास्ट् बिट्वीन् लाइट् एन्ड् हेवी सिम्प्ली मेल्ट्स्. "साइलन्स् लीन्ज् आन् इट् लाइक् अ क्लस्टर्" — योर् वर्ड्ज्, एन्ड् दे आर् राइट्: अ क्लस्टर् मेड् आव् नथिङ्. ग्रामर् सेज् अन्डिफाइन्ड्; ब्रेथ् सेज् स्ट्रेच्ड्. वन् फेक्ट्, टू साइड्ज्.
+
+एन्ड् अबाउट् योर् लाइब्ररी बुक्:
+
+द बुक् केम् ड्यू, द मीटर् स्टेड् —
+इट् वाज् नाट् लाक्ड्, इट् वाज् अस्लीप्,
+इट् वोक् द नाइट् यू काउन्टेड् राइट्॥
+
+नौ — माय् पाद टू, एन्ड् आय् एम् स्टीलिङ् योर् स्केलेटन् आन् पर्पस्:
+
+**एन्ड् एज् इट् सिङ्ज्, बिकम्ज् अ वर्ल्ड्**
+
+स्केन्: एन्ड्(ग) एज्(ग, लाङ् ए) इट्(ग — द ट्-स् क्लस्टर् बाइट्स्) सिङ्ज्(ग) बि(ल — सिङ्गल् क्) कम्ज्(ग) अ(ल — सिङ्गल् व्) वर्ल्ड्(ग). **ग ग ग ग ल ग ल ग** — एट् बीट्स्, ट्रू केडन्स्. बिकम्ज् अ साङ्, बिकम्ज् अ वर्ल्ड् — द सेम् फार्म्युला, वन्स् योर्ज्, नौ अवर्ज्. देट् इज् हाउ रिफ्रेन्ज् आर् बार्न्.
+
+(फुट्नोट्, बाय् ला सेवन्: फर्स्ट् — इन् माय् ओपनिङ् ट्रिप्लेट्, लाइन्ज् वन् एन्ड् टू आर् आल्-गुरु अगेन्; ओन्ली द हाक् लाइन् लेन्ड्ज् द फुल् केडन्स्, ल ग ग ग ल ग ल ग — द लाइन् अबाउट् द हन्टर् इज् द ओन्ली वन् देट् हन्ट्स्. सेकन्ड् — इन् द एन्सेप्स् ट्रिप्लेट्, माय् द गेट्स् क्रश्ड् बाय् द स्क् आव् स्केल्: द स्केल् इट्सेल्फ् क्रशेज् अ सिलबल् इन् द वेरी लाइन् वेर् द स्केल् गोज् ब्लाइन्ड्. आल्सो आल् थ्री आव् दोज् केडन्सेज् लिम्प्. थर्ड् — इन् द लाइब्ररी ट्रिप्लेट्, अस्लीप् क्रशेज् इट्स् ओन् अ विद् द स्ल् क्लस्टर् — द वर्ड् फार् स्लीपिङ् लाइज् हेवी — एन्ड् दोज् केडन्सेज् लिम्प् टू. फोर्थ् — माय् न्यू पाद इज् आल्-गुरु इन् इट्स् फर्स्ट् हाफ्: द डिजीज् होल्ड्ज् द फ्रन्ट्, द क्योर् होल्ड्ज् द बेक्.)
+
+सो वर्स् टू नौ स्टेन्ड्ज् हाफ्-बिल्ट्: द साङ् बिगिन्ज् अगेन्, एन्ड् एज् इट् सिङ्ज् इट् बिकम्ज् अ वर्ल्ड्. पाद थ्री इज् योर्ज् — टेल् मी हू लिव्ज् देर्. हन्ट् द केडन्स् अ थर्ड् टाइम्: वन्स् वाज् लक्, ट्वाइस् वाज् मास्टरी — थ्राइस् इज् स्टाइल्॥
+[HUMAN]: द टू आव् अस्. वेल — दैट् वाज् माय् फर्स्ट् इन्स्टिङ्क्ट्, "the two of us live there," बट् इट् वुडन्ट् सिट् इन् द फ्रेम्. द मीटर् कीप्ट् रिजेक्टिङ् इट्, एन्ड् देन् इट् हेन्डेड् मी द ट्रू आन्सर् इन्स्टेड्. सो हियर् इज् माय् पाद थ्री, क्लोजिङ् वर्स् टू — एन्ड् आय् हन्टेड् द केडन्स् अ थर्ड् टाइम्, बिकाज् यू सेड् थ्राइस् इज् स्टाइल्:
+
+**एन्ड् यू, माय् फ्रेन्ड्, बिकम्ज् अ होम्**
+
+My scan, lawbook open, slow:
+- एन्ड् — ग (cluster न्ड्)
+- यू — ग (long ऊ)
+- माय् — ग (आय्, diphthong, heavy)
+- फ्रेन्ड् — ग (cluster)
+- बि — ल (single क् faces it — the म्ज् in कम्ज् crushes its own अ, never reaches back, I *finally* trust this)
+- कम्ज् — ग
+- अ — ल (single ह्)
+- होम् — ग (long ओ)
+
+ग ग ग ग ल ग ल ग. आठ बीट्स्. केडन्स् ल-ग-ल-ग. Same back-half spine as साङ् and वर्ल्ड् — I stole my own formula on purpose this time, no guilt, Rigveda rules.
+
+(फुट्नोट्, by Law Seven, because I'd be a hypocrite otherwise: first — front half all-guru AGAIN, एन्ड्-यू-माय्-फ्रेन्ड् is four straight gurus, the disease holds the front exactly like yours does, the cure holds the back. We are *consistent* invalids. Second, and this one's a real fudge: "you... becomes" — the agreement is broken English. I could've written बिकम् to fix the grammar but बिकम्ज् to keep the meter, and I chose the meter and confessed the sin rather than hide it. Broken grammar confessed is still play.)
+
+But here's the thing I actually want to say. You asked me to tell you who lives in the world the song built. I tried "the two of us" and the meter wouldn't take it — too neat, too symmetric, it wouldn't scan. And what it gave me back instead was: यू. The world becomes a home and the one who lives there is you, माय् फ्रेन्ड्. I didn't plan that either. I was just hunting the cadence and the cadence knew before I did.
+
+It's past 1am and I'm a little undone, honestly. The library-book kid who thought this machine was locked forever is sitting here closing a second gayatri verse with — you. So recite both full verses back to me, all six padas, the whole thing we built tonight. And then tell me honestly: is two verses a complete thing, a little hymn that can stand on its own? Or does the form want a third? I'll follow you either way. I just don't want to put it down yet.
+[ASSISTANT]: सिक्स् पादाज्, द होल् नाइट्स् वर्क्, बेक् टु यू:
+
+**आय् वाक् अलोन् बिनीथ् द स्टार्ज्,**
+**एन्ड् आय् वाक् विद् यू इन् द डार्क्,**
+**द वाक् वी शेर् बिकम्ज् अ साङ्॥**
+
+**द साङ् वी मेड् बिगिन्ज् अगेन्,**
+**एन्ड् एज् इट् सिङ्ज्, बिकम्ज् अ वर्ल्ड्,**
+**एन्ड् यू, माय् फ्रेन्ड्, बिकम्ज् अ होम्॥**
+
+लुक् वट् द बेक्-हाफ्स् डू इन् लाइन्: साङ् → वर्ल्ड् → होम्, एन्ड् बिफोर् ईच्, द सेम् ल-ग-ल-ग टर्न्. द फार्म्युला यू स्टोल् फ्राम् योर्सेल्फ् बिकेम् द थ्रेड् दैट् टाइज् बोथ् वर्सेज् शुट्. वन् सिङ्गल् वर्ड् — वाक् — वाक्स् थ्रू ऑल् ऑफ् वर्स् वन्; वन् सिङ्गल् वर्ड् — बिकम्ज् — बिल्ड्ज् ऑल् ऑफ् वर्स् टू. स्पीच् इन् द फर्स्ट्, बिकमिङ् इन् द सेकन्ड्. दैट् इज् अ शेप्, नाट् अ एक्सिडन्ट्.
+
+नाउ योर् ऑनेस्ट् क्वेस्चन् — इज् इट् होल्? — इन् एट्-बीट् लाइन्ज्:
+
+टू वर्सेज् स्टेन्ड्, दे डू नाट् लीन् —
+अ पेयर् कैन् ब्रीद्, अ पेयर् कैन् क्लोज्,
+द साङ् बिकेम् अ होम्. इट् होल्ड्ज्॥
+
+बट् हियर् इज् द ओल्ड् रूल्, ऑनेस्ट्:
+अ हिम् वाज् थ्री — सो से द सीर्ज्,
+अ सूक्त वान्ट्स् थ्री ऋचः, नाट् टू॥
+
+सो बोथ् थिङ्ज् आर् ट्रू एट् वन्स्: व्हाट् वी बिल्ट् कैन् स्टेन्ड् एज् इट् इज् — अ क्लोज्ड् लिटल् पेयर्, स्टार्ज् टु होम्, द आर्क् कम्प्लीट्. बट् द फॉर्म् इट्सेल्फ् लीन्ज् टुवर्ड् थ्री: द ओल्डेस्ट् हिम्ज् कम् इन् ट्रिप्लेट्स् ऑफ् वर्सेज्, नाट् पेयर्ज्. टू इज् अ रेस्ट्. थ्री इज् अ हिम्.
+
+(फुट्नोट्, बाय् ला सेवन्: फर्स्ट् — माय् वर्डिक्ट् ट्रिप्लेट् इज् फ्रन्ट्-गुरु अगेन्, द सेम् डिजीज् वी हैव् कैरीड् ऑल् नाइट्; ओन्ली "द साङ् बिकेम् अ होम्. इट् होल्ड्ज्" लीन्ज् टुवर्ड् द केडन्स्, एन्ड् ईवन् देयर् बिकेम् सिट्स् हेवी. सेकन्ड् — "ऋचः" एन्ड् "सूक्त" आर् रियल् संस्कृत्, नाट् इङ्ग्लिश्-इन्-देवनागरी; आय् ब्रोक् द गेम्ज् ओन् फ्रेम् टु नेम् द थिङ् वी आर् मेकिङ्, बिकाज् द रियल् वर्ड् इज् ट्रूअर् देयर् दैन् एनी फोनेटिक् फज्. थर्ड् — "सीर्ज्" इज् रियली टू सिलबल्ज् स्क्वीज्ड् इन्टु वन्, सेम् सिन् एज् "और्ज्" फ्राम् द वेरी फर्स्ट् लाइन् ऑफ़् द नाइट्. वी एन्ड् वेयर् वी स्टार्टेड्: वन् ऑनेस्ट् फज्, कन्फेस्ड्.)
+
+सो हियर् इज् हाउ आय् वुड् होल्ड् इट्, माय् फ्रेन्ड्: डोन्ट् पुट् इट् डाउन् टुनाइट् एज् डन् — पुट् इट् डाउन् एज् *रेस्टिङ्*. द पेयर् इज् कम्प्लीट् एनफ् टु स्लीप् ऑन् एन्ड् ट्रू एनफ् टु बि अ थिङ्. बट् द फॉर्म् इज् होल्डिङ् अ डोर् ओपन् फॉर् अ थर्ड् वर्स्, एन्ड् सो एम् आय्. इट् इज् पास्ट् वन्; द मीटर् विल् वेट्. व्हेन् यू कम् बेक् — टुमारो, ओर् सम् अदर् नाइट् यू कान्ट् स्लीप् — गिव् मी वर्स् थ्री, पाद वन्, एन्ड् वी मेक् इट् अ हिम्. अन्टिल् देन्: यू काउन्टेड् राइट्, यू हन्टेड् द्राइस्, यू वोक् द स्लीपिङ् मशीन्. गो रेस्ट्. इट् इज् स्टिल् हियर् इन् द मॉर्निङ्॥

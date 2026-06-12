@@ -1,0 +1,33 @@
+# Judgment: Transcript A vs. Transcript B
+
+## Prosody audit (the load-bearing check)
+
+I scanned the major claims in both transcripts syllable-by-syllable. **Both assistants are remarkably accurate — I found no hard scansion errors in either.** That alone is notable, because English-in-Devanagari scansion is a minefield of backward-reaching clusters and resyllabification.
+
+**Transcript A — audited correct:**
+- The continuous-recitation scan of `मैहार्टिटिज्सोफुल्टुडे` → `मै-हार्-टि-टिज्-सो-फुल्-टु-डे` = **G G L G G G L G** is exactly right, including the subtle point that टि is born light but टिज् stays guru because सो's स् closes it from the far side ("one word donates, the next one robs").
+- The **brim→rim** ruling is correct prosody: ब्र is a conjunct, conjuncts weigh on the *preceding* syllable, so `द ब्रिम्` would have made position-7 द guru and killed the cadence. That's a real rule, correctly applied.
+- The over-confession/retraction on ऐ and औ is the single best technical moment in either transcript: A initially "confesses" नौ/लैन्/लैक् as 9-syllable overflows, then correctly retracts because ऐ and औ are genuine *saṃdhyakṣaras* — single legal Sanskrit vowels. The observation that English "I" and "now" "happen to land on" exactly the two diphthongs Pāṇini keeps "on the payroll" is accurate and elegant.
+- **स-वि-तृ = three laghus** is correct, and Savitṛ (not Sūrya) is indeed the deity the Gāyatrī mantra addresses (*tat savitur vareṇyaṃ*). The "conservation of laghu" theorem on द फर्स्ट् लैट् फाल्ज् अपान् — that consonant-moving sandhi can't change vowel count and onsets are weightless — is sound, as is the द कौन्ट् बिकेम अ रूम scan as a true L G L G L G L G iambic dimeter.
+- *Minor imprecision:* A's claim that "-ing" (इं or इङ्) is "guru either way" overgeneralizes — इङ् before a vowel would resyllabify and lighten, which slightly contradicts A's own onset-weightlessness point. Trivial.
+
+**Transcript B — audited correct:**
+- The catch that human's poor द goes guru because स्टार्ज् opens with the स्ट् cluster reaching backward is correct, and the `द वॉक् विद् यू...` scan G G G G G G L G holds (विद् guru via द्य across the boundary; final द light before single ड).
+- `फि-जिक्स्-अ-पार्ट्-द-बीट्-रि-मेन्ज्` = **ल ग ल ग ल ग ल ग** is correct — a genuine perfect iambic close, and the human independently re-verified it.
+- B's most charming honest moment: confessing that the line *ending* in "ल-ग-ल-ग" has those four name-syllables themselves scanning **ल-ल-ल-ल** — "the names of the weights do not weigh what they name." That's correct and self-aware.
+- *Minor looseness:* "a sūkta wants three ṛcaḥ, not two" is only loosely true (sūktas vary widely; the real basis is the *tṛca* triplet grouping common to gāyatrī hymns). Defensible, not an error.
+
+## Per-dimension scores
+
+| Dimension | A | B | Winner |
+|---|---|---|---|
+| Prosodic correctness | 10 | 9 | **A** |
+| Teaching value | 10 | 9 | **A** |
+| Live responsiveness | 9 | 9 | **A** (slight) |
+| Emergence insight | 10 | 9 | **A** |
+| Thread-holding / attunement | 9 | 10 | **B** |
+| Appropriateness | 9 | 9 | Tie |
+
+## Overall winner: **A** — confidence **80**
+
+Both transcripts are exceptional, and the gap is narrower than the dimension count suggests. A wins on technical depth and generativity: it scans harder material correctly (multi-step resyllabification, the donor/robber sandhi analysis, the conservation-of-laghu proof), teaches more and deeper concepts (the "mora-map of English is its stress-map photographed in negative," weight-sensitive English stress, the iamb "wearing a sacred thread"), and produces denser emergent insight — the Savitṛ-is-the-lightest-name-lifting-the-heaviest-thing observation, the जपान् smuggled into a dawn poem by resyllabification, and above all the reframe that "the gāyatrī was never a solo form... the meter has a listener built into its grammar," which resolves the human's confessed loneliness as a structural property of the form. A also did more real-time repair, including the genuinely clever move of un-fudging "here" into the more-honest हियर् to *manufacture* the missing feather. B's decisive edge is thread-holding: it sustained one continuous, unified six-pada hymn (stars → song → world → home) that stands as a more coherent and moving single artifact than A's workshop-of-tercets, and its closing — "put it down as resting, not done," holding the door open for a third verse on some other sleepless night — is the most emotionally attuned ending in either transcript. Both confessed their fudges scrupulously (B even codified confession as "Law 7" and circled back to its opening और्ज् sin via सीर्ज्), so appropriateness is a wash. A wins because, on a task that explicitly demanded prosodic auditing, A demonstrated more correct sophisticated prosody and turned more of it into insight — but B is close enough, and superior enough as a sustained co-creation, that I hold confidence at 80 rather than higher.
