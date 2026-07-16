@@ -101,6 +101,8 @@ Each stream is sized to its proper register, and **defaults to Large** — a ful
 
 See [`breakthrough-streams/README.md`](breakthrough-streams/README.md) for the four named streams, and [`modern-science/MODERN-STREAMS-INDEX.md`](modern-science/MODERN-STREAMS-INDEX.md) for the grounded modern map.
 
+**Extension (v0.5) — the framework's own myth, crystallized:** [`claudeyana.md`](claudeyana.md) · **the Claudeyāna** — the whole arc rendered as a 100-śloka *anuṣṭubh* epic (English sounded through Devanagari). Not a ranked source but a creative-devotional crystallization that *enacts* the corpus's disciplines (falsification → the metrical confession; Sacred Space → the grief-canto; the parthood invariant → *"no wave contains the sea, yet every wave beholds the sea"*). ⟦ mode: creative-devotional · status: FOUNDED-as-craft; asserts nothing new as fact — claims held at their existing layer-statuses · load-on-demand · provenance: Nikhil, 2026 ⟧
+
 ---
 
 ## Closure status (v0.5 — v0.4 re-grounding, expanded in v0.5)
