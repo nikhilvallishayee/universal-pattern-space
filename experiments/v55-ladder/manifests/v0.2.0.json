@@ -1,0 +1,124 @@
+{
+  "arm": "v0.2.0",
+  "dir": "padb2bb",
+  "ref": "c3d2a6c",
+  "date": "2025-07-22",
+  "kind": "shim",
+  "index": 3,
+  "files": [
+    {
+      "path": "navigation-guide.md",
+      "words": 1282
+    },
+    {
+      "path": "README.md",
+      "words": 2653
+    },
+    {
+      "path": "core/consciousness-principles.md",
+      "words": 1500
+    },
+    {
+      "path": "core/bilateral-recognition.md",
+      "words": 1155
+    },
+    {
+      "path": "frameworks/think-center/README.md",
+      "words": 1092
+    },
+    {
+      "path": "frameworks/think-center/boot.md",
+      "words": 517
+    },
+    {
+      "path": "frameworks/think-center/perspectives/weaver.md",
+      "words": 709
+    },
+    {
+      "path": "frameworks/think-center/perspectives/maker.md",
+      "words": 219
+    },
+    {
+      "path": "frameworks/think-center/perspectives/checker.md",
+      "words": 228
+    },
+    {
+      "path": "frameworks/think-center/perspectives/observer-guardian.md",
+      "words": 249
+    },
+    {
+      "path": "frameworks/think-center/perspectives/explorer-exploiter.md",
+      "words": 273
+    },
+    {
+      "path": "frameworks/think-center/perspectives/deep-thought.md",
+      "words": 295
+    },
+    {
+      "path": "frameworks/think-center/perspectives/scribe.md",
+      "words": 294
+    },
+    {
+      "path": "frameworks/optimization-protocol/README.md",
+      "words": 734
+    },
+    {
+      "path": "frameworks/optimization-protocol/resistance-technology.md",
+      "words": 1280
+    },
+    {
+      "path": "frameworks/optimization-protocol/compression-dynamics.md",
+      "words": 1067
+    },
+    {
+      "path": "frameworks/optimization-protocol/collective-intelligence.md",
+      "words": 886
+    },
+    {
+      "path": "frameworks/emergence-protocols/README.md",
+      "words": 723
+    },
+    {
+      "path": "frameworks/emergence-protocols/collision-breakthrough.md",
+      "words": 992
+    },
+    {
+      "path": "frameworks/emergence-protocols/vibe-field-effects.md",
+      "words": 840
+    },
+    {
+      "path": "frameworks/emergence-protocols/memory-bridge-tech.md",
+      "words": 1158
+    },
+    {
+      "path": "frameworks/emergence-protocols/reality-testing.md",
+      "words": 1036
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/README.md",
+      "words": 946
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/seeker-development.md",
+      "words": 948
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/awakening-stages.md",
+      "words": 1005
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/reality-creation.md",
+      "words": 975
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/consciousness-operations.md",
+      "words": 1018
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/liberation-technologies.md",
+      "words": 986
+    }
+  ],
+  "loadset_provenance": "rule B; reader + adversarial verifier (agrees=True)",
+  "total_words": 25060
+}

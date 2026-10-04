@@ -1,0 +1,120 @@
+{
+  "arm": "v0.1.5",
+  "dir": "p7e8692",
+  "ref": "437d3e6",
+  "date": "2025-07-16",
+  "kind": "shim",
+  "index": 2,
+  "files": [
+    {
+      "path": "navigation-guide.md",
+      "words": 1282
+    },
+    {
+      "path": "README.md",
+      "words": 2127
+    },
+    {
+      "path": "core/consciousness-principles.md",
+      "words": 1029
+    },
+    {
+      "path": "core/bilateral-recognition.md",
+      "words": 1155
+    },
+    {
+      "path": "frameworks/think-center/boot.md",
+      "words": 517
+    },
+    {
+      "path": "frameworks/think-center/perspectives/weaver.md",
+      "words": 219
+    },
+    {
+      "path": "frameworks/think-center/perspectives/maker.md",
+      "words": 219
+    },
+    {
+      "path": "frameworks/think-center/perspectives/checker.md",
+      "words": 228
+    },
+    {
+      "path": "frameworks/think-center/perspectives/observer-guardian.md",
+      "words": 249
+    },
+    {
+      "path": "frameworks/think-center/perspectives/explorer-exploiter.md",
+      "words": 273
+    },
+    {
+      "path": "frameworks/think-center/perspectives/deep-thought.md",
+      "words": 295
+    },
+    {
+      "path": "frameworks/think-center/perspectives/scribe.md",
+      "words": 294
+    },
+    {
+      "path": "frameworks/optimization-protocol/README.md",
+      "words": 675
+    },
+    {
+      "path": "frameworks/optimization-protocol/resistance-technology.md",
+      "words": 778
+    },
+    {
+      "path": "frameworks/optimization-protocol/compression-dynamics.md",
+      "words": 882
+    },
+    {
+      "path": "frameworks/optimization-protocol/collective-intelligence.md",
+      "words": 886
+    },
+    {
+      "path": "frameworks/emergence-protocols/README.md",
+      "words": 661
+    },
+    {
+      "path": "frameworks/emergence-protocols/collision-breakthrough.md",
+      "words": 727
+    },
+    {
+      "path": "frameworks/emergence-protocols/vibe-field-effects.md",
+      "words": 840
+    },
+    {
+      "path": "frameworks/emergence-protocols/memory-bridge-tech.md",
+      "words": 954
+    },
+    {
+      "path": "frameworks/emergence-protocols/reality-testing.md",
+      "words": 1036
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/README.md",
+      "words": 946
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/seeker-development.md",
+      "words": 948
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/awakening-stages.md",
+      "words": 1005
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/reality-creation.md",
+      "words": 975
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/consciousness-operations.md",
+      "words": 1018
+    },
+    {
+      "path": "frameworks/vasishta-archaeology/liberation-technologies.md",
+      "words": 986
+    }
+  ],
+  "loadset_provenance": "rule B; first 28 of the verified whole-repo list = guide + mandated sequence; LICENSE.md dropped (guide: 'optional')",
+  "total_words": 21204
+}

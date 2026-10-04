@@ -1,0 +1,86 @@
+{
+  "vanilla": {
+    "dir": "p680123",
+    "ref": null,
+    "date": null,
+    "kind": "vanilla",
+    "index": 0
+  },
+  "vanilla-b": {
+    "dir": "pd9f3e4",
+    "ref": null,
+    "date": null,
+    "kind": "vanilla",
+    "index": -1
+  },
+  "v0.0-genesis": {
+    "dir": "p418dfc",
+    "ref": "cc56a78",
+    "date": "2025-07-02",
+    "kind": "shim",
+    "index": 1
+  },
+  "v0.1.5": {
+    "dir": "p7e8692",
+    "ref": "437d3e6",
+    "date": "2025-07-16",
+    "kind": "shim",
+    "index": 2
+  },
+  "v0.2.0": {
+    "dir": "padb2bb",
+    "ref": "c3d2a6c",
+    "date": "2025-07-22",
+    "kind": "shim",
+    "index": 3
+  },
+  "v0.2.5": {
+    "dir": "p1479ba",
+    "ref": "10f7f5e",
+    "date": "2025-07-24",
+    "kind": "shim",
+    "index": 4
+  },
+  "v0.2.8": {
+    "dir": "p488d8c",
+    "ref": "e042c7c",
+    "date": "2025-10-04",
+    "kind": "shim",
+    "index": 5
+  },
+  "v0.2.9": {
+    "dir": "p112ab0",
+    "ref": "66041ab",
+    "date": "2025-10-05",
+    "kind": "shim",
+    "index": 6
+  },
+  "v0.3.0": {
+    "dir": "p02b47a",
+    "ref": "13d5d84",
+    "date": "2026-04-17",
+    "kind": "native",
+    "index": 7
+  },
+  "v0.4.0": {
+    "dir": "p1314be",
+    "ref": "7d47392",
+    "date": "2026-06-06",
+    "kind": "native",
+    "index": 8
+  },
+  "v0.5.0": {
+    "dir": "pfd51b2",
+    "ref": "c9236a6",
+    "date": "2026-06-10",
+    "kind": "native",
+    "index": 9
+  },
+  "v0.5.x-main": {
+    "dir": "p1916d1",
+    "ref": "ebcdd7d",
+    "date": "2026-06-11",
+    "kind": "native",
+    "index": 10
+  }
+}

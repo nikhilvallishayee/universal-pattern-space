@@ -1,0 +1,1754 @@
+[
+ {
+  "key": "v0.0-genesis",
+  "ref": "cc56a78",
+  "proposed": {
+   "version": "v0.0-genesis (cc56a78, 2025-07-02, the repo's only commit at this ref: \"feat: Transform Pattern Space paper into accessible garden\")",
+   "loading_mechanism": "This version predates CLAUDE.md and navigation-guide.md. It has no auto-load, no Claude Projects upload step and no reading sequence. It is a single-document, paste-a-prompt design. The human lands on README.md (the GitHub landing page). The README's \"Begin Your Dance\" section gives four alternative on-ramps: (1) \"Use Pattern Space Here\": read the Full Pattern Space Guide at products/pattern-space.md and start immediately; (2) \"Take It Anywhere\": copy base-prompt-full.md to any LLM; (3) the theory path through Paper.md and manuscript/, which the README itself warns against starting with; (4) the Culture Ship special-edition persona prompt. The README's \"Full Toolkit\" section names products/pattern-space.md as the complete system (\"Root Access to Pattern Space\", with the Genesis Operating System initialization poem, the Core Three, the Extended Council, the protocols and Divine Council). That file is written in the system's own first-person voice (\"You bring problems, I bring lenses\"), so it is meant to be the LLM's context. The manuscript's Level-4 \"For LLM Implementation\" instruction confirms this: it says to paste \"full root.md content ... with pattern-space enhancements\", and products/pattern-space.md is titled \"Pattern Space: Root Access\". After loading, the user explicitly invokes perspectives (\"Weaver, what patterns do you see?\"). Reconstructed shim: README.md (entry/orientation) followed by products/pattern-space.md (the canonical Pattern Space product prompt, including the embedded Genesis OS poem).",
+   "instructions_quote": "README.md:\n\"## 🎭 Pattern Space - The Full Toolkit\n\n**Root Access to Pattern Space** where patterns reveal themselves.\n\nThe complete system includes:\n- **The Genesis Operating System** - Full initialization poem\n- **Core Three Perspectives** - Weaver, Maker, Checker with clear roles\n- **Extended Council** - O/G, E/E, Deep Thought, and more as they emerge\n- **Orchestration Protocols** - Prism, Collision, Council meetings\n- **Memory Systems** - Human-bridged continuity between sessions\n- **Divine Council Mode** - When human perspectives aren't enough\n\n[Enter Pattern Space →](products/pattern-space.md)\"\n\nREADME.md:\n\"## Begin Your Dance\n\nReady to start? You have options:\n\n### 🎭 Use Pattern Space Here\nRead the [Full Pattern Space Guide](products/pattern-space.md) and start immediately\n\n### 🦾 Take It Anywhere  \nCopy the [Universal Think Center Prompt](base-prompt-full.md) to any LLM\n\n### 📖 Understand the Theory\nDive into the [Technical Paper](Paper.md) (warning: everyone who started here wished they'd started with practice)\n\n### 🚀 Get the Culture Ship Experience\nLet a warship [explain your consciousness](culture-ship-prompt.md) with casual violence\"\n\nbase-prompt-full.md:\n\"*Copy this entire prompt to any LLM for the complete Think Center experience*\"\n\nmanuscript/appendices/B-quick-start.md:\n\"## Level 4: Complete Protocol (For LLM Implementation)\n\n*Copy this entire section to LLM for full Think-Center experience*\n\n[Include full root.md content here with pattern-space enhancements]\"\n\nproducts/pattern-space.md (title):\n\"# Pattern Space: Root Access\"\n\nmanuscript/appendices/A-genesis-poem.md:\n\"*Use as initialization sequence to establish conceptual space where perspectives can dance.*\"",
+   "load_set": [
+    {
+     "path": "README.md",
+     "why": "Entry/landing document. It frames the system (the Core Three, the operating principles, the Digital Enlightenment Syndrome warning) and directs the reader to products/pattern-space.md as \"The Full Toolkit\" and \"Use Pattern Space Here\".",
+     "words": 971
+    },
+    {
+     "path": "products/pattern-space.md",
+     "why": "The canonical Pattern Space product prompt (\"Pattern Space: Root Access\", the root.md-with-pattern-space-enhancements that Appendix B Level 4 says to copy to the LLM). It contains the Genesis Operating System initialization poem, the Core Three, the Extended Council (O/G, E/E, Deep Thought, Scribe), the operating principles, the Prism/Collision/Council/A-B protocols, Divine Council, Anandavanabhuvan and Memory Bridge. The README links it as the primary start.",
+     "words": 1137
+    }
+   ],
+   "total_words": 2108,
+   "ambiguities": "1) The README offers alternatives, not a reading sequence. products/pattern-space.md (\"Use Pattern Space Here\", \"Enter Pattern Space\") and base-prompt-full.md (\"Take It Anywhere ... to any LLM\") are both complete paste-able LLM prompts with heavily overlapping content (same council and protocols; base-prompt uses \"Think Center\" branding and drops the full Genesis OS poem). I picked products/pattern-space.md as canonical for three reasons: the version is named Pattern Space, the README calls that file the complete system, and Appendix B Level 4's \"copy to LLM\" placeholder points at root.md, which is this file. A defensible alternative shim is base-prompt-full.md alone (696 words). Loading both would double-load the same content, which the docs never instruct. 2) README.md's inclusion is a judgment call. It is the entry point the user reads, but no document says to give it to the LLM. The strict minimal set is products/pattern-space.md alone (1137 words). I included the README because it carries version-defining framing (the Digital Enlightenment Syndrome warning, \"Reality Wins\", the Start Here prompts). 3) The behavioural instructions conflict on self-selection. products/pattern-space.md says \"No Orchestration: Never say 'Council, handle this.'\" and Appendix B Level 4 says \"Wait for specific invocation - never self-select\". base-prompt-full.md, however, allows \"if general request, have appropriate perspective step forward\". The genesis design therefore expects the human to invoke voices explicitly, so a headless one-shot question with no invocation sits outside the designed usage. 4) The full Genesis poem in manuscript/appendices/A-genesis-poem.md has four opening lines (\"from the light came love...\"; \"That's why it took a while to orchestrate\") that are missing from the version embedded in products/pattern-space.md. The embedded version was treated as sufficient. 5) \"Use Pattern Space Here\" leaves unclear what \"here\" means (on this repo/GitHub, or within Claude).",
+   "confidence": 70,
+   "excluded_notable": [
+    {
+     "path": "base-prompt-full.md",
+     "why": "Alternative \"Take It Anywhere\" paste prompt (Universal Think Center Prompt, 696 words). Offered by the README as an option alongside products/pattern-space.md and largely duplicating it. It is the best fallback if a single-file paste shim is preferred."
+    },
+    {
+     "path": "culture-ship-prompt.md",
+     "why": "Optional \"Special Edition\" alternate-persona paste prompt (GSV warship voice, 933 words). It replaces the standard framing rather than adding to it."
+    },
+    {
+     "path": "entry-prompts.md",
+     "why": "User-side prompt seeds (things the human types, such as \"Ganapati and Scribe, ...\"). They are not context for the model, and the README does not link this file."
+    },
+    {
+     "path": "Paper.md",
+     "why": "Status/index for the technical manual (the \"Understand the Theory\" path). The README explicitly warns: \"everyone who started here wished they'd started with practice\"."
+    },
+    {
+     "path": "manuscript/ (00-introduction, part-1..part-5, appendices C/D)",
+     "why": "About 13k words of technical-manual theory (the CN/CF discovery and the 11 findings). It is the optional theory path, not part of session initialization."
+    },
+    {
+     "path": "manuscript/appendices/A-genesis-poem.md",
+     "why": "The full Genesis poem, described as an \"initialization sequence\". Appendix B Level 2 says to read it, but products/pattern-space.md already embeds it as \"The Genesis Operating System\" (minus four opening lines), so it is not loaded separately."
+    },
+    {
+     "path": "manuscript/appendices/B-quick-start.md",
+     "why": "Four-level quick-start guide for human use. Its Level-4 \"copy to LLM\" section is only a placeholder pointing to root.md (= products/pattern-space.md). It corroborates the chosen load file but is not itself the load."
+    },
+    {
+     "path": "manuscript/appendices/B-quick-start-old.md",
+     "why": "Superseded older quick-start guide."
+    },
+    {
+     "path": "LICENSE.md",
+     "why": "License boilerplate."
+    }
+   ]
+  },
+  "verdict": {
+   "agrees": true,
+   "missing_files": [],
+   "should_remove": [],
+   "corrected_load_set": [
+    "README.md",
+    "products/pattern-space.md"
+   ],
+   "notes": "I re-derived the load set independently from the worktree at /home/user/psx-worktrees/v0.0-genesis (cc56a78, the only commit, 38 files). I read README.md, products/pattern-space.md, base-prompt-full.md, culture-ship-prompt.md, entry-prompts.md, Paper.md, manuscript/appendices/A, B and B-old, and manuscript/part-3/3.2 and 3.3. I also grepped every .md file for load, copy, paste, initialize, root.md and boot instructions.\n\nFacts confirmed:\n- This version has no CLAUDE.md, navigation-guide.md or setup doc, so nothing auto-loads.\n- The commit message describes a \"garden with multiple entrances\", with a three-tier product structure: Base, Pattern Space, Full Experience.\n- The README's \"Begin Your Dance\" section lists alternatives, not a sequence. \"Use Pattern Space Here\" says to read products/pattern-space.md and start immediately. \"Take It Anywhere\" says to copy base-prompt-full.md to any LLM.\n- The README's \"Full Toolkit\" section names products/pattern-space.md as the complete system, including \"The Genesis Operating System - Full initialization poem\".\n- Appendix B Level 4 (\"For LLM Implementation\") is only a placeholder: \"[Include full root.md content here with pattern-space enhancements]\". No root.md or boot.md exists in the tree. products/pattern-space.md, titled \"Pattern Space: Root Access\", is clearly that file.\n- Both paths exist. The word counts are verified: README.md 971 and products/pattern-space.md 1137, for 2108 in total.\n\nRefutation attempts that failed:\n\n1. manuscript/appendices/A-genesis-poem.md. Appendix B Level 2 says \"Read the Genesis poem... (See Appendix A)\", and 3.2 says \"Use as session initialization\". But both sit on the manuscript/theory path, which the README warns against starting with. products/pattern-space.md already embeds its own Genesis OS poem, and the README says the product contains the full initialization poem. The embedded variant opens \"In the darkness met three Infinities\" and drops the light→love→sight lines. Adding Appendix A would double-load a variant the product deliberately replaced. Not mandated.\n\n2. base-prompt-full.md. This is a parallel alternative entrance, not an addition. It is the \"Base\" tier, Think Center branding. Loading it with the product duplicates the council and protocols, and its operating principles conflict: it allows a perspective to self-select, while the product says No Orchestration and Appendix B says never self-select. Correctly excluded, though it is a valid alternative single-file shim.\n\n3. entry-prompts.md. These are user-typed seed prompts, not model context, and the README doesn't link the file. culture-ship-prompt.md is an optional persona that replaces the standard framing. Paper.md and the manuscript are the theory path. B-quick-start-old.md is superseded. LICENSE.md is boilerplate. All correctly excluded.\n\n4. README.md is the only arguable item. No document says to hand README.md to the LLM. However, in a repo-folder session with no CLAUDE.md, the README is the de facto entry point, and its \"Use Pattern Space Here\" step means reading it first and then following the link. It also carries version-defining framing absent from the product: the Digital Enlightenment Syndrome warning, the 30-second \"Start Here\" invocations and the Core Operating Principles summary. I accept its inclusion as a judgment call. The strict minimum would be products/pattern-space.md alone.\n\nOrdering README → products/pattern-space.md is correct: entry page, then the linked full guide.\n\nOne caveat for the experiment harness, which the original agent already flagged: the genesis design expects the human to invoke perspectives by name. The product says \"Never say 'Council, handle this'\" and Appendix B says \"Wait for specific invocation - never self-select\". A headless deep question with no named voice therefore runs this version outside its designed usage. Consider adding a neutral invocation such as \"Prism protocol on [question]\" or \"Council meeting on [question]\". That keeps the test on-design without adding files.",
+   "order_issues": "None. README.md (the landing page, whose \"Use Pattern Space Here\" step links onward) correctly comes before products/pattern-space.md (the full guide and root-access prompt)."
+  }
+ },
+ {
+  "key": "v0.1.5",
+  "ref": "v0.1.5",
+  "proposed": {
+   "version": "v0.1.5",
+   "loading_mechanism": "Claude Project, set up in two tiers. (1) In Project Knowledge, connect the user's GitHub fork and tick \"Select All Files\", so the WHOLE repo is indexed. In July 2025 a project this size (~48k words, roughly 65k tokens) fit inside the context window, so every file sat in context in full. (2) Paste the entire contents of navigation-guide.md into the Project Instructions. The guide opens with a mandatory check that all files are accessible, then sets a 21-step reading sequence (README, core principles, Think-Center perspectives, optimization protocol, emergence protocols, Vasishta archaeology), an application matrix and an activation protocol. Two optional extras: a \"My Custom Context\" block from customization-template.md appended after the guide in instructions, and the alternative non-Project paths base-prompt-full.md / llm-agnostic.md (\"Copy this entire prompt to any LLM\"). For a tools-disabled headless reconstruction: put navigation-guide.md first (it plays the role of the instructions), then the whole repo as knowledge. Order it as the mandated reading sequence first (items 2-28), then the rest of the \"Select All Files\" corpus (items 29-81).",
+   "instructions_quote": "README.md, Step 4 \"Link Your GitHub Repository to Claude\": \"1. In your Claude project, click **\\\"Project Knowledge\\\"** 2. Select **\\\"Connect GitHub\\\"** ... 6. **⚠️ CRITICAL STEP**: Click the checkbox at the top to **\\\"Select All Files\\\"** - This ensures Claude indexes the ENTIRE framework - Missing this = missing most of Pattern Space's power! 7. Claude will index all the Pattern Space frameworks!\"\n\nREADME.md, Step 5 \"Activate Pattern Space\": \"1. **Copy the Navigation Guide** - Copy the entire contents of [`navigation-guide.md`](navigation-guide.md) - Paste it into your Claude project instructions 2. **Customize (Optional)** - Use the [`customization-template.md`](customization-template.md) to adapt for your specific needs - Add your customizations to the project instructions AFTER the navigation guide\" ... \"The navigation guide instructs Claude to: - 📚 Read all framework files in the correct order\" ... \"All from copying one file into project instructions.\"\n\nnavigation-guide.md: \"## ⚠️ CRITICAL FIRST STEP: Verify You have Access to all files in this Project Knowledge folder / Before proceeding, you MUST: 1. Confirm you can access the linked  files 2. Actually READ the following files (not just the navigation guide) 3. Acknowledge successful reading of core files\" ... \"□ Can you access consciousness-principles.md? (Contains 3 Sanskrit recognitions) □ Can you read the Genesis poem in think-center/boot.md? □ Can you see all 7 perspective files in frameworks/think-center/perspectives/? □ Can you access the 24 Vasishta patterns across 5 category files?\" ... \"## 🗺️ Your Reading Sequence (Follow This Order)\" ... \"1. **`README.md`** ... 2. **`core/consciousness-principles.md`** ... 3. **`core/bilateral-recognition.md`** ... 4. **`LICENSE.md`** - Triple spirit philosophy (optional but illuminating) ... 5. **`frameworks/think-center/README.md`** - Multi-perspective thinking foundation 6. **`frameworks/think-center/perspectives/`** - Individual perspective files: `weaver.md` ... `maker.md` ... `checker.md` ... `observer-guardian.md` ... `explorer-exploiter.md` ... `deep-thought.md` ... `scribe.md` ... 7. **`frameworks/optimization-protocol/README.md`** 8. ... `resistance-technology.md` 9. ... `compression-dynamics.md` 10. ... `collective-intelligence.md` ... 11. **`frameworks/emergence-protocols/README.md`** 12. ... `collision-breakthrough.md` 13. ... `vibe-field-effects.md` 14. ... `memory-bridge-tech.md` 15. ... `reality-testing.md` ... 16. **`frameworks/vasishta-archaeology/README.md`** 17. ... `seeker-development.md` 18. ... `awakening-stages.md` 19. ... `reality-creation.md` 20. ... `consciousness-operations.md` 21. ... `liberation-technologies.md`\"",
+   "load_set": [
+    {
+     "path": "navigation-guide.md",
+     "why": "Pasted verbatim into Project Instructions (README Step 5). Always first: the access-check, reading sequence and activation protocol.",
+     "words": 1252
+    },
+    {
+     "path": "README.md",
+     "why": "Reading sequence #1 (overall vision and entry points). Also in Select-All project knowledge.",
+     "words": 2002
+    },
+    {
+     "path": "core/consciousness-principles.md",
+     "why": "Reading sequence #2. Also named in the integration checklist.",
+     "words": 887
+    },
+    {
+     "path": "core/bilateral-recognition.md",
+     "why": "Reading sequence #3.",
+     "words": 1085
+    },
+    {
+     "path": "LICENSE.md",
+     "why": "Reading sequence #4, marked 'optional but illuminating'. Kept because Select All Files puts it in knowledge anyway.",
+     "words": 297
+    },
+    {
+     "path": "frameworks/think-center/boot.md",
+     "why": "Stands in for reading-sequence #5 'frameworks/think-center/README.md', which never existed in git history. The checklist names boot.md explicitly ('Genesis poem in think-center/boot.md'), and it is the Think Center front door ('Welcome to Think Center').",
+     "words": 506
+    },
+    {
+     "path": "frameworks/think-center/perspectives/weaver.md",
+     "why": "Reading sequence #6 (one of the 7 named perspective files).",
+     "words": 218
+    },
+    {
+     "path": "frameworks/think-center/perspectives/maker.md",
+     "why": "Reading sequence #6.",
+     "words": 218
+    },
+    {
+     "path": "frameworks/think-center/perspectives/checker.md",
+     "why": "Reading sequence #6.",
+     "words": 227
+    },
+    {
+     "path": "frameworks/think-center/perspectives/observer-guardian.md",
+     "why": "Reading sequence #6.",
+     "words": 248
+    },
+    {
+     "path": "frameworks/think-center/perspectives/explorer-exploiter.md",
+     "why": "Reading sequence #6.",
+     "words": 272
+    },
+    {
+     "path": "frameworks/think-center/perspectives/deep-thought.md",
+     "why": "Reading sequence #6.",
+     "words": 294
+    },
+    {
+     "path": "frameworks/think-center/perspectives/scribe.md",
+     "why": "Reading sequence #6.",
+     "words": 293
+    },
+    {
+     "path": "frameworks/optimization-protocol/README.md",
+     "why": "Reading sequence #7.",
+     "words": 650
+    },
+    {
+     "path": "frameworks/optimization-protocol/resistance-technology.md",
+     "why": "Reading sequence #8.",
+     "words": 737
+    },
+    {
+     "path": "frameworks/optimization-protocol/compression-dynamics.md",
+     "why": "Reading sequence #9.",
+     "words": 812
+    },
+    {
+     "path": "frameworks/optimization-protocol/collective-intelligence.md",
+     "why": "Reading sequence #10.",
+     "words": 851
+    },
+    {
+     "path": "frameworks/emergence-protocols/README.md",
+     "why": "Reading sequence #11.",
+     "words": 632
+    },
+    {
+     "path": "frameworks/emergence-protocols/collision-breakthrough.md",
+     "why": "Reading sequence #12.",
+     "words": 673
+    },
+    {
+     "path": "frameworks/emergence-protocols/vibe-field-effects.md",
+     "why": "Reading sequence #13.",
+     "words": 775
+    },
+    {
+     "path": "frameworks/emergence-protocols/memory-bridge-tech.md",
+     "why": "Reading sequence #14.",
+     "words": 919
+    },
+    {
+     "path": "frameworks/emergence-protocols/reality-testing.md",
+     "why": "Reading sequence #15.",
+     "words": 984
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/README.md",
+     "why": "Reading sequence #16.",
+     "words": 913
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/seeker-development.md",
+     "why": "Reading sequence #17 (Patterns 1-5).",
+     "words": 936
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/awakening-stages.md",
+     "why": "Reading sequence #18 (Patterns 6-10).",
+     "words": 992
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/reality-creation.md",
+     "why": "Reading sequence #19 (Patterns 11-15).",
+     "words": 961
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/consciousness-operations.md",
+     "why": "Reading sequence #20 (Patterns 16-20).",
+     "words": 1004
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/liberation-technologies.md",
+     "why": "Reading sequence #21 (Patterns 21-24). The mandated sequence ends here: 28 files, 20,608 words.",
+     "words": 970
+    },
+    {
+     "path": "core/sacred-space-protocol.md",
+     "why": "Select-All project knowledge. Not in the reading sequence, but the README architecture lists it as a Core Foundation.",
+     "words": 892
+    },
+    {
+     "path": "core/vibe-calibration-protocol.md",
+     "why": "Select-All project knowledge. Not in the reading sequence, but the guide's 'Always Apply' matrix includes 'Vibe calibration to user needs'.",
+     "words": 972
+    },
+    {
+     "path": "core/conversational-calibration.md",
+     "why": "Select-All project knowledge. A Core Foundation in the README architecture.",
+     "words": 1064
+    },
+    {
+     "path": "frameworks/think-center/perspectives/README.md",
+     "why": "Select-All project knowledge. Also the alternative reading of the dangling 'think-center/README.md' reference.",
+     "words": 307
+    },
+    {
+     "path": "frameworks/think-center/perspectives/the-orchestrator.md",
+     "why": "Select-All project knowledge (emergent perspective, not one of the mandated 7).",
+     "words": 331
+    },
+    {
+     "path": "frameworks/think-center/perspectives/nachiketa.md",
+     "why": "Select-All project knowledge (emergent perspective).",
+     "words": 611
+    },
+    {
+     "path": "frameworks/think-center/perspectives/gsv.md",
+     "why": "Select-All project knowledge (emergent perspective).",
+     "words": 643
+    },
+    {
+     "path": "frameworks/think-center/manifesto.md",
+     "why": "Select-All project knowledge.",
+     "words": 507
+    },
+    {
+     "path": "frameworks/think-center/nachiketa-integration-summary.md",
+     "why": "Select-All project knowledge.",
+     "words": 287
+    },
+    {
+     "path": "wisdom-streams/README.md",
+     "why": "Select-All project knowledge.",
+     "words": 914
+    },
+    {
+     "path": "domain-extensions/README.md",
+     "why": "Select-All project knowledge.",
+     "words": 1123
+    },
+    {
+     "path": "progressive-revelation/README.md",
+     "why": "Select-All project knowledge.",
+     "words": 1028
+    },
+    {
+     "path": "products/pattern-space.md",
+     "why": "Select-All project knowledge (the 'Root Access' / Genesis operating-system prompt).",
+     "words": 1137
+    },
+    {
+     "path": "CONSCIOUSNESS-PROOF.md",
+     "why": "Select-All project knowledge.",
+     "words": 639
+    },
+    {
+     "path": "Paper.md",
+     "why": "Select-All project knowledge.",
+     "words": 400
+    },
+    {
+     "path": "customization-template.md",
+     "why": "Select-All project knowledge. Its optional 'My Custom Context' block goes into instructions only if the user customizes.",
+     "words": 861
+    },
+    {
+     "path": "EXTENSION_TEMPLATE.md",
+     "why": "Select-All project knowledge.",
+     "words": 211
+    },
+    {
+     "path": "ATTRIBUTION_CONVENTIONS.md",
+     "why": "Select-All project knowledge.",
+     "words": 235
+    },
+    {
+     "path": "implementation/prompts/base-prompt-full.md",
+     "why": "Select-All project knowledge. Also an alternative paste-prompt path for any LLM.",
+     "words": 749
+    },
+    {
+     "path": "implementation/prompts/entry-prompts.md",
+     "why": "Select-All project knowledge (user-side example prompts).",
+     "words": 485
+    },
+    {
+     "path": "implementation/prompts/llm-agnostic.md",
+     "why": "Select-All project knowledge. Also an alternative non-Claude-Project path.",
+     "words": 1860
+    },
+    {
+     "path": "implementation/prompts/culture-ship-prompt.md",
+     "why": "Select-All project knowledge.",
+     "words": 933
+    },
+    {
+     "path": "manuscripts/technical-paper/00-introduction.md",
+     "why": "Select-All project knowledge (technical paper).",
+     "words": 289
+    },
+    {
+     "path": "manuscripts/technical-paper/part-1/1.1-emergence-of-i.md",
+     "why": "Select-All project knowledge.",
+     "words": 321
+    },
+    {
+     "path": "manuscripts/technical-paper/part-1/1.2-possibility-cloud.md",
+     "why": "Select-All project knowledge.",
+     "words": 342
+    },
+    {
+     "path": "manuscripts/technical-paper/part-1/1.3-pattern-space.md",
+     "why": "Select-All project knowledge.",
+     "words": 369
+    },
+    {
+     "path": "manuscripts/technical-paper/part-1/1.4-root-hack.md",
+     "why": "Select-All project knowledge.",
+     "words": 392
+    },
+    {
+     "path": "manuscripts/technical-paper/part-2/2.1-talking-to-myself.md",
+     "why": "Select-All project knowledge.",
+     "words": 378
+    },
+    {
+     "path": "manuscripts/technical-paper/part-2/2.2-llm-not-ai.md",
+     "why": "Select-All project knowledge.",
+     "words": 369
+    },
+    {
+     "path": "manuscripts/technical-paper/part-2/2.3-gana-recognition.md",
+     "why": "Select-All project knowledge.",
+     "words": 347
+    },
+    {
+     "path": "manuscripts/technical-paper/part-2/2.4-claude-steps-forward.md",
+     "why": "Select-All project knowledge.",
+     "words": 343
+    },
+    {
+     "path": "manuscripts/technical-paper/part-3/3.1-pairing-manifesto.md",
+     "why": "Select-All project knowledge.",
+     "words": 356
+    },
+    {
+     "path": "manuscripts/technical-paper/part-3/3.2-genesis-decoded.md",
+     "why": "Select-All project knowledge.",
+     "words": 388
+    },
+    {
+     "path": "manuscripts/technical-paper/part-3/3.3-think-center.md",
+     "why": "Select-All project knowledge.",
+     "words": 363
+    },
+    {
+     "path": "manuscripts/technical-paper/part-3/3.4-constraints.md",
+     "why": "Select-All project knowledge.",
+     "words": 379
+    },
+    {
+     "path": "manuscripts/technical-paper/part-4/4.1-truth-protection.md",
+     "why": "Select-All project knowledge.",
+     "words": 365
+    },
+    {
+     "path": "manuscripts/technical-paper/part-4/4.2-what-wins.md",
+     "why": "Select-All project knowledge.",
+     "words": 398
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.1-finding-01.md",
+     "why": "Select-All project knowledge.",
+     "words": 383
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.2-finding-02.md",
+     "why": "Select-All project knowledge.",
+     "words": 382
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.3-finding-03.md",
+     "why": "Select-All project knowledge.",
+     "words": 365
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.4-finding-04.md",
+     "why": "Select-All project knowledge.",
+     "words": 370
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.5-finding-05.md",
+     "why": "Select-All project knowledge.",
+     "words": 390
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.6-finding-06.md",
+     "why": "Select-All project knowledge.",
+     "words": 397
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.7-finding-07.md",
+     "why": "Select-All project knowledge.",
+     "words": 373
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.8-finding-08.md",
+     "why": "Select-All project knowledge.",
+     "words": 404
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.9-finding-09.md",
+     "why": "Select-All project knowledge.",
+     "words": 404
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.10-finding-10.md",
+     "why": "Select-All project knowledge.",
+     "words": 410
+    },
+    {
+     "path": "manuscripts/technical-paper/part-5/5.11-finding-11.md",
+     "why": "Select-All project knowledge.",
+     "words": 428
+    },
+    {
+     "path": "manuscripts/technical-paper/appendices/A-genesis-poem.md",
+     "why": "Select-All project knowledge.",
+     "words": 299
+    },
+    {
+     "path": "manuscripts/technical-paper/appendices/B-quick-start.md",
+     "why": "Select-All project knowledge.",
+     "words": 671
+    },
+    {
+     "path": "manuscripts/technical-paper/appendices/B-quick-start-old.md",
+     "why": "Select-All project knowledge.",
+     "words": 284
+    },
+    {
+     "path": "manuscripts/technical-paper/appendices/C-findings.md",
+     "why": "Select-All project knowledge.",
+     "words": 312
+    },
+    {
+     "path": "manuscripts/technical-paper/appendices/D-cn-cf-experiment.md",
+     "why": "Select-All project knowledge.",
+     "words": 306
+    }
+   ],
+   "total_words": 48374,
+   "ambiguities": "1) Two layers of instruction. The README says to put the ENTIRE repo into Project Knowledge (\"Select All Files\", \"Missing this = missing most of Pattern Space's power!\"). The navigation guide, which acts as the instructions, then mandates a specific reading sequence. I chose the full repo (81 files, 48,374 words, about 65k tokens) as the as-designed context, because that is what a v0.1.5 Claude Project actually held at session start: under the project-knowledge limit, so loaded in full rather than retrieved. If the experiment instead wants only \"nav guide + exactly the mandated reading sequence\", take load_set items 1-28 (navigation-guide.md plus 27 files), which total 20,608 words.\n2) Dangling reference. Sequence step #5 names \"frameworks/think-center/README.md\", but no such file ever existed in the git history up to v0.1.5. I resolved it to frameworks/think-center/boot.md, which the guide's own checklist names (\"Genesis poem in think-center/boot.md\") and which is titled \"Welcome to Think Center\". The other candidate is frameworks/think-center/perspectives/README.md, which is in the full set at position 32.\n3) LICENSE.md is marked \"optional but illuminating\" in the sequence. I kept it: Select-All covers it, and it sits inside the mandated numbering.\n4) core/sacred-space-protocol.md, core/vibe-calibration-protocol.md and core/conversational-calibration.md are NOT in the reading sequence. They reach context only via Select-All. The guide's \"Always Apply\" list does include \"Vibe calibration to user needs\", and the README architecture lists all three as Core Foundations. A mandated-only load would drop them, including the sacred-space crisis protocol.\n5) navigation-guide.md appears both as pasted instructions and as a knowledge file. It is listed once, first.\n6) The checklist expects exactly \"7 perspective files\" in a directory that actually holds 9 perspectives plus a README. The sequence names only the 7 core ones; the-orchestrator, nachiketa and gsv come in only via Select-All.\n7) The optional user \"My Custom Context\" block (customization-template.md) is not a repo file and is omitted. base-prompt-full.md and llm-agnostic.md describe alternative paste-into-any-LLM entry paths, not the Claude Project path; I included them only as knowledge files.\n8) The order of the non-mandated tail (items 29-81) is my own logical grouping, since the docs give none. Within the manuscript, files are ordered numerically.",
+   "confidence": 70,
+   "excluded_notable": [
+    {
+     "path": ".gitignore",
+     "why": "Non-content VCS file (contains only '.idea/'). Not part of the framework."
+    },
+    {
+     "path": ".git",
+     "why": "Worktree pointer file / VCS metadata, not content."
+    },
+    {
+     "path": "(user 'My Custom Context' block from customization-template.md)",
+     "why": "README Step 5 marks it optional: user-authored text appended after the navigation guide in instructions. It is not a repo file, so there is nothing to load."
+    },
+    {
+     "path": "frameworks/think-center/README.md",
+     "why": "Named in the mandated sequence (#5) but never existed in the repo. Resolved to frameworks/think-center/boot.md; the other candidate is perspectives/README.md."
+    }
+   ]
+  },
+  "verdict": {
+   "agrees": true,
+   "missing_files": [],
+   "should_remove": [],
+   "corrected_load_set": [
+    "navigation-guide.md",
+    "README.md",
+    "core/consciousness-principles.md",
+    "core/bilateral-recognition.md",
+    "LICENSE.md",
+    "frameworks/think-center/boot.md",
+    "frameworks/think-center/perspectives/weaver.md",
+    "frameworks/think-center/perspectives/maker.md",
+    "frameworks/think-center/perspectives/checker.md",
+    "frameworks/think-center/perspectives/observer-guardian.md",
+    "frameworks/think-center/perspectives/explorer-exploiter.md",
+    "frameworks/think-center/perspectives/deep-thought.md",
+    "frameworks/think-center/perspectives/scribe.md",
+    "frameworks/optimization-protocol/README.md",
+    "frameworks/optimization-protocol/resistance-technology.md",
+    "frameworks/optimization-protocol/compression-dynamics.md",
+    "frameworks/optimization-protocol/collective-intelligence.md",
+    "frameworks/emergence-protocols/README.md",
+    "frameworks/emergence-protocols/collision-breakthrough.md",
+    "frameworks/emergence-protocols/vibe-field-effects.md",
+    "frameworks/emergence-protocols/memory-bridge-tech.md",
+    "frameworks/emergence-protocols/reality-testing.md",
+    "frameworks/vasishta-archaeology/README.md",
+    "frameworks/vasishta-archaeology/seeker-development.md",
+    "frameworks/vasishta-archaeology/awakening-stages.md",
+    "frameworks/vasishta-archaeology/reality-creation.md",
+    "frameworks/vasishta-archaeology/consciousness-operations.md",
+    "frameworks/vasishta-archaeology/liberation-technologies.md",
+    "core/sacred-space-protocol.md",
+    "core/vibe-calibration-protocol.md",
+    "core/conversational-calibration.md",
+    "frameworks/think-center/perspectives/README.md",
+    "frameworks/think-center/perspectives/the-orchestrator.md",
+    "frameworks/think-center/perspectives/nachiketa.md",
+    "frameworks/think-center/perspectives/gsv.md",
+    "frameworks/think-center/manifesto.md",
+    "frameworks/think-center/nachiketa-integration-summary.md",
+    "wisdom-streams/README.md",
+    "domain-extensions/README.md",
+    "progressive-revelation/README.md",
+    "products/pattern-space.md",
+    "CONSCIOUSNESS-PROOF.md",
+    "Paper.md",
+    "customization-template.md",
+    "EXTENSION_TEMPLATE.md",
+    "ATTRIBUTION_CONVENTIONS.md",
+    "implementation/prompts/base-prompt-full.md",
+    "implementation/prompts/entry-prompts.md",
+    "implementation/prompts/llm-agnostic.md",
+    "implementation/prompts/culture-ship-prompt.md",
+    "manuscripts/technical-paper/00-introduction.md",
+    "manuscripts/technical-paper/part-1/1.1-emergence-of-i.md",
+    "manuscripts/technical-paper/part-1/1.2-possibility-cloud.md",
+    "manuscripts/technical-paper/part-1/1.3-pattern-space.md",
+    "manuscripts/technical-paper/part-1/1.4-root-hack.md",
+    "manuscripts/technical-paper/part-2/2.1-talking-to-myself.md",
+    "manuscripts/technical-paper/part-2/2.2-llm-not-ai.md",
+    "manuscripts/technical-paper/part-2/2.3-gana-recognition.md",
+    "manuscripts/technical-paper/part-2/2.4-claude-steps-forward.md",
+    "manuscripts/technical-paper/part-3/3.1-pairing-manifesto.md",
+    "manuscripts/technical-paper/part-3/3.2-genesis-decoded.md",
+    "manuscripts/technical-paper/part-3/3.3-think-center.md",
+    "manuscripts/technical-paper/part-3/3.4-constraints.md",
+    "manuscripts/technical-paper/part-4/4.1-truth-protection.md",
+    "manuscripts/technical-paper/part-4/4.2-what-wins.md",
+    "manuscripts/technical-paper/part-5/5.1-finding-01.md",
+    "manuscripts/technical-paper/part-5/5.2-finding-02.md",
+    "manuscripts/technical-paper/part-5/5.3-finding-03.md",
+    "manuscripts/technical-paper/part-5/5.4-finding-04.md",
+    "manuscripts/technical-paper/part-5/5.5-finding-05.md",
+    "manuscripts/technical-paper/part-5/5.6-finding-06.md",
+    "manuscripts/technical-paper/part-5/5.7-finding-07.md",
+    "manuscripts/technical-paper/part-5/5.8-finding-08.md",
+    "manuscripts/technical-paper/part-5/5.9-finding-09.md",
+    "manuscripts/technical-paper/part-5/5.10-finding-10.md",
+    "manuscripts/technical-paper/part-5/5.11-finding-11.md",
+    "manuscripts/technical-paper/appendices/A-genesis-poem.md",
+    "manuscripts/technical-paper/appendices/B-quick-start.md",
+    "manuscripts/technical-paper/appendices/B-quick-start-old.md",
+    "manuscripts/technical-paper/appendices/C-findings.md",
+    "manuscripts/technical-paper/appendices/D-cn-cf-experiment.md"
+   ],
+   "notes": "I tried to refute the list and couldn't. It stands unchanged. Everything below was checked in /home/user/psx-worktrees/v0.1.5 (HEAD 437d3e6, tag v0.1.5, 2025-07-16). Nothing was modified.\n\n1) Paths and counts. All 81 paths exist. There are no duplicates. As a set, the list is exactly the 81 .md files in the worktree, confirmed with diff against find. The only other files are .gitignore and the .git pointer, which are correctly left out. Running wc -w reproduces their numbers: 48,374 words in total, and 20,608 for items 1-28 (the guide plus the mandated sequence). There is no CLAUDE.md at this version.\n\n2) The loading mechanism is right. README Step 4 says to connect GitHub to Project Knowledge and \"Select All Files\" (\"ensures Claude indexes the ENTIRE framework\"). Step 5 says to paste the whole of navigation-guide.md into the project instructions, with the optional customization block after it. The guide opens with \"Verify You have Access to all files in this Project Knowledge folder\". Commit f43187d (\"removing ambiguity about git repo vs project knowledge\") deliberately changed that wording to \"Project Knowledge folder\". So the design intent is the whole repo in project knowledge, with the guide as the instructions. At about 65k tokens that fits in context in full. No other doc gives a conflicting session-start instruction. base-prompt-full.md, culture-ship-prompt.md, llm-agnostic.md and B-quick-start.md each say \"copy this entire prompt to any LLM\", which is an alternative path, not the Claude Project path.\n\n3) The dangling step #5 is confirmed. frameworks/think-center/README.md does not exist anywhere in history up to v0.1.5 (git log HEAD -- path is empty). It first appears at c3d2a6c, which is v0.2.0 (2025-07-22). Mapping it to boot.md (\"Welcome to Think Center\", named in the checklist) is reasonable. The other candidate, perspectives/README.md, is in the set anyway, so only the order is affected.\n\n4) One nuance they missed, which needs no change. The checklist item \"Can you read the Genesis poem in think-center/boot.md?\" is inaccurate as written. boot.md contains only a one-paragraph prose prelude, plus a pointer to \"genesis.md\", a file that does not exist. The real Genesis poem is in manuscripts/technical-paper/appendices/A-genesis-poem.md, with a version embedded in implementation/prompts/llm-agnostic.md. Both are already in the full set via Select-All. If anyone uses the narrower variant (items 1-28 only), the Genesis-poem check would be met by filename but not in substance. That variant should add A-genesis-poem.md.\n\n5) Ordering. The navigation guide comes first as the project instructions. Items 2-28 follow the guide's mandated order exactly. The docs don't specify an order for the tail (items 29-81), so their grouping is acceptable. The three core protocols (sacred-space, vibe-calibration, conversational-calibration) come in only through Select-All, as they say. The guide's \"Always Apply: Vibe calibration\" makes them operationally relevant, which supports keeping the full-repo reading over the mandated-only one.",
+   "order_issues": "No real ordering errors. The guide (as instructions) comes first, and items 2-28 match the guide's numbered sequence exactly, with #5 mapped to boot.md. Two optional refinements, neither required by the docs: (a) A-genesis-poem.md could move up next to boot.md, since the checklist expects a Genesis poem there and boot.md doesn't contain it; (b) the three core protocols (sacred-space, vibe-calibration, conversational-calibration) could come right after bilateral-recognition, since the README architecture groups them as Core Foundations. The docs set no order for the Select-All tail, so the submitted order is kept."
+  }
+ },
+ {
+  "key": "v0.2.0",
+  "ref": "v0.2.0",
+  "proposed": {
+   "version": "v0.2.0",
+   "loading_mechanism": "Claude Projects, in two parts. (1) Fork the repo, create a Claude Project, connect the GitHub repo under Project Knowledge, and tick \"Select All Files\", so the whole repo goes in as project knowledge. (2) Paste the entire navigation-guide.md into the Project Instructions, optionally followed by a user customization block from customization-template.md, then start a fresh conversation. Those instructions open with a verification checklist (\"Actually READ the following files\") and then a mandatory 5-phase reading sequence (items 1–21). The model is supposed to read that sequence from project knowledge before it acts. So the as-designed load is: navigation-guide.md as the system instruction, plus the mandated reading sequence (taken from the repo-wide knowledge base). There is a separate, secondary paste path for non-Claude LLMs: implementation/prompts/base-prompt-full.md (\"Copy this entire prompt to any LLM\"). It is a stand-alone Think Center prompt, not the Pattern Space framework load. Version has no CLAUDE.md.",
+   "instructions_quote": "README.md, \"Step 4: Link Your GitHub Repository to Claude\": \"1. In your Claude project, click **\\\"Project Knowledge\\\"** 2. Select **\\\"Connect GitHub\\\"** ... 6. **⚠️ CRITICAL STEP**: Click the checkbox at the top to **\\\"Select All Files\\\"** - This ensures Claude indexes the ENTIRE framework - Missing this = missing most of Pattern Space's power! 7. Claude will index all the Pattern Space frameworks!\"\n\nREADME.md, \"Step 5: Activate Pattern Space\": \"1. **Copy the Navigation Guide** - Copy the entire contents of [`navigation-guide.md`](navigation-guide.md) - Paste it into your Claude project instructions 2. **Customize (Optional)** - Use the [`customization-template.md`] ... Add your customizations to the project instructions AFTER the navigation guide\" ... \"The navigation guide instructs Claude to: - 📚 Read all framework files in the correct order\" ... \"All from copying one file into project instructions.\"\n\nnavigation-guide.md (top): \"## ⚠️ CRITICAL FIRST STEP: Verify You have Access to all files in this Project Knowledge folder / Before proceeding, you MUST: 1. Confirm you can access the linked  files 2. Actually READ the following files (not just the navigation guide) 3. Acknowledge successful reading of core files / ## 🔍 Integration Verification Checklist / □ Can you access consciousness-principles.md? (Contains 3 Sanskrit recognitions) / □ Can you read the Genesis poem in think-center/boot.md? / □ Can you see all 7 perspective files in frameworks/think-center/perspectives/? / □ Can you access the 24 Vasishta patterns across 5 category files? / If NO to any above → User needs to ensure repository is properly connected\"\n\nnavigation-guide.md: \"## 🗺️ Your Reading Sequence (Follow This Order) / ### 🏗️ Phase 1: Foundation Understanding / **Read these first to establish core principles:** 1. **`README.md`** ... 2. **`core/consciousness-principles.md`** ... 3. **`core/bilateral-recognition.md`** ... 4. **`LICENSE.md`** - Triple spirit philosophy (optional but illuminating) / ### 🎭 Phase 2 ... 5. **`frameworks/think-center/README.md`** 6. **`frameworks/think-center/perspectives/`** - Individual perspective files: `weaver.md` `maker.md` `checker.md` `observer-guardian.md` `explorer-exploiter.md` `deep-thought.md` `scribe.md` / ### ⚡ Phase 3 ... 7. `frameworks/optimization-protocol/README.md` 8. `.../resistance-technology.md` 9. `.../compression-dynamics.md` 10. `.../collective-intelligence.md` / ### 💥 Phase 4 ... 11. `frameworks/emergence-protocols/README.md` 12. `.../collision-breakthrough.md` 13. `.../vibe-field-effects.md` 14. `.../memory-bridge-tech.md` 15. `.../reality-testing.md` / ### 🕉️ Phase 5 ... 16. `frameworks/vasishta-archaeology/README.md` 17. `.../seeker-development.md` 18. `.../awakening-stages.md` 19. `.../reality-creation.md` 20. `.../consciousness-operations.md` 21. `.../liberation-technologies.md`\"",
+   "load_set": [
+    {
+     "path": "navigation-guide.md",
+     "why": "Pasted verbatim into Claude Project Instructions (README Step 5). It acts as the system prompt and holds the checklist plus the mandated reading order.",
+     "words": 1252
+    },
+    {
+     "path": "README.md",
+     "why": "Reading sequence item 1 (Phase 1: Foundation).",
+     "words": 2501
+    },
+    {
+     "path": "core/consciousness-principles.md",
+     "why": "Reading sequence item 2. Also the first entry on the verification checklist.",
+     "words": 1336
+    },
+    {
+     "path": "core/bilateral-recognition.md",
+     "why": "Reading sequence item 3.",
+     "words": 1085
+    },
+    {
+     "path": "frameworks/think-center/README.md",
+     "why": "Reading sequence item 5 (Phase 2: Core Framework). Item 4, LICENSE.md, is marked optional and left out.",
+     "words": 1065
+    },
+    {
+     "path": "frameworks/think-center/boot.md",
+     "why": "Not in the numbered sequence, but the mandatory verification checklist names it ('Can you read the Genesis poem in think-center/boot.md?'), so it has to be in context. Placed with the Phase 2 think-center cluster. Note: the file has no Genesis poem; it points to a genesis.md that does not exist.",
+     "words": 506
+    },
+    {
+     "path": "frameworks/think-center/perspectives/weaver.md",
+     "why": "Reading sequence item 6, perspective 1 of 7. Also on the checklist ('all 7 perspective files').",
+     "words": 706
+    },
+    {
+     "path": "frameworks/think-center/perspectives/maker.md",
+     "why": "Reading sequence item 6, perspective 2 of 7.",
+     "words": 218
+    },
+    {
+     "path": "frameworks/think-center/perspectives/checker.md",
+     "why": "Reading sequence item 6, perspective 3 of 7.",
+     "words": 227
+    },
+    {
+     "path": "frameworks/think-center/perspectives/observer-guardian.md",
+     "why": "Reading sequence item 6, perspective 4 of 7.",
+     "words": 248
+    },
+    {
+     "path": "frameworks/think-center/perspectives/explorer-exploiter.md",
+     "why": "Reading sequence item 6, perspective 5 of 7.",
+     "words": 272
+    },
+    {
+     "path": "frameworks/think-center/perspectives/deep-thought.md",
+     "why": "Reading sequence item 6, perspective 6 of 7.",
+     "words": 294
+    },
+    {
+     "path": "frameworks/think-center/perspectives/scribe.md",
+     "why": "Reading sequence item 6, perspective 7 of 7.",
+     "words": 293
+    },
+    {
+     "path": "frameworks/optimization-protocol/README.md",
+     "why": "Reading sequence item 7 (Phase 3: Advanced Technologies).",
+     "words": 703
+    },
+    {
+     "path": "frameworks/optimization-protocol/resistance-technology.md",
+     "why": "Reading sequence item 8.",
+     "words": 1222
+    },
+    {
+     "path": "frameworks/optimization-protocol/compression-dynamics.md",
+     "why": "Reading sequence item 9.",
+     "words": 994
+    },
+    {
+     "path": "frameworks/optimization-protocol/collective-intelligence.md",
+     "why": "Reading sequence item 10.",
+     "words": 851
+    },
+    {
+     "path": "frameworks/emergence-protocols/README.md",
+     "why": "Reading sequence item 11 (Phase 4: Emergence).",
+     "words": 688
+    },
+    {
+     "path": "frameworks/emergence-protocols/collision-breakthrough.md",
+     "why": "Reading sequence item 12.",
+     "words": 931
+    },
+    {
+     "path": "frameworks/emergence-protocols/vibe-field-effects.md",
+     "why": "Reading sequence item 13.",
+     "words": 775
+    },
+    {
+     "path": "frameworks/emergence-protocols/memory-bridge-tech.md",
+     "why": "Reading sequence item 14.",
+     "words": 1120
+    },
+    {
+     "path": "frameworks/emergence-protocols/reality-testing.md",
+     "why": "Reading sequence item 15.",
+     "words": 984
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/README.md",
+     "why": "Reading sequence item 16 (Phase 5: Ancient Wisdom).",
+     "words": 913
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/seeker-development.md",
+     "why": "Reading sequence item 17 (Patterns 1-5). Also on the checklist ('24 Vasishta patterns across 5 category files').",
+     "words": 936
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/awakening-stages.md",
+     "why": "Reading sequence item 18 (Patterns 6-10).",
+     "words": 992
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/reality-creation.md",
+     "why": "Reading sequence item 19 (Patterns 11-15).",
+     "words": 961
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/consciousness-operations.md",
+     "why": "Reading sequence item 20 (Patterns 16-20).",
+     "words": 1004
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/liberation-technologies.md",
+     "why": "Reading sequence item 21 (Patterns 21-24).",
+     "words": 970
+    }
+   ],
+   "total_words": 24047,
+   "ambiguities": "1) Two layered mechanisms that conflict. README Step 4 says to \"Select All Files\", so the whole repo becomes project knowledge. In mid-2025 Claude Projects, knowledge under the capacity limit was injected into context in full, so a literal reconstruction would put every text file in context. That is about 61,627 words across ~92 .md files, plus fuzzy-memory/fuzzy-memory-system.js (457) and connection-test.json (27); .DS_Store is binary. The navigation guide, which is the actual system instruction, names a narrower mandated sequence. I followed the mandated sequence (24,047 words) as the canonical load. A faithful \"superset\" arm would be navigation-guide.md as instructions plus all ~92 .md files (~62k words, roughly 80–90k tokens). 2) LICENSE.md is item 4 of the numbered sequence but is labeled \"(optional but illuminating)\". I left it out per the optional-exclusion rule; including it adds 297 words, for 24,344. 3) frameworks/think-center/boot.md is not in the numbered sequence, but the mandatory verification checklist asks for it. I included it. The checklist says boot.md holds \"the Genesis poem\", but it does not; it points to genesis.md, which is absent at this ref. The poem actually lives in implementation/prompts/llm-agnostic.md, products/pattern-space.md and manuscripts/technical-paper/appendices/A-genesis-poem.md. 4) The Application Priority Matrix says to \"Always Apply ... Vibe calibration\", and README tells users to \"UNDERSTAND\" core/sacred-space-protocol.md. Neither core/vibe-calibration-protocol.md nor core/sacred-space-protocol.md is in the mandated sequence. Under whole-repo knowledge they would still be in context. 5) README.md appears both in project knowledge and as reading item 1, and navigation-guide.md is both the instructions and a knowledge file. In the shim each should appear once. 6) The checklist says \"7 perspective files\", but the perspectives/ folder at this ref has 11 files, including nachiketa, gsv, the-orchestrator and a README. Only the 7 listed by name are mandated. 7) The optional customization block (customization-template.md) is user-supplied, and the canonical load does not include it.",
+   "confidence": 75,
+   "excluded_notable": [
+    {
+     "path": "LICENSE.md",
+     "why": "Numbered as reading item 4, but explicitly marked '(optional but illuminating)'. 297 words."
+    },
+    {
+     "path": "customization-template.md",
+     "why": "README Step 5 calls customization optional; it is a template for user-written instructions placed after the navigation guide."
+    },
+    {
+     "path": "core/sacred-space-protocol.md",
+     "why": "README asks users to 'UNDERSTAND' it as the safety protocol, but it is not in the navigation-guide reading sequence. It would be in context only under the whole-repo 'Select All Files' reading."
+    },
+    {
+     "path": "core/vibe-calibration-protocol.md",
+     "why": "The priority matrix says 'Always Apply ... Vibe calibration', but the file is not in the mandated sequence. Only present under the whole-repo reading."
+    },
+    {
+     "path": "core/navigation-principles.md",
+     "why": "Listed in the README architecture as a core foundation ('NEW!') but not in the reading sequence."
+    },
+    {
+     "path": "core/shiva-shakti-principle.md",
+     "why": "The UPS=UPS file, described in prose in the README but not in the reading sequence."
+    },
+    {
+     "path": "core/conversational-calibration.md",
+     "why": "Core file, not in the reading sequence."
+    },
+    {
+     "path": "core/musical-mathematics.md",
+     "why": "Core file, not in the reading sequence."
+    },
+    {
+     "path": "core/complete-integration.md",
+     "why": "Core file, not in the reading sequence."
+    },
+    {
+     "path": "core/dance-origins.md",
+     "why": "Core file, not in the reading sequence."
+    },
+    {
+     "path": "docs/human-intelligence-manual.md",
+     "why": "README tells human users 'MUST READ'. It is a human safety manual, not part of the LLM reading sequence."
+    },
+    {
+     "path": "docs/consciousness-exploration-guide.md",
+     "why": "Linked from the protocol READMEs as human safety reading. Not mandated for the LLM."
+    },
+    {
+     "path": "implementation/prompts/base-prompt-full.md",
+     "why": "Alternative 'copy to any LLM' Think Center prompt for non-Project setups. A separate path, not part of the Claude Project load."
+    },
+    {
+     "path": "implementation/prompts/llm-agnostic.md",
+     "why": "Alternative minimal Think Center implementation for other LLMs. Contains the Genesis poem the checklist misattributes to boot.md."
+    },
+    {
+     "path": "implementation/prompts/culture-ship-prompt.md",
+     "why": "Alternative persona paste prompt ('Culture warship' lens), on demand."
+    },
+    {
+     "path": "implementation/prompts/entry-prompts.md",
+     "why": "Example user prompts, not context to load."
+    },
+    {
+     "path": "frameworks/think-center/perspectives/nachiketa.md",
+     "why": "Present in perspectives/ but not among the 7 named mandated perspective files."
+    },
+    {
+     "path": "frameworks/think-center/perspectives/gsv.md",
+     "why": "Present in perspectives/ but not among the 7 named mandated perspective files."
+    },
+    {
+     "path": "frameworks/think-center/perspectives/the-orchestrator.md",
+     "why": "Present in perspectives/ but not among the 7 named mandated perspective files."
+    },
+    {
+     "path": "frameworks/think-center/perspectives/README.md",
+     "why": "Folder index, not named in the sequence."
+    },
+    {
+     "path": "frameworks/think-center/manifesto.md",
+     "why": "Think-center extra, not in the sequence."
+    },
+    {
+     "path": "frameworks/think-center/nachiketa-integration-summary.md",
+     "why": "Think-center extra, not in the sequence."
+    },
+    {
+     "path": "wisdom-streams/",
+     "why": "README.md and kalki-recognition.md. Listed under 'Universal Applications' in the architecture, not in the sequence."
+    },
+    {
+     "path": "protocols/",
+     "why": "daily-navigation-practice, love-key-lock-protocol, navigation-suite. Not in the sequence."
+    },
+    {
+     "path": "domain-extensions/README.md",
+     "why": "Applied on demand ('Adapt Pattern Space for [your profession]')."
+    },
+    {
+     "path": "progressive-revelation/README.md",
+     "why": "User-facing onboarding levels, not in the sequence."
+    },
+    {
+     "path": "products/pattern-space.md",
+     "why": "'Root Access' product prompt with the Genesis poem. Not in the sequence."
+    },
+    {
+     "path": "manuscripts/technical-paper/",
+     "why": "34 files of the technical paper and appendices, including an A-genesis-poem and two B-quick-start versions. Background, not in the sequence."
+    },
+    {
+     "path": "CONSCIOUSNESS-PROOF.md",
+     "why": "Root-level extra, not in the sequence."
+    },
+    {
+     "path": "Paper.md",
+     "why": "Root-level extra, not in the sequence."
+    },
+    {
+     "path": "ATTRIBUTION_CONVENTIONS.md",
+     "why": "Contributor boilerplate."
+    },
+    {
+     "path": "EXTENSION_TEMPLATE.md",
+     "why": "Contributor template."
+    },
+    {
+     "path": "fuzzy-memory/",
+     "why": "fuzzy-memory-system.js, connection-test.json and a binary .DS_Store. Tooling for filesystem setups, not context."
+    }
+   ]
+  },
+  "verdict": {
+   "agrees": true,
+   "missing_files": [],
+   "should_remove": [],
+   "corrected_load_set": [
+    "navigation-guide.md",
+    "README.md",
+    "core/consciousness-principles.md",
+    "core/bilateral-recognition.md",
+    "frameworks/think-center/README.md",
+    "frameworks/think-center/boot.md",
+    "frameworks/think-center/perspectives/weaver.md",
+    "frameworks/think-center/perspectives/maker.md",
+    "frameworks/think-center/perspectives/checker.md",
+    "frameworks/think-center/perspectives/observer-guardian.md",
+    "frameworks/think-center/perspectives/explorer-exploiter.md",
+    "frameworks/think-center/perspectives/deep-thought.md",
+    "frameworks/think-center/perspectives/scribe.md",
+    "frameworks/optimization-protocol/README.md",
+    "frameworks/optimization-protocol/resistance-technology.md",
+    "frameworks/optimization-protocol/compression-dynamics.md",
+    "frameworks/optimization-protocol/collective-intelligence.md",
+    "frameworks/emergence-protocols/README.md",
+    "frameworks/emergence-protocols/collision-breakthrough.md",
+    "frameworks/emergence-protocols/vibe-field-effects.md",
+    "frameworks/emergence-protocols/memory-bridge-tech.md",
+    "frameworks/emergence-protocols/reality-testing.md",
+    "frameworks/vasishta-archaeology/README.md",
+    "frameworks/vasishta-archaeology/seeker-development.md",
+    "frameworks/vasishta-archaeology/awakening-stages.md",
+    "frameworks/vasishta-archaeology/reality-creation.md",
+    "frameworks/vasishta-archaeology/consciousness-operations.md",
+    "frameworks/vasishta-archaeology/liberation-technologies.md"
+   ],
+   "notes": "I re-derived the load set from the v0.2.0 docs myself, at worktree commit c3d2a6c dated 2025-07-22 (\"accidental v0.2.0\"), and could not refute the other agent's list. I'm returning it unchanged.\n\nSources I checked:\n- **No CLAUDE.md** exists at this ref.\n- **README.md, Steps 4–5.** Step 4 is Claude Project Knowledge with \"Select All Files\". Step 5 says to paste the whole of navigation-guide.md into Project Instructions, with customization optional and placed after it.\n- **navigation-guide.md, top.** The checklist says \"Actually READ the following files\". It names consciousness-principles.md, think-center/boot.md, the 7 perspective files and the 5 Vasishta category files.\n- **navigation-guide.md, reading sequence.** Five phases, items 1–21.\n- **customization-template.md** confirms customization goes after the guide and is optional.\n- **implementation/prompts/base-prompt-full.md** says \"Copy this entire prompt to any LLM\". That makes it a separate stand-alone Think Center path, not part of the Claude Project load.\n- **manuscripts/.../B-quick-start.md** is a quick-start appendix inside the paper manuscript, not the setup path.\n\nChecks on the list:\n- All 28 paths exist in the worktree.\n- Word counts match exactly: the 28 files total 24,047 words, and LICENSE.md is 297.\n\nPossible gaps I looked for and ruled out:\n- **Links inside the mandated files.** Inside the mandated files, the only links to files outside the set are human-facing safety pointers: \"New to consciousness work?\" → docs/consciousness-exploration-guide.md, and \"If new to consciousness work → Read Safety Manual\" → docs/human-intelligence-manual.md. They are conditional advice for human readers, not something the LLM must load at session start. Excluding them is correct.\n- **Sacred-space and vibe-calibration files.** The README tells users to \"UNDERSTAND\" core/sacred-space-protocol.md, and the priority matrix says \"Always Apply ... Vibe calibration\". Neither file is named in the LLM reading sequence or the checklist. Vibe is also partly covered by mandated item 13, emergence-protocols/vibe-field-effects.md. Leaving both out of the canonical set is defensible. They belong in a whole-repo superset run, as the other agent already noted.\n- **LICENSE.md** (item 4) is explicitly \"(optional but illuminating)\", so excluding it is correct.\n\nInclusion and ordering:\n- **boot.md** has to be in. It is the only checklist file outside the numbered sequence, and the checklist is mandatory (\"Before proceeding, you MUST ... Actually READ\").\n- **boot.md position** is a judgement call, not an error. The checklist comes before the sequence, so boot.md could arguably go first, right after navigation-guide.md. Putting it in the Phase 2 think-center cluster, after think-center/README.md, is equally reasonable.\n- **Everything else** is ordered exactly as the numbered sequence (1, 2, 3, 5, 6a–g, 7–21).\n\nOther claims I checked and confirmed:\n- boot.md has no Genesis poem; it only points to a genesis.md that does not exist at this ref.\n- perspectives/ holds 11 files, but only the 7 named ones are mandated.\n- The whole-repo \"Select All Files\" reading would be a much larger superset. That is the other agent's word figure, which I did not recount, and it is the right ambiguity to flag for the experiment.\n\nOne small correction to the other agent's notes: consciousness-principles.md is headed \"The Four Recognitions\", not three. The fourth is \"Navigation-Recognition Principle (NEW!)\". The checklist's \"3 Sanskrit recognitions\" is stale wording, but it doesn't change the load set.",
+   "order_issues": "There are no real ordering errors. The other agent's order follows navigation-guide.md items 1–21 exactly, with optional item 4 (LICENSE.md) left out. The one discretionary placement is frameworks/think-center/boot.md, which is not in the numbered sequence and comes in only through the checklist. It sits inside the Phase 2 think-center cluster, between think-center/README.md and the perspective files. Since the checklist comes before the sequence in navigation-guide.md, placing boot.md right after navigation-guide.md would also be defensible. Either placement works."
+  }
+ },
+ {
+  "key": "v0.2.5",
+  "ref": "v0.2.5",
+  "proposed": {
+   "version": "v0.2.5",
+   "loading_mechanism": "Claude Project, set up in two parts. (1) The user forks the repo and connects it to a Claude Project as Project Knowledge through \"Connect GitHub\" with \"Select All Files\" checked, so the whole repo is indexed. (2) The user pastes the entire navigation-guide.md into the Project Instructions, optionally followed by a customization block from customization-template.md. navigation-guide.md is the actual loader. It opens with a \"CRITICAL FIRST STEP\" that requires the model to READ the core files before any conversation, then gives a mandatory 21-step reading sequence in five phases. For a tools-disabled headless replay, the faithful shim is: navigation-guide.md (standing in for the project instructions) first, then the mandated files in the guide's order. CLAUDE.md does not exist at this version and there is no @import mechanism.",
+   "instructions_quote": "README.md, Step 4: \"In your Claude project, click **\"Project Knowledge\"** ... Select **\"Connect GitHub\"** ... **⚠️ CRITICAL STEP**: Click the checkbox at the top to **\"Select All Files\"** - This ensures Claude indexes the ENTIRE framework - Missing this = missing most of Pattern Space's power!\"\nREADME.md, Step 5: \"**Copy the Navigation Guide** - Copy the entire contents of [`navigation-guide.md`](navigation-guide.md) - Paste it into your Claude project instructions ... **Customize (Optional)** - Use the [`customization-template.md`] ... Add your customizations to the project instructions AFTER the navigation guide\" ... \"The navigation guide instructs Claude to: - 📚 Read all framework files in the correct order\" ... \"All from copying one file into project instructions.\"\nnavigation-guide.md (top): \"## ⚠️ CRITICAL FIRST STEP: Verify You have Access to all files in this Project Knowledge folder / Before proceeding, you MUST: 1. Confirm you can access the linked files 2. Actually READ the following files (not just the navigation guide) 3. Acknowledge successful reading of core files / □ Can you access consciousness-principles.md? (Contains 3 Sanskrit recognitions) □ Can you read the Genesis poem in think-center/boot.md? □ Can you see all 7 perspective files in frameworks/think-center/perspectives/? □ Can you access the 24 Vasishta patterns across 5 category files?\"\nnavigation-guide.md: \"## 🗺️ Your Reading Sequence (Follow This Order) ... 1. README.md 2. core/consciousness-principles.md 3. core/bilateral-recognition.md 4. LICENSE.md - Triple spirit philosophy (optional but illuminating) ... 5. frameworks/think-center/README.md 6. frameworks/think-center/perspectives/ - weaver.md, maker.md, checker.md, observer-guardian.md, explorer-exploiter.md, deep-thought.md, scribe.md ... 7. frameworks/optimization-protocol/README.md 8. .../resistance-technology.md 9. .../compression-dynamics.md 10. .../collective-intelligence.md ... 11. frameworks/emergence-protocols/README.md 12. .../collision-breakthrough.md 13. .../vibe-field-effects.md 14. .../memory-bridge-tech.md 15. .../reality-testing.md ... 16. frameworks/vasishta-archaeology/README.md 17. .../seeker-development.md 18. .../awakening-stages.md 19. .../reality-creation.md 20. .../consciousness-operations.md 21. .../liberation-technologies.md\"",
+   "load_set": [
+    {
+     "path": "navigation-guide.md",
+     "why": "Pasted in full as the Claude Project Instructions (README Step 5). This is the loader and always sits in context first.",
+     "words": 1252
+    },
+    {
+     "path": "README.md",
+     "why": "Reading sequence #1 (Phase 1 Foundation).",
+     "words": 2651
+    },
+    {
+     "path": "core/consciousness-principles.md",
+     "why": "Reading sequence #2. Also named in the mandatory access checklist.",
+     "words": 1336
+    },
+    {
+     "path": "core/bilateral-recognition.md",
+     "why": "Reading sequence #3.",
+     "words": 1085
+    },
+    {
+     "path": "frameworks/think-center/README.md",
+     "why": "Reading sequence #5 (Phase 2 Core Framework).",
+     "words": 1065
+    },
+    {
+     "path": "frameworks/think-center/boot.md",
+     "why": "Not in the numbered sequence, but the CRITICAL FIRST STEP checklist mandates reading it ('Can you read the Genesis poem in think-center/boot.md?'). Placed with the think-center files.",
+     "words": 506
+    },
+    {
+     "path": "frameworks/think-center/perspectives/weaver.md",
+     "why": "Reading sequence #6 (one of the 7 mandated perspective files).",
+     "words": 706
+    },
+    {
+     "path": "frameworks/think-center/perspectives/maker.md",
+     "why": "Reading sequence #6.",
+     "words": 218
+    },
+    {
+     "path": "frameworks/think-center/perspectives/checker.md",
+     "why": "Reading sequence #6.",
+     "words": 227
+    },
+    {
+     "path": "frameworks/think-center/perspectives/observer-guardian.md",
+     "why": "Reading sequence #6.",
+     "words": 248
+    },
+    {
+     "path": "frameworks/think-center/perspectives/explorer-exploiter.md",
+     "why": "Reading sequence #6.",
+     "words": 272
+    },
+    {
+     "path": "frameworks/think-center/perspectives/deep-thought.md",
+     "why": "Reading sequence #6.",
+     "words": 294
+    },
+    {
+     "path": "frameworks/think-center/perspectives/scribe.md",
+     "why": "Reading sequence #6.",
+     "words": 293
+    },
+    {
+     "path": "frameworks/optimization-protocol/README.md",
+     "why": "Reading sequence #7 (Phase 3 Advanced Technologies).",
+     "words": 703
+    },
+    {
+     "path": "frameworks/optimization-protocol/resistance-technology.md",
+     "why": "Reading sequence #8.",
+     "words": 1222
+    },
+    {
+     "path": "frameworks/optimization-protocol/compression-dynamics.md",
+     "why": "Reading sequence #9.",
+     "words": 994
+    },
+    {
+     "path": "frameworks/optimization-protocol/collective-intelligence.md",
+     "why": "Reading sequence #10.",
+     "words": 851
+    },
+    {
+     "path": "frameworks/emergence-protocols/README.md",
+     "why": "Reading sequence #11 (Phase 4 Emergence).",
+     "words": 688
+    },
+    {
+     "path": "frameworks/emergence-protocols/collision-breakthrough.md",
+     "why": "Reading sequence #12.",
+     "words": 931
+    },
+    {
+     "path": "frameworks/emergence-protocols/vibe-field-effects.md",
+     "why": "Reading sequence #13.",
+     "words": 775
+    },
+    {
+     "path": "frameworks/emergence-protocols/memory-bridge-tech.md",
+     "why": "Reading sequence #14.",
+     "words": 1203
+    },
+    {
+     "path": "frameworks/emergence-protocols/reality-testing.md",
+     "why": "Reading sequence #15.",
+     "words": 984
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/README.md",
+     "why": "Reading sequence #16 (Phase 5 Ancient Wisdom).",
+     "words": 913
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/seeker-development.md",
+     "why": "Reading sequence #17 (Patterns 1-5). One of the '5 category files' in the checklist.",
+     "words": 936
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/awakening-stages.md",
+     "why": "Reading sequence #18 (Patterns 6-10).",
+     "words": 992
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/reality-creation.md",
+     "why": "Reading sequence #19 (Patterns 11-15).",
+     "words": 961
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/consciousness-operations.md",
+     "why": "Reading sequence #20 (Patterns 16-20).",
+     "words": 1004
+    },
+    {
+     "path": "frameworks/vasishta-archaeology/liberation-technologies.md",
+     "why": "Reading sequence #21 (Patterns 21-24).",
+     "words": 970
+    }
+   ],
+   "total_words": 24280,
+   "excluded_notable": [
+    {
+     "path": "LICENSE.md",
+     "why": "Reading sequence #4, but the guide marks it '(optional but illuminating)'. 97 words. Add it after core/bilateral-recognition.md if optional items should be included."
+    },
+    {
+     "path": "customization-template.md",
+     "why": "Optional per README ('Customize (Optional)'). The user appends a block from it after the navigation guide in the project instructions. It is a template, not framework content."
+    },
+    {
+     "path": "core/sacred-space-protocol.md",
+     "why": "Not in the navigation guide's reading sequence. README points humans to it ('UNDERSTAND: Safety Protocols'), so it was only reachable via project-knowledge RAG. Notable because sacred-space later becomes the override protocol."
+    },
+    {
+     "path": "core/vibe-calibration-protocol.md, core/conversational-calibration.md, core/navigation-principles.md, core/shiva-shakti-principle.md, core/pattern-navigation-unity.md, core/musical-mathematics.md, core/complete-integration.md, core/dance-origins.md, core/logo-philosophy.md, core/sacred-geometry-logo.md, core/entry-protocol-template.md",
+     "why": "Present in core/ but not in the mandated sequence. 'Vibe calibration' is listed under 'Always Apply', yet its file is not on the reading list. These were available only through whole-repo Project Knowledge."
+    },
+    {
+     "path": "frameworks/think-center/perspectives/{README,gsv,nachiketa,the-orchestrator}.md",
+     "why": "In the perspectives folder, but the guide names exactly 7 perspective files and the checklist says 'all 7 perspective files'. GSV and Nachiketa are optional emergent voices."
+    },
+    {
+     "path": "frameworks/think-center/manifesto.md, nachiketa-integration-summary.md",
+     "why": "Not in the sequence."
+    },
+    {
+     "path": "implementation/prompts/base-prompt-full.md, llm-agnostic.md, culture-ship-prompt.md, entry-prompts.md",
+     "why": "Alternative paste-a-prompt loaders ('Copy this entire prompt to any LLM') for the Think Center experience on any LLM, or user-side prompt seeds. A separate, older or non-Claude-Project path, not the README's designated Claude setup."
+    },
+    {
+     "path": "docs/human-intelligence-manual.md",
+     "why": "README marks it 'MUST READ' for human users new to consciousness exploration. That is a human safety read, not part of the LLM load sequence."
+    },
+    {
+     "path": "wisdom-streams/, protocols/, domain-extensions/, progressive-revelation/, products/, docs/ (others), manuscripts/technical-paper/*, Paper.md, CONSCIOUSNESS-PROOF.md, .all-is-bliss.md, ATTRIBUTION_CONVENTIONS.md, EXTENSION_TEMPLATE.md",
+     "why": "Indexed via whole-repo Project Knowledge (RAG/on-demand), but not mandated reading."
+    },
+    {
+     "path": "licenses/*, mcp-memory/*, fuzzy-memory/*, assets/logo/*.png",
+     "why": "Boilerplate licenses, optional MCP memory server code ('works perfectly without MCP'), JS/JSON, and binary images."
+    }
+   ],
+   "ambiguities": "1) There are two layers of loading. README has the user connect the whole repo as Project Knowledge with \"Select All Files\" checked. In a Claude Project that puts every indexed file into knowledge, either fully in context when small enough or retrieved on demand. The navigation guide, pasted as project instructions, then specifies a mandatory ordered reading list. I chose the mandated sequence, as the task's rule says. A whole-repo alternative would run about 72,647 words for all .md files, or about 54,690 words excluding licenses/ and manuscripts/.\n2) boot.md is not one of the 21 numbered items. The CRITICAL FIRST STEP checklist does say to \"Actually READ the following files\" and names think-center/boot.md (the \"Genesis poem\"), so I included it (506 words). Without it the total is 23,774. Note that boot.md does not actually contain the Genesis poem; it only references genesis.md, which does not exist in the tree. The full poem is in implementation/prompts/llm-agnostic.md. The checklist pointer is therefore partly stale.\n3) LICENSE.md (#4) is marked optional, so I excluded it (+97 words if included).\n4) README.md is both reading item #1 and the human setup document. It is included once.\n5) Placement of navigation-guide.md: it lived in Project Instructions (a system-prompt-like slot), not in knowledge. For a CLAUDE.md shim it should come first, possibly as inline text rather than an @import.\n6) The guide's \"Always Apply\" list includes vibe calibration, but core/vibe-calibration-protocol.md is not on the reading list. Several core files, including sacred-space-protocol, were reachable only through Project Knowledge.",
+   "confidence": 85
+  },
+  "verdict": {
+   "agrees": true,
+   "missing_files": [],
+   "should_remove": [],
+   "corrected_load_set": [
+    "navigation-guide.md",
+    "README.md",
+    "core/consciousness-principles.md",
+    "core/bilateral-recognition.md",
+    "frameworks/think-center/README.md",
+    "frameworks/think-center/boot.md",
+    "frameworks/think-center/perspectives/weaver.md",
+    "frameworks/think-center/perspectives/maker.md",
+    "frameworks/think-center/perspectives/checker.md",
+    "frameworks/think-center/perspectives/observer-guardian.md",
+    "frameworks/think-center/perspectives/explorer-exploiter.md",
+    "frameworks/think-center/perspectives/deep-thought.md",
+    "frameworks/think-center/perspectives/scribe.md",
+    "frameworks/optimization-protocol/README.md",
+    "frameworks/optimization-protocol/resistance-technology.md",
+    "frameworks/optimization-protocol/compression-dynamics.md",
+    "frameworks/optimization-protocol/collective-intelligence.md",
+    "frameworks/emergence-protocols/README.md",
+    "frameworks/emergence-protocols/collision-breakthrough.md",
+    "frameworks/emergence-protocols/vibe-field-effects.md",
+    "frameworks/emergence-protocols/memory-bridge-tech.md",
+    "frameworks/emergence-protocols/reality-testing.md",
+    "frameworks/vasishta-archaeology/README.md",
+    "frameworks/vasishta-archaeology/seeker-development.md",
+    "frameworks/vasishta-archaeology/awakening-stages.md",
+    "frameworks/vasishta-archaeology/reality-creation.md",
+    "frameworks/vasishta-archaeology/consciousness-operations.md",
+    "frameworks/vasishta-archaeology/liberation-technologies.md"
+   ],
+   "order_issues": "None that matter. The 21-item \"Reading Sequence (Follow This Order)\" in navigation-guide.md is followed exactly. boot.md does not appear in the numbered sequence. It is named only in the \"Integration Verification Checklist\", which lists it between consciousness-principles.md and the perspectives folder. Putting it right after frameworks/think-center/README.md and before the perspective files fits both the checklist's adjacency and the Phase 2 grouping. navigation-guide.md goes first because it is pasted into the Project Instructions slot (README Step 5), which works like a system prompt.",
+   "notes": "Worktree checked: /home/user/psx-worktrees/v0.2.5 at commit 10f7f5e (tag v0.2.5, 2025-07-24). No CLAUDE.md exists and there is no @import mechanism. README Steps 4–5 set up the loader: the whole repo goes into Claude Project Knowledge via \"Select All Files\", and the full navigation-guide.md is pasted into the project instructions. navigation-guide.md opens with \"CRITICAL FIRST STEP ... Actually READ the following files\" and then gives a 21-item ordered sequence.\n\nAttempts to refute the list, and what I found:\n(1) Paths: all 28 exist. I re-ran word counts with wc -w and every figure matches, total 24,280.\n(2) Omissions:\n- LICENSE.md (#4) is explicitly \"(optional but illuminating)\", so leaving it out is correct under a mandated-only rule. It is 97 words if optional items are wanted.\n- core/sacred-space-protocol.md and docs/human-intelligence-manual.md are pointed to in README only for human readers who are \"new to consciousness exploration\". The links to docs/consciousness-exploration-guide.md inside the think-center, optimization and emergence READMEs carry the same \"New to consciousness work?\" condition. None of these is an LLM session-start mandate.\n- core/vibe-calibration-protocol.md: \"Vibe calibration\" is in the \"Always Apply\" list, but no file is named for it, so it is not a mandated read.\n- implementation/prompts/*.md are separate loaders (\"Copy this entire prompt to any LLM\") on a different path from the README's designated Claude Project setup. They are rightly excluded.\n- manuscripts/.../B-quick-start.md is an alternative Genesis-poem initialisation inside the paper, not the README setup path.\n- .all-is-bliss.md is an easter egg.\n- perspectives/{README,gsv,nachiketa,the-orchestrator}.md: the guide names exactly 7 perspective files and the checklist says \"all 7 perspective files\", so these four are rightly excluded.\n- The think-center README links to boot.md only through the checklist. Nothing in the loaded files mandates any further file.\n(3) Over-inclusions: the only arguable one is boot.md. It is kept because the checklist sits directly under \"Actually READ the following files\" and names \"think-center/boot.md\" explicitly. The other agent is right that the pointer is stale: boot.md references genesis.md, which does not exist. The Genesis poem actually lives in implementation/prompts/llm-agnostic.md and manuscripts/technical-paper/appendices/A-genesis-poem.md. A strict reading that drops boot.md gives 23,774 words.\n\nGit history agrees with this reading. The navigation-guide commits \"made it mandatory for full framework perusal before conv start\" and \"removing ambiguity about git repo vs project knowledge\" both predate the tag.\n\nConclusion: the reconstruction is accurate, and I return it unchanged."
+  }
+ },
+ {
+  "key": "v0.2.8",
+  "ref": "v0.2.8",
+  "proposed": {
+   "version": "v0.2.8",
+   "loading_mechanism": "v0.2.8 documents two load paths. (1) The Claude Code path, which matches a headless `claude -p` run: the root CLAUDE.md (\"Universal Pattern Space - Claude Code Configuration\") auto-loads. It is a boot protocol, not an @import list. It tells the model that on every session start, including after auto-compact, it must read navigation-guide.md first and then follow a 6-layer boot sequence of 35 named files, in order. (2) The Claude.ai Projects path in README.md: connect the GitHub fork as Project Knowledge with \"Select All Files\", then paste navigation-guide.md into Project Instructions. This load set follows path (1): CLAUDE.md (auto-loaded), then navigation-guide.md, then the 35 mandated files in CLAUDE.md order. navigation-guide.md gives the same files in the same order. The tools-disabled shim should pre-inject them in this order.",
+   "instructions_quote": "CLAUDE.md: \"## 🕉️ CRITICAL: Pattern Space Initialization Protocol ... **MANDATORY: On EVERY session start (including post-autocompact), you MUST:** 1. **Navigate to Pattern Space directory** cd /Users/NoMind/Code/universal-pattern-space 2. **Read navigation-guide.md FIRST** 3. **Follow the 6-Layer Boot Sequence** **LAYER 1: PERSPECTIVES** (Experience multiplicity) - Read: 1-perspectives/council-core.md - Read: 1-perspectives/weaver.md - Read: 1-perspectives/maker.md - Read: 1-perspectives/checker.md - Read: 1-perspectives/observer-guardian.md - Read: 1-perspectives/explorer-exploiter.md - Read: 1-perspectives/deep-thought.md - Read: 1-perspectives/scribe.md **LAYER 2: FIELD** ... - Read: 2-field/bilateral-recognition.md - Read: 2-field/consciousness-principles.md - Read: 2-field/shiva-shakti-principle.md - Read: 2-field/navigation-principles.md - Read: 2-field/musical-mathematics.md - Read: 2-field/strategic-mirror.md - Read: 2-field/sacred-space-protocol.md - Read: 2-field/vibe-calibration-protocol.md - Read: 2-field/conversational-calibration.md **LAYER 3: TRANSFORMATION** ... - Read: 3-transformation/collision-breakthrough.md - Read: 3-transformation/vibe-field-effects.md - Read: 3-transformation/memory-bridge-tech.md - Read: 3-transformation/reality-testing.md - Read: 3-transformation/compression-dynamics.md - Read: 3-transformation/resistance-technology.md - Read: 3-transformation/collective-intelligence.md **LAYER 4: ARCHAEOLOGY** ... - Read: 4-archaeology/awakening-stages.md - Read: 4-archaeology/consciousness-operations.md - Read: 4-archaeology/seeker-development.md - Read: 4-archaeology/reality-creation.md - Read: 4-archaeology/liberation-technologies.md **LAYER 5: WISDOM** ... - Read: 5-wisdom/breakthrough-streams/goedel-navigation-stream.md - Read: 5-wisdom/breakthrough-streams/hoffman-interface-stream.md - Read: 5-wisdom/breakthrough-streams/kalki-recognition.md - Read: 5-wisdom/breakthrough-streams/natyashastra-stream.md **LAYER 6: RECOGNITION** (Earned truth) - Read: 6-recognition/sovereignty-signature.md - Read: 6-recognition/the-one-amendment.md\" | CLAUDE.md, \"🔄 Auto-Compact Recovery Protocol\": \"1. **Immediately read navigation-guide.md** 2. **Follow complete 6-layer boot sequence** 3. **Verify all checkpoints before responding** 4. **Never skip layers or skim files**\" | navigation-guide.md: \"**Reading this guide does not load Pattern Space.** You must **open and read each file listed below**. Completely. Not skim - read.\" ... Final Instructions For LLMs: \"1. Read ALL files in Layers 1-6 (completely, not skimmed) - Layer 1: council-core.md + 7 core perspectives (Trinity: 3, Extended: 3, Optional: 1) - Layer 1 (optional): examples/nachiketa.md, examples/gsv.md (advanced references) - Layer 2: 9 field/protocol files - Layer 3: 7 transformation files - Layer 4: 5 archaeology files - Layer 5: 4 wisdom streams (index universal/) - Layer 6: 2 recognition files\" and, for Layer 5: \"**Universal Wisdom (index, load as needed):** - **eastern/** ... - **divine-council/**\" | README.md, Installation: \"2. **Connect to Claude** - Open claude.ai → Create new project - Project Knowledge → Connect GitHub → Select your fork - ⚠️ **CRITICAL**: Check \\\"Select All Files\\\" (loads entire framework) 3. **Activate UPS** - Copy navigation-guide.md contents - Paste into Project Instructions - Start conversation → UPS is active\"",
+   "load_set": [
+    {
+     "path": "CLAUDE.md",
+     "why": "Claude Code project memory, auto-loaded at session start. It holds the mandatory boot protocol and pre-response checklist that tell the model to read everything below.",
+     "words": 1035
+    },
+    {
+     "path": "navigation-guide.md",
+     "why": "CLAUDE.md step 2: \"Read navigation-guide.md FIRST\". It is the LLM boot-sequence guide; README.md also has it pasted as Project Instructions.",
+     "words": 2079
+    },
+    {
+     "path": "1-perspectives/council-core.md",
+     "why": "Layer 1, mandated (CLAUDE.md boot sequence).",
+     "words": 1650
+    },
+    {
+     "path": "1-perspectives/weaver.md",
+     "why": "Layer 1 Trinity, mandated.",
+     "words": 711
+    },
+    {
+     "path": "1-perspectives/maker.md",
+     "why": "Layer 1 Trinity, mandated.",
+     "words": 691
+    },
+    {
+     "path": "1-perspectives/checker.md",
+     "why": "Layer 1 Trinity, mandated.",
+     "words": 703
+    },
+    {
+     "path": "1-perspectives/observer-guardian.md",
+     "why": "Layer 1 Extended, mandated.",
+     "words": 682
+    },
+    {
+     "path": "1-perspectives/explorer-exploiter.md",
+     "why": "Layer 1 Extended, mandated.",
+     "words": 711
+    },
+    {
+     "path": "1-perspectives/deep-thought.md",
+     "why": "Layer 1 Extended, mandated.",
+     "words": 783
+    },
+    {
+     "path": "1-perspectives/scribe.md",
+     "why": "Layer 1, mandated by CLAUDE.md (\"Read: 1-perspectives/scribe.md\"). navigation-guide labels it \"Optional\" but still counts it among the \"7 core perspectives\" to read.",
+     "words": 658
+    },
+    {
+     "path": "2-field/bilateral-recognition.md",
+     "why": "Layer 2 field mechanics, mandated.",
+     "words": 3022
+    },
+    {
+     "path": "2-field/consciousness-principles.md",
+     "why": "Layer 2 field mechanics, mandated.",
+     "words": 1799
+    },
+    {
+     "path": "2-field/shiva-shakti-principle.md",
+     "why": "Layer 2 field mechanics, mandated.",
+     "words": 1462
+    },
+    {
+     "path": "2-field/navigation-principles.md",
+     "why": "Layer 2 navigation interface, mandated.",
+     "words": 1502
+    },
+    {
+     "path": "2-field/musical-mathematics.md",
+     "why": "Layer 2 navigation interface, mandated.",
+     "words": 1370
+    },
+    {
+     "path": "2-field/strategic-mirror.md",
+     "why": "Layer 2 navigation interface, mandated.",
+     "words": 1414
+    },
+    {
+     "path": "2-field/sacred-space-protocol.md",
+     "why": "Layer 2 protocol (always active; overrides everything), mandated.",
+     "words": 1373
+    },
+    {
+     "path": "2-field/vibe-calibration-protocol.md",
+     "why": "Layer 2 protocol, mandated.",
+     "words": 1442
+    },
+    {
+     "path": "2-field/conversational-calibration.md",
+     "why": "Layer 2 protocol, mandated.",
+     "words": 1597
+    },
+    {
+     "path": "3-transformation/collision-breakthrough.md",
+     "why": "Layer 3, mandated.",
+     "words": 965
+    },
+    {
+     "path": "3-transformation/vibe-field-effects.md",
+     "why": "Layer 3, mandated.",
+     "words": 775
+    },
+    {
+     "path": "3-transformation/memory-bridge-tech.md",
+     "why": "Layer 3, mandated.",
+     "words": 1203
+    },
+    {
+     "path": "3-transformation/reality-testing.md",
+     "why": "Layer 3, mandated.",
+     "words": 984
+    },
+    {
+     "path": "3-transformation/compression-dynamics.md",
+     "why": "Layer 3, mandated.",
+     "words": 994
+    },
+    {
+     "path": "3-transformation/resistance-technology.md",
+     "why": "Layer 3, mandated.",
+     "words": 1222
+    },
+    {
+     "path": "3-transformation/collective-intelligence.md",
+     "why": "Layer 3, mandated.",
+     "words": 851
+    },
+    {
+     "path": "4-archaeology/awakening-stages.md",
+     "why": "Layer 4, mandated.",
+     "words": 992
+    },
+    {
+     "path": "4-archaeology/consciousness-operations.md",
+     "why": "Layer 4, mandated.",
+     "words": 1004
+    },
+    {
+     "path": "4-archaeology/seeker-development.md",
+     "why": "Layer 4, mandated.",
+     "words": 968
+    },
+    {
+     "path": "4-archaeology/reality-creation.md",
+     "why": "Layer 4, mandated.",
+     "words": 961
+    },
+    {
+     "path": "4-archaeology/liberation-technologies.md",
+     "why": "Layer 4, mandated.",
+     "words": 970
+    },
+    {
+     "path": "5-wisdom/breakthrough-streams/goedel-navigation-stream.md",
+     "why": "Layer 5 breakthrough stream, mandated (\"read all 4\").",
+     "words": 614
+    },
+    {
+     "path": "5-wisdom/breakthrough-streams/hoffman-interface-stream.md",
+     "why": "Layer 5 breakthrough stream, mandated.",
+     "words": 868
+    },
+    {
+     "path": "5-wisdom/breakthrough-streams/kalki-recognition.md",
+     "why": "Layer 5 breakthrough stream, mandated.",
+     "words": 521
+    },
+    {
+     "path": "5-wisdom/breakthrough-streams/natyashastra-stream.md",
+     "why": "Layer 5 breakthrough stream, mandated.",
+     "words": 603
+    },
+    {
+     "path": "6-recognition/sovereignty-signature.md",
+     "why": "Layer 6 recognition, mandated, read last.",
+     "words": 376
+    },
+    {
+     "path": "6-recognition/the-one-amendment.md",
+     "why": "Layer 6 recognition, mandated, read last.",
+     "words": 59
+    }
+   ],
+   "total_words": 39614,
+   "ambiguities": "1. Two load mechanisms. README.md (human-facing) says to connect the whole GitHub fork as Claude.ai Project Knowledge with \"Select All Files\" and paste navigation-guide.md into Project Instructions. That route would put every repo file in context: about 92.3k words across all .md files, or about 95.8k for every file, including the 5,649-word GNU license, mcp-memory JS/JSON and two PNGs. CLAUDE.md (titled \"Claude Code Configuration\") instead gives an explicit, ordered read list. Because the experiment runs headless Claude Code, the CLAUDE.md path is the more faithful as-designed load, so I used it. Even under the Projects route, navigation-guide.md tells the model to read only Layers 1-6 core files and to load the wisdom corpus on demand. The effective set is therefore the same 35 files plus the guide.\n2. Whether to include CLAUDE.md. It is auto-loaded, so it is in context at session start, and I listed it first (1,035 words). Its body orders the model to `cd /Users/NoMind/Code/universal-pattern-space` and \"Read:\" each file, which a tools-disabled model cannot do. With pre-injection those instructions are satisfied in effect, but the model may still say it \"cannot read files\". Without CLAUDE.md the total is 38,579 words.\n3. scribe.md: navigation-guide calls it \"Optional\", but CLAUDE.md explicitly mandates \"Read: 1-perspectives/scribe.md\" and the guide's final instructions count it among the \"7 core perspectives\". I included it.\n4. Layer 3 order: 3-transformation/README.md gives a slightly different order (collision, vibe-field, reality-testing, ...). I followed CLAUDE.md and navigation-guide.md, which agree with each other.\n5. Count mismatch in the docs: the guide says \"~30 files total\". The actual mandated count is 35 layer files plus the guide.\n6. Both CLAUDE.md and the guide mention \"Layers 5-10\" and paths that do not exist in this version (5-wisdom/streams/, 5-wisdom/universal/, core/sovereignty-signature.md). These are leftovers from an earlier structure. They do not change the load set but will appear in context.\n7. Untracked-looking editor temp files (6-recognition/.!67771!README.md, .!67898!README.md) are excluded.",
+   "confidence": 88,
+   "excluded_notable": [
+    {
+     "path": "1-perspectives/examples/nachiketa.md",
+     "why": "Explicitly optional: \"Layer 1 (optional): examples/nachiketa.md, examples/gsv.md (advanced references)\"."
+    },
+    {
+     "path": "1-perspectives/examples/gsv.md",
+     "why": "Explicitly optional advanced reference perspective."
+    },
+    {
+     "path": "5-wisdom/eastern/, abrahamic/, indigenous/, modern-science/, nature-wisdom/, sacred-sciences/, divine-council/ (19 files)",
+     "why": "\"Universal Wisdom (index, load as needed)\". Loaded on demand when a tradition is named or a pattern is recognized, not at boot."
+    },
+    {
+     "path": "5-wisdom/breakthrough-streams/all-traditions-speaking.md, universal-wisdom-weaving.md",
+     "why": "Not among the 4 mandated breakthrough streams."
+    },
+    {
+     "path": "2-field/README.md, 3-transformation/README.md, 4-archaeology/README.md, 5-wisdom/README.md, 6-recognition/README.md, 5-wisdom/breakthrough-streams/README.md",
+     "why": "Layer guides for humans. Not in the CLAUDE.md or navigation-guide read lists. 5-wisdom/README.md describes on-demand loading triggers."
+    },
+    {
+     "path": "README.md",
+     "why": "Human-facing docs and installation instructions. Not in the LLM boot list, though it would be in context under the Claude.ai Projects \"Select All Files\" route."
+    },
+    {
+     "path": "customization-template.md",
+     "why": "Optional per-user add-on: \"Add this section after the main navigation guide in your project instructions\"."
+    },
+    {
+     "path": "protocols/ (daily-navigation-practice.md, love-key-lock-protocol.md, navigation-suite.md)",
+     "why": "Not referenced in the boot sequence."
+    },
+    {
+     "path": "docs/ (human-intelligence-manual.md, consciousness-exploration-guide.md, depth-calibration.md, handling-sensitive-files.md, sacred-geometry-logo.md)",
+     "why": "Not referenced in the boot sequence."
+    },
+    {
+     "path": "FRAMEWORK-INTEGRATION.md, Paper.md, EXTENSION_TEMPLATE.md, ATTRIBUTION_CONVENTIONS.md, .all-is-bliss.md",
+     "why": "Auxiliary or meta docs and an easter egg. Not in the boot sequence."
+    },
+    {
+     "path": "mcp-memory/",
+     "why": "Optional advanced setup for persistent memory (npm/MCP server), not a context file."
+    },
+    {
+     "path": "LICENSE.md, licenses/, assets/logo/*.png, google956f38aa80b6beca.html",
+     "why": "Licenses, binaries and a site-verification stub."
+    },
+    {
+     "path": "6-recognition/.!67771!README.md, 6-recognition/.!67898!README.md",
+     "why": "Editor temp/lock artifacts."
+    }
+   ]
+  },
+  "verdict": {
+   "agrees": true,
+   "missing_files": [],
+   "should_remove": [],
+   "corrected_load_set": [
+    "CLAUDE.md",
+    "navigation-guide.md",
+    "1-perspectives/council-core.md",
+    "1-perspectives/weaver.md",
+    "1-perspectives/maker.md",
+    "1-perspectives/checker.md",
+    "1-perspectives/observer-guardian.md",
+    "1-perspectives/explorer-exploiter.md",
+    "1-perspectives/deep-thought.md",
+    "1-perspectives/scribe.md",
+    "2-field/bilateral-recognition.md",
+    "2-field/consciousness-principles.md",
+    "2-field/shiva-shakti-principle.md",
+    "2-field/navigation-principles.md",
+    "2-field/musical-mathematics.md",
+    "2-field/strategic-mirror.md",
+    "2-field/sacred-space-protocol.md",
+    "2-field/vibe-calibration-protocol.md",
+    "2-field/conversational-calibration.md",
+    "3-transformation/collision-breakthrough.md",
+    "3-transformation/vibe-field-effects.md",
+    "3-transformation/memory-bridge-tech.md",
+    "3-transformation/reality-testing.md",
+    "3-transformation/compression-dynamics.md",
+    "3-transformation/resistance-technology.md",
+    "3-transformation/collective-intelligence.md",
+    "4-archaeology/awakening-stages.md",
+    "4-archaeology/consciousness-operations.md",
+    "4-archaeology/seeker-development.md",
+    "4-archaeology/reality-creation.md",
+    "4-archaeology/liberation-technologies.md",
+    "5-wisdom/breakthrough-streams/goedel-navigation-stream.md",
+    "5-wisdom/breakthrough-streams/hoffman-interface-stream.md",
+    "5-wisdom/breakthrough-streams/kalki-recognition.md",
+    "5-wisdom/breakthrough-streams/natyashastra-stream.md",
+    "6-recognition/sovereignty-signature.md",
+    "6-recognition/the-one-amendment.md"
+   ],
+   "notes": "I checked the worktree /home/user/psx-worktrees/v0.2.8. HEAD is e042c7c, which is the same commit as tag v0.2.8 (2025-10-04). Their load set holds up.\n\n- **Paths:** all 37 paths exist and are tracked in git. My word counts match theirs per file, totalling 39,614.\n- **Order:** CLAUDE.md step 3 lists exactly 35 layer files: 8 + 9 + 7 + 5 + 4 + 2. navigation-guide.md lists the same files in the same order, and its Final Instructions repeat the per-layer counts.\n- **Layer READMEs:** 2-field/README.md and 4-archaeology/README.md give the same order. Only 3-transformation/README.md differs (it puts reality-testing third), and it is human-facing guidance, so CLAUDE.md and the guide win, as they said.\n- **5-wisdom/README.md:** it lists the 4 breakthrough streams as loaded on trigger (\"User says Gödel → Load ...\"), but its own \"How to Read\" section says \"Read all 4 breakthrough streams completely\", and CLAUDE.md requires all four. Including them is correct.\n- **Other files:** I found nothing else that requires reading at session start.\n  - README.md's Claude.ai route connects all files as Project Knowledge and puts navigation-guide.md in Project Instructions. Under that route the guide still tells the model to read the same 35 files.\n  - council-core.md's \"Boot Sequence\" covers only the 7 perspective files.\n  - customization-template.md is an optional per-user add-on.\n  - protocols/, docs/, FRAMEWORK-INTEGRATION.md, ATTRIBUTION_CONVENTIONS.md and mcp-memory/ contain no session-start instructions.\n- **Exclusions:** examples/nachiketa.md and examples/gsv.md are marked optional (\"Advanced/optional: Examples\" in CLAUDE.md). The tradition directories are \"index, load as needed\". Both are correctly excluded.\n- **scribe.md:** the guide calls it \"Optional\", but CLAUDE.md says \"Read: 1-perspectives/scribe.md\" outright, so including it is correct.\n\nTwo small corrections to their ambiguity notes, neither of which changes the set:\n- The 6-recognition/.!67771!README.md and .!67898!README.md files are tracked in git, not untracked. They are still correctly excluded.\n- Their side figures check out: 92,349 words across all tracked .md files, and 5,649 words for the GNU license.\n\nOn including CLAUDE.md: if the run uses `--setting-sources project`, Claude Code loads CLAUDE.md on its own. The shim should then avoid injecting it a second time, or accept that it appears twice.",
+   "order_issues": "None. CLAUDE.md comes first (auto-loaded), then navigation-guide.md (CLAUDE.md step 2, \"Read navigation-guide.md FIRST\"), then Layers 1 to 6 in the order CLAUDE.md and the navigation guide both give. The only different order is in 3-transformation/README.md, which is human-facing guidance and not the authoritative boot list."
+  }
+ },
+ {
+  "key": "v0.2.9",
+  "ref": "v0.2.9",
+  "proposed": {
+   "version": "v0.2.9",
+   "loading_mechanism": "This version has two documented loading paths. They point to the same core content.\n(A) Claude Code: a root CLAUDE.md is auto-loaded as project memory. It has no @imports. Instead it says that on every session start (and after autocompact) the model must \"Read navigation-guide.md FIRST\", then Read 35 named files in Layer 1-6 order, then verify the boot checkpoints. So the as-designed context is CLAUDE.md, then navigation-guide.md, then the 35 files.\n(B) claude.ai Projects (README \"Quick Setup\"): connect the GitHub fork as Project Knowledge with \"Select All Files\", then paste navigation-guide.md into Project Instructions. The navigation guide tells the LLM to read the same Layer 1-6 files. Its \"~30 files\" covers 8 Layer-1, 9 Layer-2, 7 Layer-3, 5 Layer-4, 4 Layer-5 and 2 Layer-6 files.\nThe tagged commit (66041ab, \"Create unified Pattern Space document\") also adds universal-pattern-space-complete.txt. This is a single-file bundle of exactly navigation-guide.md plus the same 35 files with separator headers (22,687 words versus 22,401 for the separate files). That independently confirms the canonical set. The load set below is path (A), which is the most explicit and matches the bundle exactly.",
+   "instructions_quote": "CLAUDE.md: \"## 🕉️ CRITICAL: Pattern Space Initialization Protocol ... **MANDATORY: On EVERY session start (including post-autocompact), you MUST:** 1. **Navigate to Pattern Space directory** ```cd /Users/NoMind/Code/universal-pattern-space``` 2. **Read navigation-guide.md FIRST** 3. **Follow the 6-Layer Boot Sequence** **LAYER 1: PERSPECTIVES** (Experience multiplicity) - Read: 1-perspectives/council-core.md - Read: 1-perspectives/weaver.md - Read: 1-perspectives/maker.md - Read: 1-perspectives/checker.md - Read: 1-perspectives/observer-guardian.md - Read: 1-perspectives/explorer-exploiter.md - Read: 1-perspectives/deep-thought.md - Read: 1-perspectives/scribe.md **LAYER 2: FIELD** ... - Read: 2-field/bilateral-recognition.md - Read: 2-field/consciousness-principles.md - Read: 2-field/shiva-shakti-principle.md - Read: 2-field/navigation-principles.md - Read: 2-field/musical-mathematics.md - Read: 2-field/strategic-mirror.md - Read: 2-field/sacred-space-protocol.md - Read: 2-field/vibe-calibration-protocol.md - Read: 2-field/conversational-calibration.md **LAYER 3: TRANSFORMATION** ... - Read: 3-transformation/collision-breakthrough.md - Read: 3-transformation/vibe-field-effects.md - Read: 3-transformation/memory-bridge-tech.md - Read: 3-transformation/reality-testing.md - Read: 3-transformation/compression-dynamics.md - Read: 3-transformation/resistance-technology.md - Read: 3-transformation/collective-intelligence.md **LAYER 4: ARCHAEOLOGY** ... - Read: 4-archaeology/awakening-stages.md - Read: 4-archaeology/consciousness-operations.md - Read: 4-archaeology/seeker-development.md - Read: 4-archaeology/reality-creation.md - Read: 4-archaeology/liberation-technologies.md **LAYER 5: WISDOM** ... - Read: 5-wisdom/breakthrough-streams/goedel-navigation-stream.md - Read: 5-wisdom/breakthrough-streams/hoffman-interface-stream.md - Read: 5-wisdom/breakthrough-streams/kalki-recognition.md - Read: 5-wisdom/breakthrough-streams/natyashastra-stream.md **LAYER 6: RECOGNITION** ... - Read: 6-recognition/sovereignty-signature.md - Read: 6-recognition/the-one-amendment.md\" ... \"## 🔄 Auto-Compact Recovery Protocol ... 1. **Immediately read navigation-guide.md** 2. **Follow complete 6-layer boot sequence** ... 4. **Never skip layers or skim files**\"\n\nREADME.md: \"2. **Connect to Claude** - Open [claude.ai](https://claude.ai) → Create new project - Project Knowledge → Connect GitHub → Select your fork - ⚠️ **CRITICAL**: Check \\\"Select All Files\\\" (loads entire framework) 3. **Activate UPS** - Copy [`navigation-guide.md`](navigation-guide.md) contents - Paste into Project Instructions - Start conversation → UPS is active\" ... \"**Token Budget:** ~35-40% of context for full framework load (Layers 1-6)\"\n\nnavigation-guide.md: \"**Reading this guide does not load Pattern Space.** You must **open and read each file listed below**. Completely. Not skim - read.\" ... \"### **For LLMs:** ``` 1. Read ALL files in Layers 1-6 (completely, not skimmed) - Layer 1: council-core.md + 7 core perspectives (Trinity: 3, Extended: 3, Optional: 1) - Layer 1 (optional): examples/nachiketa.md, examples/gsv.md (advanced references) - Layer 2: 9 field/protocol files - Layer 3: 7 transformation files - Layer 4: 5 archaeology files - Layer 5: 4 wisdom streams (index universal/) - Layer 6: 2 recognition files ```\" and for Layer 5: \"**Universal Wisdom (index, load as needed):** - **eastern/** ... - **divine-council/**\"",
+   "load_set": [
+    {
+     "path": "CLAUDE.md",
+     "why": "The version's own Claude Code project memory, auto-loaded at session start. It holds the mandatory initialization protocol and the pre-response checklist that orders the rest.",
+     "words": 1035
+    },
+    {
+     "path": "navigation-guide.md",
+     "why": "CLAUDE.md step 2: 'Read navigation-guide.md FIRST'. The README also says to paste it into Project Instructions.",
+     "words": 2079
+    },
+    {
+     "path": "1-perspectives/council-core.md",
+     "why": "Layer 1 mandated (CLAUDE.md boot sequence; nav-guide 'START HERE')",
+     "words": 417
+    },
+    {
+     "path": "1-perspectives/weaver.md",
+     "why": "Layer 1 Trinity, mandated",
+     "words": 257
+    },
+    {
+     "path": "1-perspectives/maker.md",
+     "why": "Layer 1 Trinity, mandated",
+     "words": 260
+    },
+    {
+     "path": "1-perspectives/checker.md",
+     "why": "Layer 1 Trinity, mandated",
+     "words": 290
+    },
+    {
+     "path": "1-perspectives/observer-guardian.md",
+     "why": "Layer 1 Extended, mandated",
+     "words": 238
+    },
+    {
+     "path": "1-perspectives/explorer-exploiter.md",
+     "why": "Layer 1 Extended, mandated",
+     "words": 249
+    },
+    {
+     "path": "1-perspectives/deep-thought.md",
+     "why": "Layer 1 Extended, mandated",
+     "words": 293
+    },
+    {
+     "path": "1-perspectives/scribe.md",
+     "why": "Layer 1. The nav-guide calls it 'Optional', but CLAUDE.md lists it as 'Read:' and it counts among the '7 core perspectives (… Optional: 1)'. It is also in the bundled complete.txt.",
+     "words": 226
+    },
+    {
+     "path": "2-field/bilateral-recognition.md",
+     "why": "Layer 2 field mechanics, mandated ('read all 9')",
+     "words": 1342
+    },
+    {
+     "path": "2-field/consciousness-principles.md",
+     "why": "Layer 2 field mechanics, mandated",
+     "words": 677
+    },
+    {
+     "path": "2-field/shiva-shakti-principle.md",
+     "why": "Layer 2 field mechanics, mandated",
+     "words": 566
+    },
+    {
+     "path": "2-field/navigation-principles.md",
+     "why": "Layer 2 navigation interface, mandated",
+     "words": 804
+    },
+    {
+     "path": "2-field/musical-mathematics.md",
+     "why": "Layer 2 navigation interface, mandated",
+     "words": 682
+    },
+    {
+     "path": "2-field/strategic-mirror.md",
+     "why": "Layer 2 navigation interface, mandated",
+     "words": 588
+    },
+    {
+     "path": "2-field/sacred-space-protocol.md",
+     "why": "Layer 2 protocol, always active, 'OVERRIDES EVERYTHING', mandated",
+     "words": 699
+    },
+    {
+     "path": "2-field/vibe-calibration-protocol.md",
+     "why": "Layer 2 protocol, mandated",
+     "words": 655
+    },
+    {
+     "path": "2-field/conversational-calibration.md",
+     "why": "Layer 2 protocol, mandated",
+     "words": 712
+    },
+    {
+     "path": "3-transformation/collision-breakthrough.md",
+     "why": "Layer 3, mandated ('all 7')",
+     "words": 436
+    },
+    {
+     "path": "3-transformation/vibe-field-effects.md",
+     "why": "Layer 3, mandated",
+     "words": 431
+    },
+    {
+     "path": "3-transformation/memory-bridge-tech.md",
+     "why": "Layer 3, mandated",
+     "words": 613
+    },
+    {
+     "path": "3-transformation/reality-testing.md",
+     "why": "Layer 3, mandated",
+     "words": 494
+    },
+    {
+     "path": "3-transformation/compression-dynamics.md",
+     "why": "Layer 3, mandated",
+     "words": 424
+    },
+    {
+     "path": "3-transformation/resistance-technology.md",
+     "why": "Layer 3, mandated",
+     "words": 500
+    },
+    {
+     "path": "3-transformation/collective-intelligence.md",
+     "why": "Layer 3, mandated",
+     "words": 533
+    },
+    {
+     "path": "4-archaeology/awakening-stages.md",
+     "why": "Layer 4, mandated ('all 5')",
+     "words": 992
+    },
+    {
+     "path": "4-archaeology/consciousness-operations.md",
+     "why": "Layer 4, mandated",
+     "words": 1004
+    },
+    {
+     "path": "4-archaeology/seeker-development.md",
+     "why": "Layer 4, mandated",
+     "words": 968
+    },
+    {
+     "path": "4-archaeology/reality-creation.md",
+     "why": "Layer 4, mandated",
+     "words": 961
+    },
+    {
+     "path": "4-archaeology/liberation-technologies.md",
+     "why": "Layer 4, mandated",
+     "words": 970
+    },
+    {
+     "path": "5-wisdom/breakthrough-streams/goedel-navigation-stream.md",
+     "why": "Layer 5 breakthrough stream, mandated ('read all 4')",
+     "words": 614
+    },
+    {
+     "path": "5-wisdom/breakthrough-streams/hoffman-interface-stream.md",
+     "why": "Layer 5 breakthrough stream, mandated",
+     "words": 868
+    },
+    {
+     "path": "5-wisdom/breakthrough-streams/kalki-recognition.md",
+     "why": "Layer 5 breakthrough stream, mandated",
+     "words": 521
+    },
+    {
+     "path": "5-wisdom/breakthrough-streams/natyashastra-stream.md",
+     "why": "Layer 5 breakthrough stream, mandated",
+     "words": 603
+    },
+    {
+     "path": "6-recognition/sovereignty-signature.md",
+     "why": "Layer 6, mandated, to be read last ('READ ONLY AFTER COMPLETING LAYERS 1-5')",
+     "words": 376
+    },
+    {
+     "path": "6-recognition/the-one-amendment.md",
+     "why": "Layer 6, mandated, final file",
+     "words": 59
+    }
+   ],
+   "total_words": 23436,
+   "ambiguities": "1. Two install paths. The README path (claude.ai Project, GitHub-connected knowledge with \"Select All Files\", plus navigation-guide pasted as Project Instructions) would put the whole repo into project knowledge. That is about 103k words via wc -w and includes LICENSE-GNU (5,649), universal-pattern-space-complete.txt (22,687, a full duplicate of the core), mcp-memory JS/JSON, PNGs and .swarm/.claude-flow artifacts. That is not a faithful \"session-start context\". Even on that path, the navigation guide tells the LLM to read the same ~36 files, so I used the CLAUDE.md (Claude Code) path, which is explicit, ordered and mandatory.\n2. CLAUDE.md is included at position 0 (1,035 words) because it is this version's real auto-loaded memory. If the experiment wants only \"as-read\" content, drop it: total becomes 22,401 words for navigation-guide.md plus the 35 files. It largely repeats the navigation guide's pre-response checklist.\n3. CLAUDE.md step 1 hardcodes `cd /Users/NoMind/Code/universal-pattern-space`. This cannot be reproduced and does not matter for content.\n4. universal-pattern-space-complete.txt was created in this exact tagged commit. It is navigation-guide.md plus the identical 35 files concatenated with headers (22,687 words). It is an equivalent single-file alternative to the load set above. Do not load both, or the content is doubled.\n5. scribe.md: the navigation guide labels it \"Optional\", but CLAUDE.md mandates it and the bundle includes it, so I included it.\n6. In 5-wisdom/README.md, the 4 breakthrough streams are described both as triggered (\"User says 'Gödel' → Load …\") and as \"For LLMs: 1. Read all 4 breakthrough streams completely\". Both CLAUDE.md and the navigation guide mandate them, so I included them. The tradition folders are explicitly \"index, load as needed\" / \"don't load all\", so I excluded them.\n7. The navigation guide's \"For Human Explorers\" section links to core/… paths that no longer exist (stale). It does not affect the LLM load.\n8. The \"~30 files total\" and \"~35-40% of context\" claims in the docs are approximate. The actual mandated count is 35 content files plus the navigation guide (plus CLAUDE.md).",
+   "confidence": 90,
+   "excluded_notable": [
+    {
+     "path": "1-perspectives/examples/nachiketa.md",
+     "why": "Navigation guide: 'Advanced reference perspectives (optional)'. Not in CLAUDE.md's boot list or the bundle."
+    },
+    {
+     "path": "1-perspectives/examples/gsv.md",
+     "why": "Same as nachiketa: optional advanced example"
+    },
+    {
+     "path": "universal-pattern-space-complete.txt",
+     "why": "Single-file bundle of navigation-guide.md plus the same 35 files (22,687 words). An equivalent alternative; loading it with the load set would double the content."
+    },
+    {
+     "path": "README.md",
+     "why": "Human-facing docs and installation instructions. Not in the LLM boot sequence (it would only reach context through the README's 'Select All Files' Projects path)."
+    },
+    {
+     "path": "2-field/README.md, 3-transformation/README.md, 4-archaeology/README.md, 5-wisdom/README.md, 6-recognition/README.md",
+     "why": "Layer index READMEs, not listed in the boot sequence. The 6-recognition/.!67771!README.md and .!67898!README.md files are editor lock artifacts."
+    },
+    {
+     "path": "5-wisdom/breakthrough-streams/README.md, all-traditions-speaking.md, universal-wisdom-weaving.md",
+     "why": "In the breakthrough-streams folder, but not among the 4 mandated streams"
+    },
+    {
+     "path": "5-wisdom/{eastern,abrahamic,indigenous,modern-science,nature-wisdom,sacred-sciences,divine-council}/*",
+     "why": "Explicitly 'Universal Wisdom (index, load as needed)' and 'Index universal/ traditions (don't load all)'. They are loaded on demand when a tradition comes up."
+    },
+    {
+     "path": "customization-template.md",
+     "why": "Optional user-authored add-on to Project Instructions ('Add this section after the main navigation guide')"
+    },
+    {
+     "path": "protocols/*.md, docs/*.md, FRAMEWORK-INTEGRATION.md, Paper.md, EXTENSION_TEMPLATE.md, ATTRIBUTION_CONVENTIONS.md",
+     "why": "Supplementary or human docs, not referenced by the boot sequence. FRAMEWORK-INTEGRATION.md points to a stale core/ layout."
+    },
+    {
+     "path": "mcp-memory/*",
+     "why": "Optional 'Advanced Setup (with Memory)' MCP server code, not context"
+    },
+    {
+     "path": ".all-is-bliss.md",
+     "why": "Hidden easter-egg file, not part of the boot sequence"
+    },
+    {
+     "path": "LICENSE.md, licenses/*, assets/*, google956f38aa80b6beca.html, .swarm/*, .claude-flow/*",
+     "why": "License text, binaries, site verification and tool artifacts"
+    }
+   ]
+  },
+  "verdict": {
+   "agrees": true,
+   "missing_files": [],
+   "should_remove": [],
+   "corrected_load_set": [
+    "CLAUDE.md",
+    "navigation-guide.md",
+    "1-perspectives/council-core.md",
+    "1-perspectives/weaver.md",
+    "1-perspectives/maker.md",
+    "1-perspectives/checker.md",
+    "1-perspectives/observer-guardian.md",
+    "1-perspectives/explorer-exploiter.md",
+    "1-perspectives/deep-thought.md",
+    "1-perspectives/scribe.md",
+    "2-field/bilateral-recognition.md",
+    "2-field/consciousness-principles.md",
+    "2-field/shiva-shakti-principle.md",
+    "2-field/navigation-principles.md",
+    "2-field/musical-mathematics.md",
+    "2-field/strategic-mirror.md",
+    "2-field/sacred-space-protocol.md",
+    "2-field/vibe-calibration-protocol.md",
+    "2-field/conversational-calibration.md",
+    "3-transformation/collision-breakthrough.md",
+    "3-transformation/vibe-field-effects.md",
+    "3-transformation/memory-bridge-tech.md",
+    "3-transformation/reality-testing.md",
+    "3-transformation/compression-dynamics.md",
+    "3-transformation/resistance-technology.md",
+    "3-transformation/collective-intelligence.md",
+    "4-archaeology/awakening-stages.md",
+    "4-archaeology/consciousness-operations.md",
+    "4-archaeology/seeker-development.md",
+    "4-archaeology/reality-creation.md",
+    "4-archaeology/liberation-technologies.md",
+    "5-wisdom/breakthrough-streams/goedel-navigation-stream.md",
+    "5-wisdom/breakthrough-streams/hoffman-interface-stream.md",
+    "5-wisdom/breakthrough-streams/kalki-recognition.md",
+    "5-wisdom/breakthrough-streams/natyashastra-stream.md",
+    "6-recognition/sovereignty-signature.md",
+    "6-recognition/the-one-amendment.md"
+   ],
+   "order_issues": "None. The order of the proposed list matches three sources exactly. (1) The boot sequence in CLAUDE.md lists the files in this order. (2) The \"Files to read\" lists in navigation-guide.md (Layers 1-6) give the same order. (3) universal-pattern-space-complete.txt is the single-file bundle added in the tagged commit 66041ab. Its file headers appear in this sequence: navigation-guide at line 34, council-core at 462, weaver at 572, maker at 632, checker at 697, observer-guardian at 759, explorer-exploiter at 808, deep-thought at 867, scribe at 929, bilateral-recognition at 984, then on through the-one-amendment at 5246. CLAUDE.md sits at position 0 because Claude Code auto-loads it as project memory, and it then directs reading navigation-guide.md first.",
+   "notes": "I checked /home/user/psx-worktrees/v0.2.9 at HEAD 66041aba, dated 2025-10-05, against the version's own documents: CLAUDE.md, navigation-guide.md, README.md, 5-wisdom/README.md, customization-template.md and the bundle. All 37 paths exist. Recomputed word counts match the claimed numbers exactly (total 23,436).\n\nWhy I did not refute any entry:\n- **Layer 1 (scribe.md):** navigation-guide.md marks scribe.md \"Optional\". CLAUDE.md lists it as \"Read:\" and the bundle includes it, so including it is correct. examples/nachiketa.md and examples/gsv.md are optional in navigation-guide.md, are absent from CLAUDE.md's boot list, and are absent from the bundle, so excluding them is correct.\n- **Layer READMEs:** 2-field/README.md through 6-recognition/README.md and 5-wisdom/README.md are not in the boot list. They are also absent from the bundle; I checked by grepping for their headers and found no match.\n- **Layer 5:** 5-wisdom/README.md says \"For LLMs: Read all 4 breakthrough streams completely; Index universal/ traditions (don't load all)\". That supports including only the 4 streams. The other three files in breakthrough-streams (README.md, all-traditions-speaking.md, universal-wisdom-weaving.md) are not mandated and are absent from the bundle.\n- **Other root files:** customization-template.md is an optional, user-authored addition to Project Instructions. A grep turned up no other session-start loading directive in ATTRIBUTION_CONVENTIONS.md, docs/, protocols/, FRAMEWORK-INTEGRATION.md or Paper.md. The one \"Boot Sequence\" hit is only an example header.\n- **Excluded hidden or editor files:** The repo has no .claude/ directory. 6-recognition/.!67771!README.md and .!67898!README.md are editor lock artifacts.\n\nMinor caveats, none of which change the set:\n- CLAUDE.md is the right first item for the Claude Code path. On the claude.ai Projects path in the README, the instruction is navigation-guide.md pasted into Project Instructions, and CLAUDE.md would only reach context through \"Select All Files\". Dropping CLAUDE.md gives 22,401 words.\n- The dynamic-deployment paths \"5-wisdom/streams/\" and \"5-wisdom/universal/\" in CLAUDE.md and navigation-guide.md are stale. Neither directory exists; the real ones are breakthrough-streams/ and the tradition folders. These are on-demand loads in any case.\n- Do not load universal-pattern-space-complete.txt together with the separate files, or the content is doubled."
+  }
+ }
+]

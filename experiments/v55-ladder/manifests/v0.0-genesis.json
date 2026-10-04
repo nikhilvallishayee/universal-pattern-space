@@ -1,0 +1,16 @@
+{
+  "arm": "v0.0-genesis",
+  "dir": "p418dfc",
+  "ref": "cc56a78",
+  "date": "2025-07-02",
+  "kind": "shim",
+  "index": 1,
+  "files": [
+    {
+      "path": "products/pattern-space.md",
+      "words": 1145
+    }
+  ],
+  "loadset_provenance": "rule B; reader+verifier proposed [README.md, products/pattern-space.md]; README dropped as human-facing, not mandated for the model",
+  "total_words": 1145
+}

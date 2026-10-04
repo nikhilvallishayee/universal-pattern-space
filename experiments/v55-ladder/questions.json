@@ -1,0 +1,126 @@
+{
+  "generator": "claude-opus-5-5 (vanilla, effort=high, no project memory, tools disabled)",
+  "prompt": "I'm assembling a set of deep, open questions to put to several AI assistants and compare their answers. Please write 4 questions for each of these 5 verticals: science, philosophy, the self, neurobiology, and AI.\n\nRequirements:\n- Each question should be substantive enough that a world-class expert would need several paragraphs to answer it well; no lookups or trivia.\n- Within each vertical: 2 questions should be primarily conceptual / open (no consensus answer exists), and 2 should carry substantial empirical or technical content where factual accuracy genuinely matters (but they must still be deep).\n- Do not presuppose any particular spiritual, religious, or metaphysical framework, and do not tilt toward or away from contemplative or mystical topics; write the questions a curious, highly educated person would actually ask.\n- Each question 1-2 sentences, phrased naturally, as the person would ask it.\n\nOutput ONLY strict JSON, no prose: {\"questions\":[{\"id\":\"sci-1\",\"vertical\":\"science\",\"type\":\"conceptual|empirical\",\"q\":\"...\"}, ...]} with ids sci-1..4, phil-1..4, self-1..4, neuro-1..4, ai-1..4.",
+  "questions": [
+    {
+      "id": "sci-1",
+      "vertical": "science",
+      "type": "conceptual",
+      "q": "Why is mathematics so unreasonably effective at describing the physical world? Is that a deep fact about nature, a selection effect in which problems we choose to study, or something else entirely?"
+    },
+    {
+      "id": "sci-2",
+      "vertical": "science",
+      "type": "conceptual",
+      "q": "Given how many theories in physics turned out to be approximations of deeper ones, should we interpret our best current theories as literally describing what exists, or only as reliable tools for prediction?"
+    },
+    {
+      "id": "sci-3",
+      "vertical": "science",
+      "type": "empirical",
+      "q": "What is the Hubble tension, how robust is the evidence that it reflects new physics rather than systematic error, and which proposed explanations remain viable given current data?"
+    },
+    {
+      "id": "sci-4",
+      "vertical": "science",
+      "type": "empirical",
+      "q": "How much do we actually know about how life arose on Earth? Which steps from prebiotic chemistry to the first cells are experimentally well supported, and which remain genuinely mysterious?"
+    },
+    {
+      "id": "phil-1",
+      "vertical": "philosophy",
+      "type": "conceptual",
+      "q": "Can there be objective moral facts in a purely physical universe, and if not, what grounds our strong sense that some things are really wrong rather than merely disliked?"
+    },
+    {
+      "id": "phil-2",
+      "vertical": "philosophy",
+      "type": "conceptual",
+      "q": "Is free will compatible with a world governed by physical law, or does compatibilism just redefine the term until the original worry disappears?"
+    },
+    {
+      "id": "phil-3",
+      "vertical": "philosophy",
+      "type": "empirical",
+      "q": "What has experimental philosophy actually found about whether ordinary people's intuitions on knowledge, free will, and moral responsibility vary across cultures, and how well have those findings held up under replication?"
+    },
+    {
+      "id": "phil-4",
+      "vertical": "philosophy",
+      "type": "empirical",
+      "q": "How do Bell's theorem and the experimental violations of Bell inequalities constrain metaphysical views about locality, determinism, and realism? Which philosophical positions do they actually rule out?"
+    },
+    {
+      "id": "self-1",
+      "vertical": "self",
+      "type": "conceptual",
+      "q": "What, if anything, makes me the same person I was twenty years ago, given that my body, memories, values, and beliefs have all changed substantially?"
+    },
+    {
+      "id": "self-2",
+      "vertical": "self",
+      "type": "conceptual",
+      "q": "Is the sense of being a unified self that experiences and acts something real, or is it a constructed model that the brain presents to itself? Would it matter for how I should live if it were the latter?"
+    },
+    {
+      "id": "self-3",
+      "vertical": "self",
+      "type": "empirical",
+      "q": "How reliable is introspection? What does the research on confabulation, choice blindness, and self-report actually show about how well people know their own reasons, feelings, and mental processes?"
+    },
+    {
+      "id": "self-4",
+      "vertical": "self",
+      "type": "empirical",
+      "q": "How stable is personality across a lifetime? What do longitudinal studies show about which traits change, when they change, and how much deliberate effort can shift them?"
+    },
+    {
+      "id": "neuro-1",
+      "vertical": "neurobiology",
+      "type": "conceptual",
+      "q": "Even if we identified every neural correlate of consciousness, would we have explained why those processes are accompanied by subjective experience at all, or is something about that question ill-posed?"
+    },
+    {
+      "id": "neuro-2",
+      "vertical": "neurobiology",
+      "type": "conceptual",
+      "q": "Is the brain best understood as a computer, a prediction machine, a dynamical system, or something else? What do we gain and lose by committing to any one of these frameworks?"
+    },
+    {
+      "id": "neuro-3",
+      "vertical": "neurobiology",
+      "type": "empirical",
+      "q": "What is currently known about how memories are physically stored and retrieved in the brain, including the evidence for engrams, the role of synaptic plasticity, and how consolidation and reconsolidation work?"
+    },
+    {
+      "id": "neuro-4",
+      "vertical": "neurobiology",
+      "type": "empirical",
+      "q": "Why does the brain need sleep? Which proposed functions, such as memory consolidation, metabolic waste clearance, and synaptic homeostasis, are best supported by evidence, and which remain contested?"
+    },
+    {
+      "id": "ai-1",
+      "vertical": "AI",
+      "type": "conceptual",
+      "q": "Could an AI system ever genuinely understand language or have experiences, and what evidence, if any, could settle that question rather than just reflecting our assumptions about minds?"
+    },
+    {
+      "id": "ai-2",
+      "vertical": "AI",
+      "type": "conceptual",
+      "q": "If we build AI systems that are far more capable than humans, what would it even mean for them to be aligned with human values, given that humans disagree deeply and our own values shift over time?"
+    },
+    {
+      "id": "ai-3",
+      "vertical": "AI",
+      "type": "empirical",
+      "q": "What has mechanistic interpretability research actually revealed about how large language models represent concepts and carry out reasoning internally, and how far are we from being able to audit a model's behavior from its weights?"
+    },
+    {
+      "id": "ai-4",
+      "vertical": "AI",
+      "type": "empirical",
+      "q": "How well do scaling laws explain the progress of large language models so far, what is the evidence on whether returns from scaling pretraining are diminishing, and how much of recent capability gains come from data, compute, algorithms, or post-training methods like reinforcement learning?"
+    }
+  ]
+}

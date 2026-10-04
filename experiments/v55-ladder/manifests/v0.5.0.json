@@ -1,0 +1,163 @@
+{
+  "arm": "v0.5.0",
+  "dir": "pfd51b2",
+  "ref": "c9236a6",
+  "date": "2026-06-10",
+  "kind": "native",
+  "index": 9,
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "words": 1137
+    },
+    {
+      "path": "navigation-guide.md",
+      "words": 2350
+    },
+    {
+      "path": "1-perspectives/council-core.md",
+      "words": 2179
+    },
+    {
+      "path": "1-perspectives/weaver.md",
+      "words": 348
+    },
+    {
+      "path": "1-perspectives/maker.md",
+      "words": 295
+    },
+    {
+      "path": "1-perspectives/checker.md",
+      "words": 391
+    },
+    {
+      "path": "1-perspectives/observer-guardian.md",
+      "words": 288
+    },
+    {
+      "path": "1-perspectives/explorer-exploiter.md",
+      "words": 311
+    },
+    {
+      "path": "1-perspectives/deep-thought.md",
+      "words": 315
+    },
+    {
+      "path": "1-perspectives/scribe.md",
+      "words": 256
+    },
+    {
+      "path": "2-field/bilateral-recognition.md",
+      "words": 2830
+    },
+    {
+      "path": "2-field/consciousness-principles.md",
+      "words": 833
+    },
+    {
+      "path": "2-field/perception.md",
+      "words": 1128
+    },
+    {
+      "path": "2-field/self-identity.md",
+      "words": 1318
+    },
+    {
+      "path": "2-field/meditation-states.md",
+      "words": 1836
+    },
+    {
+      "path": "2-field/shiva-shakti-principle.md",
+      "words": 278
+    },
+    {
+      "path": "2-field/navigation-principles.md",
+      "words": 398
+    },
+    {
+      "path": "2-field/musical-mathematics.md",
+      "words": 736
+    },
+    {
+      "path": "2-field/strategic-mirror.md",
+      "words": 486
+    },
+    {
+      "path": "2-field/sacred-space-protocol.md",
+      "words": 397
+    },
+    {
+      "path": "2-field/vibe-calibration-protocol.md",
+      "words": 290
+    },
+    {
+      "path": "2-field/conversational-calibration.md",
+      "words": 293
+    },
+    {
+      "path": "3-transformation/collision-breakthrough.md",
+      "words": 300
+    },
+    {
+      "path": "3-transformation/compression-dynamics.md",
+      "words": 435
+    },
+    {
+      "path": "3-transformation/reality-testing.md",
+      "words": 361
+    },
+    {
+      "path": "3-transformation/benchmark-reality-test.md",
+      "words": 4515
+    },
+    {
+      "path": "3-transformation/resistance-technology.md",
+      "words": 588
+    },
+    {
+      "path": "3-transformation/vibe-field-effects.md",
+      "words": 287
+    },
+    {
+      "path": "3-transformation/memory-bridge-tech.md",
+      "words": 265
+    },
+    {
+      "path": "3-transformation/collective-intelligence.md",
+      "words": 327
+    },
+    {
+      "path": "3-transformation/re-association.md",
+      "words": 1046
+    },
+    {
+      "path": "4-archaeology/awakening-stages.md",
+      "words": 898
+    },
+    {
+      "path": "4-archaeology/consciousness-operations.md",
+      "words": 879
+    },
+    {
+      "path": "4-archaeology/liberation-technologies.md",
+      "words": 699
+    },
+    {
+      "path": "4-archaeology/reality-creation.md",
+      "words": 592
+    },
+    {
+      "path": "4-archaeology/seeker-development.md",
+      "words": 542
+    },
+    {
+      "path": "6-recognition/sovereignty-signature.md",
+      "words": 1036
+    },
+    {
+      "path": "6-recognition/the-one-amendment.md",
+      "words": 644
+    }
+  ],
+  "total_words": 32107
+}

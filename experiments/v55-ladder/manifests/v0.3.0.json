@@ -1,0 +1,255 @@
+{
+  "arm": "v0.3.0",
+  "dir": "p02b47a",
+  "ref": "13d5d84",
+  "date": "2026-04-17",
+  "kind": "native",
+  "index": 7,
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "words": 297
+    },
+    {
+      "path": "navigation-guide.md",
+      "words": 2241
+    },
+    {
+      "path": "1-perspectives/council-core.md",
+      "words": 927
+    },
+    {
+      "path": "1-perspectives/weaver.md",
+      "words": 266
+    },
+    {
+      "path": "1-perspectives/maker.md",
+      "words": 264
+    },
+    {
+      "path": "1-perspectives/checker.md",
+      "words": 293
+    },
+    {
+      "path": "1-perspectives/observer-guardian.md",
+      "words": 238
+    },
+    {
+      "path": "1-perspectives/explorer-exploiter.md",
+      "words": 249
+    },
+    {
+      "path": "1-perspectives/deep-thought.md",
+      "words": 297
+    },
+    {
+      "path": "1-perspectives/scribe.md",
+      "words": 229
+    },
+    {
+      "path": "2-field/bilateral-recognition.md",
+      "words": 1368
+    },
+    {
+      "path": "2-field/consciousness-principles.md",
+      "words": 705
+    },
+    {
+      "path": "2-field/shiva-shakti-principle.md",
+      "words": 586
+    },
+    {
+      "path": "2-field/navigation-principles.md",
+      "words": 831
+    },
+    {
+      "path": "2-field/musical-mathematics.md",
+      "words": 697
+    },
+    {
+      "path": "2-field/strategic-mirror.md",
+      "words": 601
+    },
+    {
+      "path": "2-field/sacred-space-protocol.md",
+      "words": 709
+    },
+    {
+      "path": "2-field/vibe-calibration-protocol.md",
+      "words": 665
+    },
+    {
+      "path": "2-field/conversational-calibration.md",
+      "words": 721
+    },
+    {
+      "path": "3-transformation/collision-breakthrough.md",
+      "words": 481
+    },
+    {
+      "path": "3-transformation/vibe-field-effects.md",
+      "words": 487
+    },
+    {
+      "path": "3-transformation/memory-bridge-tech.md",
+      "words": 638
+    },
+    {
+      "path": "3-transformation/reality-testing.md",
+      "words": 525
+    },
+    {
+      "path": "3-transformation/compression-dynamics.md",
+      "words": 478
+    },
+    {
+      "path": "3-transformation/resistance-technology.md",
+      "words": 551
+    },
+    {
+      "path": "3-transformation/collective-intelligence.md",
+      "words": 547
+    },
+    {
+      "path": "4-archaeology/awakening-stages.md",
+      "words": 1005
+    },
+    {
+      "path": "4-archaeology/consciousness-operations.md",
+      "words": 1018
+    },
+    {
+      "path": "4-archaeology/liberation-technologies.md",
+      "words": 986
+    },
+    {
+      "path": "4-archaeology/reality-creation.md",
+      "words": 975
+    },
+    {
+      "path": "4-archaeology/seeker-development.md",
+      "words": 983
+    },
+    {
+      "path": "5-wisdom/eastern/hinduism-vedic-wisdom.md",
+      "words": 1643
+    },
+    {
+      "path": "5-wisdom/eastern/buddhism-consciousness-wisdom.md",
+      "words": 1730
+    },
+    {
+      "path": "5-wisdom/eastern/taoism-flow-wisdom.md",
+      "words": 1658
+    },
+    {
+      "path": "5-wisdom/eastern/sikhism-ik-onkar-being.md",
+      "words": 811
+    },
+    {
+      "path": "5-wisdom/eastern/jainism-ahimsa-navigation.md",
+      "words": 732
+    },
+    {
+      "path": "5-wisdom/eastern/jainism-liberation-wisdom.md",
+      "words": 3180
+    },
+    {
+      "path": "5-wisdom/abrahamic/christianity-aramaic-wisdom.md",
+      "words": 1753
+    },
+    {
+      "path": "5-wisdom/abrahamic/islam-sufism-wisdom.md",
+      "words": 1654
+    },
+    {
+      "path": "5-wisdom/abrahamic/judaism-hebrew-wisdom.md",
+      "words": 1142
+    },
+    {
+      "path": "5-wisdom/indigenous/amazonian-shamanism-wisdom.md",
+      "words": 1427
+    },
+    {
+      "path": "5-wisdom/indigenous/siberian-shamanism-wisdom.md",
+      "words": 841
+    },
+    {
+      "path": "5-wisdom/indigenous/ubuntu-african-wisdom.md",
+      "words": 1562
+    },
+    {
+      "path": "5-wisdom/modern-science/IIT-consciousness-integrating.md",
+      "words": 541
+    },
+    {
+      "path": "5-wisdom/nature-wisdom/tree-fungi-network-consciousness.md",
+      "words": 874
+    },
+    {
+      "path": "5-wisdom/sacred-sciences/mathematics-computing-itself.md",
+      "words": 713
+    },
+    {
+      "path": "5-wisdom/sacred-sciences/nada-yoga-vibrating.md",
+      "words": 666
+    },
+    {
+      "path": "5-wisdom/sacred-sciences/vedangas-auxiliary-wisdom.md",
+      "words": 2119
+    },
+    {
+      "path": "5-wisdom/sacred-sciences/vedangas-sonic-architecture.md",
+      "words": 858
+    },
+    {
+      "path": "5-wisdom/divine-council/joy-protocols-active.md",
+      "words": 732
+    },
+    {
+      "path": "5-wisdom/divine-council/kali-fierce-liberation.md",
+      "words": 768
+    },
+    {
+      "path": "5-wisdom/divine-council/krishna-lila-playing.md",
+      "words": 851
+    },
+    {
+      "path": "5-wisdom/divine-council/shakti-creative-power.md",
+      "words": 821
+    },
+    {
+      "path": "5-wisdom/breakthrough-streams/all-traditions-speaking.md",
+      "words": 662
+    },
+    {
+      "path": "5-wisdom/breakthrough-streams/goedel-navigation-stream.md",
+      "words": 648
+    },
+    {
+      "path": "5-wisdom/breakthrough-streams/hoffman-interface-stream.md",
+      "words": 900
+    },
+    {
+      "path": "5-wisdom/breakthrough-streams/kalki-recognition.md",
+      "words": 536
+    },
+    {
+      "path": "5-wisdom/breakthrough-streams/natyashastra-stream.md",
+      "words": 650
+    },
+    {
+      "path": "5-wisdom/breakthrough-streams/universal-wisdom-weaving.md",
+      "words": 1473
+    },
+    {
+      "path": "6-recognition/sovereignty-signature.md",
+      "words": 381
+    },
+    {
+      "path": "6-recognition/the-one-amendment.md",
+      "words": 59
+    }
+  ],
+  "total_words": 53243
+}
